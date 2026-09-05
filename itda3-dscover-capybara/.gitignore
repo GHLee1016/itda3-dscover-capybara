@@ -1,0 +1,22 @@
+# 모델 가중치 (download_weights.sh 로 받습니다)
+weights/*.pth
+weights/*.zip
+
+# 데이터셋 (Release 에서 받습니다)
+val_images/
+*.jpg
+*.jpeg
+*.png
+!notebooks/**/*.png
+
+# 실행 산출물
+submission.csv
+/tmp/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
