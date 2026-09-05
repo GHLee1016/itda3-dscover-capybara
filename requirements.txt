@@ -1,0 +1,16 @@
+# macOS 사용자는 torch/torchvision 의 '+cpu' 접미사를 제거하고 설치하세요 (맥에는 +cpu 휠이 없습니다).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# ── 예시 스택입니다. 팀에서 사용하는 라이브러리로 자유롭게 교체하되,
+#    버전은 반드시 == 로 고정해 주세요. ──
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+easyocr==1.7.1
+opencv-python-headless==4.9.0.80
+pandas==2.2.2
+numpy==1.26.4
+Pillow==10.3.0
+
+# ── 아래 2개는 채점 노트북 실행에 필요합니다. 삭제하지 마세요. ──
+nbconvert==7.16.4
+ipykernel==6.29.4
