@@ -20,3 +20,6 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Claude 앱이 저장하는 산출물 사본 (제출물 아님)
+Claude outputs/
