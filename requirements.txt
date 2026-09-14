@@ -1,0 +1,39 @@
+# 제3회 ITDA 연합학술제 — 추론 환경 (Python 3.10)
+#
+# ⚠️ 버전 조합 주의 (실측으로 확인한 충돌)
+#   - paddlepaddle 2.6.x 는 numpy 1.x 를 요구한다. numpy 2.x 를 설치하면
+#     `numpy.core.multiarray failed to import` 로 import 단계에서 죽는다.
+#   - opencv 는 반드시 **한 계열만** 설치한다. opencv-python / opencv-contrib-python /
+#     opencv-python-headless 를 섞으면 서로 다른 numpy ABI 로 빌드된 cv2 가 충돌한다.
+
+numpy==1.26.4
+pandas==2.3.3
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
+
+# ── 주력 엔진 ── RapidOCR (PP-OCRv6 det/rec, ONNX)
+#
+# 홀드아웃2 198장 실측(EDA 63~65):
+#   보조 경로 단독 66.8% / RapidOCR 단독 79.8% / 합쳐서 82.3%
+# onnxruntime 기반이라 torch 를 싣지 않는다. opencv 는 opencv_python>=4.5 를
+# 요구할 뿐 headless 를 강제하지 않으므로 위 고정값과 충돌하지 않는다.
+rapidocr==3.9.2
+
+# ── 보조 엔진 ── RapidOCR 이 아무것도 읽지 못한 이미지에만 돈다
+paddlepaddle==2.6.2
+paddleocr==2.7.3
+setuptools==84.0.0            # paddle.utils.cpp_extension 이 import 한다
+
+# 날짜 영역 전용 검출기(YOLOv8n)와 RapidOCR 이 함께 쓴다.
+# weights/yolo/date_v1.onnx · weights/rapidocr/*.onnx 와 짝이다.
+#
+# ⚠️ torch / ultralytics 를 넣으면 안 된다. 추론에는 필요 없고, **임포트되는 것만으로**
+#    파이프라인이 2.4배 느려진다 (EDA 52~53: 장당 2.76 → 5.88초, 500장이 제한 초과).
+#    paddle 과 torch 가 각자 OpenMP 런타임을 싣고 스레드를 다투기 때문이며,
+#    set_num_threads(1) · KMP_BLOCKTIME=0 · OMP_WAIT_POLICY=PASSIVE 로도 해결되지 않았다.
+#    학습·ONNX 내보내기에만 쓰므로 requirements-train.txt 로 분리했다.
+onnxruntime==1.19.2
+
+# 규정 §7: 채점은 nbconvert 로 노트북을 실행한다. 둘 다 필수.
+nbconvert==7.17.1
+ipykernel==7.3.0

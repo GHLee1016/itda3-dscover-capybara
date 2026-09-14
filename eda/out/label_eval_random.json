@@ -1,0 +1,831 @@
+[
+ {
+  "file": "000555.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1050x1400",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2027-04-16",
+   "s512": "2027-04-16",
+   "s448": "2027-04-16",
+   "s640_r0": "2027-04-16"
+  },
+  "cands": [
+   "2027-04-16"
+  ],
+  "anchors": [
+   "까지",
+   "소비기한"
+  ]
+ },
+ {
+  "file": "001548.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "775x1034",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "001495.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "756x1008",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2021-11-22",
+   "s512": "2021-11-22",
+   "s448": "2021-11-22",
+   "s640_r0": "2021-11-22"
+  },
+  "cands": [
+   "2021-11-22"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "002311.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1096x1462",
+  "cat": "A_날짜불일치",
+  "disagree": 0.5,
+  "votes": {
+   "s640": null,
+   "s512": "2020-06-17",
+   "s448": "2020-08-17",
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "제조일자"
+  ]
+ },
+ {
+  "file": "002826.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "883x1178",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "002367.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "002654.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "A_날짜불일치",
+  "disagree": 0.5,
+  "votes": {
+   "s640": "2025-11-30",
+   "s512": "2020-12-08",
+   "s448": null,
+   "s640_r0": "2025-11-30"
+  },
+  "cands": [
+   "2025-11-30"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "002165.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2020-10-30",
+   "s512": "2020-10-30",
+   "s448": "2020-10-30",
+   "s640_r0": "2020-10-30"
+  },
+  "cands": [
+   "2020-10-30"
+  ],
+  "anchors": [
+   "까지",
+   "부터"
+  ]
+ },
+ {
+  "file": "000451.jpg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3060x4080",
+  "cat": "A_날짜불일치",
+  "disagree": 0.5,
+  "votes": {
+   "s640": "2026-02-27",
+   "s512": "2025-08-25",
+   "s448": null,
+   "s640_r0": "2026-02-27"
+  },
+  "cands": [
+   "2025-08-28",
+   "2026-02-27"
+  ],
+  "anchors": [
+   "까지"
+  ]
+ },
+ {
+  "file": "000275.jpg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3024x4032",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2026-04-23",
+   "s512": "2026-04-23",
+   "s448": "2026-04-23",
+   "s640_r0": "2026-04-23"
+  },
+  "cands": [
+   "2026-04-23"
+  ],
+  "anchors": [
+   "까지",
+   "별도표기",
+   "소비기한",
+   "제조일자"
+  ]
+ },
+ {
+  "file": "000357.jpg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3024x4032",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2027-08-11",
+   "s512": "2027-08-11",
+   "s448": "2027-08-11",
+   "s640_r0": "2027-08-11"
+  },
+  "cands": [
+   "2027-08-11"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "002630.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "003243.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1896x1422",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "BEST_BEFORE"
+  ]
+ },
+ {
+  "file": "000509.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1050x1400",
+  "cat": "A_날짜불일치",
+  "disagree": 0.25,
+  "votes": {
+   "s640": "2026-09-01",
+   "s512": "2025-09-02",
+   "s448": "2026-09-01",
+   "s640_r0": "2026-09-01"
+  },
+  "cands": [
+   "2025-09-02",
+   "2026-09-01"
+  ],
+  "anchors": [
+   "까지",
+   "부터",
+   "소비기한"
+  ]
+ },
+ {
+  "file": "002279.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1077x1435",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2021-01-03",
+   "s512": "2021-01-03",
+   "s448": "2021-01-03",
+   "s640_r0": "2021-01-03"
+  },
+  "cands": [
+   "2021-01-03"
+  ],
+  "anchors": [
+   "까지",
+   "유통기한"
+  ]
+ },
+ {
+  "file": "000853.jpeg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3024x4032",
+  "cat": "A_날짜불일치",
+  "disagree": 0.5,
+  "votes": {
+   "s640": "2026-09-24",
+   "s512": "2026-08-24",
+   "s448": null,
+   "s640_r0": "2026-09-24"
+  },
+  "cands": [
+   "2026-09-24"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "002093.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "700x934",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2021-11-17",
+   "s512": "2021-11-17",
+   "s448": "2021-11-17",
+   "s640_r0": "2021-11-17"
+  },
+  "cands": [
+   "2021-11-17"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "002739.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1017x1355",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "MFG"
+  ]
+ },
+ {
+  "file": "002774.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "768x1024",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "까지",
+   "별도표기"
+  ]
+ },
+ {
+  "file": "003028.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "A_날짜불일치",
+  "disagree": 0.5,
+  "votes": {
+   "s640": "2021-02-28",
+   "s512": "2021-09-28",
+   "s448": "2021-09-28",
+   "s640_r0": "2021-02-28"
+  },
+  "cands": [
+   "2021-02-28"
+  ],
+  "anchors": [
+   "BEST_BEFORE"
+  ]
+ },
+ {
+  "file": "000605.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1613x763",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "까지"
+  ]
+ },
+ {
+  "file": "000452.jpg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3060x4080",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "002101.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "B_검출경계",
+  "disagree": 0.5,
+  "votes": {
+   "s640": "2021-09-17",
+   "s512": "2021-09-17",
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [
+   "2021-09-17"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "002109.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "656x1015",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "까지",
+   "별도표기",
+   "유통기한",
+   "제조일자"
+  ]
+ },
+ {
+  "file": "000369.jpg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3024x4032",
+  "cat": "B_검출경계",
+  "disagree": 0.25,
+  "votes": {
+   "s640": "2027-06-25",
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [
+   "2027-06-25"
+  ],
+  "anchors": [
+   "까지"
+  ]
+ },
+ {
+  "file": "001974.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "935x1126",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "001357.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "001041.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2022-04-15",
+   "s512": "2022-04-15",
+   "s448": "2022-04-15",
+   "s640_r0": "2022-04-15"
+  },
+  "cands": [
+   "2022-04-15"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "002447.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1071x1429",
+  "cat": "A_날짜불일치",
+  "disagree": 0.25,
+  "votes": {
+   "s640": "2021-02-04",
+   "s512": "2021-02-04",
+   "s448": "2021-11-02",
+   "s640_r0": "2021-02-04"
+  },
+  "cands": [
+   "2021-02-04"
+  ],
+  "anchors": [
+   "제조일자"
+  ]
+ },
+ {
+  "file": "001822.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "915x1220",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "제조일자"
+  ]
+ },
+ {
+  "file": "001685.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1054x1405",
+  "cat": "A_날짜불일치",
+  "disagree": 0.5,
+  "votes": {
+   "s640": null,
+   "s512": "2020-11-30",
+   "s448": "2021-11-27",
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "까지",
+   "부터",
+   "유통기한"
+  ]
+ },
+ {
+  "file": "000677.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1218x2166",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2027-08-17",
+   "s512": "2027-08-17",
+   "s448": "2027-08-17",
+   "s640_r0": "2027-08-17"
+  },
+  "cands": [
+   "2027-08-17"
+  ],
+  "anchors": [
+   "까지"
+  ]
+ },
+ {
+  "file": "001498.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "756x1008",
+  "cat": "B_검출경계",
+  "disagree": 0.25,
+  "votes": {
+   "s640": "2021-06-30",
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [
+   "2021-06-30"
+  ],
+  "anchors": [
+   "별도표기",
+   "유통기한",
+   "제조일자"
+  ]
+ },
+ {
+  "file": "000569.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1050x1400",
+  "cat": "B_검출경계",
+  "disagree": 0.5,
+  "votes": {
+   "s640": null,
+   "s512": "2025-11-02",
+   "s448": "2025-11-02",
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "까지"
+  ]
+ },
+ {
+  "file": "000611.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1613x763",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2026-07-20",
+   "s512": "2026-07-20",
+   "s448": "2026-07-20",
+   "s640_r0": "2026-07-20"
+  },
+  "cands": [
+   "2026-07-20"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "000950.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "756x1008",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "000719.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1105x1965",
+  "cat": "B_검출경계",
+  "disagree": 0.25,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": "2026-04-04",
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "000094.jpg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3024x4032",
+  "cat": "B_검출경계",
+  "disagree": 0.25,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": "2022-05-30",
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "002516.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1105x1474",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2022-07-20",
+   "s512": "2022-07-20",
+   "s448": "2022-07-20",
+   "s640_r0": "2022-07-20"
+  },
+  "cands": [
+   "2022-07-20"
+  ],
+  "anchors": []
+ },
+ {
+  "file": "003045.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "B_검출경계",
+  "disagree": 0.5,
+  "votes": {
+   "s640": null,
+   "s512": "2022-05-02",
+   "s448": "2022-05-02",
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": [
+   "BEST_BEFORE",
+   "까지"
+  ]
+ },
+ {
+  "file": "000020.jpg",
+  "kind": "eval",
+  "cluster": "hires",
+  "size": "3024x4032",
+  "cat": "B_검출경계",
+  "disagree": 0.25,
+  "votes": {
+   "s640": "2025-10-09",
+   "s512": "2025-10-09",
+   "s448": null,
+   "s640_r0": "2025-10-09"
+  },
+  "cands": [
+   "2025-10-09"
+  ],
+  "anchors": [
+   "까지"
+  ]
+ },
+ {
+  "file": "001282.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "940x1253",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "001274.jpg",
+  "kind": "eval",
+  "cluster": "sq640",
+  "size": "640x640",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "002643.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "1312x984",
+  "cat": "C_전원실패",
+  "disagree": 0.0,
+  "votes": {
+   "s640": null,
+   "s512": null,
+   "s448": null,
+   "s640_r0": null
+  },
+  "cands": [],
+  "anchors": []
+ },
+ {
+  "file": "002552.jpg",
+  "kind": "eval",
+  "cluster": "mid",
+  "size": "903x1202",
+  "cat": "D_전원일치",
+  "disagree": 0.0,
+  "votes": {
+   "s640": "2021-01-22",
+   "s512": "2021-01-22",
+   "s448": "2021-01-22",
+   "s640_r0": "2021-01-22"
+  },
+  "cands": [
+   "2021-01-22"
+  ],
+  "anchors": [
+   "BEST_BEFORE"
+  ]
+ }
+]

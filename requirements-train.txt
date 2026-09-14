@@ -1,0 +1,19 @@
+# 학습 전용 — 채점 환경에는 설치하지 않는다.
+#
+# 날짜 영역 검출기(YOLOv8n)를 학습하고 ONNX 로 내보낼 때만 필요하다.
+# 추론에는 onnxruntime 만 있으면 되고, torch 는 오히려 해롭다:
+# 임포트되는 것만으로 paddle 과 OpenMP 스레드를 다퉈 파이프라인이 2.4배 느려진다
+# (EDA 52~53: 장당 2.76 → 5.88초). requirements.txt 주석 참고.
+#
+#   설치:  pip install -r requirements.txt -r requirements-train.txt
+#   학습:  python eda/45_yolo_data.py && python eda/46_yolo_build.py
+#          python eda/47_yolo_train.py --epochs 120
+#   내보내기: python eda/54_yolo_onnx.py --check
+#          → weights/yolo/date_v1.onnx (11.2MB) 가 추론에 쓰이는 유일한 산출물
+
+-r requirements.txt
+
+torch==2.14.0
+ultralytics==8.3.0
+onnx==1.17.0
+onnxscript

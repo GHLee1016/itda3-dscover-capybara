@@ -1,0 +1,818 @@
+[
+{
+"file": "000555.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "D_전원일치",
+"cands": [
+"2027-04-16"
+]
+},
+{
+"file": "000275.jpg",
+"kind": "eval",
+"cluster": "hires",
+"cat": "D_전원일치",
+"cands": [
+"2026-04-23"
+]
+},
+{
+"file": "000357.jpg",
+"kind": "eval",
+"cluster": "hires",
+"cat": "D_전원일치",
+"cands": [
+"2027-08-11"
+]
+},
+{
+"file": "002279.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "D_전원일치",
+"cands": [
+"2021-01-03"
+]
+},
+{
+"file": "000853.jpeg",
+"kind": "eval",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-09-24"
+]
+},
+{
+"file": "002093.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "D_전원일치",
+"cands": [
+"2021-11-17"
+]
+},
+{
+"file": "002739.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "002774.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "003028.jpg",
+"kind": "eval",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-02-28"
+]
+},
+{
+"file": "000605.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "000452.jpg",
+"kind": "eval",
+"cluster": "hires",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "002101.jpg",
+"kind": "eval",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": [
+"2021-09-17"
+]
+},
+{
+"file": "002109.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "000369.jpg",
+"kind": "eval",
+"cluster": "hires",
+"cat": "B_검출경계",
+"cands": [
+"2027-06-25"
+]
+},
+{
+"file": "001974.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "001357.jpg",
+"kind": "eval",
+"cluster": "sq640",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "001041.jpg",
+"kind": "eval",
+"cluster": "sq640",
+"cat": "D_전원일치",
+"cands": [
+"2022-04-15"
+]
+},
+{
+"file": "002447.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-02-04"
+]
+},
+{
+"file": "001822.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "001685.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": []
+},
+{
+"file": "000677.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "D_전원일치",
+"cands": [
+"2027-08-17"
+]
+},
+{
+"file": "001498.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "B_검출경계",
+"cands": [
+"2021-06-30"
+]
+},
+{
+"file": "000569.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "B_검출경계",
+"cands": []
+},
+{
+"file": "000611.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "D_전원일치",
+"cands": [
+"2026-07-20"
+]
+},
+{
+"file": "000950.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "000719.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "B_검출경계",
+"cands": []
+},
+{
+"file": "000094.jpg",
+"kind": "eval",
+"cluster": "hires",
+"cat": "B_검출경계",
+"cands": []
+},
+{
+"file": "002516.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "D_전원일치",
+"cands": [
+"2022-07-20"
+]
+},
+{
+"file": "003045.jpg",
+"kind": "eval",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": []
+},
+{
+"file": "000020.jpg",
+"kind": "eval",
+"cluster": "hires",
+"cat": "B_검출경계",
+"cands": [
+"2025-10-09"
+]
+},
+{
+"file": "001282.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "001274.jpg",
+"kind": "eval",
+"cluster": "sq640",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "002643.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "C_전원실패",
+"cands": []
+},
+{
+"file": "002552.jpg",
+"kind": "eval",
+"cluster": "mid",
+"cat": "D_전원일치",
+"cands": [
+"2021-01-22"
+]
+},
+{
+"file": "001086.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2019-10-15"
+]
+},
+{
+"file": "002850.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-08-15"
+]
+},
+{
+"file": "003082.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-12-02"
+]
+},
+{
+"file": "001817.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-01-15"
+]
+},
+{
+"file": "000896.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-02-15"
+]
+},
+{
+"file": "001722.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-01-07"
+]
+},
+{
+"file": "000999.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2016-11-08"
+]
+},
+{
+"file": "000982.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2025-09-16"
+]
+},
+{
+"file": "002944.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-06-23"
+]
+},
+{
+"file": "002664.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-08-18",
+"2021-08-18"
+]
+},
+{
+"file": "001813.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-03-27",
+"2021-03-26"
+]
+},
+{
+"file": "002075.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2000-05-28"
+]
+},
+{
+"file": "001200.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-10-21",
+"2021-10-20"
+]
+},
+{
+"file": "003192.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-11-20",
+"2021-11-19"
+]
+},
+{
+"file": "001157.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": [
+"2024-09-30"
+]
+},
+{
+"file": "002622.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": []
+},
+{
+"file": "002800.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": [
+"2021-12-27"
+]
+},
+{
+"file": "002777.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": [
+"2021-03-15"
+]
+},
+{
+"file": "001126.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": [
+"2020-12-29",
+"2021-12-28"
+]
+},
+{
+"file": "001533.jpg",
+"kind": "active",
+"cluster": "sq640",
+"cat": "B_검출경계",
+"cands": [
+"2010-01-02"
+]
+},
+{
+"file": "000283.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-09-17"
+]
+},
+{
+"file": "000780.jpeg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-04-27"
+]
+},
+{
+"file": "000436.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-12-12"
+]
+},
+{
+"file": "000775.jpeg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": []
+},
+{
+"file": "000175.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2025-09-29",
+"2026-06-28"
+]
+},
+{
+"file": "000270.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2006-09-03"
+]
+},
+{
+"file": "000096.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2025-10-26"
+]
+},
+{
+"file": "000014.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2025-01-31"
+]
+},
+{
+"file": "000196.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2027-12-27"
+]
+},
+{
+"file": "000008.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-06-29"
+]
+},
+{
+"file": "000394.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-04-14"
+]
+},
+{
+"file": "000225.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-04-06"
+]
+},
+{
+"file": "000385.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2025-09-15",
+"2026-09-14"
+]
+},
+{
+"file": "000242.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2025-09-22",
+"2028-05-21"
+]
+},
+{
+"file": "000638.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-06-16"
+]
+},
+{
+"file": "000462.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2027-05-27"
+]
+},
+{
+"file": "000383.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-04-03"
+]
+},
+{
+"file": "000456.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "B_검출경계",
+"cands": [
+"2025-12-26"
+]
+},
+{
+"file": "000002.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "B_검출경계",
+"cands": [
+"2025-12-11"
+]
+},
+{
+"file": "000107.jpg",
+"kind": "active",
+"cluster": "hires",
+"cat": "B_검출경계",
+"cands": [
+"2025-12-25"
+]
+},
+{
+"file": "000618.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2026-06-25"
+]
+},
+{
+"file": "001087.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2022-06-14"
+]
+},
+{
+"file": "003292.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2019-07-15"
+]
+},
+{
+"file": "002602.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-04-27"
+]
+},
+{
+"file": "000937.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2022-11-09"
+]
+},
+{
+"file": "002820.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-11-19"
+]
+},
+{
+"file": "002201.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2031-10-06"
+]
+},
+{
+"file": "001217.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2022-05-14"
+]
+},
+{
+"file": "001299.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2016-11-15"
+]
+},
+{
+"file": "002892.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": []
+},
+{
+"file": "001456.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2023-09-23"
+]
+},
+{
+"file": "002582.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2022-10-10"
+]
+},
+{
+"file": "002471.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-03-12"
+]
+},
+{
+"file": "001376.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-12-02"
+]
+},
+{
+"file": "001903.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2027-08-21"
+]
+},
+{
+"file": "001006.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-12-30",
+"2022-06-29"
+]
+},
+{
+"file": "003174.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2020-08-13",
+"2022-08-13"
+]
+},
+{
+"file": "001263.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2022-12-03"
+]
+},
+{
+"file": "002946.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2019-06-06"
+]
+},
+{
+"file": "001219.jpg",
+"kind": "active",
+"cluster": "mid",
+"cat": "A_날짜불일치",
+"cands": [
+"2021-01-14"
+]
+}
+]

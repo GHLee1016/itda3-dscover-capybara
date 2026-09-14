@@ -1,0 +1,135 @@
+﻿file,set,cluster,truth,pred,cat,y_ok,m_ok,d_ok
+000001.jpg,v2_initial,hires,2027-06-26,2027-06-26,정답,True,True,True
+000003.jpg,v2_initial,hires,2026-05-12,2026-05-12,정답,True,True,True
+000040.jpg,v2_initial,hires,2025-10-11,2025-10-11,정답,True,True,True
+000047.png,v2_initial,mid,2027-04-14,2027-04-14,정답,True,True,True
+000052.png,v2_initial,mid,2025-11-19,2025-11-19,정답,True,True,True
+000059.jpg,v2_initial,hires,2027-06-22,2027-06-22,정답,True,True,True
+000067.jpg,v2_initial,hires,2025-12-19,2025-12-19,정답,True,True,True
+000072.jpg,v2_initial,hires,2026-04-25,2026-04-25,정답,True,True,True
+000073.jpg,v2_initial,hires,2026-03-12,2026-03-12,정답,True,True,True
+000077.jpg,v2_initial,hires,2026-03-07,2026-03-07,정답,True,True,True
+000081.jpg,v2_initial,hires,2026-05-18,2026-05-18,정답,True,True,True
+000083.jpg,v2_initial,hires,2026-07-01,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+000105.jpg,v2_initial,hires,2025-11-09,2025-11-09,정답,True,True,True
+000141.jpg,v2_initial,hires,2026-09-17,2026-09-17,정답,True,True,True
+000179.jpg,v2_initial,hires,2026-06-29,2026-06-29,정답,True,True,True
+000199.jpg,v2_initial,hires,2027-09-07,2027-09-07,정답,True,True,True
+000251.jpg,v2_initial,hires,2026-02-24,2026-02-24,정답,True,True,True
+000279.jpg,v2_initial,hires,2026-06-02,2026-06-02,정답,True,True,True
+000317.jpg,v2_initial,hires,2025-11-15,2025-11-15,정답,True,True,True
+000319.jpg,v2_initial,hires,2026-02-14,2026-02-14,정답,True,True,True
+000329.jpg,v2_initial,hires,2025-12-25,2025-12-25,정답,True,True,True
+000429.jpg,v2_initial,hires,2026-01-04,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+000443.jpg,v2_initial,hires,2026-04-06,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+000483.jpg,v2_initial,hires,2027-04-15,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+000550.jpg,v2_initial,mid,2026-05-29,2025-05-29,B. 연도만 틀림,False,True,True
+000647.jpg,v2_initial,hires,2026-08-19,2026-08-19,정답,True,True,True
+000801.jpeg,v2_initial,hires,2026-03-25,2026-03-25,정답,True,True,True
+001201.jpg,v2_initial,mid,2022-07-16,2022-07-16,정답,True,True,True
+001601.jpg,v2_initial,mid,2021-02-11,2021-02-11,정답,True,True,True
+002401.jpg,v2_initial,mid,2022-11-04,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+002801.jpg,v2_initial,mid,2021-09-29,2021-09-29,정답,True,True,True
+003001.jpg,v2_initial,mid,2021-12-05,2021-12-05,정답,True,True,True
+003341.jpg,v2_initial,sq640,2022-09-29,2022-09-29,정답,True,True,True
+3352.jpeg,v2_initial,hires,2025-12-09,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+002367.jpg,eval_random,sq640,2020-10-01,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+002654.jpg,eval_random,sq640,2025-11-30,2025-11-30,정답,True,True,True
+002165.jpg,eval_random,sq640,2021-01-29,2020-10-30,D. 완전히 다른 날짜,False,False,False
+000451.jpg,eval_random,hires,2026-02-27,2026-02-27,정답,True,True,True
+001548.jpg,eval_random,mid,2022-09-28,2022-09-28,정답,True,True,True
+002826.jpg,eval_random,mid,2021-07-03,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+002311.jpg,eval_random,mid,NONE,NONE-NONE-NONE,정답,True,True,True
+000509.jpg,eval_random,mid,2026-09-01,2026-09-01,정답,True,True,True
+002630.jpg,eval_random,sq640,2023-05-NONE,2023-05-09,E. 부분정답 케이스 불일치,True,True,False
+001495.jpg,eval_random,mid,2021-11-22,2021-11-22,정답,True,True,True
+000555.jpg,eval_random,mid,2027-04-16,2027-04-16,정답,True,True,True
+000275.jpg,eval_random,hires,2026-04-23,2026-04-23,정답,True,True,True
+000357.jpg,eval_random,hires,2027-08-11,2027-08-11,정답,True,True,True
+002279.jpg,eval_random,mid,2021-01-03,2021-01-03,정답,True,True,True
+002093.jpg,eval_random,mid,2021-11-17,2021-11-17,정답,True,True,True
+002739.jpg,eval_random,mid,2021-09-26,2021-09-26,정답,True,True,True
+002774.jpg,eval_random,mid,2021-10-08,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+003028.jpg,eval_random,sq640,2021-09-28,2021-02-28,C. 월/일만 틀림,True,False,True
+000605.jpg,eval_random,mid,2028-07-01,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+000452.jpg,eval_random,hires,2026-03-25,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+002101.jpg,eval_random,sq640,2021-09-17,2021-09-17,정답,True,True,True
+002109.jpg,eval_random,mid,2022-02-24,2022-02-24,정답,True,True,True
+000369.jpg,eval_random,hires,2027-06-25,2027-06-25,정답,True,True,True
+001974.jpg,eval_random,mid,2021-09-NONE,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,True
+001357.jpg,eval_random,sq640,2022-08-NONE,2023-01-08,E. 부분정답 케이스 불일치,False,False,False
+001041.jpg,eval_random,sq640,2022-04-15,2022-04-15,정답,True,True,True
+002447.jpg,eval_random,mid,2021-02-04,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+001822.jpg,eval_random,mid,2021-06-09,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+001685.jpg,eval_random,mid,2021-11-29,2020-11-30,D. 완전히 다른 날짜,False,True,False
+000677.jpg,eval_random,mid,2027-08-17,2027-08-17,정답,True,True,True
+001498.jpg,eval_random,mid,2021-06-30,2021-06-30,정답,True,True,True
+000569.jpg,eval_random,mid,2025-11-02,2025-11-02,정답,True,True,True
+000611.jpg,eval_random,mid,2026-07-20,2026-07-20,정답,True,True,True
+000950.jpg,eval_random,mid,2022-09-16,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+000719.jpg,eval_random,mid,2026-04-04,2026-04-04,정답,True,True,True
+000094.jpg,eval_random,hires,2027-06-30,2022-05-30,D. 완전히 다른 날짜,False,False,True
+002516.jpg,eval_random,mid,2022-07-20,2022-07-20,정답,True,True,True
+003045.jpg,eval_random,sq640,2022-05-02,2022-05-02,정답,True,True,True
+000020.jpg,eval_random,hires,2025-10-09,2025-10-09,정답,True,True,True
+001282.jpg,eval_random,mid,2025-04-01,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,False
+001274.jpg,eval_random,sq640,2022-06-17,2022-06-17,정답,True,True,True
+002643.jpg,eval_random,mid,2022-11-NONE,NONE-NONE-NONE,A. 미검출 (NONE 출력),False,False,True
+002552.jpg,eval_random,mid,2022-01-21,2021-01-22,D. 완전히 다른 날짜,False,True,False
+001086.jpg,active,sq640,2023-10-09,2019-10-15,D. 완전히 다른 날짜,False,True,False
+002850.jpg,active,sq640,2021-08-15,2021-08-15,정답,True,True,True
+003082.jpg,active,sq640,2021-12-02,2021-12-02,정답,True,True,True
+001817.jpg,active,sq640,2021-04-14,2021-01-15,C. 월/일만 틀림,True,False,False
+000896.jpg,active,sq640,2023-02-15,2020-02-15,B. 연도만 틀림,False,True,True
+001722.jpg,active,sq640,2021-07-06,2021-01-07,C. 월/일만 틀림,True,False,False
+000999.jpg,active,sq640,2021-11-11,2021-01-11,C. 월/일만 틀림,True,False,True
+000982.jpg,active,sq640,2022-02-15,2025-09-16,D. 완전히 다른 날짜,False,False,False
+002944.jpg,active,sq640,NONE,2020-06-23,F. 정답NONE인데 날짜출력,False,False,False
+002664.jpg,active,sq640,2021-08-18,2021-08-18,정답,True,True,True
+001813.jpg,active,sq640,2021-03-26,2021-03-26,정답,True,True,True
+002075.jpg,active,sq640,2020-05-28,2000-05-28,B. 연도만 틀림,False,True,True
+001200.jpg,active,sq640,2021-10-20,2021-10-20,정답,True,True,True
+003192.jpg,active,sq640,2021-11-19,2021-11-19,정답,True,True,True
+001157.jpg,active,sq640,2021-02-07,2024-09-30,D. 완전히 다른 날짜,False,False,False
+002622.jpg,active,sq640,2023-12-21,2023-12-21,정답,True,True,True
+002800.jpg,active,sq640,2021-12-27,2021-12-27,정답,True,True,True
+002777.jpg,active,sq640,2021-09-15,2021-03-15,C. 월/일만 틀림,True,False,True
+001126.jpg,active,sq640,2021-12-28,2021-12-28,정답,True,True,True
+001533.jpg,active,sq640,2022-06-21,NONE-10-01,D. 완전히 다른 날짜,False,False,False
+000283.jpg,active,hires,2027-09-17,2021-09-17,B. 연도만 틀림,False,True,True
+000436.jpg,active,hires,2026-02-12,2026-12-12,C. 월/일만 틀림,True,False,True
+000175.jpg,active,hires,2026-06-28,2026-06-28,정답,True,True,True
+000270.jpg,active,hires,2026-09-03,2006-09-03,B. 연도만 틀림,False,True,True
+000096.jpg,active,hires,2026-05-26,2025-10-26,D. 완전히 다른 날짜,False,False,True
+000014.jpg,active,hires,2026-01-31,2025-01-31,B. 연도만 틀림,False,True,True
+000196.jpg,active,hires,2027-02-27,2027-12-27,C. 월/일만 틀림,True,False,True
+000008.jpg,active,hires,2027-06-29,2021-06-29,B. 연도만 틀림,False,True,True
+000394.jpg,active,hires,2026-04-14,2026-04-14,정답,True,True,True
+000225.jpg,active,hires,2026-04-06,2026-04-06,정답,True,True,True
+000385.jpg,active,hires,2026-09-14,2026-09-14,정답,True,True,True
+000242.jpg,active,hires,2026-05-21,2028-05-21,B. 연도만 틀림,False,True,True
+000638.jpg,active,hires,2026-06-16,2026-06-16,정답,True,True,True
+000462.jpg,active,hires,2027-05-27,2027-05-27,정답,True,True,True
+000383.jpg,active,hires,2026-04-03,2026-04-03,정답,True,True,True
+000456.jpg,active,hires,2025-12-26,2025-12-26,정답,True,True,True
+000002.jpg,active,hires,2025-12-11,2025-12-11,정답,True,True,True
+000107.jpg,active,hires,2025-12-25,2025-12-25,정답,True,True,True
+000618.jpg,active,mid,2026-08-26,2026-06-25,C. 월/일만 틀림,True,False,False
+001087.jpg,active,mid,2022-06-14,2022-06-14,정답,True,True,True
+003292.jpg,active,mid,2022-12-02,2019-07-15,D. 완전히 다른 날짜,False,False,False
+002602.jpg,active,mid,2022-07-07,2020-04-27,D. 완전히 다른 날짜,False,False,False
+000937.jpg,active,mid,2022-06-11,2022-11-09,C. 월/일만 틀림,True,False,False
+002820.jpg,active,mid,2021-11-19,2021-11-19,정답,True,True,True
+002201.jpg,active,mid,2020-10-08,2031-10-06,D. 완전히 다른 날짜,False,True,False
+001217.jpg,active,mid,2022-05-30,2022-05-14,C. 월/일만 틀림,True,True,False
+001299.jpg,active,mid,2021-07-28,2016-11-15,D. 완전히 다른 날짜,False,False,False
+002892.jpg,active,mid,2021-03-31,2021-03-31,정답,True,True,True
+001456.jpg,active,mid,2022-06-28,2023-09-23,D. 완전히 다른 날짜,False,False,False
+002471.jpg,active,mid,2021-03-18,2021-03-12,C. 월/일만 틀림,True,True,False
+001376.jpg,active,mid,2021-12-02,2021-12-02,정답,True,True,True
+001903.jpg,active,mid,2021-08-27,2027-08-21,D. 완전히 다른 날짜,False,True,False
+001006.jpg,active,mid,2022-06-29,2022-06-29,정답,True,True,True
+003174.jpg,active,mid,2022-08-13,2022-08-13,정답,True,True,True
+001263.jpg,active,mid,2022-12-03,2022-12-03,정답,True,True,True
+002946.jpg,active,mid,2021-09-25,2021-09-25,정답,True,True,True
+001219.jpg,active,mid,2021-01-14,2021-01-14,정답,True,True,True

@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>소비기한 라벨링</title>
+<style>
+  :root{
+    --bg:#12141a; --panel:#1b1e26; --line:#2c313d; --fg:#e6e9ef; --dim:#9aa3b2;
+    --acc:#5b9dff; --ok:#3ddc97; --warn:#ffb454; --bad:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:14px/1.5 -apple-system,"Segoe UI",Roboto,"Malgun Gothic",sans-serif;
+       background:var(--bg);color:var(--fg);height:100vh;overflow:hidden}
+  .wrap{display:grid;grid-template-columns:1fr 340px;height:100vh}
+  /* ---- 이미지 ---- */
+  .stage{position:relative;overflow:hidden;background:#0a0b0f;cursor:crosshair}
+  .stage img{position:absolute;transform-origin:0 0;image-rendering:auto;user-select:none}
+  .hint{position:absolute;left:12px;bottom:12px;background:#000a;padding:6px 10px;
+        border-radius:6px;color:var(--dim);font-size:12px;pointer-events:none}
+  .badge{position:absolute;left:12px;top:12px;background:#000a;padding:6px 10px;
+         border-radius:6px;font-size:12px}
+  /* ---- 패널 ---- */
+  .panel{background:var(--panel);border-left:1px solid var(--line);
+         display:flex;flex-direction:column;overflow:hidden}
+  .panel > div{padding:12px 14px;border-bottom:1px solid var(--line)}
+  .panel .grow{flex:1;overflow-y:auto;border-bottom:none}
+  h2{margin:0 0 8px;font-size:13px;color:var(--dim);font-weight:600;letter-spacing:.04em}
+  .prog{height:6px;background:#0a0b0f;border-radius:3px;overflow:hidden;margin-top:6px}
+  .prog i{display:block;height:100%;background:var(--acc);transition:width .2s}
+  .meta{font-size:12px;color:var(--dim);word-break:break-all}
+  .tag{display:inline-block;padding:2px 7px;border-radius:4px;font-size:11px;
+       margin:2px 3px 2px 0;background:#2c313d}
+  .tag.pos{background:#14432f;color:var(--ok)}
+  .tag.neg{background:#4a2020;color:var(--bad)}
+  .tag.trap{background:#4a3a14;color:var(--warn)}
+  button{font:inherit;color:var(--fg);background:#262b36;border:1px solid var(--line);
+         border-radius:7px;padding:8px 10px;cursor:pointer;text-align:left;width:100%}
+  button:hover{border-color:var(--acc)}
+  button.cand{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+  button.cand b{font-size:15px;font-variant-numeric:tabular-nums}
+  button.cand span{color:var(--dim);font-size:11px}
+  button.none{background:#3a2430;border-color:#5a3444}
+  .row{display:flex;gap:6px}
+  .row button{width:auto;flex:1;text-align:center}
+  input[type=text]{width:100%;font:inherit;padding:8px 10px;border-radius:7px;
+       background:#0f1116;border:1px solid var(--line);color:var(--fg);
+       font-variant-numeric:tabular-nums}
+  input[type=text]:focus{outline:none;border-color:var(--acc)}
+  .done{color:var(--ok)} .todo{color:var(--warn)}
+  kbd{background:#0f1116;border:1px solid var(--line);border-bottom-width:2px;
+      border-radius:4px;padding:1px 5px;font-size:11px;font-family:inherit}
+  .k{font-size:11px;color:var(--dim);line-height:1.9}
+  .file{font-size:12px;color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="stage" id="stage">
+    <img id="img" alt="">
+    <div class="badge" id="badge"></div>
+    <div class="hint">휠 = 확대 · 드래그 = 이동 · <kbd>F</kbd> 전체보기 · 날짜가 안 보이면 <kbd>0</kbd></div>
+  </div>
+
+  <div class="panel">
+    <div>
+      <h2>진행</h2>
+      <div><span id="cnt" class="done">0</span> / <span id="tot">0</span>
+           <span id="left" class="todo" style="float:right"></span></div>
+      <div class="prog"><i id="bar" style="width:0"></i></div>
+    </div>
+
+    <div>
+      <h2>이미지</h2>
+      <div class="file" id="fname">—</div>
+      <div class="meta" id="anchors" style="margin-top:6px"></div>
+    </div>
+
+    <div class="grow">
+      <h2>OCR 후보 <span style="float:right;font-weight:400" id="cn"></span></h2>
+      <div id="cands"></div>
+
+      <h2 style="margin-top:14px">직접 입력</h2>
+      <input type="text" id="manual" placeholder="2026-05-29 또는 20260529" autocomplete="off">
+      <div class="row" style="margin-top:6px">
+        <button id="saveManual">입력값 저장 <kbd>Enter</kbd></button>
+      </div>
+
+      <h2 style="margin-top:14px">날짜 없음 / 판독 불가</h2>
+      <button class="none" id="btnNone">NONE 으로 저장 <kbd>0</kbd></button>
+
+      <h2 style="margin-top:14px">단축키</h2>
+      <div class="k">
+        <kbd>1</kbd>~<kbd>8</kbd> 후보 선택 · <kbd>0</kbd> NONE<br>
+        <kbd>←</kbd><kbd>→</kbd> 이전/다음 · <kbd>S</kbd> 미완료로 점프<br>
+        <kbd>F</kbd> 전체보기 · <kbd>R</kbd> 90° 회전
+      </div>
+    </div>
+
+    <div>
+      <div class="row">
+        <button id="prev">← 이전</button>
+        <button id="next">다음 →</button>
+      </div>
+      <div class="row" style="margin-top:6px">
+        <button id="export">JSON 내려받기</button>
+        <button id="clear" style="flex:0 0 auto">초기화</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const KEY = "itda_labels_v1";
+let TASKS = [], i = 0, labels = {};
+let zoom = 1, ox = 0, oy = 0, rot = 0, natural = [0,0];
+
+const $ = id => document.getElementById(id);
+const stage = $("stage"), img = $("img");
+
+// ---------- 저장 ----------
+function load(){ try{ labels = JSON.parse(localStorage.getItem(KEY) || "{}"); }catch(e){ labels = {}; } }
+function persist(){ try{ localStorage.setItem(KEY, JSON.stringify(labels)); }catch(e){} }
+
+// ---------- 이미지 배치 ----------
+function fit(){
+  const sw = stage.clientWidth, sh = stage.clientHeight;
+  let [w,h] = natural;
+  if (rot % 180 !== 0) [w,h] = [h,w];
+  zoom = Math.min(sw/w, sh/h) * 0.98;
+  ox = (sw - w*zoom)/2; oy = (sh - h*zoom)/2;
+  apply();
+}
+function apply(){
+  const [w,h] = natural;
+  // 회전 후에도 좌상단이 맞도록 보정 이동값 계산
+  let tx = ox, ty = oy;
+  if (rot === 90)  { tx += h*zoom; }
+  if (rot === 180) { tx += w*zoom; ty += h*zoom; }
+  if (rot === 270) { ty += w*zoom; }
+  img.style.transform = `translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${zoom})`;
+}
+stage.addEventListener("wheel", e => {
+  e.preventDefault();
+  const r = stage.getBoundingClientRect();
+  const mx = e.clientX - r.left, my = e.clientY - r.top;
+  const f = e.deltaY < 0 ? 1.15 : 1/1.15;
+  const nz = Math.max(0.05, Math.min(24, zoom*f));
+  ox = mx - (mx-ox)*(nz/zoom); oy = my - (my-oy)*(nz/zoom);
+  zoom = nz; apply();
+}, {passive:false});
+let drag = null;
+stage.addEventListener("mousedown", e => { drag = {x:e.clientX, y:e.clientY, ox, oy}; });
+window.addEventListener("mousemove", e => {
+  if(!drag) return;
+  ox = drag.ox + (e.clientX-drag.x); oy = drag.oy + (e.clientY-drag.y); apply();
+});
+window.addEventListener("mouseup", () => drag = null);
+window.addEventListener("resize", fit);
+
+// ---------- 렌더 ----------
+function render(){
+  const t = TASKS[i];
+  if(!t) return;
+  $("fname").textContent = t.file + (t.wh ? `  (${t.wh[0]}×${t.wh[1]})` : "");
+  $("badge").textContent = `${i+1} / ${TASKS.length}   ${t.file}`;
+
+  const tags = [];
+  for(const a of (t.anchors||[])){
+    let c = "";
+    if(["소비기한","유통기한","품질유지기한","BEST_BEFORE","EXP","賞味期限","消費期限"].includes(a)) c="pos";
+    else if(["제조일자","생산일자","포장일자","MFG"].includes(a)) c="neg";
+    else if(a==="별도표기") c="trap";
+    tags.push(`<span class="tag ${c}">${a}</span>`);
+  }
+  $("anchors").innerHTML = tags.join("") || '<span class="meta">앵커 없음</span>';
+
+  const cur = labels[t.file];
+  const box = $("cands");
+  box.innerHTML = "";
+  $("cn").textContent = `${t.cands.length}개`;
+  t.cands.forEach((c, k) => {
+    const b = document.createElement("button");
+    b.className = "cand";
+    const sel = cur && cur.date === c.date ? " ✓" : "";
+    b.innerHTML = `<b>${c.date}${sel}</b><span><kbd>${k+1}</kbd> ${c.raw} · ${c.kind}</span>`;
+    b.onclick = () => save(c.date);
+    box.appendChild(b);
+  });
+  if(!t.cands.length) box.innerHTML = '<div class="meta">OCR 후보 없음 — 직접 입력하거나 NONE</div>';
+
+  $("manual").value = (cur && cur.date !== "NONE" && !t.cands.some(c=>c.date===cur.date)) ? cur.date : "";
+
+  rot = 0;
+  img.onload = () => { natural = [img.naturalWidth, img.naturalHeight]; fit(); };
+  img.src = "imgs/" + t.file.replace(/\.[^.]+$/, "") + ".jpg";
+
+  const n = Object.keys(labels).length;
+  $("cnt").textContent = n; $("tot").textContent = TASKS.length;
+  $("left").textContent = `남음 ${TASKS.length - n}`;
+  $("bar").style.width = (n / TASKS.length * 100) + "%";
+}
+
+// ---------- 저장/이동 ----------
+function norm(s){
+  s = (s||"").trim();
+  if(!s) return null;
+  if(s.toUpperCase() === "NONE") return "NONE";
+  const d = s.replace(/[^0-9]/g, "");
+  if(d.length === 8){
+    const y=+d.slice(0,4), m=+d.slice(4,6), dd=+d.slice(6,8);
+    if(y>=1990&&y<=2049&&m>=1&&m<=12&&dd>=1&&dd<=31)
+      return `${y}-${String(m).padStart(2,"0")}-${String(dd).padStart(2,"0")}`;
+  }
+  if(d.length === 6){
+    const y=2000+ +d.slice(0,2), m=+d.slice(2,4), dd=+d.slice(4,6);
+    if(m>=1&&m<=12&&dd>=1&&dd<=31)
+      return `${y}-${String(m).padStart(2,"0")}-${String(dd).padStart(2,"0")}`;
+  }
+  return null;
+}
+function save(date){
+  const t = TASKS[i];
+  labels[t.file] = {date, image_id: t.image_id, at: new Date().toISOString()};
+  persist();
+  next();
+}
+function go(k){ i = Math.max(0, Math.min(TASKS.length-1, k)); render(); }
+function next(){
+  // 다음 미완료로 건너뛴다
+  for(let k=i+1;k<TASKS.length;k++) if(!labels[TASKS[k].file]) return go(k);
+  go(i+1);
+}
+
+$("btnNone").onclick = () => save("NONE");
+$("prev").onclick = () => go(i-1);
+$("next").onclick = () => go(i+1);
+$("saveManual").onclick = () => {
+  const v = norm($("manual").value);
+  if(v) save(v); else { $("manual").style.borderColor = "var(--bad)";
+                        setTimeout(()=>$("manual").style.borderColor="", 700); }
+};
+$("manual").addEventListener("keydown", e => {
+  if(e.key === "Enter"){ e.preventDefault(); $("saveManual").click(); }
+  e.stopPropagation();
+});
+$("export").onclick = () => {
+  const out = {};
+  for(const [f,v] of Object.entries(labels)) out[f] = v.date;
+  const blob = new Blob([JSON.stringify(out, null, 1)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "truth_labeled.json";
+  a.click();
+};
+$("clear").onclick = () => {
+  if(confirm(`라벨 ${Object.keys(labels).length}개를 모두 지웁니다. 계속?`)){
+    labels = {}; persist(); render();
+  }
+};
+
+window.addEventListener("keydown", e => {
+  if(e.target.tagName === "INPUT") return;
+  const t = TASKS[i];
+  if(e.key >= "1" && e.key <= "8"){
+    const c = t.cands[+e.key - 1]; if(c) save(c.date);
+  }
+  else if(e.key === "0") save("NONE");
+  else if(e.key === "ArrowLeft") go(i-1);
+  else if(e.key === "ArrowRight") go(i+1);
+  else if(e.key.toLowerCase() === "f") fit();
+  else if(e.key.toLowerCase() === "r"){ rot = (rot+90)%360; fit(); }
+  else if(e.key.toLowerCase() === "s") next();
+});
+
+// ---------- 부팅 ----------
+load();
+const shard = new URLSearchParams(location.search).get("shard");
+fetch(shard ? `tasks_${shard}.json` : "tasks.json")
+  .then(r => r.json())
+  .then(d => { TASKS = d.tasks;
+               for(let k=0;k<TASKS.length;k++) if(!labels[TASKS[k].file]){ i=k; break; }
+               render(); })
+  .catch(err => {
+    document.body.innerHTML =
+      `<div style="padding:40px;font:14px sans-serif;color:#e6e9ef">
+       <h3>tasks.json 을 불러오지 못했습니다</h3>
+       <p style="color:#9aa3b2">브라우저가 로컬 파일 fetch 를 막습니다. 아래처럼 로컬 서버로 여세요:</p>
+       <pre style="background:#1b1e26;padding:12px;border-radius:8px">cd label
+python -m http.server 8000
+→ http://localhost:8000/index.html</pre>
+       <p style="color:#9aa3b2">${err}</p></div>`;
+  });
+</script>
+</body>
+</html>

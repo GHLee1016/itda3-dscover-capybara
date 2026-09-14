@@ -1,0 +1,83 @@
+# --- 대회 규정: 대용량 가중치는 Git 에 커밋 금지 (Release Assets / 외부링크로 배포) ---
+#
+# 직접 학습한 날짜 검출기 weights/yolo/date_v1.onnx (11MB) 도 여기에 걸린다.
+# Release Assets 에 올리고 download_weights.sh 의 YOLO_URL 을 채워야 한다.
+# 없으면 노트북이 det 단독으로 내려간다 (66.8% → 64.5%, 실패는 아님).
+#
+# 학습 산출물(yolo_runs/, yolo_ds/)은 재현에 필요 없으므로 함께 제외한다 —
+# 재현 절차는 requirements-train.txt 주석에 적혀 있다.
+weights/
+# 단, 폴더 자체와 주력 엔진(RapidOCR PP-OCRv6) 가중치는 저장소에 동봉한다.
+# 채점 서버는 오프라인이므로 없으면 주력 경로가 비활성화된다.
+!weights/
+!weights/.gitkeep
+!weights/rapidocr/
+!weights/rapidocr/*.onnx
+yolo_runs/
+yolo_ds/
+*.pt
+*.pth
+# *.onnx 는 weights/yolo/ 만 제외; rapidocr 는 위 예외(!weights/rapidocr/*.onnx)로 포함된다.
+weights/yolo/*.onnx
+weights/det/
+weights/rec/
+weights/cls/
+*.safetensors
+*.pdparams
+*.pdmodel
+*.pdiparams
+*.pdiparams.info
+*.tar
+*.bin
+
+# --- PDF ---
+# 제출용 PDF: [DScover]_카피바라_아키텍처구조도.pdf  ← 저장소에 포함
+# 잘못된 이름의 구버전 PDF (matplotlib 생성, 이름 형식 오류) 는 제외
+[DScover_카피바라]_아키텍처구조도.pdf
+
+# --- 데이터 ---
+images/
+images.zip
+# 라벨링 도구의 제출본은 custom_data/tool/ 에 있다. label/ 은 작업용 원본이라 중복.
+label/
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+
+# --- EDA 산출물 (용량 큼) ---
+# 리포트(.md)와 정답(truth_*.json)은 설계 근거라 남긴다. 원자료만 뺀다.
+eda/out/_probe_cache.pkl
+eda/out/ocr_sample.jsonl
+# 박스 26,499개 특징표 7MB — 08/09/18단계를 다시 돌리면 생성된다.
+# (.gitignore 는 줄 끝 주석을 지원하지 않는다. 주석은 반드시 별도 줄에)
+eda/out/boxfeat.csv
+
+# --- 이 대회와 무관한 파일 ---
+DScover A조 가이드 프로젝트 중간발표 대본*.docx
+
+# --- 업로드용 스테이징 사본 (eda/68_stage_repo.py 가 만든다) ---
+# 저장소에 올릴 파일만 골라 담은 폴더. 그 자체를 커밋하면 안 된다.
+_github_upload/
+깃업로드_안내.md
+
+# --- 파이썬 ---
+.venv/
+venv/
+# 팀원 파이프라인 비교 측정용 격리 환경 (EDA 58·63). 재현은 requirements 로 가능하다.
+.venv-team/
+.venv-team2/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- 팀원이 공유한 원본 (각자 저장소가 따로 있다) ---
+# src/team2_rules.py 로 이식한 규칙만 이 저장소에 들어간다.
+팀원 기록/
+yolo_시각화/
+오답사진/
+
+# --- 기타 ---
+.DS_Store
+Thumbs.db
