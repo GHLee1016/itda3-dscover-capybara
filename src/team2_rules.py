@@ -160,6 +160,9 @@ def choose_expiration_date(texts):
         # 예: 2022/12/02
         # OCR 분할 예: 2022/12. 02
         # ---------------------------------
+        # 구분자에 공백이 들어 있어서, 날짜 뒤에 찍힌 **시각이 일(日)로 먹힌다**.
+        #   000647 `2026.08` + `22:14`  →  2026-08-22 (정답은 2026-08-19)
+        # 일 자리 뒤에 `:숫자` 가 오면 그건 시:분이므로 받지 않는다.
         pattern1 = re.findall(
             r'(?<!\d)'
             r'(20\d{2})'
@@ -167,7 +170,8 @@ def choose_expiration_date(texts):
             r'(\d{1,2})'
             r'[\.\-/\s]+'
             r'(\d{1,2})'
-            r'(?!\d)',
+            r'(?!\d)'
+            r'(?!\s*:\s*\d)',
             text_upper
         )
 
@@ -221,6 +225,45 @@ def choose_expiration_date(texts):
                 )
                 found.append(dt)
 
+            except:
+                pass
+
+        # ---------------------------------
+        # A-2. YYYYMM.DD
+        # 예:
+        # 202512.20 -> 2025-12-20
+        #
+        # A-1 은 구분자가 앞쪽에 하나 있는 `2026.0819` 를 받는다. 반대로 뒤쪽에만
+        # 있는 모양이 빠져 있었다(EDA 89, `000053` 의 `202512.20m`).
+        # 구분자 없는 여섯 자리를 요구하므로 바코드처럼 긴 숫자는 (?<!\d) 에
+        # 걸려 들어오지 않는다.
+        # ---------------------------------
+        pattern_yearmonth_day = re.findall(
+            r'(?<!\d)'
+            r'(20\d{2})'
+            r'(\d{2})'
+            r'\s*[\.\-/]\s*'
+            r'(\d{1,2})'
+            r'(?!\d)',
+            text_upper
+        )
+
+        for year, month, day in pattern_yearmonth_day:
+
+            year = int(year)
+            month = int(month)
+            day = int(day)
+
+            if not (MIN_YEAR <= year <= MAX_YEAR):
+                continue
+
+            try:
+                dt = datetime(
+                    year,
+                    month,
+                    day
+                )
+                found.append(dt)
             except:
                 pass
 
@@ -380,6 +423,77 @@ def choose_expiration_date(texts):
                 pass
 
         # ---------------------------------
+        # E2. 03 JUL 2021 / 01 SEP 2023   (일-월이름-네자리연도)
+        #
+        # C 는 `YYYY MON DD`, D 는 `MON DD YYYY`, E 는 `DD MON YY` 만 받는다.
+        # **`DD MON YYYY` 가 빠져 있었다**(EDA 89). 수입 식품에 흔한 표기다.
+        #   001179 `Best Before Date: 01 SEP 2023`
+        #   002826 `03 JUL 2021`
+        # 월 이름이 있으면 월 자리가 확정되므로 순서를 헷갈릴 일이 없다.
+        # ---------------------------------
+        pattern5b = re.findall(
+            r'(?<!\d)'
+            r'(\d{1,2})'
+            r'[\s\.\-/]*'
+            r'(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)'
+            r'[\s\.\-/,]*'
+            r'(20\d{2})'
+            r'(?!\d)',
+            text_upper
+        )
+
+        for d, mon, y in pattern5b:
+
+            year = int(y)
+
+            if not (MIN_YEAR <= year <= MAX_YEAR):
+                continue
+
+            try:
+                dt = datetime(
+                    year,
+                    month_map[mon],
+                    int(d)
+                )
+                found.append(dt)
+            except:
+                pass
+
+        # ---------------------------------
+        # E3. JUL 22 21   (월이름-일-두자리연도)
+        #
+        # D 는 연도를 `20\d{2}` 로만 받아 두 자리를 놓쳤다.
+        #   001325 `JUL 22 21 GC2 02:31`  (미국 제품)
+        # `JUL 22 2021` 은 끝의 (?!\d) 때문에 여기 걸리지 않는다. D 가 맡는다.
+        # ---------------------------------
+        pattern4b = re.findall(
+            r'(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)'
+            r'[\s\.\-/]*'
+            r'(\d{1,2})'
+            r'[\s,\.\-/]+'
+            r'(\d{2})'
+            r'(?!\d)',
+            text_upper
+        )
+
+        for mon, d, yy in pattern4b:
+
+            year = 2000 + int(yy)
+
+            if not (MIN_YEAR <= year <= MAX_YEAR):
+                continue
+
+            try:
+                dt = datetime(
+                    year,
+                    month_map[mon],
+                    int(d)
+                )
+                found.append(dt)
+            except:
+                pass
+
+        # ---------------------------------
         # F. 2자리 연도 날짜
         # 예: 17.12.20 / 24/12/21
         # ---------------------------------
@@ -457,9 +571,21 @@ def choose_expiration_date(texts):
               elif dmy_date is not None and ymd_date is None:
                   found.append(dmy_date)
 
-              # 둘 다 가능하면 기존처럼 DD.MM.YY 우선
+              # 둘 다 가능하면 YY.MM.DD (한국식) 우선
+              #
+              # ⚠️ 원문은 여기서 DD.MM.YY(유럽식)를 골랐다. EDA 81 에서 라벨로
+              #    대조해 보니 그 기본값이 틀렸다. 두 집합에서 독립적으로 같은 결론:
+              #
+              #      규칙          결정용 185장   홀드아웃2 198장
+              #      유럽식 기본    52.2%          55.6%
+              #      한국식 기본    91.3%          92.6%
+              #
+              #    배포 데이터가 국내 유통 상품 사진이므로 당연한 결과다.
+              #    한글/라틴 문자 비율(latin_dominant)로 수입품을 가리는 방법도
+              #    재 봤지만 52.2% 로 동전 던지기와 다르지 않았다. 바코드 국가
+              #    접두어도 56.5% 에 그쳤다. 단순한 기본값이 가장 좋았다.
               elif ymd_date is not None and dmy_date is not None:
-                  found.append(dmy_date)
+                  found.append(ymd_date)
 
 
         # ---------------------------------
