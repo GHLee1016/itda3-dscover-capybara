@@ -146,6 +146,7 @@ python check_submission.py   # 형식·의존성·가중치·PDF·구문 48개 �
 │   ├── team2_rules.py     #   날짜 판별 규칙
 │   └── pipeline.py        #   보조 경로 (PP-OCR + YOLO)
 ├── METHOD.md  JOURNAL.md  WHERE.md  SUBMISSION_CHECKLIST.md  RULES_QNA.md
+├── 최종_파이프라인_구조.md  파이프라인_설명.md   # 팀 공유 설계 문서
 └── eda/                   # 실험 스크립트 01~67 + 리포트 (채점 대상 아님)
     └── out/
 ```
