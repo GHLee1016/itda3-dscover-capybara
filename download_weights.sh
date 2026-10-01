@@ -67,7 +67,8 @@ except Exception as e:
     print("!! det medium 내려받기 실패(계속 진행):", e)
 for _lang in (LR.KOREAN, LR.EN):
     try:
-        RapidOCR(params={"Rec.lang_type": _lang})
+        RapidOCR(params={"Rec.lang_type": _lang, "Rec.model_type": MT.MOBILE,
+                         "Rec.ocr_version": OV.PPOCRV5})
     except Exception as e:
         print("!! rec %s 내려받기 실패(계속 진행): %s" % (_lang, e))
 
