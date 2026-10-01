@@ -144,7 +144,8 @@ python check_submission.py   # 형식·의존성·가중치·PDF·구문 48개 �
 ├── src/                   # 로직 원본 — 노트북에 내장되어 배포된다
 │   ├── combined.py        #   주력/보조 전환 층
 │   ├── team2_rules.py     #   날짜 판별 규칙
-│   └── pipeline.py        #   보조 경로 (PP-OCR + YOLO)
+│   ├── pipeline.py        #   보조 경로 (PP-OCR + YOLO)
+│   └── rejected_rungs.py  #   기각한 접근법 목록
 ├── notebooks/             # 부가 문서 — METHOD, JOURNAL, 파이프라인 설명, 보고서 등 (채점 대상 아님)
 └── eda/                   # 실험 스크립트 01~67 + 리포트 (채점 대상 아님)
     └── out/

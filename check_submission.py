@@ -51,7 +51,7 @@ chk("셀 수", len(cells) == 15, f"{len(cells)}셀")
 print("\n=== requirements.txt")
 req = io.open("requirements.txt", encoding="utf-8").read()
 for pkg in ("rapidocr==3.9.2", "onnxruntime==1.19.2", "paddleocr==2.7.3",
-            "numpy==1.26.4", "opencv-python==4.10.0.84", "nbconvert", "ipykernel"):
+            "numpy==1.26.4", "opencv-contrib-python==4.6.0.66", "nbconvert", "ipykernel"):
     chk(f"{pkg} 포함", pkg.split("==")[0] in req and (pkg in req or "==" not in pkg))
 chk("torch/ultralytics 없음",
     not re.search(r"^\s*(?:torch|ultralytics)\b", req, re.M))
