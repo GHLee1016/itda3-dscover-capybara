@@ -11,7 +11,7 @@
 | **둘을 합침 (제출 구성)** | **82.3%** | **77.8%** | **0.53초** | **267초** |
 
 제한 2,400초의 **11%** 만 쓴다. 설계 근거는 전부 실측이며
-[METHOD.md](METHOD.md) 와 [eda/out/](eda/out/) 에 기록되어 있다.
+[METHOD.md](notebooks/METHOD.md) 와 [eda/out/](eda/out/) 에 기록되어 있다.
 
 ---
 
@@ -145,9 +145,7 @@ python check_submission.py   # 형식·의존성·가중치·PDF·구문 48개 �
 │   ├── combined.py        #   주력/보조 전환 층
 │   ├── team2_rules.py     #   날짜 판별 규칙
 │   └── pipeline.py        #   보조 경로 (PP-OCR + YOLO)
-├── METHOD.md  JOURNAL.md  WHERE.md  SUBMISSION_CHECKLIST.md  RULES_QNA.md
-├── 최종_파이프라인_구조.md  파이프라인_설명.md   # 팀 공유 설계 문서
-├── notebooks/             # 중간과제 보고서 등 부가 문서 (채점 대상 아님)
+├── notebooks/             # 부가 문서 — METHOD, JOURNAL, 파이프라인 설명, 보고서 등 (채점 대상 아님)
 └── eda/                   # 실험 스크립트 01~67 + 리포트 (채점 대상 아님)
     └── out/
 ```

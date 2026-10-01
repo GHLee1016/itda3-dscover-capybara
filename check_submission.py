@@ -77,10 +77,12 @@ chk("최종 수치 반영", "82.3%" in t and "0.53" in t)
 chk("자리표시자 없음", "팀명_" not in t and "<ORG>" not in t)
 
 print("\n=== 문서")
-for f in ("README.md", "METHOD.md", "JOURNAL.md", "WHERE.md",
-          "SUBMISSION_CHECKLIST.md", "RULES_QNA.md", "download_weights.sh",
-          "requirements-train.txt", "build_notebook.py", "build_pdf.ps1",
-          "publish_release.ps1", "요약서.html"):
+for f in ("README.md", "download_weights.sh", "requirements-train.txt",
+          "build_notebook.py", "publish_release.ps1"):
+    chk(f, os.path.exists(f))
+for f in ("notebooks/METHOD.md", "notebooks/JOURNAL.md", "notebooks/WHERE.md",
+          "notebooks/SUBMISSION_CHECKLIST.md", "notebooks/RULES_QNA.md",
+          "notebooks/build_pdf.ps1", "notebooks/요약서.html"):
     chk(f, os.path.exists(f))
 
 print("\n=== 소스")
