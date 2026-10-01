@@ -46,12 +46,13 @@ chk("보조 경로(DatePipeline) 포함", "class DatePipeline" in all_src)
 chk("날짜 검출기(ONNX) 포함", "class OnnxDateDetector" in all_src)
 chk("결합 층 포함", "class CombinedPipeline" in all_src)
 chk("가중치 없을 때 강하 처리", "det 단독으로 진행" in all_src)
-chk("셀 수", len(cells) == 15, f"{len(cells)}셀")
+chk("셀 수", len(cells) == 17, f"{len(cells)}셀")
+chk("도트 판독기 포함", "class DotCRNN" in all_src)
 
 print("\n=== requirements.txt")
 req = io.open("requirements.txt", encoding="utf-8").read()
 for pkg in ("rapidocr==3.9.2", "onnxruntime==1.19.2", "paddleocr==2.7.3",
-            "numpy==1.26.4", "opencv-contrib-python==4.6.0.66", "nbconvert", "ipykernel"):
+            "numpy==1.26.4", "opencv-python==4.6.0.66", "nbconvert", "ipykernel"):
     chk(f"{pkg} 포함", pkg.split("==")[0] in req and (pkg in req or "==" not in pkg))
 chk("torch/ultralytics 없음",
     not re.search(r"^\s*(?:torch|ultralytics)\b", req, re.M))
@@ -73,16 +74,14 @@ chk("A4 2장", d.page_count == 2 and abs(d[0].rect.width / 72 * 25.4 - 210) < 1,
 t = "\n".join(p.get_text() for p in d)
 chk("텍스트 추출 가능 (스캔본 아님)", len(t) > 3000, f"{len(t)}자")
 chk("팀명 기재", "카피바라" in t)
-chk("최종 수치 반영", "82.3%" in t and "0.53" in t)
+chk("최종 수치 반영", "92.3%" in t and "1.01" in t and "503" in t)
 chk("자리표시자 없음", "팀명_" not in t and "<ORG>" not in t)
 
 print("\n=== 문서")
-for f in ("README.md", "download_weights.sh", "requirements-train.txt",
-          "build_notebook.py", "publish_release.ps1"):
-    chk(f, os.path.exists(f))
-for f in ("notebooks/METHOD.md", "notebooks/JOURNAL.md", "notebooks/WHERE.md",
-          "notebooks/SUBMISSION_CHECKLIST.md", "notebooks/RULES_QNA.md",
-          "notebooks/build_pdf.ps1", "notebooks/요약서.html"):
+for f in ("README.md", "notebooks/METHOD.md", "notebooks/JOURNAL.md", "notebooks/WHERE.md",
+          "notebooks/SUBMISSION_CHECKLIST.md", "notebooks/RULES_QNA.md", "download_weights.sh",
+          "requirements-train.txt", "build_notebook.py", "notebooks/build_pdf.ps1",
+          "publish_release.ps1", "notebooks/요약서.html"):
     chk(f, os.path.exists(f))
 
 print("\n=== 소스")

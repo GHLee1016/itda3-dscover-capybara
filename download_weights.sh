@@ -8,9 +8,10 @@
 # 예외가 나 정량 0점이 되기 때문이다.
 #
 # 받는 것 (합계 약 71MB)
-#   weights/rapidocr/*.onnx   주력 엔진 PP-OCRv6 det/rec/cls   30MB  [필수]
+#   weights/rapidocr/*.onnx   주력 det/rec small + cls, 재시도 det medium/rec 한국어/rec 영문  110MB  [필수]
 #   weights/det|rec|cls/...   보조 엔진 PP-OCRv3 det + v4 rec  30MB  [권장]
 #   weights/yolo/date_v1.onnx 직접 학습한 날짜 검출기          11MB  [권장]
+#   weights/dot/dotcrnn_v1.onnx 직접 학습한 도트 인쇄 판독기    3MB  [권장]
 #
 # 주력만 있어도 동작한다(부분점수 79.8%). 셋 다 있으면 82.3%.
 
@@ -30,7 +31,8 @@ say() { printf '%s\n' "$*"; }
 # --------------------------------------------------------------------------
 RAPID_DST="$DIR/rapidocr"
 if [ -f "$RAPID_DST/PP-OCRv6_det_small.onnx" ] && \
-   [ -f "$RAPID_DST/PP-OCRv6_rec_small.onnx" ]; then
+   [ -f "$RAPID_DST/PP-OCRv6_rec_small.onnx" ] && \
+   [ -f "$RAPID_DST/PP-OCRv6_det_medium.onnx" ]; then
   say "skip (exists): $RAPID_DST"
 else
   mkdir -p "$RAPID_DST"
@@ -40,21 +42,46 @@ dst = sys.argv[1]
 try:
     import rapidocr
     from rapidocr import RapidOCR
+    from rapidocr.utils.typings import (ModelType as MT, LangDet as LD,
+                                        LangRec as LR, OCRVersion as OV)
 except ImportError:
     print("!! rapidocr 가 없다. pip install -r requirements.txt 를 먼저 실행할 것.")
     raise SystemExit(1)
+
+# 인스턴스를 만드는 행위가 모델 다운로드를 유발한다.
+#   1) 기본(det/rec small + cls) — 주력 경로
+#   2) det medium — 재시도 3·4칸. 없으면 미검출이 늘어 정확도가 내려간다
+#   3) rec 한국어·영문 — 재시도 5·6칸.
+#      주력 인식기 rec_small 은 중국어 모델이라 **한글을 제대로 읽지 못한다**.
+#      한글이 날짜에 붙어 있으면(`나 2026.03.11 까지 홍병현`) 그 글자를 엉뚱한
+#      한자로 읽으면서 날짜까지 깨뜨린다. 없으면 홀드아웃4 기준 93.0% → 91.9%.
 try:
-    RapidOCR()            # 최초 1회 인스턴스 생성이 모델 다운로드를 유발한다
+    RapidOCR()
 except Exception as e:
-    print("!! RapidOCR 초기화 실패:", e)
+    print("!! RapidOCR 기본 모델 초기화 실패:", e)
     raise SystemExit(1)
+try:
+    RapidOCR(params={"Det.lang_type": LD.CH, "Det.model_type": MT.MEDIUM,
+                     "Det.ocr_version": OV.PPOCRV6})
+except Exception as e:
+    print("!! det medium 내려받기 실패(계속 진행):", e)
+for _lang in (LR.KOREAN, LR.EN):
+    try:
+        RapidOCR(params={"Rec.lang_type": _lang})
+    except Exception as e:
+        print("!! rec %s 내려받기 실패(계속 진행): %s" % (_lang, e))
+
 src = os.path.join(os.path.dirname(rapidocr.__file__), "models")
+KEEP = ("PP-OCRv6_det_small.onnx", "PP-OCRv6_rec_small.onnx",
+        "ch_ppocr_mobile_v2.0_cls_mobile.onnx", "PP-OCRv6_det_medium.onnx",
+        "korean_PP-OCRv5_rec_mobile.onnx", "en_PP-OCRv5_rec_mobile.onnx")
 n = 0
 for p in glob.glob(os.path.join(src, "*.onnx")):
-    shutil.copy2(p, dst)
-    n += 1
+    if os.path.basename(p) in KEEP:      # 실험용으로 받아둔 다른 모델은 제외
+        shutil.copy2(p, dst)
+        n += 1
 print("copied %d onnx -> %s" % (n, dst))
-raise SystemExit(0 if n else 1)
+raise SystemExit(0 if n >= 2 else 1)
 PYEOF
   [ $? -ne 0 ] && FAIL=1
 fi
@@ -109,6 +136,31 @@ else
 fi
 
 # --------------------------------------------------------------------------
+# 4) 도트 인쇄 판독기 — 직접 학습한 CTC 시퀀스 모델 (ONNX)  [권장]
+#    도트 매트릭스 날짜는 일반 인식기가 글꼴을 학습한 적이 없어
+#    `26.08.13` 을 `2:88:13` 으로 읽는다. 도트 날짜를 합성해 따로 학습했다.
+#    없으면 그 칸만 건너뛴다(미검출이 조금 는다).
+# --------------------------------------------------------------------------
+DOT_URL="${ITDA_DOT_URL:-https://github.com/GHLee1016/itda3-dscover-capybara/releases/download/v1.0/dotcrnn_v1.onnx}"
+DOT_DST="$DIR/dot/dotcrnn_v1.onnx"
+
+if [ -f "$DOT_DST" ]; then
+  say "skip (exists): $DOT_DST"
+elif printf '%s' "$DOT_URL" | grep -q '<ORG>'; then
+  say "!! 도트 판독기 URL 이 설정되지 않았다 (download_weights.sh 의 DOT_URL)."
+  say "   없어도 추론은 동작한다 — 도트 칸만 건너뛴다."
+else
+  mkdir -p "$(dirname "$DOT_DST")"
+  say "downloading $DOT_URL"
+  curl -fL --retry 3 "$DOT_URL" -o "$DOT_DST" || { say "!! 실패: $DOT_URL"; rm -f "$DOT_DST"; }
+  # ONNX 가 외부 데이터 파일을 함께 쓰는 경우 그것도 받는다
+  if [ -f "$DOT_DST" ] && [ ! -f "${DOT_DST}.data" ]; then
+    curl -fsL --retry 2 "${DOT_URL}.data" -o "${DOT_DST}.data" || true
+    [ -s "${DOT_DST}.data" ] || rm -f "${DOT_DST}.data"
+  fi
+fi
+
+# --------------------------------------------------------------------------
 say ""
 say "=== weights/ 점검"
 python - "$DIR" <<'PYEOF'
@@ -118,6 +170,10 @@ need = [
     ("[필수] 주력 det", "rapidocr/PP-OCRv6_det_small.onnx"),
     ("[필수] 주력 rec", "rapidocr/PP-OCRv6_rec_small.onnx"),
     ("[권장] 주력 cls", "rapidocr/ch_ppocr_mobile_v2.0_cls_mobile.onnx"),
+    ("[권장] 재시도 det", "rapidocr/PP-OCRv6_det_medium.onnx"),
+    ("[권장] 재시도 rec 한국어", "rapidocr/korean_PP-OCRv5_rec_mobile.onnx"),
+    ("[권장] 재시도 rec 영문", "rapidocr/en_PP-OCRv5_rec_mobile.onnx"),
+    ("[권장] 도트 판독기", "dot/dotcrnn_v1.onnx"),
     ("[권장] 보조 det", "det/ml/Multilingual_PP-OCRv3_det_infer/inference.pdmodel"),
     ("[권장] 보조 rec", "rec/korean/korean_PP-OCRv4_rec_infer/inference.pdmodel"),
     ("[권장] 보조 cls", "cls/ch_ppocr_mobile_v2.0_cls_infer/inference.pdmodel"),

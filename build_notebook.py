@@ -16,6 +16,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "src", "pipeline.py")          # 보조 경로 (PP-OCR + YOLO)
 SRC_RULES = os.path.join(ROOT, "src", "team2_rules.py")  # 주력 규칙 (팀원2 원문)
 SRC_COMB = os.path.join(ROOT, "src", "combined.py")      # 두 경로를 잇는 층
+SRC_DSEG = os.path.join(ROOT, "src", "dotseg.py")        # 도트 인쇄 줄 분리
+SRC_DCRNN = os.path.join(ROOT, "src", "dotcrnn.py")      # 도트 판독기 (CTC)
 OUT = os.path.join(ROOT, "predict.ipynb")
 
 # 규정 §7: 첫 코드셀은 반드시 이 형태. os.environ.get 을 그대로 유지해야 한다.
@@ -55,13 +57,97 @@ def _need(*parts):
     return p if os.path.exists(p) else None
 
 
+# PaddleOCR 의 C++ 백엔드는 **비ASCII 경로의 모델 파일을 열지 못한다.**
+# 같은 파일을 두 경로에 두고 확인했다.
+#     C:\\Users\\Public\\ocr_models        로딩 성공
+#     ...\\연합 학술제\\weights            (NotFound) Cannot open file ...
+# 그리고 조용히 실패한다 — 아래 try/except 가 보조 경로만 끄고 넘어가므로
+# 에러 없이 정확도만 내려간다(248장에서 6장). 저장소를 한글 폴더에 풀면
+# 이 일이 그대로 일어난다.
+#
+# 그래서 모델 경로가 비ASCII 면 ASCII 임시 폴더로 복사해 그 경로를 넘긴다.
+# **ASCII 환경에서는 아무 일도 하지 않으므로 동작이 바뀌지 않는다.**
+def _ascii_safe(path):
+    if path is None:
+        return None
+    try:
+        path.encode("ascii")
+        return path                      # ASCII — 그대로 쓴다
+    except UnicodeEncodeError:
+        pass
+    import shutil
+    import tempfile
+    global _ASCII_TMP
+    try:
+        _ASCII_TMP
+    except NameError:
+        # tempfile 기본 경로도 사용자명이 비ASCII 면 함께 막힌다
+        # (Windows 의 %TEMP% 는 사용자 폴더 아래에 있다). ASCII 인 후보를 찾아 쓴다.
+        _ASCII_TMP = None
+        # 경로를 박아 쓰지 않는다. PUBLIC 은 Windows 가 설정하는 표준 변수다.
+        for cand in (tempfile.gettempdir(), os.environ.get("PUBLIC"),
+                     "/tmp", os.getcwd()):
+            if not cand:
+                continue
+            try:
+                cand.encode("ascii")
+            except (UnicodeEncodeError, AttributeError):
+                continue
+            if os.path.isdir(cand) and os.access(cand, os.W_OK):
+                _ASCII_TMP = tempfile.mkdtemp(prefix="itda_w_", dir=cand)
+                break
+    if _ASCII_TMP is None:
+        print("[보조] ASCII 임시 경로를 못 찾았다 — 보조 경로를 건너뛴다")
+        return None
+    dst = os.path.join(_ASCII_TMP, os.path.basename(path.rstrip("\\/")))
+    if not os.path.exists(dst):
+        try:
+            if os.path.isdir(path):
+                shutil.copytree(path, dst, dirs_exist_ok=True)
+            else:
+                shutil.copy2(path, dst)
+        except Exception as e:
+            print("[보조] ASCII 경로 복사 실패: %s" % e)
+            return None
+    return dst
+
+
 # ---- 주력 엔진: RapidOCR (PP-OCRv6 det/rec, ONNX) ----
 # 홀드아웃 198장 실측(EDA 63~65): 보조 단독 66.8% / 주력 단독 79.8% / 합쳐서 82.3%
 # 모델 세대 차이가 크다. 보조 경로는 v3 det + v4 rec, 이쪽은 v6 det/rec 다.
 # onnxruntime 기반이라 torch 를 싣지 않는다 — 날짜 검출기와 같은 런타임이다.
 t0 = time.time()
 RAPID, _rapid_src = build_rapid_ocr(os.path.join(LOCAL, "rapidocr"))
-print("[주력] RapidOCR PP-OCRv6 : %s (%.1fs)" % (_rapid_src, time.time() - t0))
+print("[주력] RapidOCR PP-OCRv6 det/rec small : %s (%.1fs)" % (_rapid_src, time.time() - t0))
+
+# ---- 재시도 단계: 더 큰 검출기(PP-OCRv6 det medium) ----
+# 주력이 아무것도 못 읽은 이미지에만 한 번 더 돈다.
+#
+# 근거 (EDA 74~76 실측):
+#   실패 이미지 252장에 설정을 바꿔 가며 돌려 보니, 검출기를 medium 으로 키운 것이
+#   69장(27.4%)을 회수했다. 인식기 쪽 교체는 전부 합쳐도 그보다 작았다.
+#   홀드아웃2 198장에서 83.5% → 87.2% (+3.7%p, 개선 9 / 악화 **0**, p=0.004).
+#
+# 왜 전면 교체가 아니라 재시도인가: medium 을 처음부터 쓰면 라벨 179장에서
+# 맞히던 2장을 망가뜨렸다. 실패분에만 걸면 그 회귀가 구조적으로 0 이 된다.
+t0 = time.time()
+RAPID_RETRY, _retry_src = build_rapid_retry(os.path.join(LOCAL, "rapidocr"))
+print("[재시도] RapidOCR det medium : %s (%.1fs)" % (_retry_src, time.time() - t0))
+
+# ---- 재시도 단계: 인식기를 바꾼다 (한국어 → 영문) ----
+# 주력 인식기 PP-OCRv6_rec_small 은 중국어 모델이라 **한글을 제대로 읽지 못한다**.
+# 날짜 자체는 숫자라 읽지만, 한글이 날짜에 바로 붙어 있으면 그 글자를 엉뚱한
+# 한자로 읽으면서 날짜까지 함께 깨뜨린다 (EDA 101~102).
+#   `나 2026.03.11 까지 홍병현`  → NONE-03-11 에 머물렀다
+#   `유통2023.01.05까지`         → 아무것도 못 냈다
+# 이 칸들도 앞 칸이 실패한 이미지에만 돈다. 580장에서 개선 6 / 악화 1.
+# (REC_KOREAN·REC_EN 은 combined.py 가 정의한 **파일명** 상수다. 엔진 변수는
+#  이름이 겹치지 않도록 _ENG 를 붙인다.)
+t0 = time.time()
+REC_KO_ENG, _ko_src = build_rapid_rec(os.path.join(LOCAL, "rapidocr"), REC_KOREAN)
+REC_EN_ENG, _en_src = build_rapid_rec(os.path.join(LOCAL, "rapidocr"), REC_EN)
+print("[재시도] rec 한국어 : %s / rec 영문 : %s (%.1fs)"
+      % (_ko_src, _en_src, time.time() - t0))
 
 
 # ---- 보조 엔진: PP-OCRv3 det + 한국어 PP-OCRv4 rec ----
@@ -69,9 +155,10 @@ print("[주력] RapidOCR PP-OCRv6 : %s (%.1fs)" % (_rapid_src, time.time() - t0)
 # 세 모델 디렉터리가 모두 있어야 만든다. 하나라도 없으면 PaddleOCR 이 자동
 # 다운로드를 시도하므로 **아예 만들지 않는다**.
 OCR = None
-_det = _need("det", "ml", "Multilingual_PP-OCRv3_det_infer")
-_rec = _need("rec", "korean", "korean_PP-OCRv4_rec_infer")
-_cls = _need("cls", "ch_ppocr_mobile_v2.0_cls_infer")
+# _ascii_safe 는 경로가 비ASCII 일 때만 ASCII 임시 폴더로 옮긴다 (위 주석 참고).
+_det = _ascii_safe(_need("det", "ml", "Multilingual_PP-OCRv3_det_infer"))
+_rec = _ascii_safe(_need("rec", "korean", "korean_PP-OCRv4_rec_infer"))
+_cls = _ascii_safe(_need("cls", "ch_ppocr_mobile_v2.0_cls_infer"))
 if _det and _rec and _cls:
     try:
         from paddleocr import PaddleOCR
@@ -110,6 +197,9 @@ else:
 if RAPID is None and OCR is None:
     print("\\n[경고] 두 엔진 모두 로딩되지 않았다. `bash download_weights.sh` 를 먼저 실행할 것.")
     print("       제출 형식은 유지되지만 결과는 전부 NONE 이 된다.")
+elif RAPID_RETRY is None:
+    print("\\n[참고] 재시도용 det medium 이 없다. 동작은 하지만 정확도가 낮아진다")
+    print("       (홀드아웃 기준 87.2% → 83.5%). download_weights.sh 로 받을 수 있다.")
 '''
 
 CELL_RUN = '''# 추론
@@ -144,8 +234,17 @@ if OCR is not None:
         fallback.yolo_mode = "always"
     budget.apply(fallback)
 
-# 주력 + 보조를 합친 파이프라인 (설계 근거는 combined.py 주석)
-pipe = CombinedPipeline(RAPID, TEAM2_RULES, fallback)
+# 주력 + 재시도 + 보조를 합친 파이프라인 (설계 근거는 combined.py 주석)
+# ---- 마지막 칸: 도트 인쇄 판독기 ----
+# 도트 매트릭스 날짜는 일반 인식기가 글꼴을 모른다. 합성 데이터로 학습한
+# CTC 모델이 줄 단위로 통째로 읽는다. 영역은 YOLO 가 잡는다.
+# 두 가중치가 다 있어야 돈다. 없으면 이 칸을 건너뛴다.
+DOT, _dot_src = build_crnn(LOCAL)
+print("[재시도] 도트 판독기 : %s" % _dot_src)
+
+pipe = CombinedPipeline(RAPID, TEAM2_RULES, fallback, rapid_retry=RAPID_RETRY,
+                        rec_korean=REC_KO_ENG, rec_en=REC_EN_ENG,
+                        dot=DOT, dot_boxes=DETECTOR)
 
 rows, t0 = [], time.time()
 for i, fname in enumerate(files, 1):
@@ -211,6 +310,21 @@ def main():
     src = open(SRC, encoding="utf-8").read()
     rules = open(SRC_RULES, encoding="utf-8").read()
     comb = open(SRC_COMB, encoding="utf-8").read()
+    dseg = open(SRC_DSEG, encoding="utf-8").read()
+    dcrnn = open(SRC_DCRNN, encoding="utf-8").read()
+    # 노트북에는 모듈이 없다. dotcrnn 이 `import dotseg` 로 쓰는 이름들을
+    # 같은 네임스페이스에서 찾도록, import 줄을 지우고 얇은 대역을 세운다.
+    dseg = dseg.replace("import cv2\nimport numpy as np\n", "")
+    dcrnn = dcrnn.replace("import dotseg\n", "").replace(
+        "import numpy as np\n", "")
+    dcrnn = dcrnn.replace("dotseg.", "_dotseg.")
+    dseg_glue = (
+        "class _DotSeg:\n"
+        "    _binarize = staticmethod(_binarize)\n"
+        "    _stroke_width = staticmethod(_stroke_width)\n"
+        "    _rows = staticmethod(_rows)\n"
+        "    segment = staticmethod(segment)\n"
+        "\n_dotseg = _DotSeg()\n")
     # 노트북 안에서는 모듈이 아니라 한 네임스페이스에 다 올라오므로,
     # combined.py 가 기대하는 이름들을 노트북 문맥에 맞춰 연결한다.
     # (combined.py 의 to_row 가 pipeline.py 의 동명 함수를 가린다 — 의도한 것이다.
@@ -242,6 +356,12 @@ def main():
            "`src/team2_rules.py` (팀원2 박안젤라 원문). OCR 조각을 이어 붙여 후보를 만들고, "
            "소비기한/유통기한 가점·제조일자 감점으로 고른다."),
         code(rules),
+        md("## 도트 인쇄 판독기\n\n"
+           "`src/dotseg.py` + `src/dotcrnn.py`. 도트 매트릭스로 찍힌 날짜는 일반 "
+           "인식기가 글꼴을 학습한 적이 없어 `26.08.13` 을 `2:88:13` 으로 읽는다. "
+           "그래서 도트 날짜를 합성해 CTC 시퀀스 모델을 따로 학습했다. "
+           "앞 칸들이 전부 실패한 이미지에만 돈다."),
+        code(dseg + "\n\n" + dseg_glue + "\n\n" + dcrnn),
         md("## 두 경로를 잇는 층\n\n"
            "`src/combined.py`. RapidOCR 이 실패한 이미지에만 보조 경로를 부른다."),
         code(comb + "\n\n" + glue),

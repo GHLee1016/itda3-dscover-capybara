@@ -136,14 +136,10 @@ for cell in CODE_CELLS:
 STDLIB = set(sys.stdlib_module_names)
 PKG2DIST = {"cv2": "opencv_python", "PIL": "pillow", "sklearn": "scikit_learn",
             "yaml": "pyyaml", "paddleocr": "paddleocr", "paddle": "paddlepaddle"}
-# opencv-contrib-python 도 cv2 를 제공한다 — requirements.txt 에 contrib 로 고정한 경우 대응
-_OPENCV_VARIANTS = {"opencv_python", "opencv_contrib_python", "opencv_python_headless"}
 third = sorted(m for m in imported if m not in STDLIB)
 missing = []
 for m in third:
     dist = PKG2DIST.get(m, m).lower().replace("-", "_")
-    if dist == "opencv_python" and declared & _OPENCV_VARIANTS:
-        continue
     if dist not in declared:
         missing.append(m)
 print("  노트북이 import 하는 외부 패키지:", ", ".join(third) or "없음")

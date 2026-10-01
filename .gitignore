@@ -6,22 +6,21 @@
 #
 # 학습 산출물(yolo_runs/, yolo_ds/)은 재현에 필요 없으므로 함께 제외한다 —
 # 재현 절차는 requirements-train.txt 주석에 적혀 있다.
-weights/
-# 단, 폴더 자체와 주력 엔진(RapidOCR PP-OCRv6) 가중치는 저장소에 동봉한다.
-# 채점 서버는 오프라인이므로 없으면 주력 경로가 비활성화된다.
-!weights/
+# 폴더 자체는 저장소에 남긴다 (규정 구조상 가중치 저장 경로).
+# download_weights.sh 가 이 안을 채운다.
+#
+# ⚠️ `weights/` 가 아니라 `weights/*` 로 적어야 한다. 디렉터리를 통째로 제외하면
+#    git 은 그 안의 파일을 `!` 로 되살리지 못한다. 그래서 .gitkeep 이 빠져
+#    저장소에 weights 폴더가 아예 생기지 않고 있었다.
+weights/*
 !weights/.gitkeep
-!weights/rapidocr/
-!weights/rapidocr/*.onnx
 yolo_runs/
 yolo_ds/
+# 도트 합성 데이터 (배포 이미지 기반이라 재배포하지 않는다. 113단계로 재생성)
+yolo_ds_dot/
 *.pt
 *.pth
-# *.onnx 는 weights/yolo/ 만 제외; rapidocr 는 위 예외(!weights/rapidocr/*.onnx)로 포함된다.
-weights/yolo/*.onnx
-weights/det/
-weights/rec/
-weights/cls/
+*.onnx
 *.safetensors
 *.pdparams
 *.pdmodel
@@ -29,11 +28,6 @@ weights/cls/
 *.pdiparams.info
 *.tar
 *.bin
-
-# --- PDF ---
-# 제출용 PDF: [DScover]_카피바라_아키텍처구조도.pdf  ← 저장소에 포함
-# 잘못된 이름의 구버전 PDF (matplotlib 생성, 이름 형식 오류) 는 제외
-[DScover_카피바라]_아키텍처구조도.pdf
 
 # --- 데이터 ---
 images/
@@ -55,11 +49,22 @@ eda/out/boxfeat.csv
 
 # --- 이 대회와 무관한 파일 ---
 DScover A조 가이드 프로젝트 중간발표 대본*.docx
+# 능동학습·파운데이션 모델 연구 정리 — 다른 프로젝트 문서다
+능동학습_파운데이션모델_종합정리.md
 
 # --- 업로드용 스테이징 사본 (eda/68_stage_repo.py 가 만든다) ---
 # 저장소에 올릴 파일만 골라 담은 폴더. 그 자체를 커밋하면 안 된다.
 _github_upload/
 깃업로드_안내.md
+
+# --- 압축 사본 (내용은 전부 저장소에 따로 들어 있다) ---
+# 팀원공유/ 는 위에서 제외했는데 그 zip 이 따로 걸러지지 않아 들어갔었다.
+*.zip
+
+# 요약서 PDF 는 루트에 있다. 중간과제/ 의 것은 제출 묶음용 사본이라 중복.
+# ⚠️ `[` `]` 는 글롭 문자클래스다. 리터럴로 맞추려면 이스케이프해야 한다 —
+#    `[DScover]` 라고 쓰면 'D,S,c,o,v,e,r 중 한 글자'가 되어 안 맞는다.
+중간과제/\[DScover\]_카피바라_아키텍처구조도.pdf
 
 # --- 파이썬 ---
 .venv/
@@ -78,7 +83,21 @@ __pycache__/
 yolo_시각화/
 오답사진/
 
+# --- 검토용으로 만든 로컬 폴더 (이미지 사본이라 재배포하지 않는다) ---
+오답모음/
+팀원공유/
+라벨대조/
+라벨대조2/
+실패샘플_P6/
+
+# --- 실행 산출물 (재현하면 다시 생긴다) ---
+# run_local.py / predict.ipynb 가 만드는 제출 파일. 입력에 따라 달라지므로
+# 저장소에 박아 두면 오해를 준다. 형식 예시는 README 에 적어 두었다.
+submission.csv
+executed.ipynb
+*_executed.ipynb
+
 # --- 기타 ---
+*.bak
 .DS_Store
 Thumbs.db
-*.onnx

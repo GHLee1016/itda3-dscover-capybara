@@ -31,7 +31,10 @@ from datex import find_dates
 
 IMG_DIR = os.path.join(ROOT, "images", "상품사진입니다")
 OUT_DIR = os.path.join(ROOT, "eda", "out")
-MODELS = r"C:\Users\Public\ocr_models"
+# 보조 엔진(PaddleOCR) 가중치 경로. ITDA_PADDLE_DIR 로 덮어쓸 수 있다.
+# 기본값이 사용자 폴더 밖인 이유: PaddleOCR 은 비ASCII 경로의 모델을
+# 열지 못한다(한글 사용자명이면 %USERPROFILE% 아래가 전부 막힌다).
+MODELS = os.environ.get("ITDA_PADDLE_DIR", r"C:\Users\Public\ocr_models")
 
 
 def build(rec_batch=6):

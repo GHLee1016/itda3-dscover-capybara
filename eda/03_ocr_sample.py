@@ -28,7 +28,10 @@ OUT_DIR = os.path.join(ROOT, "eda", "out")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # Paddle 의 C++ 로더가 한글 경로를 못 열어 모델은 ASCII 경로에 둔다 (로컬 전용 우회)
-MODELS = r"C:\Users\Public\ocr_models"
+# 보조 엔진(PaddleOCR) 가중치 경로. ITDA_PADDLE_DIR 로 덮어쓸 수 있다.
+# 기본값이 사용자 폴더 밖인 이유: PaddleOCR 은 비ASCII 경로의 모델을
+# 열지 못한다(한글 사용자명이면 %USERPROFILE% 아래가 전부 막힌다).
+MODELS = os.environ.get("ITDA_PADDLE_DIR", r"C:\Users\Public\ocr_models")
 
 _OCR = None
 HANGUL = lambda s: sum("\uac00" <= c <= "\ud7a3" for c in s)
