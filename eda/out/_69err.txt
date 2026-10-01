@@ -1,0 +1,85 @@
+[INFO] 2026-09-24 22:15:09,611 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,612 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,612 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,618 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,658 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-24 22:15:09,658 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-24 22:15:09,658 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-24 22:15:09,658 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-24 22:15:09,725 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,725 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,725 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 22:15:09,725 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 22:15:09,728 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,728 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 22:15:09,730 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,731 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-24 22:15:09,764 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,764 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-24 22:15:09,767 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,769 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-24 22:15:09,771 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,772 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-24 22:15:09,797 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-24 22:15:09,797 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[WARNING] 2026-09-24 22:15:25,007 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:15:27,004 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:16:42,882 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:16:52,860 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:18:04,380 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:18:25,259 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:18:25,270 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:18:25,570 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:18:42,805 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:18:43,190 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:19:02,669 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:19:03,264 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:20:11,528 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:23:17,831 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:23:29,823 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:24:52,928 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:24:53,195 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:25:10,342 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:25:12,041 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:25:24,416 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:25:26,881 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:25:27,096 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:25:48,358 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:27:07,671 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:28:30,139 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:29:52,058 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:29:59,221 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:30:44,892 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:31:18,386 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:31:21,204 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:31:26,374 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:31:40,581 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:31:51,801 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:32:15,968 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:32:31,978 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:33:00,965 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:33:02,646 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:35:02,794 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:40:56,148 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:40:57,537 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:42:08,151 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:42:48,017 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:43:16,701 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:44:38,389 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:44:39,828 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:45:11,979 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:45:22,570 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:47:05,200 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:48:53,388 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:49:23,931 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:50:06,502 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:50:19,102 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:52:36,368 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:54:33,132 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:54:56,469 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:55:50,634 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:55:50,959 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:56:40,825 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:58:15,974 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 22:58:16,731 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-24 23:00:50,831 [RapidOCR] main.py:132: The text detection result is empty

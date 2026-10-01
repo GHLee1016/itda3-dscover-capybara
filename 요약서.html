@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>소비기한 추출 아키텍처 구조도</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+    color: #14171c; background: #fff;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  /* ⚠️ page-break-**after** 로 두면 마지막 페이지 뒤에도 개행이 걸려 빈 페이지가 생긴다.
+     (머메이드 <script> 가 body 의 마지막 자식이라 :last-child 예외도 빗나간다)
+     두 번째 페이지부터 '앞에' 개행을 거는 방식이라야 뒤에 아무것도 남지 않는다. */
+  .page {
+    width: 210mm; height: 296mm; padding: 8mm 11mm 5mm;
+    position: relative; overflow: hidden;
+  }
+  .page + .page { page-break-before: always; }
+
+  /* ---------- 타이포 ---------- */
+  h1 { font-size: 15pt; margin: 0; letter-spacing: -0.3px; }
+  .sub { font-size: 8pt; color: #5b6470; margin-top: 1.8mm; line-height: 1.5; }
+  h2 {
+    font-size: 9.6pt; margin: 0 0 1.2mm; padding-bottom: 0.7mm;
+    border-bottom: 1.6px solid #14171c; letter-spacing: -0.2px;
+  }
+  h2 .pt { float: right; font-size: 7.2pt; color: #6b7480; font-weight: normal; }
+  p { margin: 0 0 1.2mm; font-size: 7.5pt; line-height: 1.45; }
+  .hdr {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 2.4px solid #14171c; padding-bottom: 2.2mm; margin-bottom: 3mm;
+  }
+  /* 왼쪽 제목 블록이 길어져도 오른쪽 메타를 침범하지 않게 한다 */
+  .hdr > div:first-child { flex: 1 1 auto; min-width: 0; padding-right: 5mm; }
+  .hdr .meta { flex: 0 0 auto; font-size: 7.2pt; color: #5b6470;
+               text-align: right; line-height: 1.6; white-space: nowrap; }
+  b, strong { color: #000; }
+  code {
+    font-family: Consolas, "Courier New", monospace; font-size: 0.92em;
+    background: #eef1f4; border-radius: 0.6mm; padding: 0 0.6mm;
+  }
+  .sec { margin-bottom: 2.4mm; }
+
+  /* ---------- 표 ---------- */
+  table { width: 100%; border-collapse: collapse; font-size: 7pt; margin-bottom: 1.6mm; }
+  th, td { border: 0.6px solid #c9cfd6; padding: 0.9mm 1.3mm; text-align: left; vertical-align: top; }
+  th { background: #eef1f4; font-weight: bold; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  tr.good td { background: #eefaf0; }
+  tr.bad td { color: #6b7480; }
+
+  /* ---------- 머메이드 ---------- */
+  .mermaid { text-align: center; margin: 0; }
+  .mermaid svg { max-width: 100%; height: auto; }
+  /* 다이어그램이 페이지를 밀어내지 않도록 상한을 건다 */
+  .d-main .mermaid svg { max-height: 74mm; }
+  .d-side .mermaid svg { max-height: 60mm; }
+  .diagram { border: 1px solid #dde2e7; border-radius: 1.5mm; padding: 2mm 2mm 1mm; background: #fcfdfe; }
+  .dcap { font-size: 6.6pt; color: #6b7480; text-align: center; margin-top: 0.5mm; }
+
+  /* ---------- KPI ---------- */
+  .kpi { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2mm; }
+  .kpi .k { border: 1px solid #14171c; border-radius: 1.2mm; padding: 1.2mm 1mm; text-align: center; }
+  .kpi .k .v { font-size: 13.5pt; font-weight: bold; letter-spacing: -0.5px; }
+  .kpi .k .l { font-size: 6.4pt; color: #4c5662; margin-top: 0.5mm; line-height: 1.3; }
+
+  /* ---------- 막대 비교 ---------- */
+  .bars { font-size: 7pt; }
+  .bar { display: grid; grid-template-columns: 52mm 1fr 12mm; align-items: center; gap: 1.5mm; margin-bottom: 1.1mm; }
+  .bar .nm { text-align: right; line-height: 1.25; }
+  .bar .tr { background: #eef1f4; border-radius: 0.8mm; height: 4.6mm; position: relative; }
+  .bar .fl { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0.8mm; background: #9aa4b0; }
+  .bar.win .fl { background: #1f6feb; }
+  .bar.best .fl { background: #17663a; }
+  .bar .vl { font-weight: bold; text-align: right; }
+
+  .note {
+    border-left: 2.4px solid #14171c; background: #f5f7f9;
+    padding: 1.2mm 2mm; font-size: 7.2pt; line-height: 1.45; margin-bottom: 1.4mm;
+  }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm; }
+  .foot { margin-top: -1mm;
+    position: absolute; left: 11mm; right: 11mm; bottom: 4.5mm;
+    font-size: 6.2pt; color: #8b95a1; border-top: 0.6px solid #e2e6ea; padding-top: 1mm;
+    display: flex; justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== 1 페이지 ==================== -->
+<div class="page">
+
+  <div class="hdr">
+    <div>
+      <h1>상품 뒷면 이미지 소비기한 추출: 파이프라인 아키텍처</h1>
+      <div class="sub">
+        CPU 단독·40분 제한을 기준으로, <b>비용이 저렴한 칸에서 대부분을 처리하고
+        실패한 이미지에만 비용이 더 큰 칸을 계단식으로 적용</b>했다.<br>
+        직접 라벨링한 828장으로 설계·검증했으며, 최종 성능은
+        <b>한 번도 설계에 사용하지 않은 248장</b>에서 측정했다.
+      </div>
+    </div>
+    <div class="meta">제3회 ITDA 연합학술제 본선<br><b>[DScover]_카피바라</b><br>2026-10-03</div>
+  </div>
+
+  <div class="diagram d-main">
+    <pre class="mermaid">
+flowchart LR
+    IN(["상품 뒷면<br/>이미지"]) --> RS["긴 변<br/>1024px"]
+
+    subgraph T1["① 주력 · 82% 가 여기서 끝난다 · 중앙값 0.40초"]
+        direction LR
+        RS --> ROCR["RapidOCR<br/><b>PP-OCRv6</b><br/>det small + rec"]
+        ROCR --> RULE{"날짜<br/>판별"}
+    end
+
+    subgraph T2["② 재시도 계단 · 실패한 이미지에만 · 악화 구조적으로 0"]
+        direction LR
+        ADP["adaptive<br/>threshold"] --> MED["<b>det medium</b><br/>59MB"]
+        MED --> CLA["<b>CLAHE</b><br/>+ det medium"]
+        CLA --> RKO["<b>rec 한국어</b><br/>→ rec 영문"]
+        RKO --> DOT["<b>도트 판독기</b><br/>CTC · 직접 학습"]
+    end
+
+    subgraph T3["③ 보조 · 그래도 실패한 것만 · 2.19초/장"]
+        direction LR
+        DET["PP-OCRv3 det<br/>+ <b>YOLOv8n</b><br/>날짜영역 검출"] --> REC["PP-OCRv4 rec<br/>+ 박스 필터"]
+        REC --> MRG{"병합·정규식<br/>후보 선택"}
+    end
+
+    RULE == "온전한 날짜" ==> OUT
+    RULE -- "못 찾음" --> ADP
+    DOT -- "끝내 실패" --> DET
+    MRG == "날짜 확정" ==> OUT
+    MRG -- 실패 --> PAR
+
+    PAR["모아 둔<br/><b>부분 결과</b>"] --> OUT
+    OUT(["year · month · day<br/>확인된 필드만 채움"])
+
+    classDef main fill:#e8f1ff,stroke:#1f6feb,stroke-width:1.5px,color:#0b2545;
+    classDef sub fill:#f4f5f7,stroke:#8b95a1,color:#2b323a;
+    classDef io fill:#14171c,stroke:#14171c,color:#fff;
+    classDef dec fill:#fff8e6,stroke:#b8860b,stroke-width:1.2px,color:#3d2f00;
+    class ROCR,RS main;
+    class DET,REC,ADP,MED,CLA,RKO,DOT,PAR sub;
+    class IN,OUT io;
+    class RULE,MRG dec;
+    </pre>
+    <div class="dcap">굵은 화살표 = 날짜를 확정해 빠져나가는 경로 · 각 칸은 <b>온전한 날짜</b>만 성공으로 인정한다</div>
+  </div>
+
+  <table style="margin-top:1.5mm">
+    <tr><th style="width:22mm">단계</th><th>하는 일</th><th style="width:62mm">이렇게 한 근거 (실측)</th></tr>
+    <tr><td><b>RapidOCR</b></td><td>PP-OCRv6 det + rec 를 ONNX 로 한 번에. 30MB</td>
+        <td><b>엔진 세대가 성능을 갈랐다.</b> 같은 평가셋에서 v3+v4 조합 66.8%, v6 조합 79.8%</td></tr>
+    <tr><td><b>재시도 계단</b></td><td>실패한 이미지에만 det medium → CLAHE 를 차례로 적용</td>
+        <td>det medium 을 처음부터 사용하면 <b>맞히던 2장이 망가진다.</b>
+          실패분에만 걸면 그 회귀가 사라져 최종 판정에서 <b>악화 0장</b></td></tr>
+    <tr><td><b>온전한 날짜만<br>성공 처리</b></td><td>반쪽짜리는 모아 두었다가 모든 칸이 실패했을 때만 사용</td>
+        <td>부분 결과가 계단을 멈춰 세워, 다음 칸이 <code>2021.11.19</code>를 읽을 수 있는데도
+          <code>NONE-11-19</code>에 머물렀다. <b>이 한 줄이 가장 큰 기여</b></td></tr>
+    <tr><td><b>박스 필터</b></td><td>rec 없이 계산되는 영상 특징으로 상위 K개만 통과</td>
+        <td>rec 가 보조 경로 비용의 <b>80.9%</b>를 차지하는데, det 가 제안한
+          전체 박스 26,499개 중 날짜가 파싱되는 것은 <b>0.63%</b>(167개)뿐이다</td></tr>
+  </table>
+
+  <div class="kpi" style="margin-top:2mm">
+    <div class="k"><div class="v">92.3%</div><div class="l">필드 정확도<br>(미사용 248장)</div></div>
+    <div class="k"><div class="v">1.01초</div><div class="l">장당 처리시간<br>(500장 순차 실측)</div></div>
+    <div class="k"><div class="v">21%</div><div class="l">500장 503초<br>제한 2,400초 대비</div></div>
+    <div class="k"><div class="v">828장</div><div class="l">직접 라벨링<br>(배포분의 24.7%)</div></div>
+  </div>
+  <div class="dcap" style="text-align:left;margin-top:1.2mm">
+    <b>필드 정확도</b>: 연·월·일을 각각 독립 채점해 맞힌 필드 수 ÷ 전체 필드 수(248장 × 3필드 = 744).
+    운영진 채점 방식(부분점수)과 동일하며 95% 신뢰구간은 90.2~94.0%.
+    <b>장당 처리시간</b>: 제출 노트북과 같은 <b>단일 프로세스 순차 루프</b>로 측정했다.
+  </div>
+
+  <div class="sec" style="margin-top:2mm">
+    <h2>본선 라운드에서 무엇이 얼마나 기여했는가<span class="pt">개선 근거</span></h2>
+    <div class="dcap" style="text-align:left;margin:0 0 1.4mm">
+      기여도는 라벨 580장에서 하나씩 붙여 가며 측정했다(기준선 = 예선 구성 92.4%).
+      <b>이 표본은 오답을 직접 들여다봤으므로 낙관 편향이 있다.</b> 절대 수치는 미사용 248장을 쓴다.
+    </div>
+    <table style="margin:0">
+      <tr><th>붙인 것</th><th style="width:19mm">필드 정확도<br>(580장)</th><th style="width:14mm">기여</th><th style="width:56mm">왜 이것을 붙였는가</th></tr>
+      <tr><td><b>부분 결과가 계단을 막던 버그</b></td><td class="n">92.9%</td><td class="n"><b>+0.5%p</b></td>
+          <td>OCR 이 정확히 읽은 날짜를 반쪽짜리 결과가 가로막고 있었다</td></tr>
+      <tr><td>규칙 보강 3종</td><td class="n">93.9%</td><td class="n"><b>+1.0%p</b></td>
+          <td><code>01 SEP 2023</code>·<code>JUL 22 21</code> 형식 추가, <code>202512.20</code> 구분자 결손 처리,
+            <code>2026.08</code>+<code>22:14</code>에서 시각이 일(日)로 먹히던 것 차단</td></tr>
+      <tr><td>CLAHE 재시도 칸</td><td class="n">94.1%</td><td class="n">+0.2%p</td>
+          <td>전처리 11종 중 유일하게 남은 것. 회수는 23장 중 3장뿐이었다</td></tr>
+      <tr><td><b>인식기를 바꾼 칸</b><br>(한국어 → 영문)</td><td class="n">—</td><td class="n"><b>+1.1%p</b></td>
+          <td>주력 인식기가 <b>중국어 모델이라 한글을 못 읽는다.</b> 한글이 날짜에 붙어 있으면
+            (<code>유통2023.01.05까지</code>) 날짜까지 깨진다. 이 수치는 미사용 표본에서 잰 것</td></tr>
+      <tr><td><b>도트 판독기</b><br>(직접 학습, CTC)</td><td class="n">—</td><td class="n">+0.2%p</td>
+          <td>일반 인식기는 <code>26.08.13</code>→<code>2:88:13</code> 로 읽는다. <b>글꼴을 배운 적이 없어서다.</b>
+            도트 날짜를 합성해 따로 학습했다. 미검출 12→10장</td></tr>
+    </table>
+    <div class="note" style="margin-top:1.6mm;margin-bottom:0">
+      <b>미사용 248장 최종: 92.3% (95% 신뢰구간 90.2~94.0%).</b> 예선 구성과의 비교는
+      88.5% → 91.9%(+3.4%p, 개선 7장 / <b>악화 0장</b>, p=0.0156)이고 인식기 칸이 +1.1%p 를 더했다.
+      악화 0장은 구조 때문이다 — 재시도 칸은 실패한 이미지에만 진입한다.
+    </div>
+  </div>
+
+  <div class="sec" style="margin-bottom:0">
+    <h2>실측으로 기각한 선택지: 채택한 것보다 기각한 것이 많다<span class="pt">논리성 증거</span></h2>
+    <div class="two" style="gap:3.5mm">
+      <table style="margin-bottom:0">
+        <tr><th>시도</th><th>측정 결과</th></tr>
+        <tr class="bad"><td>입력 해상도 상향 (960→3200px)</td><td>recall 불변, 비용 1.7배</td></tr>
+        <tr class="bad"><td>단일 전처리 13종 상시 적용</td><td>+3.0%p, p=0.201</td></tr>
+        <tr class="bad"><td>크롭 TTA (박스 변형 재인식)</td><td>68.4% → 62.5%</td></tr>
+        <tr class="bad"><td>느슨한 꼬리 패턴 추가</td><td>64.5% → 63.8%</td></tr>
+        <tr class="bad"><td><b>흐릿한 사진 전용 전처리</b></td><td>오답이 오히려 또렷했다 (458 대 412)</td></tr>
+      </table>
+      <table style="margin-bottom:0">
+        <tr><th>시도</th><th>측정 결과</th></tr>
+        <tr class="bad"><td>위원회 기반 액티브 러닝</td><td>무작위 표집 대비 이득 없음</td></tr>
+        <tr class="bad"><td>EasyOCR 파이프라인 결합</td><td><b>+0.0%p</b> (상호보완 0장)</td></tr>
+        <tr class="bad"><td>EAN-13 바코드로 연도 순서 판별</td><td>발동 가능 이미지 0장</td></tr>
+        
+        <tr class="bad"><td><b>det server 재시도 칸</b> (109MB)</td><td>다른 집합 17장 → 평가셋 <b>0장</b></td></tr>
+        <tr class="bad"><td><b>1600px 재시도 칸</b></td><td>580장 +0.6%p → 미사용 표본 <b>0장</b></td></tr>
+        <tr class="bad"><td><b>도트용 YOLO 파인튜닝</b></td><td>새로 2장 → <b>잡던 것 6장 놓침</b></td></tr>
+        <tr class="bad"><td><b>다수결</b> (세 파이프라인 / 여덟 칸)</td><td>79.8%→69.2% · 93.6%→93.4%</td></tr>
+      </table>
+    </div>
+    <p style="font-size:6.9pt;margin:1mm 0 0">모든 채택 판정을 <b>설계에 사용하지 않은 평가셋</b>으로만
+      내렸다. 그 덕분에 <b>1600px 칸</b>처럼 오염된 표본에서만 좋아 보이던 변경을 걸러낼 수 있었다.</p>
+  </div>
+
+  <div class="foot">
+    <span>1 / 2 · 전체 파이프라인 아키텍처 구조도</span>
+    <span>실측 근거: 저장소 <code>METHOD.md</code> · <code>JOURNAL.md</code> · <code>eda/out/</code> 97단계 실험 기록</span>
+  </div>
+</div>
+
+<!-- ==================== 2 페이지 ==================== -->
+<div class="page">
+
+  <div class="hdr">
+    <div>
+      <h1>설계 논리 · CPU 최적화 전략 · 활용 계획</h1>
+      <div class="sub">채택한 것보다 <b>기각한 것</b>이 더 많다. 아래 수치는 전부 직접 측정했고, 틀렸던 판단도 그대로 남겼다.</div>
+    </div>
+    <div class="meta">제3회 ITDA 연합학술제 본선<br><b>[DScover]_카피바라</b><br>2026-10-03</div>
+  </div>
+
+  <div class="sec">
+    <h2>1. 어떤 숫자가 소비기한인가: 판별 규칙<span class="pt">설계 의도</span></h2>
+    <div class="two" style="gap:3mm">
+      <div class="diagram d-side" style="padding:1.5mm 1mm 0.5mm">
+        <pre class="mermaid">
+flowchart TD
+    S["OCR 텍스트 조각들"] --> J["원문 + 인접 2개 + 인접 3개<br/>이어 붙여 후보 생성"]
+    J --> P["날짜 정규식<br/>4자리 연도 → 영문 월이름<br/>→ 연도 후행 → 2자리 연도"]
+    P --> V{"달력에 실존하는가<br/>2026-02-30 제거"}
+    V -->|"아니오"| X["부분 구제<br/>2025-05-NONE"]
+    V -->|"예"| K["문맥 키워드 가중"]
+    K --> W["소비기한·유통기한·EXP +<br/>제조일자·포장일·MFG·LOT −"]
+    W --> C["최고점 후보 선택"]
+    X --> C
+    classDef a fill:#e8f1ff,stroke:#1f6feb,color:#0b2545;
+    classDef b fill:#fff8e6,stroke:#b8860b,color:#3d2f00;
+    classDef c fill:#eefaf0,stroke:#17663a,color:#06301a;
+    class J,P a; class V b; class C c;
+        </pre>
+      </div>
+      <div>
+        <p><b>이것이 과제의 본질이다.</b> 상품 뒷면에는 제조일자·바코드·품목보고번호·전화번호·영양성분이
+          함께 인쇄돼 있어, 날짜 형태의 숫자를 찾는 것만으로는 부족하다.
+          <b>그중 무엇이 소비기한인지</b>를 가려야 한다.</p>
+        <p>OCR 은 <code>2022</code>와 <code>02.14</code>를 다른 줄로 끊는데, 인접 조각을 이어 붙이면
+          복구된다. <b>비용 0에 48% → 68%</b>로 단일 최대 개선이었다.</p>
+        <table style="margin-bottom:0">
+          <tr><th>규칙</th><th>실측 근거</th></tr>
+          <tr><td>4자리 연도 우선</td><td>정밀도 99.2% (2자리는 79.4%)</td></tr>
+          <tr><td>제조/소비 쌍이면 늦은 날짜</td><td>해당 사례 전부에서 성립</td></tr>
+          <tr><td>9자리+ 숫자 내부 매치 차단</td><td>품목보고번호 <code>20130628332176</code> 오탐</td></tr>
+          <tr><td>미래성 필터 금지</td><td>정답에 2020~2022년 과거 날짜 다수</td></tr>
+          <tr><td>부분 필드 출력</td><td>연·월·일이 독립 채점이므로 버리지 않고 회수</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>2. 제한된 CPU 환경에서의 속도·오탐 최적화<span class="pt">최적화 전략</span></h2>
+    <div class="two" style="gap:3.5mm">
+      <div>
+        <table>
+          <tr><th>전략</th><th>근거가 된 실측</th></tr>
+          <tr class="good"><td><b>비용이 저렴한 경로로 90% 처리</b><br>2계층 구조</td><td>주력 0.37초 / 보조 2.19초.<br>보조가 필요한 이미지는 전체의 5%</td></tr>
+          <tr class="good"><td><b>인식 호출을 줄인다</b><br>박스 사전 필터(보조)</td><td>rec 가 보조 경로 비용의 80.9%.<br>det 박스 26,499개 중 날짜는 0.63%</td></tr>
+          <tr class="good"><td><b>해상도를 낮춘다</b><br>960 → 640px (보조)</td><td>위로만 시험한 것이 실수였다.<br>내리자 정확도 +8.8%p, 비용 62%</td></tr>
+          <tr class="good"><td><b>실패한 것만 재시도</b><br>적응형 재시도</td><td>상시 전처리는 유의성 없음(p=0.201).<br>성공한 이미지를 오히려 손상시킨다</td></tr>
+          <tr class="good"><td><b>torch 를 포함하지 않는다</b><br>전 경로 ONNX</td><td>임포트만 해도 2.76 → 5.88초/장.<br>paddle 과 OpenMP 스레드를 경합한다</td></tr>
+        </table>
+      </div>
+      <div>
+        <table>
+          <tr><th>측정 기준</th><th class="n">장당</th><th class="n">500장 환산</th><th class="n">제한 대비</th></tr>
+          <tr><td colspan="4" style="background:#f5f7f9;font-size:6.6pt">① 추론 루프만 (모델 로딩 제외, 60장)</td></tr>
+          <tr class="bad"><td>torch 포함 환경 (참고)</td><td class="n">5.88초</td><td class="n">2,939초</td><td class="n">122% ✕</td></tr>
+          <tr><td>보조 경로 단독</td><td class="n">2.19초</td><td class="n">1,096초</td><td class="n">46%</td></tr>
+          <tr><td>주력 경로 단독</td><td class="n">0.37초</td><td class="n">184초</td><td class="n">8%</td></tr>
+          <tr><td>1차 예선 제출 구성</td><td class="n">0.53초</td><td class="n">267초</td><td class="n">11%</td></tr>
+          <tr><td colspan="4" style="background:#f5f7f9;font-size:6.6pt">② 본선 구성 · 단일 프로세스 순차 (<b>채점과 같은 500장</b>)</td></tr>
+          <tr class="good"><td><b>계단 7칸 + 보조</b></td><td class="n"><b>1.01초</b></td><td class="n"><b>503초</b></td><td class="n"><b>21%</b></td></tr>
+        </table>
+        <p style="font-size:6.8pt;margin-bottom:1.4mm">
+          계단이 늘어 예선 구성보다 1.9배 느려졌지만 제한의 21% 로 여유가 있다.
+          <b>80% 가 1칸에서 끝나고</b>(중앙값 0.39초) 계단을 오르는 20% 가 시간을 쓴다. 꼬리가 무거워
+          (상위 1% 11.1초) 표본이 작으면 평균이 낙관적으로 나온다 — 그래서 채점과 같은 500장으로 쟀다.
+</p>
+        <p style="font-size:7pt;margin-bottom:0">가장 큰 속도 저하는 torch 가 포함된 환경에서 발생했다.
+          <code>set_num_threads(1)</code>·<code>KMP_BLOCKTIME=0</code>·<code>OMP_WAIT_POLICY=PASSIVE</code>를
+          모두 시도했지만 6초대에서 내려오지 않아 500장이 제한을 초과했다. 가중치를 ONNX 로 내보내
+          torch 를 <b>제거</b>하는 것이 해법이었고(변환 전후 박스 IoU 1.000 확인), 후보였던 EasyOCR
+          파이프라인도 같은 이유로 탈락했다. 그 결과 <b>정확도를 높이면서 속도도 함께 개선됐다.</b></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>3. 데이터 직접 라벨링<span class="pt">가산점 증빙</span></h2>
+    <div class="two" style="gap:3.5mm">
+      <div>
+        <p style="font-size:7.3pt">배포 데이터 3,352장은 <b>정답 라벨이 전혀 없다.</b> 자체 도구(<code>label/index.html</code>)를
+          만들어 직접 판독·검수한 <b>728장</b>(배포분의 21.7%)으로 설계하고 검증했다.
+          <b>이 라벨이 없었다면 세 파이프라인 중 어느 것이 나은지 판단할 방법 자체가 없었다.</b>
+          실제로 최종 채택된 구성은 자체 평가("값이 채워진 행 수")만으로는 열세로 보이던 쪽이었다.</p>
+        <div class="note" style="font-size:6.9pt;margin-bottom:0">
+          <b>평가셋을 세 번 새로 만들었다.</b> 오답을 한 장씩 들여다보며 고치면 그 표본은
+          더 이상 성능의 근거가 되지 못한다. 그래서 오답 검토에 사용한 표본은 버리고
+          남은 이미지에서 새로 뽑아 라벨링하기를 반복했다. 편향의 크기도 직접 측정했다.
+          오답을 들여다본 <b>580장에서는 94.1%</b>, 한 번도 사용하지 않은
+          <b>148장에서는 91.9%</b> 로, 그 차이 <b>2.2%p</b> 가 낙관 편향이다.
+          보고하는 수치는 <b>91.9%</b>(95% 신뢰구간 89.0~94.1%)이다.
+        </div>
+      </div>
+      <div>
+        <table style="margin-bottom:0">
+          <tr><th>집합</th><th class="n">장수</th><th>용도 · 상태</th></tr>
+          <tr><td>튜닝셋</td><td class="n">137</td><td>규칙 설계·파라미터 결정</td></tr>
+          <tr><td>1차 홀드아웃</td><td class="n">48</td><td>연도 후행형 버그 발견</td></tr>
+          <tr><td>2차 홀드아웃</td><td class="n">198</td><td>예선 판정 · 이후 오답 검토로 소진</td></tr>
+          <tr><td>3차 홀드아웃</td><td class="n">197</td><td>중간 판정 · 오답 검토로 소진</td></tr>
+          <tr class="good"><td><b>4차 홀드아웃</b></td><td class="n"><b>148</b></td><td><b>본선 최종 판정 (미사용 표본)</b></td></tr>
+        </table>
+        <p style="font-size:6.9pt;margin:1.3mm 0 0">라벨링 기준은 문서로 먼저 고정했다. 소비기한과
+          제조일자가 함께 인쇄되면 <b>늦은 쪽</b>, 일부 필드만 읽히면 <b>그 필드만</b>,
+          판독 불가·중의적인 7장은 <b>제외</b>. 무작위 30장을 사람이 다시 읽어 대조했을 때
+          <b>30/30 일치</b>했다(0건 오류의 95% 신뢰상한은 약 10%).</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>4. 추후 활용 계획 및 확장성<span class="pt">활용 전략</span></h2>
+    <table style="margin-bottom:0">
+      <tr><th style="width:38mm">적용 도메인</th><th style="width:56mm">운영 구조</th><th>이 아키텍처가 맞는 이유</th></tr>
+      <tr><td><b>편의점·마트 유통기한 관리</b><br>진열대 촬영 → 임박 상품 자동 집계</td>
+          <td>온디바이스(모바일 CPU). 주력 엔진만 사용하면 30MB·0.37초/장.
+            추론 단계에서 서버 왕복이 없어 네트워크 의존성과 통신 비용을 줄일 수 있음</td>
+          <td>GPU 를 전제하지 않아 <b>그대로 단말에 올라간다.</b> 성능이 낮은 단말은 <b>보조 경로를 꺼서</b> 축소 운용</td></tr>
+      <tr><td><b>푸드뱅크 기부 식품 선별</b><br>기부 물품의 잔여 기한 일괄 판정</td>
+          <td>배치 서버. 단일 프로세스 시간당 약 6,800장, 코어 수만큼 병렬 확장</td>
+          <td>필드별 부분 출력(<code>NONE-08-25</code>)이 <b>사람 검수 대상을 좁혀 준다</b></td></tr>
+      <tr><td><b>물류창고 입출고 자동화</b><br>입고 시 기한 판독 → 선입선출</td>
+          <td>엣지 게이트웨이 + 컨베이어 카메라</td>
+          <td><b>확장 경로는 엔진 교체다.</b> OCR 엔진과 날짜 판별 규칙을 분리해, 엔진 교체 시
+            후처리 로직을 재사용할 수 있도록 설계했다</td></tr>
+    </table>
+  </div>
+
+  <div class="foot">
+    <span>2 / 2 · 설계 논리 및 최적화·활용 전략</span>
+    <span>모델: RapidOCR PP-OCRv6 det small/medium + rec (사전학습) + PP-OCRv3/v4 + YOLOv8n (직접 학습) · 전 과정 CPU</span>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: "neutral",
+    securityLevel: "loose",          // 노드 라벨 안의 <b> 태그를 쓰기 위해
+    flowchart: { htmlLabels: true, curve: "basis", nodeSpacing: 24, rankSpacing: 26 },
+    themeVariables: {
+      fontFamily: "Malgun Gothic, 맑은 고딕, sans-serif",
+      fontSize: "12px"
+    }
+  });
+</script>
+</body>
+</html>

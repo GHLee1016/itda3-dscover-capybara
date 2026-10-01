@@ -1,0 +1,88 @@
+[INFO] 2026-09-25 00:38:41,761 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,761 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,761 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,761 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,806 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:38:41,807 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:38:41,811 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:38:41,811 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:38:41,872 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,873 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:38:41,875 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,875 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:38:41,883 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,883 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:38:41,894 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,897 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:38:41,931 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,932 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:38:41,932 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,933 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:38:41,938 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,939 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:38:41,943 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:38:41,944 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[WARNING] 2026-09-25 00:39:21,062 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-25 00:39:44,572 [RapidOCR] main.py:132: The text detection result is empty
+[INFO] 2026-09-25 00:41:19,378 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,378 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,379 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,380 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,437 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:41:19,439 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:41:19,439 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:41:19,440 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-25 00:41:19,506 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,506 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:19,513 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,518 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:19,523 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,524 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:19,526 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,527 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:19,559 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,560 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:19,566 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,567 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:19,570 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,571 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:19,578 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:19,579 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\weights\rapidocr\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:22,865 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:22,914 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:22,915 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:22,941 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:22,947 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:22,985 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:22,986 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:22,987 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:22,989 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:22,990 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:23,030 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:23,031 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-09-25 00:41:23,034 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,036 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,037 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,070 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,086 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:23,086 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:23,129 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,130 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,131 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,132 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,132 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,132 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,165 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,167 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,169 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,171 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,171 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-25 00:41:23,180 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:23,181 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:23,182 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:23,182 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:23,225 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-25 00:41:23,242 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-25 00:41:23,243 [RapidOCR] main.py:63: Using C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[WARNING] 2026-09-25 00:41:56,699 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-09-25 00:42:15,528 [RapidOCR] main.py:132: The text detection result is empty

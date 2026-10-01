@@ -1,0 +1,8122 @@
+{
+ "000001.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-06-26",
+   "rec_medium": "2027-06-26",
+   "rec_korean": "2027-06-26",
+   "rec_en": "2027-06-26"
+  },
+  "sec": {
+   "rec_small (현재)": 3.326,
+   "rec_medium": 6.608,
+   "rec_korean": 3.453,
+   "rec_en": 3.117
+  }
+ },
+ "000002.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-12-11",
+   "rec_medium": "2025-12-11",
+   "rec_korean": "2025-12-11",
+   "rec_en": "2025-12-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.095,
+   "rec_medium": 2.063,
+   "rec_korean": 0.814,
+   "rec_en": 0.913
+  }
+ },
+ "000003.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-05-12",
+   "rec_medium": "2026-05-12",
+   "rec_korean": "2026-05-12",
+   "rec_en": "2026-05-12"
+  },
+  "sec": {
+   "rec_small (현재)": 0.85,
+   "rec_medium": 1.308,
+   "rec_korean": 0.944,
+   "rec_en": 0.836
+  }
+ },
+ "000007.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-25",
+   "rec_medium": "2026-06-25",
+   "rec_korean": "2026-06-25",
+   "rec_en": "2026-06-25"
+  },
+  "sec": {
+   "rec_small (현재)": 3.743,
+   "rec_medium": 9.93,
+   "rec_korean": 4.234,
+   "rec_en": 3.728
+  }
+ },
+ "000008.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-06-29",
+   "rec_medium": "2027-06-29",
+   "rec_korean": "2027-06-29",
+   "rec_en": "2027-06-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.116,
+   "rec_medium": 1.565,
+   "rec_korean": 1.152,
+   "rec_en": 1.175
+  }
+ },
+ "000014.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-01-31",
+   "rec_medium": "2026-01-31",
+   "rec_korean": "2026-01-31",
+   "rec_en": "2026-01-31"
+  },
+  "sec": {
+   "rec_small (현재)": 4.807,
+   "rec_medium": 12.355,
+   "rec_korean": 6.104,
+   "rec_en": 5.316
+  }
+ },
+ "000015.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-01",
+   "rec_medium": "2026-03-01",
+   "rec_korean": "NONE-02-21",
+   "rec_en": "NONE-02-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.992,
+   "rec_medium": 3.415,
+   "rec_korean": 2.127,
+   "rec_en": 1.852
+  }
+ },
+ "000020.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-09",
+   "rec_medium": "2025-10-09",
+   "rec_korean": "2025-10-09",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.237,
+   "rec_medium": 2.337,
+   "rec_korean": 1.335,
+   "rec_en": 1.026
+  }
+ },
+ "000021.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-10",
+   "rec_medium": "2025-10-10",
+   "rec_korean": "2025-10-10",
+   "rec_en": "2025-10-10"
+  },
+  "sec": {
+   "rec_small (현재)": 1.059,
+   "rec_medium": 1.966,
+   "rec_korean": 1.046,
+   "rec_en": 1.349
+  }
+ },
+ "000022.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-14",
+   "rec_medium": "2025-10-14",
+   "rec_korean": "2025-10-14",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.383,
+   "rec_medium": 2.679,
+   "rec_korean": 1.319,
+   "rec_en": 1.217
+  }
+ },
+ "000023.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-10",
+   "rec_medium": "2025-10-10",
+   "rec_korean": "2025-10-10",
+   "rec_en": "2025-10-10"
+  },
+  "sec": {
+   "rec_small (현재)": 1.181,
+   "rec_medium": 2.758,
+   "rec_korean": 1.226,
+   "rec_en": 1.058
+  }
+ },
+ "000037.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-17",
+   "rec_medium": "2026-07-17",
+   "rec_korean": "2026-07-17",
+   "rec_en": "2026-07-17"
+  },
+  "sec": {
+   "rec_small (현재)": 0.741,
+   "rec_medium": 1.218,
+   "rec_korean": 0.98,
+   "rec_en": 0.81
+  }
+ },
+ "000040.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-11",
+   "rec_medium": "2025-10-11",
+   "rec_korean": "2025-10-11",
+   "rec_en": "2025-10-11"
+  },
+  "sec": {
+   "rec_small (현재)": 0.949,
+   "rec_medium": 1.315,
+   "rec_korean": 0.709,
+   "rec_en": 0.77
+  }
+ },
+ "000041.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-11",
+   "rec_medium": "2025-10-11",
+   "rec_korean": "2025-10-10",
+   "rec_en": "2025-10-11"
+  },
+  "sec": {
+   "rec_small (현재)": 0.985,
+   "rec_medium": 2.042,
+   "rec_korean": 1.02,
+   "rec_en": 1.402
+  }
+ },
+ "000042.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-12",
+   "rec_medium": "2025-10-12",
+   "rec_korean": "NONE-10-12",
+   "rec_en": "NONE-10-12"
+  },
+  "sec": {
+   "rec_small (현재)": 1.226,
+   "rec_medium": 1.112,
+   "rec_korean": 0.887,
+   "rec_en": 0.74
+  }
+ },
+ "000047.png": {
+  "got": {
+   "rec_small (현재)": "2027-04-14",
+   "rec_medium": "2027-04-14",
+   "rec_korean": "2027-04-14",
+   "rec_en": "2027-04-14"
+  },
+  "sec": {
+   "rec_small (현재)": 2.43,
+   "rec_medium": 6.492,
+   "rec_korean": 2.52,
+   "rec_en": 2.873
+  }
+ },
+ "000052.png": {
+  "got": {
+   "rec_small (현재)": "2025-11-19",
+   "rec_medium": "2025-11-19",
+   "rec_korean": "2025-11-19",
+   "rec_en": "2025-11-19"
+  },
+  "sec": {
+   "rec_small (현재)": 2.062,
+   "rec_medium": 4.513,
+   "rec_korean": 2.568,
+   "rec_en": 2.184
+  }
+ },
+ "000053.png": {
+  "got": {
+   "rec_small (현재)": "2025-12-20",
+   "rec_medium": "2025-12-20",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.908,
+   "rec_medium": 1.331,
+   "rec_korean": 1.023,
+   "rec_en": 0.97
+  }
+ },
+ "000055.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-04",
+   "rec_medium": "2026-08-04",
+   "rec_korean": "2026-08-04",
+   "rec_en": "2026-08-04"
+  },
+  "sec": {
+   "rec_small (현재)": 2.498,
+   "rec_medium": 5.018,
+   "rec_korean": 2.589,
+   "rec_en": 1.855
+  }
+ },
+ "000058.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-03-27",
+   "rec_medium": "2027-03-27",
+   "rec_korean": "2027-03-27",
+   "rec_en": "2027-03-27"
+  },
+  "sec": {
+   "rec_small (현재)": 4.339,
+   "rec_medium": 10.845,
+   "rec_korean": 4.309,
+   "rec_en": 3.402
+  }
+ },
+ "000059.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-06-22",
+   "rec_medium": "2027-06-22",
+   "rec_korean": "2027-06-22",
+   "rec_en": "2027-06-22"
+  },
+  "sec": {
+   "rec_small (현재)": 3.021,
+   "rec_medium": 6.749,
+   "rec_korean": 2.397,
+   "rec_en": 3.281
+  }
+ },
+ "000064.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.27,
+   "rec_medium": 2.286,
+   "rec_korean": 1.074,
+   "rec_en": 0.788
+  }
+ },
+ "000067.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.954,
+   "rec_medium": 0.889,
+   "rec_korean": 0.653,
+   "rec_en": 0.574
+  }
+ },
+ "000068.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.881,
+   "rec_medium": 1.61,
+   "rec_korean": 0.867,
+   "rec_en": 0.883
+  }
+ },
+ "000070.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-10-08",
+   "rec_medium": "2026-10-08",
+   "rec_korean": "2026-10-08",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.922,
+   "rec_medium": 1.962,
+   "rec_korean": 0.754,
+   "rec_en": 1.276
+  }
+ },
+ "000072.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-25",
+   "rec_medium": "2026-04-25",
+   "rec_korean": "2026-04-25",
+   "rec_en": "2026-04-25"
+  },
+  "sec": {
+   "rec_small (현재)": 2.383,
+   "rec_medium": 7.39,
+   "rec_korean": 2.543,
+   "rec_en": 2.678
+  }
+ },
+ "000073.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-12",
+   "rec_medium": "2026-03-12",
+   "rec_korean": "2026-03-12",
+   "rec_en": "2026-03-12"
+  },
+  "sec": {
+   "rec_small (현재)": 2.565,
+   "rec_medium": 6.808,
+   "rec_korean": 2.259,
+   "rec_en": 2.31
+  }
+ },
+ "000074.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-28",
+   "rec_medium": "2026-08-28",
+   "rec_korean": "2026-08-28",
+   "rec_en": "2026-08-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.74,
+   "rec_medium": 5.18,
+   "rec_korean": 1.781,
+   "rec_en": 2.22
+  }
+ },
+ "000077.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-07",
+   "rec_medium": "2026-03-07",
+   "rec_korean": "2026-03-07",
+   "rec_en": "2026-03-07"
+  },
+  "sec": {
+   "rec_small (현재)": 0.88,
+   "rec_medium": 1.135,
+   "rec_korean": 0.665,
+   "rec_en": 0.525
+  }
+ },
+ "000081.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-05-18",
+   "rec_medium": "2026-05-18",
+   "rec_korean": "2026-05-18",
+   "rec_en": "2026-05-18"
+  },
+  "sec": {
+   "rec_small (현재)": 0.933,
+   "rec_medium": 1.706,
+   "rec_korean": 1.247,
+   "rec_en": 1.045
+  }
+ },
+ "000083.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-01",
+   "rec_medium": "2026-07-01",
+   "rec_korean": null,
+   "rec_en": "2025-07-01"
+  },
+  "sec": {
+   "rec_small (현재)": 0.957,
+   "rec_medium": 1.185,
+   "rec_korean": 0.684,
+   "rec_en": 0.686
+  }
+ },
+ "000085.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.263,
+   "rec_medium": 2.537,
+   "rec_korean": 1.238,
+   "rec_en": 1.243
+  }
+ },
+ "000088.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.13,
+   "rec_medium": 2.403,
+   "rec_korean": 1.082,
+   "rec_en": 1.017
+  }
+ },
+ "000094.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-06-30",
+   "rec_medium": "2027-06-30",
+   "rec_korean": null,
+   "rec_en": "2027-06-30"
+  },
+  "sec": {
+   "rec_small (현재)": 0.847,
+   "rec_medium": 0.96,
+   "rec_korean": 0.783,
+   "rec_en": 0.636
+  }
+ },
+ "000095.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-29",
+   "rec_medium": "2026-07-29",
+   "rec_korean": null,
+   "rec_en": "2026-07-29"
+  },
+  "sec": {
+   "rec_small (현재)": 0.777,
+   "rec_medium": 1.391,
+   "rec_korean": 0.816,
+   "rec_en": 0.983
+  }
+ },
+ "000096.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-05-26",
+   "rec_medium": "2026-05-26",
+   "rec_korean": null,
+   "rec_en": "2026-05-26"
+  },
+  "sec": {
+   "rec_small (현재)": 0.578,
+   "rec_medium": 1.037,
+   "rec_korean": 0.674,
+   "rec_en": 0.609
+  }
+ },
+ "000100.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-11",
+   "rec_medium": "2026-02-11",
+   "rec_korean": "2026-02-11",
+   "rec_en": "2026-02-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.884,
+   "rec_medium": 4.419,
+   "rec_korean": 2.046,
+   "rec_en": 1.57
+  }
+ },
+ "000105.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-11-09",
+   "rec_medium": "2025-11-09",
+   "rec_korean": "2025-11-09",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.052,
+   "rec_medium": 2.23,
+   "rec_korean": 1.262,
+   "rec_en": 0.958
+  }
+ },
+ "000107.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-12-25",
+   "rec_medium": "2025-12-25",
+   "rec_korean": "2025-12-25",
+   "rec_en": "2025-12-25"
+  },
+  "sec": {
+   "rec_small (현재)": 0.878,
+   "rec_medium": 1.833,
+   "rec_korean": 0.923,
+   "rec_en": 0.946
+  }
+ },
+ "000111.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-25",
+   "rec_medium": "2025-10-25",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.052,
+   "rec_medium": 1.778,
+   "rec_korean": 0.995,
+   "rec_en": 1.023
+  }
+ },
+ "000117.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-11-28",
+   "rec_medium": "2025-11-28",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.37,
+   "rec_medium": 3.552,
+   "rec_korean": 1.456,
+   "rec_en": 1.784
+  }
+ },
+ "000122.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.115,
+   "rec_medium": 1.918,
+   "rec_korean": 1.271,
+   "rec_en": 1.208
+  }
+ },
+ "000123.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-04",
+   "rec_medium": "2026-06-04",
+   "rec_korean": "2026-06-04",
+   "rec_en": "2026-06-04"
+  },
+  "sec": {
+   "rec_small (현재)": 2.681,
+   "rec_medium": 7.107,
+   "rec_korean": 3.546,
+   "rec_en": 3.486
+  }
+ },
+ "000140.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-14",
+   "rec_medium": "2026-07-14",
+   "rec_korean": "2026-07-14",
+   "rec_en": "2026-07-14"
+  },
+  "sec": {
+   "rec_small (현재)": 3.133,
+   "rec_medium": 6.207,
+   "rec_korean": 2.355,
+   "rec_en": 2.452
+  }
+ },
+ "000141.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-17",
+   "rec_medium": "2026-09-17",
+   "rec_korean": "2026-09-17",
+   "rec_en": "2026-09-17"
+  },
+  "sec": {
+   "rec_small (현재)": 1.175,
+   "rec_medium": 2.303,
+   "rec_korean": 0.898,
+   "rec_en": 0.823
+  }
+ },
+ "000146.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-03",
+   "rec_medium": "2026-04-03",
+   "rec_korean": "2026-04-03",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 3.08,
+   "rec_medium": 6.904,
+   "rec_korean": 3.128,
+   "rec_en": 3.026
+  }
+ },
+ "000148.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-26",
+   "rec_medium": "2026-02-26",
+   "rec_korean": "2026-02-26",
+   "rec_en": "2026-02-26"
+  },
+  "sec": {
+   "rec_small (현재)": 1.706,
+   "rec_medium": 3.952,
+   "rec_korean": 1.748,
+   "rec_en": 1.244
+  }
+ },
+ "000149.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-28",
+   "rec_medium": "2026-04-28",
+   "rec_korean": "2026-04-28",
+   "rec_en": "2026-04-28"
+  },
+  "sec": {
+   "rec_small (현재)": 2.444,
+   "rec_medium": 6.051,
+   "rec_korean": 2.257,
+   "rec_en": 2.378
+  }
+ },
+ "000154.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-08-13",
+   "rec_medium": "2027-08-13",
+   "rec_korean": "2027-08-13",
+   "rec_en": "2027-08-13"
+  },
+  "sec": {
+   "rec_small (현재)": 1.208,
+   "rec_medium": 1.53,
+   "rec_korean": 0.798,
+   "rec_en": 0.823
+  }
+ },
+ "000158.jpg": {
+  "got": {
+   "rec_small (현재)": "2028-07-20",
+   "rec_medium": "2028-07-20",
+   "rec_korean": "2028-07-20",
+   "rec_en": "2028-07-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.836,
+   "rec_medium": 5.389,
+   "rec_korean": 2.208,
+   "rec_en": 1.501
+  }
+ },
+ "000161.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-05-10",
+   "rec_medium": "2027-05-10",
+   "rec_korean": null,
+   "rec_en": "2027-05-10"
+  },
+  "sec": {
+   "rec_small (현재)": 1.786,
+   "rec_medium": 3.799,
+   "rec_korean": 1.501,
+   "rec_en": 1.615
+  }
+ },
+ "000163.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": "NONE-01-01",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.777,
+   "rec_medium": 1.267,
+   "rec_korean": 0.712,
+   "rec_en": 0.646
+  }
+ },
+ "000175.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-28",
+   "rec_medium": "2026-06-28",
+   "rec_korean": "2026-06-28",
+   "rec_en": "2026-06-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.418,
+   "rec_medium": 3.42,
+   "rec_korean": 2.127,
+   "rec_en": 1.497
+  }
+ },
+ "000177.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-18",
+   "rec_medium": "2026-08-18",
+   "rec_korean": "2026-08-18",
+   "rec_en": "2026-08-18"
+  },
+  "sec": {
+   "rec_small (현재)": 1.344,
+   "rec_medium": 2.718,
+   "rec_korean": 1.095,
+   "rec_en": 0.976
+  }
+ },
+ "000179.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-29",
+   "rec_medium": "2026-06-29",
+   "rec_korean": "2025-09-30",
+   "rec_en": "2026-06-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.018,
+   "rec_medium": 1.947,
+   "rec_korean": 0.916,
+   "rec_en": 0.945
+  }
+ },
+ "000183.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-07-28",
+   "rec_medium": "2027-07-28",
+   "rec_korean": "2027-07-28",
+   "rec_en": "2027-07-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.183,
+   "rec_medium": 3.761,
+   "rec_korean": 1.581,
+   "rec_en": 1.426
+  }
+ },
+ "000186.jpg": {
+  "got": {
+   "rec_small (현재)": "2028-04-14",
+   "rec_medium": "2028-04-14",
+   "rec_korean": "2028-04-14",
+   "rec_en": "2028-04-14"
+  },
+  "sec": {
+   "rec_small (현재)": 0.748,
+   "rec_medium": 1.183,
+   "rec_korean": 0.581,
+   "rec_en": 0.705
+  }
+ },
+ "000196.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-02-27",
+   "rec_medium": "2027-02-27",
+   "rec_korean": "2027-02-27",
+   "rec_en": "2027-02-27"
+  },
+  "sec": {
+   "rec_small (현재)": 1.113,
+   "rec_medium": 2.266,
+   "rec_korean": 1.2,
+   "rec_en": 1.32
+  }
+ },
+ "000199.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-09-07",
+   "rec_medium": "2027-09-07",
+   "rec_korean": "2027-09-07",
+   "rec_en": "2027-09-07"
+  },
+  "sec": {
+   "rec_small (현재)": 1.859,
+   "rec_medium": 4.424,
+   "rec_korean": 1.733,
+   "rec_en": 1.898
+  }
+ },
+ "000205.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-05-18",
+   "rec_medium": "2027-05-18",
+   "rec_korean": "2027-05-18",
+   "rec_en": "2027-05-18"
+  },
+  "sec": {
+   "rec_small (현재)": 0.93,
+   "rec_medium": 1.918,
+   "rec_korean": 0.715,
+   "rec_en": 0.927
+  }
+ },
+ "000209.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.738,
+   "rec_medium": 6.227,
+   "rec_korean": 2.957,
+   "rec_en": 2.231
+  }
+ },
+ "000211.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-12",
+   "rec_medium": "2026-02-12",
+   "rec_korean": "2026-02-12",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.118,
+   "rec_medium": 1.708,
+   "rec_korean": 0.78,
+   "rec_en": 0.925
+  }
+ },
+ "000212.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-12-16",
+   "rec_medium": "2026-12-16",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.64,
+   "rec_medium": 4.299,
+   "rec_korean": 1.669,
+   "rec_en": 1.764
+  }
+ },
+ "000225.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-06",
+   "rec_medium": "2026-04-06",
+   "rec_korean": "2026-04-06",
+   "rec_en": "2026-04-06"
+  },
+  "sec": {
+   "rec_small (현재)": 1.212,
+   "rec_medium": 3.145,
+   "rec_korean": 1.38,
+   "rec_en": 1.043
+  }
+ },
+ "000231.jpg": {
+  "got": {
+   "rec_small (현재)": "2028-05-27",
+   "rec_medium": "2028-05-27",
+   "rec_korean": "2028-05-27",
+   "rec_en": "2028-05-27"
+  },
+  "sec": {
+   "rec_small (현재)": 0.726,
+   "rec_medium": 1.846,
+   "rec_korean": 0.911,
+   "rec_en": 0.936
+  }
+ },
+ "000235.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-08",
+   "rec_medium": "2026-03-08",
+   "rec_korean": "2026-03-08",
+   "rec_en": "2026-03-08"
+  },
+  "sec": {
+   "rec_small (현재)": 1.906,
+   "rec_medium": 4.47,
+   "rec_korean": 1.879,
+   "rec_en": 2.512
+  }
+ },
+ "000239.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-10",
+   "rec_medium": "2026-07-10",
+   "rec_korean": "2026-07-10",
+   "rec_en": "2026-07-10"
+  },
+  "sec": {
+   "rec_small (현재)": 2.461,
+   "rec_medium": 5.264,
+   "rec_korean": 2.544,
+   "rec_en": 2.048
+  }
+ },
+ "000240.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-05-20",
+   "rec_medium": "2027-05-20",
+   "rec_korean": "2027-05-20",
+   "rec_en": "2027-05-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.776,
+   "rec_medium": 3.435,
+   "rec_korean": 1.796,
+   "rec_en": 1.956
+  }
+ },
+ "000242.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-05-21",
+   "rec_medium": "2026-05-21",
+   "rec_korean": "2028-05-21",
+   "rec_en": "2026-05-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.653,
+   "rec_medium": 4.578,
+   "rec_korean": 1.78,
+   "rec_en": 1.757
+  }
+ },
+ "000244.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-21",
+   "rec_medium": "2026-06-21",
+   "rec_korean": "2026-06-21",
+   "rec_en": "2026-06-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.02,
+   "rec_medium": 1.14,
+   "rec_korean": 0.817,
+   "rec_en": 0.805
+  }
+ },
+ "000249.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-16",
+   "rec_medium": "2026-02-16",
+   "rec_korean": "2026-02-16",
+   "rec_en": "2026-02-16"
+  },
+  "sec": {
+   "rec_small (현재)": 1.945,
+   "rec_medium": 3.876,
+   "rec_korean": 1.65,
+   "rec_en": 1.619
+  }
+ },
+ "000251.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-24",
+   "rec_medium": "2026-02-24",
+   "rec_korean": "2026-02-24",
+   "rec_en": "2026-02-24"
+  },
+  "sec": {
+   "rec_small (현재)": 1.239,
+   "rec_medium": 2.21,
+   "rec_korean": 0.966,
+   "rec_en": 1.203
+  }
+ },
+ "000258.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-05-30",
+   "rec_medium": "2026-05-30",
+   "rec_korean": "2026-05-30",
+   "rec_en": "2026-05-30"
+  },
+  "sec": {
+   "rec_small (현재)": 1.963,
+   "rec_medium": 4.104,
+   "rec_korean": 1.971,
+   "rec_en": 2.003
+  }
+ },
+ "000266.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-12-04",
+   "rec_medium": "2025-12-04",
+   "rec_korean": "2025-12-04",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.009,
+   "rec_medium": 2.448,
+   "rec_korean": 1.311,
+   "rec_en": 1.454
+  }
+ },
+ "000270.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-03",
+   "rec_medium": "2026-09-03",
+   "rec_korean": "2026-09-03",
+   "rec_en": "2026-09-03"
+  },
+  "sec": {
+   "rec_small (현재)": 4.859,
+   "rec_medium": 14.546,
+   "rec_korean": 4.625,
+   "rec_en": 5.325
+  }
+ },
+ "000273.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-13",
+   "rec_medium": "2026-03-13",
+   "rec_korean": "2026-03-13",
+   "rec_en": "2026-03-13"
+  },
+  "sec": {
+   "rec_small (현재)": 3.703,
+   "rec_medium": 11.757,
+   "rec_korean": 5.148,
+   "rec_en": 4.582
+  }
+ },
+ "000275.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-23",
+   "rec_medium": "2026-04-23",
+   "rec_korean": "2026-04-23",
+   "rec_en": "2026-04-23"
+  },
+  "sec": {
+   "rec_small (현재)": 3.551,
+   "rec_medium": 10.377,
+   "rec_korean": 3.519,
+   "rec_en": 3.436
+  }
+ },
+ "000276.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-25",
+   "rec_medium": "2026-03-25",
+   "rec_korean": "2025-09-25",
+   "rec_en": "2026-03-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.537,
+   "rec_medium": 2.756,
+   "rec_korean": 1.526,
+   "rec_en": 1.662
+  }
+ },
+ "000279.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-02",
+   "rec_medium": "2026-06-02",
+   "rec_korean": "2026-06-02",
+   "rec_en": "2026-06-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.431,
+   "rec_medium": 4.01,
+   "rec_korean": 1.413,
+   "rec_en": 1.557
+  }
+ },
+ "000283.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-09-17",
+   "rec_medium": "2027-09-17",
+   "rec_korean": "2027-09-17",
+   "rec_en": "2027-09-17"
+  },
+  "sec": {
+   "rec_small (현재)": 1.623,
+   "rec_medium": 3.625,
+   "rec_korean": 1.728,
+   "rec_en": 1.432
+  }
+ },
+ "000291.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-07-21",
+   "rec_medium": "2027-07-21",
+   "rec_korean": "2027-07-21",
+   "rec_en": "2027-07-21"
+  },
+  "sec": {
+   "rec_small (현재)": 3.47,
+   "rec_medium": 11.02,
+   "rec_korean": 4.632,
+   "rec_en": 3.441
+  }
+ },
+ "000293.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-24",
+   "rec_medium": "2025-10-24",
+   "rec_korean": "2025-10-24",
+   "rec_en": "2025-10-24"
+  },
+  "sec": {
+   "rec_small (현재)": 2.486,
+   "rec_medium": 6.069,
+   "rec_korean": 2.556,
+   "rec_en": 2.156
+  }
+ },
+ "000315.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-19",
+   "rec_medium": "2026-07-19",
+   "rec_korean": "2026-07-19",
+   "rec_en": "2026-07-19"
+  },
+  "sec": {
+   "rec_small (현재)": 0.498,
+   "rec_medium": 0.785,
+   "rec_korean": 0.776,
+   "rec_en": 0.721
+  }
+ },
+ "000317.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.601,
+   "rec_medium": 0.599,
+   "rec_korean": 0.614,
+   "rec_en": 0.592
+  }
+ },
+ "000319.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-14",
+   "rec_medium": "2026-02-14",
+   "rec_korean": "2026-02-14",
+   "rec_en": "2026-02-14"
+  },
+  "sec": {
+   "rec_small (현재)": 1.411,
+   "rec_medium": 1.786,
+   "rec_korean": 0.972,
+   "rec_en": 1.097
+  }
+ },
+ "000321.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-29",
+   "rec_medium": "2025-10-29",
+   "rec_korean": "2025-10-29",
+   "rec_en": "2025-10-29"
+  },
+  "sec": {
+   "rec_small (현재)": 0.644,
+   "rec_medium": 1.293,
+   "rec_korean": 0.638,
+   "rec_en": 0.835
+  }
+ },
+ "000323.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-12-21",
+   "rec_medium": "2025-12-21",
+   "rec_korean": "2025-12-21",
+   "rec_en": "2025-12-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.541,
+   "rec_medium": 3.389,
+   "rec_korean": 1.662,
+   "rec_en": 1.383
+  }
+ },
+ "000329.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-12-25",
+   "rec_medium": "2025-12-25",
+   "rec_korean": "2025-12-25",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.543,
+   "rec_medium": 5.874,
+   "rec_korean": 2.602,
+   "rec_en": 2.372
+  }
+ },
+ "000336.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2025-11-20",
+   "rec_korean": "2025-11-20",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.04,
+   "rec_medium": 1.79,
+   "rec_korean": 1.159,
+   "rec_en": 0.91
+  }
+ },
+ "000348.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-02",
+   "rec_medium": "2026-04-02",
+   "rec_korean": "2026-04-02",
+   "rec_en": "2026-04-02"
+  },
+  "sec": {
+   "rec_small (현재)": 3.806,
+   "rec_medium": 9.515,
+   "rec_korean": 3.152,
+   "rec_en": 3.776
+  }
+ },
+ "000357.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-08-11",
+   "rec_medium": "2027-08-11",
+   "rec_korean": "2027-08-11",
+   "rec_en": "2027-08-11"
+  },
+  "sec": {
+   "rec_small (현재)": 2.695,
+   "rec_medium": 7.899,
+   "rec_korean": 2.907,
+   "rec_en": 2.012
+  }
+ },
+ "000358.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-09-16",
+   "rec_medium": "2027-09-16",
+   "rec_korean": "2027-09-16",
+   "rec_en": "2027-09-16"
+  },
+  "sec": {
+   "rec_small (현재)": 1.145,
+   "rec_medium": 1.686,
+   "rec_korean": 1.046,
+   "rec_en": 1.032
+  }
+ },
+ "000360.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.616,
+   "rec_medium": 6.64,
+   "rec_korean": 2.411,
+   "rec_en": 2.093
+  }
+ },
+ "000362.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-11",
+   "rec_medium": "2026-08-11",
+   "rec_korean": "2026-08-11",
+   "rec_en": "2026-08-11"
+  },
+  "sec": {
+   "rec_small (현재)": 4.447,
+   "rec_medium": 10.041,
+   "rec_korean": 4.264,
+   "rec_en": 3.776
+  }
+ },
+ "000369.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.024,
+   "rec_medium": 1.204,
+   "rec_korean": 1.188,
+   "rec_en": 0.726
+  }
+ },
+ "000378.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-05-29",
+   "rec_medium": "2025-05-29",
+   "rec_korean": "2026-05-29",
+   "rec_en": "2026-05-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.332,
+   "rec_medium": 2.151,
+   "rec_korean": 1.035,
+   "rec_en": 1.607
+  }
+ },
+ "000383.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-03",
+   "rec_medium": "2026-04-03",
+   "rec_korean": "2026-04-03",
+   "rec_en": "2026-04-03"
+  },
+  "sec": {
+   "rec_small (현재)": 3.057,
+   "rec_medium": 7.149,
+   "rec_korean": 3.193,
+   "rec_en": 3.619
+  }
+ },
+ "000385.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-14",
+   "rec_medium": "2026-09-14",
+   "rec_korean": "2026-09-14",
+   "rec_en": "2026-09-14"
+  },
+  "sec": {
+   "rec_small (현재)": 1.257,
+   "rec_medium": 1.711,
+   "rec_korean": 1.037,
+   "rec_en": 0.914
+  }
+ },
+ "000392.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-28",
+   "rec_medium": "2026-08-28",
+   "rec_korean": "2028-08-NONE",
+   "rec_en": "2026-08-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.833,
+   "rec_medium": 4.375,
+   "rec_korean": 1.706,
+   "rec_en": 2.063
+  }
+ },
+ "000394.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 4.268,
+   "rec_medium": 12.886,
+   "rec_korean": 4.835,
+   "rec_en": 3.989
+  }
+ },
+ "000400.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-01-11",
+   "rec_medium": "2026-01-11",
+   "rec_korean": "2024-07-12",
+   "rec_en": "2026-01-11"
+  },
+  "sec": {
+   "rec_small (현재)": 2.657,
+   "rec_medium": 6.379,
+   "rec_korean": 2.015,
+   "rec_en": 2.102
+  }
+ },
+ "000408.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-10-09",
+   "rec_medium": "2025-10-09",
+   "rec_korean": "2025-10-09",
+   "rec_en": "2025-10-09"
+  },
+  "sec": {
+   "rec_small (현재)": 2.055,
+   "rec_medium": 4.558,
+   "rec_korean": 1.911,
+   "rec_en": 2.105
+  }
+ },
+ "000412.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-01-19",
+   "rec_medium": "2026-01-19",
+   "rec_korean": null,
+   "rec_en": "2026-01-19"
+  },
+  "sec": {
+   "rec_small (현재)": 2.166,
+   "rec_medium": 4.231,
+   "rec_korean": 2.366,
+   "rec_en": 1.892
+  }
+ },
+ "000417.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-15",
+   "rec_medium": "2026-03-15",
+   "rec_korean": "2026-03-15",
+   "rec_en": "2026-03-15"
+  },
+  "sec": {
+   "rec_small (현재)": 1.127,
+   "rec_medium": 1.814,
+   "rec_korean": 1.021,
+   "rec_en": 0.723
+  }
+ },
+ "000429.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-01-04",
+   "rec_medium": "2026-01-04",
+   "rec_korean": null,
+   "rec_en": "NONE-01-04"
+  },
+  "sec": {
+   "rec_small (현재)": 2.601,
+   "rec_medium": 7.436,
+   "rec_korean": 2.945,
+   "rec_en": 3.058
+  }
+ },
+ "000430.jpg": {
+  "got": {
+   "rec_small (현재)": "2028-02-01",
+   "rec_medium": "2028-02-01",
+   "rec_korean": "2028-02-01",
+   "rec_en": "2028-02-01"
+  },
+  "sec": {
+   "rec_small (현재)": 1.477,
+   "rec_medium": 2.643,
+   "rec_korean": 1.188,
+   "rec_en": 1.083
+  }
+ },
+ "000436.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-12",
+   "rec_medium": "2026-02-12",
+   "rec_korean": "NONE-02-12",
+   "rec_en": "2026-02-12"
+  },
+  "sec": {
+   "rec_small (현재)": 1.024,
+   "rec_medium": 1.627,
+   "rec_korean": 1.063,
+   "rec_en": 0.95
+  }
+ },
+ "000441.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.597,
+   "rec_medium": 2.726,
+   "rec_korean": 1.161,
+   "rec_en": 1.372
+  }
+ },
+ "000443.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-06",
+   "rec_medium": "2026-04-06",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 3.465,
+   "rec_medium": 7.882,
+   "rec_korean": 3.327,
+   "rec_en": 3.197
+  }
+ },
+ "000450.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-18",
+   "rec_medium": "2026-03-11",
+   "rec_korean": "2026-03-11",
+   "rec_en": "2026-03-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.116,
+   "rec_medium": 3.108,
+   "rec_korean": 1.41,
+   "rec_en": 1.29
+  }
+ },
+ "000451.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-27",
+   "rec_medium": "2026-02-27",
+   "rec_korean": "2026-02-27",
+   "rec_en": "2026-02-27"
+  },
+  "sec": {
+   "rec_small (현재)": 2.403,
+   "rec_medium": 5.306,
+   "rec_korean": 1.863,
+   "rec_en": 2.63
+  }
+ },
+ "000452.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.111,
+   "rec_medium": 2.579,
+   "rec_korean": 1.175,
+   "rec_en": 1.092
+  }
+ },
+ "000455.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-10",
+   "rec_medium": "2026-02-10",
+   "rec_korean": "2026-02-10",
+   "rec_en": "2026-02-10"
+  },
+  "sec": {
+   "rec_small (현재)": 1.124,
+   "rec_medium": 2.114,
+   "rec_korean": 1.045,
+   "rec_en": 0.961
+  }
+ },
+ "000456.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-06-27",
+   "rec_medium": "2025-06-27",
+   "rec_korean": "2025-12-26",
+   "rec_en": "2025-06-27"
+  },
+  "sec": {
+   "rec_small (현재)": 1.88,
+   "rec_medium": 3.926,
+   "rec_korean": 1.8,
+   "rec_en": 1.514
+  }
+ },
+ "000462.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-05-27",
+   "rec_medium": "2027-05-27",
+   "rec_korean": "2027-05-27",
+   "rec_en": "2027-05-27"
+  },
+  "sec": {
+   "rec_small (현재)": 3.444,
+   "rec_medium": 7.68,
+   "rec_korean": 2.615,
+   "rec_en": 3.17
+  }
+ },
+ "000471.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-01-08",
+   "rec_medium": "2027-01-08",
+   "rec_korean": "2027-01-08",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.579,
+   "rec_medium": 3.699,
+   "rec_korean": 1.868,
+   "rec_en": 1.329
+  }
+ },
+ "000474.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-26",
+   "rec_medium": "2026-06-26",
+   "rec_korean": null,
+   "rec_en": "NONE-06-16"
+  },
+  "sec": {
+   "rec_small (현재)": 1.13,
+   "rec_medium": 1.927,
+   "rec_korean": 1.287,
+   "rec_en": 0.926
+  }
+ },
+ "000481.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-09",
+   "rec_medium": "2026-03-09",
+   "rec_korean": null,
+   "rec_en": "2026-03-09"
+  },
+  "sec": {
+   "rec_small (현재)": 1.191,
+   "rec_medium": 1.834,
+   "rec_korean": 1.188,
+   "rec_en": 0.841
+  }
+ },
+ "000483.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-04-15",
+   "rec_medium": "2027-04-15",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.686,
+   "rec_medium": 0.546,
+   "rec_korean": 0.646,
+   "rec_en": 0.923
+  }
+ },
+ "000493.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-17",
+   "rec_medium": "2026-06-17",
+   "rec_korean": "2026-06-17",
+   "rec_en": "NONE-06-17"
+  },
+  "sec": {
+   "rec_small (현재)": 4.785,
+   "rec_medium": 13.998,
+   "rec_korean": 5.15,
+   "rec_en": 5.044
+  }
+ },
+ "000498.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-07",
+   "rec_medium": "2026-03-07",
+   "rec_korean": "2026-03-07",
+   "rec_en": "2026-05-07"
+  },
+  "sec": {
+   "rec_small (현재)": 0.993,
+   "rec_medium": 1.765,
+   "rec_korean": 0.884,
+   "rec_en": 0.803
+  }
+ },
+ "000509.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-01",
+   "rec_medium": "2026-09-01",
+   "rec_korean": "2026-09-01",
+   "rec_en": "NONE-09-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.06,
+   "rec_medium": 1.936,
+   "rec_korean": 1.104,
+   "rec_en": 0.842
+  }
+ },
+ "000517.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-25",
+   "rec_medium": "2026-09-25",
+   "rec_korean": "2026-09-25",
+   "rec_en": "2026-09-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.442,
+   "rec_medium": 3.533,
+   "rec_korean": 1.463,
+   "rec_en": 1.947
+  }
+ },
+ "000520.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-15",
+   "rec_medium": "2026-09-15",
+   "rec_korean": "2026-09-15",
+   "rec_en": "2026-09-15"
+  },
+  "sec": {
+   "rec_small (현재)": 2.091,
+   "rec_medium": 5.318,
+   "rec_korean": 2.132,
+   "rec_en": 1.625
+  }
+ },
+ "000524.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-18",
+   "rec_medium": "2026-06-18",
+   "rec_korean": "2026-06-18",
+   "rec_en": "2026-06-18"
+  },
+  "sec": {
+   "rec_small (현재)": 1.614,
+   "rec_medium": 2.801,
+   "rec_korean": 1.733,
+   "rec_en": 1.514
+  }
+ },
+ "000528.jpg": {
+  "got": {
+   "rec_small (현재)": "NONE-03-11",
+   "rec_medium": "2026-03-11",
+   "rec_korean": "2026-03-11",
+   "rec_en": "2026-03-01"
+  },
+  "sec": {
+   "rec_small (현재)": 0.54,
+   "rec_medium": 0.768,
+   "rec_korean": 0.365,
+   "rec_en": 0.539
+  }
+ },
+ "000529.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-01-12",
+   "rec_medium": "2026-01-12",
+   "rec_korean": "2026-01-12",
+   "rec_en": "2026-01-12"
+  },
+  "sec": {
+   "rec_small (현재)": 0.622,
+   "rec_medium": 0.861,
+   "rec_korean": 0.71,
+   "rec_en": 0.546
+  }
+ },
+ "000539.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.268,
+   "rec_medium": 5.171,
+   "rec_korean": 2.856,
+   "rec_en": 3.036
+  }
+ },
+ "000550.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-05-29",
+   "rec_medium": "2026-05-29",
+   "rec_korean": "2026-05-29",
+   "rec_en": "2026-05-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.535,
+   "rec_medium": 4.073,
+   "rec_korean": 1.721,
+   "rec_en": 1.843
+  }
+ },
+ "000555.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-04-16",
+   "rec_medium": "2027-04-16",
+   "rec_korean": "2027-04-16",
+   "rec_en": "2027-04-16"
+  },
+  "sec": {
+   "rec_small (현재)": 1.081,
+   "rec_medium": 2.428,
+   "rec_korean": 0.888,
+   "rec_en": 1.062
+  }
+ },
+ "000556.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-07",
+   "rec_medium": "2026-08-07",
+   "rec_korean": "2026-08-07",
+   "rec_en": "2026-08-07"
+  },
+  "sec": {
+   "rec_small (현재)": 0.73,
+   "rec_medium": 1.061,
+   "rec_korean": 0.889,
+   "rec_en": 0.97
+  }
+ },
+ "000562.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-12-30",
+   "rec_medium": "2025-12-30",
+   "rec_korean": "2025-12-30",
+   "rec_en": "2025-12-30"
+  },
+  "sec": {
+   "rec_small (현재)": 3.264,
+   "rec_medium": 6.312,
+   "rec_korean": 4.483,
+   "rec_en": 3.782
+  }
+ },
+ "000569.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-11-02",
+   "rec_medium": "2025-11-02",
+   "rec_korean": "2025-11-02",
+   "rec_en": "2025-11-02"
+  },
+  "sec": {
+   "rec_small (현재)": 0.796,
+   "rec_medium": 1.407,
+   "rec_korean": 0.762,
+   "rec_en": 0.76
+  }
+ },
+ "000588.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-11-28",
+   "rec_medium": null,
+   "rec_korean": "2025-11-28",
+   "rec_en": "2025-02-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 1.482,
+   "rec_medium": 2.969,
+   "rec_korean": 1.645,
+   "rec_en": 1.593
+  }
+ },
+ "000603.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-24",
+   "rec_medium": "2026-09-24",
+   "rec_korean": "2026-09-24",
+   "rec_en": "2026-09-24"
+  },
+  "sec": {
+   "rec_small (현재)": 2.048,
+   "rec_medium": 4.316,
+   "rec_korean": 2.594,
+   "rec_en": 2.621
+  }
+ },
+ "000605.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2028-07-01",
+   "rec_korean": null,
+   "rec_en": "2028-07-01"
+  },
+  "sec": {
+   "rec_small (현재)": 2.386,
+   "rec_medium": 3.751,
+   "rec_korean": 2.258,
+   "rec_en": 2.105
+  }
+ },
+ "000611.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-20",
+   "rec_medium": "2026-07-20",
+   "rec_korean": "2026-07-20",
+   "rec_en": "2026-07-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.798,
+   "rec_medium": 3.019,
+   "rec_korean": 2.594,
+   "rec_en": 2.148
+  }
+ },
+ "000616.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-09-10",
+   "rec_medium": "2026-09-10",
+   "rec_korean": "2026-09-10",
+   "rec_en": "2026-09-10"
+  },
+  "sec": {
+   "rec_small (현재)": 1.595,
+   "rec_medium": 2.828,
+   "rec_korean": 2.069,
+   "rec_en": 2.016
+  }
+ },
+ "000618.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-26",
+   "rec_medium": "2026-08-26",
+   "rec_korean": "2026-08-26",
+   "rec_en": "2026-08-26"
+  },
+  "sec": {
+   "rec_small (현재)": 2.497,
+   "rec_medium": 6.1,
+   "rec_korean": 3.335,
+   "rec_en": 2.718
+  }
+ },
+ "000623.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.982,
+   "rec_medium": 1.439,
+   "rec_korean": 1.024,
+   "rec_en": 1.138
+  }
+ },
+ "000630.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-31",
+   "rec_medium": "2026-03-31",
+   "rec_korean": "2026-03-31",
+   "rec_en": "2026-03-31"
+  },
+  "sec": {
+   "rec_small (현재)": 1.924,
+   "rec_medium": 4.697,
+   "rec_korean": 2.457,
+   "rec_en": 2.063
+  }
+ },
+ "000632.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-12-28",
+   "rec_medium": "2025-12-28",
+   "rec_korean": "2025-12-28",
+   "rec_en": "2025-12-28"
+  },
+  "sec": {
+   "rec_small (현재)": 2.654,
+   "rec_medium": 5.582,
+   "rec_korean": 2.553,
+   "rec_en": 2.986
+  }
+ },
+ "000638.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-06-16",
+   "rec_medium": null,
+   "rec_korean": "2026-06-16",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.175,
+   "rec_medium": 1.833,
+   "rec_korean": 1.327,
+   "rec_en": 1.335
+  }
+ },
+ "000647.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-19",
+   "rec_medium": "2026-08-19",
+   "rec_korean": null,
+   "rec_en": "2026-08-19"
+  },
+  "sec": {
+   "rec_small (현재)": 2.056,
+   "rec_medium": 3.704,
+   "rec_korean": 1.952,
+   "rec_en": 1.751
+  }
+ },
+ "000649.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2027-04-07",
+   "rec_korean": "2027-04-07",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.464,
+   "rec_medium": 4.256,
+   "rec_korean": 1.689,
+   "rec_en": 2.313
+  }
+ },
+ "000659.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-24",
+   "rec_medium": "2026-08-24",
+   "rec_korean": "2026-08-24",
+   "rec_en": "2026-08-24"
+  },
+  "sec": {
+   "rec_small (현재)": 1.377,
+   "rec_medium": 2.95,
+   "rec_korean": 1.367,
+   "rec_en": 1.4
+  }
+ },
+ "000662.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-11",
+   "rec_medium": "2026-03-11",
+   "rec_korean": "2026-03-11",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.49,
+   "rec_medium": 3.474,
+   "rec_korean": 1.399,
+   "rec_en": 1.463
+  }
+ },
+ "000666.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "NONE-09-01",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.974,
+   "rec_medium": 1.667,
+   "rec_korean": 1.045,
+   "rec_en": 0.878
+  }
+ },
+ "000675.jpg": {
+  "got": {
+   "rec_small (현재)": "2028-06-03",
+   "rec_medium": "2028-06-03",
+   "rec_korean": "2028-06-03",
+   "rec_en": "2028-06-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.126,
+   "rec_medium": 2.586,
+   "rec_korean": 1.069,
+   "rec_en": 0.881
+  }
+ },
+ "000677.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-08-17",
+   "rec_medium": "2027-08-17",
+   "rec_korean": "2027-08-17",
+   "rec_en": "2027-08-17"
+  },
+  "sec": {
+   "rec_small (현재)": 1.393,
+   "rec_medium": 2.178,
+   "rec_korean": 1.5,
+   "rec_en": 1.203
+  }
+ },
+ "000685.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-05-28",
+   "rec_medium": "2026-05-28",
+   "rec_korean": "2026-05-28",
+   "rec_en": "2026-05-28"
+  },
+  "sec": {
+   "rec_small (현재)": 0.774,
+   "rec_medium": 1.27,
+   "rec_korean": 0.822,
+   "rec_en": 0.979
+  }
+ },
+ "000706.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-03-11",
+   "rec_medium": "2026-03-11",
+   "rec_korean": "2026-03-11",
+   "rec_en": "2026-03-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.095,
+   "rec_medium": 2.218,
+   "rec_korean": 0.897,
+   "rec_en": 1.199
+  }
+ },
+ "000707.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-08-19",
+   "rec_medium": "2026-08-19",
+   "rec_korean": "2026-08-19",
+   "rec_en": "2026-08-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.865,
+   "rec_medium": 2.887,
+   "rec_korean": 1.743,
+   "rec_en": 1.599
+  }
+ },
+ "000712.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-11-20",
+   "rec_medium": "2025-11-20",
+   "rec_korean": "2025-11-20",
+   "rec_en": "2025-11-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.174,
+   "rec_medium": 3.364,
+   "rec_korean": 1.53,
+   "rec_en": 1.596
+  }
+ },
+ "000715.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.228,
+   "rec_medium": 2.716,
+   "rec_korean": 1.572,
+   "rec_en": 1.476
+  }
+ },
+ "000719.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-04-04",
+   "rec_medium": "2026-04-04",
+   "rec_korean": "2026-04-04",
+   "rec_en": "2026-04-04"
+  },
+  "sec": {
+   "rec_small (현재)": 1.055,
+   "rec_medium": 1.71,
+   "rec_korean": 1.218,
+   "rec_en": 1.08
+  }
+ },
+ "000720.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-02-28",
+   "rec_medium": "2026-02-28",
+   "rec_korean": "2026-02-28",
+   "rec_en": "2026-02-28"
+  },
+  "sec": {
+   "rec_small (현재)": 0.836,
+   "rec_medium": 1.814,
+   "rec_korean": 1.255,
+   "rec_en": 1.276
+  }
+ },
+ "000721.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-12-17",
+   "rec_medium": "2026-12-17",
+   "rec_korean": "2026-12-17",
+   "rec_en": "2026-12-17"
+  },
+  "sec": {
+   "rec_small (현재)": 1.556,
+   "rec_medium": 3.3,
+   "rec_korean": 1.613,
+   "rec_en": 1.648
+  }
+ },
+ "000740.jpg": {
+  "got": {
+   "rec_small (현재)": "2026-07-23",
+   "rec_medium": "2026-07-23",
+   "rec_korean": "2026-07-23",
+   "rec_en": "2026-07-23"
+  },
+  "sec": {
+   "rec_small (현재)": 1.468,
+   "rec_medium": 2.863,
+   "rec_korean": 1.748,
+   "rec_en": 1.456
+  }
+ },
+ "000744.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-08-18",
+   "rec_medium": "2027-08-18",
+   "rec_korean": "2027-08-18",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.65,
+   "rec_medium": 4.109,
+   "rec_korean": 1.885,
+   "rec_en": 1.509
+  }
+ },
+ "000756.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-02-24",
+   "rec_medium": "2027-02-24",
+   "rec_korean": "2027-02-24",
+   "rec_en": "2027-02-24"
+  },
+  "sec": {
+   "rec_small (현재)": 2.018,
+   "rec_medium": 4.219,
+   "rec_korean": 1.586,
+   "rec_en": 2.002
+  }
+ },
+ "000767.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.672,
+   "rec_medium": 0.6,
+   "rec_korean": 0.582,
+   "rec_en": 0.694
+  }
+ },
+ "000771.jpeg": {
+  "got": {
+   "rec_small (현재)": "2019-11-26",
+   "rec_medium": "2019-11-26",
+   "rec_korean": "NONE-12-31",
+   "rec_en": "NONE-12-31"
+  },
+  "sec": {
+   "rec_small (현재)": 1.799,
+   "rec_medium": 4.079,
+   "rec_korean": 1.769,
+   "rec_en": 2.004
+  }
+ },
+ "000772.jpeg": {
+  "got": {
+   "rec_small (현재)": "NONE-12-20",
+   "rec_medium": "NONE-12-20",
+   "rec_korean": "NONE-12-20",
+   "rec_en": "NONE-12-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.813,
+   "rec_medium": 4.832,
+   "rec_korean": 3.374,
+   "rec_en": 2.904
+  }
+ },
+ "000773.jpeg": {
+  "got": {
+   "rec_small (현재)": "NONE-12-10",
+   "rec_medium": "NONE-12-10",
+   "rec_korean": "NONE-12-10",
+   "rec_en": "NONE-12-10"
+  },
+  "sec": {
+   "rec_small (현재)": 3.258,
+   "rec_medium": 7.601,
+   "rec_korean": 2.896,
+   "rec_en": 3.551
+  }
+ },
+ "000775.jpeg": {
+  "got": {
+   "rec_small (현재)": "2025-12-17",
+   "rec_medium": "2025-12-17",
+   "rec_korean": "2017-02-05",
+   "rec_en": "2025-12-17"
+  },
+  "sec": {
+   "rec_small (현재)": 0.92,
+   "rec_medium": 1.586,
+   "rec_korean": 0.802,
+   "rec_en": 0.962
+  }
+ },
+ "000778.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-06-22",
+   "rec_medium": "2026-06-22",
+   "rec_korean": null,
+   "rec_en": "2026-06-22"
+  },
+  "sec": {
+   "rec_small (현재)": 0.743,
+   "rec_medium": 1.623,
+   "rec_korean": 0.788,
+   "rec_en": 0.797
+  }
+ },
+ "000780.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-04-27",
+   "rec_medium": "2026-04-27",
+   "rec_korean": "2026-06-NONE",
+   "rec_en": "2026-04-27"
+  },
+  "sec": {
+   "rec_small (현재)": 1.325,
+   "rec_medium": 1.952,
+   "rec_korean": 1.087,
+   "rec_en": 0.952
+  }
+ },
+ "000781.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-10-02",
+   "rec_medium": "2026-10-02",
+   "rec_korean": "2026-10-02",
+   "rec_en": "2026-10-02"
+  },
+  "sec": {
+   "rec_small (현재)": 0.507,
+   "rec_medium": 0.857,
+   "rec_korean": 0.843,
+   "rec_en": 0.666
+  }
+ },
+ "000792.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-04-05",
+   "rec_medium": "2026-04-05",
+   "rec_korean": "2026-04-05",
+   "rec_en": "2026-04-05"
+  },
+  "sec": {
+   "rec_small (현재)": 0.84,
+   "rec_medium": 1.574,
+   "rec_korean": 0.658,
+   "rec_en": 0.719
+  }
+ },
+ "000801.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-03-25",
+   "rec_medium": "2026-03-25",
+   "rec_korean": "2018-01-NONE",
+   "rec_en": "NONE-03-25"
+  },
+  "sec": {
+   "rec_small (현재)": 2.434,
+   "rec_medium": 4.671,
+   "rec_korean": 2.439,
+   "rec_en": 1.87
+  }
+ },
+ "000810.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-03-31",
+   "rec_medium": "2026-03-31",
+   "rec_korean": "2026-03-31",
+   "rec_en": "2026-03-31"
+  },
+  "sec": {
+   "rec_small (현재)": 1.559,
+   "rec_medium": 2.655,
+   "rec_korean": 1.717,
+   "rec_en": 1.248
+  }
+ },
+ "000816.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.989,
+   "rec_medium": 1.725,
+   "rec_korean": 0.652,
+   "rec_en": 0.566
+  }
+ },
+ "000819.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": "NONE-12-03"
+  },
+  "sec": {
+   "rec_small (현재)": 5.27,
+   "rec_medium": 14.302,
+   "rec_korean": 5.821,
+   "rec_en": 7.434
+  }
+ },
+ "000826.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.839,
+   "rec_medium": 1.302,
+   "rec_korean": 0.777,
+   "rec_en": 0.612
+  }
+ },
+ "000831.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-07-16",
+   "rec_medium": "2026-07-16",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.215,
+   "rec_medium": 7.894,
+   "rec_korean": 4.715,
+   "rec_en": 5.05
+  }
+ },
+ "000834.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.042,
+   "rec_medium": 1.217,
+   "rec_korean": 0.81,
+   "rec_en": 1.115
+  }
+ },
+ "000839.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-01-03",
+   "rec_medium": "2026-01-03",
+   "rec_korean": "2026-01-03",
+   "rec_en": "2026-01-03"
+  },
+  "sec": {
+   "rec_small (현재)": 2.139,
+   "rec_medium": 5.965,
+   "rec_korean": 2.641,
+   "rec_en": 2.209
+  }
+ },
+ "000840.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.951,
+   "rec_medium": 4.716,
+   "rec_korean": 2.174,
+   "rec_en": 1.82
+  }
+ },
+ "000844.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-07-03",
+   "rec_medium": "2026-07-03",
+   "rec_korean": "2026-07-03",
+   "rec_en": "2026-07-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.215,
+   "rec_medium": 2.701,
+   "rec_korean": 2.205,
+   "rec_en": 1.63
+  }
+ },
+ "000848.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.814,
+   "rec_medium": 0.955,
+   "rec_korean": 0.723,
+   "rec_en": 0.507
+  }
+ },
+ "000849.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.907,
+   "rec_medium": 1.893,
+   "rec_korean": 1.156,
+   "rec_en": 1.68
+  }
+ },
+ "000853.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-09-24",
+   "rec_medium": "2026-09-24",
+   "rec_korean": "2026-05-24",
+   "rec_en": "2026-09-24"
+  },
+  "sec": {
+   "rec_small (현재)": 0.849,
+   "rec_medium": 1.026,
+   "rec_korean": 0.937,
+   "rec_en": 0.67
+  }
+ },
+ "000876.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-01",
+   "rec_medium": "2021-07-01",
+   "rec_korean": "2021-07-01",
+   "rec_en": "2021-07-01"
+  },
+  "sec": {
+   "rec_small (현재)": 0.691,
+   "rec_medium": 1.322,
+   "rec_korean": 1.376,
+   "rec_en": 1.207
+  }
+ },
+ "000886.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.515,
+   "rec_medium": 1.568,
+   "rec_korean": 1.016,
+   "rec_en": 1.224
+  }
+ },
+ "000887.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-04",
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.181,
+   "rec_medium": 4.285,
+   "rec_korean": 2.256,
+   "rec_en": 2.769
+  }
+ },
+ "000889.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-27",
+   "rec_medium": "2021-05-27",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.867,
+   "rec_medium": 3.236,
+   "rec_korean": 2.332,
+   "rec_en": 2.044
+  }
+ },
+ "000895.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-02",
+   "rec_medium": "2021-06-02",
+   "rec_korean": "NONE-06-02",
+   "rec_en": "2021-06-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.069,
+   "rec_medium": 1.34,
+   "rec_korean": 1.468,
+   "rec_en": 1.123
+  }
+ },
+ "000896.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-02-15",
+   "rec_medium": "2023-02-15",
+   "rec_korean": "2023-02-15",
+   "rec_en": "2023-02-15"
+  },
+  "sec": {
+   "rec_small (현재)": 2.677,
+   "rec_medium": 8.05,
+   "rec_korean": 4.349,
+   "rec_en": 4.662
+  }
+ },
+ "000909.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-20",
+   "rec_medium": "2021-09-20",
+   "rec_korean": "2021-09-20",
+   "rec_en": "2021-09-20"
+  },
+  "sec": {
+   "rec_small (현재)": 0.902,
+   "rec_medium": 1.857,
+   "rec_korean": 1.244,
+   "rec_en": 1.146
+  }
+ },
+ "000922.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-26",
+   "rec_medium": "2022-02-26",
+   "rec_korean": "2022-02-26",
+   "rec_en": "2022-02-26"
+  },
+  "sec": {
+   "rec_small (현재)": 0.885,
+   "rec_medium": 2.187,
+   "rec_korean": 1.793,
+   "rec_en": 1.244
+  }
+ },
+ "000924.jpg": {
+  "got": {
+   "rec_small (현재)": "2018-02-02",
+   "rec_medium": "2018-02-02",
+   "rec_korean": "NONE-02-02",
+   "rec_en": "2018-02-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.604,
+   "rec_medium": 3.643,
+   "rec_korean": 2.603,
+   "rec_en": 2.919
+  }
+ },
+ "000927.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-23",
+   "rec_medium": "2021-08-23",
+   "rec_korean": "2021-08-23",
+   "rec_en": "2021-08-23"
+  },
+  "sec": {
+   "rec_small (현재)": 3.868,
+   "rec_medium": 5.306,
+   "rec_korean": 2.813,
+   "rec_en": 2.003
+  }
+ },
+ "000929.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-03-13",
+   "rec_medium": "2022-03-13",
+   "rec_korean": null,
+   "rec_en": "2022-03-13"
+  },
+  "sec": {
+   "rec_small (현재)": 3.276,
+   "rec_medium": 9.929,
+   "rec_korean": 3.988,
+   "rec_en": 4.524
+  }
+ },
+ "000930.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-29",
+   "rec_medium": "2021-07-29",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.418,
+   "rec_medium": 1.63,
+   "rec_korean": 0.726,
+   "rec_en": 0.704
+  }
+ },
+ "000937.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-11",
+   "rec_medium": "2022-06-11",
+   "rec_korean": "2022-06-11",
+   "rec_en": "2022-06-11"
+  },
+  "sec": {
+   "rec_small (현재)": 2.305,
+   "rec_medium": 5.137,
+   "rec_korean": 2.805,
+   "rec_en": 2.337
+  }
+ },
+ "000943.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-08-NONE",
+   "rec_medium": "2020-08-02",
+   "rec_korean": "2020-08-NONE",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.379,
+   "rec_medium": 5.546,
+   "rec_korean": 2.084,
+   "rec_en": 2.235
+  }
+ },
+ "000946.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-30",
+   "rec_medium": "2021-09-30",
+   "rec_korean": "2021-09-30",
+   "rec_en": "2021-09-30"
+  },
+  "sec": {
+   "rec_small (현재)": 1.044,
+   "rec_medium": 1.435,
+   "rec_korean": 1.152,
+   "rec_en": 1.166
+  }
+ },
+ "000950.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-09-16",
+   "rec_medium": "2022-09-16",
+   "rec_korean": "2022-09-16",
+   "rec_en": "2022-09-16"
+  },
+  "sec": {
+   "rec_small (현재)": 2.148,
+   "rec_medium": 3.963,
+   "rec_korean": 2.195,
+   "rec_en": 1.936
+  }
+ },
+ "000951.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-05",
+   "rec_medium": "2021-04-05",
+   "rec_korean": "NONE-04-05",
+   "rec_en": "2021-04-05"
+  },
+  "sec": {
+   "rec_small (현재)": 1.221,
+   "rec_medium": 3.619,
+   "rec_korean": 1.472,
+   "rec_en": 1.313
+  }
+ },
+ "000960.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-19",
+   "rec_medium": "2022-07-19",
+   "rec_korean": "2022-07-19",
+   "rec_en": "2022-07-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.192,
+   "rec_medium": 3.148,
+   "rec_korean": 1.403,
+   "rec_en": 1.29
+  }
+ },
+ "000968.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-17",
+   "rec_medium": "2022-10-17",
+   "rec_korean": "2022-10-17",
+   "rec_en": "2022-10-17"
+  },
+  "sec": {
+   "rec_small (현재)": 1.88,
+   "rec_medium": 5.957,
+   "rec_korean": 2.785,
+   "rec_en": 4.159
+  }
+ },
+ "000973.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.067,
+   "rec_medium": 2.048,
+   "rec_korean": 1.052,
+   "rec_en": 1.059
+  }
+ },
+ "000979.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-14",
+   "rec_medium": "2021-06-14",
+   "rec_korean": null,
+   "rec_en": "2021-06-14"
+  },
+  "sec": {
+   "rec_small (현재)": 1.327,
+   "rec_medium": 2.685,
+   "rec_korean": 1.567,
+   "rec_en": 1.076
+  }
+ },
+ "000982.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 4.383,
+   "rec_medium": 16.147,
+   "rec_korean": 5.02,
+   "rec_en": 4.434
+  }
+ },
+ "000987.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-28",
+   "rec_medium": "2021-12-28",
+   "rec_korean": "2021-12-28",
+   "rec_en": "2021-12-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.246,
+   "rec_medium": 2.304,
+   "rec_korean": 0.893,
+   "rec_en": 1.002
+  }
+ },
+ "000999.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-11",
+   "rec_medium": "2021-11-11",
+   "rec_korean": "2020-08-NONE",
+   "rec_en": "2021-11-11"
+  },
+  "sec": {
+   "rec_small (현재)": 3.146,
+   "rec_medium": 7.918,
+   "rec_korean": 2.286,
+   "rec_en": 1.539
+  }
+ },
+ "001001.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.766,
+   "rec_medium": 1.129,
+   "rec_korean": 0.887,
+   "rec_en": 0.571
+  }
+ },
+ "001006.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-29",
+   "rec_medium": "2022-06-29",
+   "rec_korean": "2022-06-29",
+   "rec_en": "2020-12-30"
+  },
+  "sec": {
+   "rec_small (현재)": 4.045,
+   "rec_medium": 7.147,
+   "rec_korean": 3.4,
+   "rec_en": 3.118
+  }
+ },
+ "001029.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-07",
+   "rec_medium": "2021-07-07",
+   "rec_korean": "2021-07-07",
+   "rec_en": "2021-07-07"
+  },
+  "sec": {
+   "rec_small (현재)": 0.766,
+   "rec_medium": 1.703,
+   "rec_korean": 0.814,
+   "rec_en": 0.466
+  }
+ },
+ "001032.jpg": {
+  "got": {
+   "rec_small (현재)": "2019-07-16",
+   "rec_medium": "2019-07-16",
+   "rec_korean": "2019-07-16",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.154,
+   "rec_medium": 3.571,
+   "rec_korean": 1.953,
+   "rec_en": 1.149
+  }
+ },
+ "001041.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-04-15",
+   "rec_medium": "2022-04-15",
+   "rec_korean": "2022-04-15",
+   "rec_en": "2022-04-15"
+  },
+  "sec": {
+   "rec_small (현재)": 0.432,
+   "rec_medium": 0.864,
+   "rec_korean": 0.521,
+   "rec_en": 0.68
+  }
+ },
+ "001058.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-14",
+   "rec_medium": "2021-10-14",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.125,
+   "rec_medium": 2.021,
+   "rec_korean": 0.968,
+   "rec_en": 0.782
+  }
+ },
+ "001086.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-10-09",
+   "rec_medium": "2023-10-09",
+   "rec_korean": "2023-10-09",
+   "rec_en": "2023-10-09"
+  },
+  "sec": {
+   "rec_small (현재)": 1.255,
+   "rec_medium": 2.765,
+   "rec_korean": 1.59,
+   "rec_en": 1.188
+  }
+ },
+ "001087.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-14",
+   "rec_medium": "2022-06-14",
+   "rec_korean": "2022-06-14",
+   "rec_en": "2022-06-14"
+  },
+  "sec": {
+   "rec_small (현재)": 0.847,
+   "rec_medium": 1.07,
+   "rec_korean": 1.002,
+   "rec_en": 0.786
+  }
+ },
+ "001094.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-12",
+   "rec_medium": "2022-01-12",
+   "rec_korean": "2021-01-13",
+   "rec_en": "2022-01-12"
+  },
+  "sec": {
+   "rec_small (현재)": 1.007,
+   "rec_medium": 1.567,
+   "rec_korean": 0.975,
+   "rec_en": 0.768
+  }
+ },
+ "001102.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.928,
+   "rec_medium": 1.62,
+   "rec_korean": 0.918,
+   "rec_en": 0.923
+  }
+ },
+ "001108.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-28",
+   "rec_medium": "2021-02-28",
+   "rec_korean": "2021-02-28",
+   "rec_en": "2021-02-28"
+  },
+  "sec": {
+   "rec_small (현재)": 0.806,
+   "rec_medium": 1.686,
+   "rec_korean": 1.01,
+   "rec_en": 0.595
+  }
+ },
+ "001121.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-01-10",
+   "rec_medium": "2023-01-10",
+   "rec_korean": "2023-01-10",
+   "rec_en": "2023-01-10"
+  },
+  "sec": {
+   "rec_small (현재)": 2.818,
+   "rec_medium": 6.076,
+   "rec_korean": 2.827,
+   "rec_en": 2.251
+  }
+ },
+ "001126.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-28",
+   "rec_medium": "2021-12-28",
+   "rec_korean": "2021-12-28",
+   "rec_en": "2020-12-29"
+  },
+  "sec": {
+   "rec_small (현재)": 0.902,
+   "rec_medium": 1.489,
+   "rec_korean": 0.79,
+   "rec_en": 0.812
+  }
+ },
+ "001134.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-03",
+   "rec_medium": "2021-03-03",
+   "rec_korean": null,
+   "rec_en": "2021-03-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.609,
+   "rec_medium": 4.711,
+   "rec_korean": 2.002,
+   "rec_en": 2.143
+  }
+ },
+ "001142.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.113,
+   "rec_medium": 2.85,
+   "rec_korean": 1.521,
+   "rec_en": 1.623
+  }
+ },
+ "001147.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-13",
+   "rec_medium": "2021-12-13",
+   "rec_korean": "2021-12-13",
+   "rec_en": "2021-12-13"
+  },
+  "sec": {
+   "rec_small (현재)": 0.771,
+   "rec_medium": 1.377,
+   "rec_korean": 0.769,
+   "rec_en": 0.681
+  }
+ },
+ "001157.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-07",
+   "rec_medium": "2021-02-07",
+   "rec_korean": "2021-02-07",
+   "rec_en": "2021-02-07"
+  },
+  "sec": {
+   "rec_small (현재)": 0.838,
+   "rec_medium": 1.784,
+   "rec_korean": 0.749,
+   "rec_en": 0.692
+  }
+ },
+ "001169.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-31",
+   "rec_medium": "2021-08-31",
+   "rec_korean": "2021-08-31",
+   "rec_en": "2021-08-31"
+  },
+  "sec": {
+   "rec_small (현재)": 0.749,
+   "rec_medium": 2.599,
+   "rec_korean": 0.896,
+   "rec_en": 1.052
+  }
+ },
+ "001171.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-18",
+   "rec_medium": "2022-01-18",
+   "rec_korean": "2022-01-18",
+   "rec_en": "2022-01-18"
+  },
+  "sec": {
+   "rec_small (현재)": 0.711,
+   "rec_medium": 1.544,
+   "rec_korean": 0.987,
+   "rec_en": 0.806
+  }
+ },
+ "001175.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 3.333,
+   "rec_medium": 9.271,
+   "rec_korean": 3.711,
+   "rec_en": 2.828
+  }
+ },
+ "001179.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2023-09-01",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.283,
+   "rec_medium": 2.155,
+   "rec_korean": 1.552,
+   "rec_en": 1.229
+  }
+ },
+ "001184.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-08",
+   "rec_medium": "2021-10-08",
+   "rec_korean": "2021-10-08",
+   "rec_en": "NONE-10-08"
+  },
+  "sec": {
+   "rec_small (현재)": 0.557,
+   "rec_medium": 0.881,
+   "rec_korean": 0.502,
+   "rec_en": 0.627
+  }
+ },
+ "001189.jpg": {
+  "got": {
+   "rec_small (현재)": "2019-06-28",
+   "rec_medium": "2019-06-28",
+   "rec_korean": "2019-06-28",
+   "rec_en": "2019-06-16"
+  },
+  "sec": {
+   "rec_small (현재)": 3.957,
+   "rec_medium": 11.008,
+   "rec_korean": 3.672,
+   "rec_en": 3.771
+  }
+ },
+ "001200.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-20",
+   "rec_medium": "2021-10-20",
+   "rec_korean": "2021-10-20",
+   "rec_en": "2020-10-21"
+  },
+  "sec": {
+   "rec_small (현재)": 0.902,
+   "rec_medium": 1.936,
+   "rec_korean": 1.025,
+   "rec_en": 1.002
+  }
+ },
+ "001201.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-16",
+   "rec_medium": "2022-07-16",
+   "rec_korean": "2022-07-16",
+   "rec_en": "2022-07-16"
+  },
+  "sec": {
+   "rec_small (현재)": 1.648,
+   "rec_medium": 4.485,
+   "rec_korean": 2.118,
+   "rec_en": 2.293
+  }
+ },
+ "001208.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-08-18",
+   "rec_medium": "2020-08-18",
+   "rec_korean": "2020-08-18",
+   "rec_en": "2020-08-18"
+  },
+  "sec": {
+   "rec_small (현재)": 4.113,
+   "rec_medium": 11.923,
+   "rec_korean": 4.15,
+   "rec_en": 3.098
+  }
+ },
+ "001217.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-05-30",
+   "rec_medium": "2022-05-30",
+   "rec_korean": "2022-05-30",
+   "rec_en": "2022-05-30"
+  },
+  "sec": {
+   "rec_small (현재)": 1.212,
+   "rec_medium": 2.526,
+   "rec_korean": 1.441,
+   "rec_en": 1.183
+  }
+ },
+ "001218.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-05-30",
+   "rec_medium": "2022-05-30",
+   "rec_korean": "2022-05-30",
+   "rec_en": "2022-05-30"
+  },
+  "sec": {
+   "rec_small (현재)": 0.939,
+   "rec_medium": 2.616,
+   "rec_korean": 0.987,
+   "rec_en": 1.033
+  }
+ },
+ "001219.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-14",
+   "rec_medium": "2021-01-14",
+   "rec_korean": "2021-01-14",
+   "rec_en": "2021-01-14"
+  },
+  "sec": {
+   "rec_small (현재)": 0.911,
+   "rec_medium": 1.064,
+   "rec_korean": 1.061,
+   "rec_en": 0.75
+  }
+ },
+ "001225.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-27",
+   "rec_medium": "2022-06-27",
+   "rec_korean": "2022-06-27",
+   "rec_en": "2022-06-27"
+  },
+  "sec": {
+   "rec_small (현재)": 3.219,
+   "rec_medium": 7.567,
+   "rec_korean": 2.957,
+   "rec_en": 2.928
+  }
+ },
+ "001239.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-12-19",
+   "rec_medium": "2020-12-19",
+   "rec_korean": "2020-12-19",
+   "rec_en": "2020-12-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.531,
+   "rec_medium": 2.215,
+   "rec_korean": 1.392,
+   "rec_en": 1.073
+  }
+ },
+ "001241.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-13",
+   "rec_medium": "2022-06-13",
+   "rec_korean": "2022-06-13",
+   "rec_en": "2022-06-13"
+  },
+  "sec": {
+   "rec_small (현재)": 1.033,
+   "rec_medium": 2.099,
+   "rec_korean": 1.134,
+   "rec_en": 0.918
+  }
+ },
+ "001242.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-13",
+   "rec_medium": "2022-06-13",
+   "rec_korean": "2022-06-13",
+   "rec_en": "2022-06-13"
+  },
+  "sec": {
+   "rec_small (현재)": 0.833,
+   "rec_medium": 2.188,
+   "rec_korean": 0.627,
+   "rec_en": 0.964
+  }
+ },
+ "001250.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-11",
+   "rec_medium": "2021-04-11",
+   "rec_korean": "2021-04-11",
+   "rec_en": "2021-04-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.716,
+   "rec_medium": 2.852,
+   "rec_korean": 2.016,
+   "rec_en": 1.489
+  }
+ },
+ "001257.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-07-03",
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.335,
+   "rec_medium": 0.66,
+   "rec_korean": 0.474,
+   "rec_en": 0.352
+  }
+ },
+ "001263.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-12-03",
+   "rec_medium": "2022-12-03",
+   "rec_korean": "2022-12-03",
+   "rec_en": "2022-12-03"
+  },
+  "sec": {
+   "rec_small (현재)": 2.32,
+   "rec_medium": 6.493,
+   "rec_korean": 2.403,
+   "rec_en": 2.102
+  }
+ },
+ "001264.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-12-03",
+   "rec_medium": "2022-12-03",
+   "rec_korean": "2022-12-03",
+   "rec_en": "2022-12-03"
+  },
+  "sec": {
+   "rec_small (현재)": 2.155,
+   "rec_medium": 4.709,
+   "rec_korean": 1.919,
+   "rec_en": 1.854
+  }
+ },
+ "001268.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-09-05",
+   "rec_medium": "2022-09-05",
+   "rec_korean": "2022-09-05",
+   "rec_en": "2022-09-05"
+  },
+  "sec": {
+   "rec_small (현재)": 1.329,
+   "rec_medium": 2.42,
+   "rec_korean": 1.231,
+   "rec_en": 1.194
+  }
+ },
+ "001272.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-07-08",
+   "rec_medium": "2023-07-08",
+   "rec_korean": "2023-07-08",
+   "rec_en": "2023-07-08"
+  },
+  "sec": {
+   "rec_small (현재)": 0.874,
+   "rec_medium": 2.254,
+   "rec_korean": 0.944,
+   "rec_en": 0.84
+  }
+ },
+ "001274.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-17",
+   "rec_medium": "2022-06-17",
+   "rec_korean": "2022-06-17",
+   "rec_en": "2022-06-17"
+  },
+  "sec": {
+   "rec_small (현재)": 2.005,
+   "rec_medium": 5.094,
+   "rec_korean": 1.383,
+   "rec_en": 1.846
+  }
+ },
+ "001282.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-04-01",
+   "rec_medium": "2025-04-01",
+   "rec_korean": null,
+   "rec_en": "2025-04-01"
+  },
+  "sec": {
+   "rec_small (현재)": 3.865,
+   "rec_medium": 11.794,
+   "rec_korean": 4.954,
+   "rec_en": 4.154
+  }
+ },
+ "001290.jpg": {
+  "got": {
+   "rec_small (현재)": "2024-11-21",
+   "rec_medium": "2024-11-21",
+   "rec_korean": "2024-11-21",
+   "rec_en": "2024-11-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.035,
+   "rec_medium": 1.514,
+   "rec_korean": 0.701,
+   "rec_en": 0.65
+  }
+ },
+ "001299.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-28",
+   "rec_medium": "2021-07-28",
+   "rec_korean": "2021-07-28",
+   "rec_en": "2021-07-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.716,
+   "rec_medium": 3.239,
+   "rec_korean": 1.425,
+   "rec_en": 1.193
+  }
+ },
+ "001302.jpg": {
+  "got": {
+   "rec_small (현재)": "2030-11-20",
+   "rec_medium": "2030-11-20",
+   "rec_korean": "2030-11-20",
+   "rec_en": "2030-11-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.562,
+   "rec_medium": 3.419,
+   "rec_korean": 1.283,
+   "rec_en": 1.758
+  }
+ },
+ "001306.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-19",
+   "rec_medium": "2021-07-19",
+   "rec_korean": "2021-07-19",
+   "rec_en": "2021-07-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.419,
+   "rec_medium": 3.195,
+   "rec_korean": 1.493,
+   "rec_en": 1.504
+  }
+ },
+ "001309.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-30",
+   "rec_medium": "2021-04-30",
+   "rec_korean": "2021-04-30",
+   "rec_en": "2021-04-30"
+  },
+  "sec": {
+   "rec_small (현재)": 3.2,
+   "rec_medium": 7.92,
+   "rec_korean": 2.892,
+   "rec_en": 2.997
+  }
+ },
+ "001312.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-20",
+   "rec_medium": "2022-10-20",
+   "rec_korean": "2022-10-20",
+   "rec_en": "2022-10-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.074,
+   "rec_medium": 2.865,
+   "rec_korean": 1.318,
+   "rec_en": 1.047
+  }
+ },
+ "001320.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-22",
+   "rec_medium": "2021-11-22",
+   "rec_korean": "2021-11-22",
+   "rec_en": "2021-11-22"
+  },
+  "sec": {
+   "rec_small (현재)": 1.904,
+   "rec_medium": 4.723,
+   "rec_korean": 2.077,
+   "rec_en": 1.776
+  }
+ },
+ "001322.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-15",
+   "rec_medium": "2022-02-15",
+   "rec_korean": "2022-02-15",
+   "rec_en": "2022-02-15"
+  },
+  "sec": {
+   "rec_small (현재)": 2.594,
+   "rec_medium": 7.026,
+   "rec_korean": 3.25,
+   "rec_en": 2.924
+  }
+ },
+ "001324.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-07-09",
+   "rec_medium": "2023-07-09",
+   "rec_korean": "2023-07-09",
+   "rec_en": "2023-07-09"
+  },
+  "sec": {
+   "rec_small (현재)": 2.409,
+   "rec_medium": 5.214,
+   "rec_korean": 1.444,
+   "rec_en": 1.947
+  }
+ },
+ "001325.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-22",
+   "rec_medium": "2021-07-22",
+   "rec_korean": "2021-07-22",
+   "rec_en": "2021-07-22"
+  },
+  "sec": {
+   "rec_small (현재)": 1.742,
+   "rec_medium": 3.929,
+   "rec_korean": 1.479,
+   "rec_en": 1.717
+  }
+ },
+ "001328.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-26",
+   "rec_medium": "2021-06-26",
+   "rec_korean": "2021-06-26",
+   "rec_en": "2021-06-26"
+  },
+  "sec": {
+   "rec_small (현재)": 2.005,
+   "rec_medium": 5.281,
+   "rec_korean": 2.589,
+   "rec_en": 2.072
+  }
+ },
+ "001333.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-NONE",
+   "rec_medium": "2021-12-NONE",
+   "rec_korean": "2021-12-NONE",
+   "rec_en": "2021-12-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 0.452,
+   "rec_medium": 1.17,
+   "rec_korean": 0.755,
+   "rec_en": 0.63
+  }
+ },
+ "001337.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-04",
+   "rec_medium": "2021-07-04",
+   "rec_korean": "2021-07-04",
+   "rec_en": "2021-07-04"
+  },
+  "sec": {
+   "rec_small (현재)": 1.939,
+   "rec_medium": 7.504,
+   "rec_korean": 2.558,
+   "rec_en": 2.032
+  }
+ },
+ "001342.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-11-22",
+   "rec_medium": "2025-11-22",
+   "rec_korean": "2025-11-02",
+   "rec_en": "2025-11-22"
+  },
+  "sec": {
+   "rec_small (현재)": 4.392,
+   "rec_medium": 12.876,
+   "rec_korean": 4.98,
+   "rec_en": 4.525
+  }
+ },
+ "001357.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-08-NONE",
+   "rec_medium": "2022-08-NONE",
+   "rec_korean": "2022-08-NONE",
+   "rec_en": "2022-08-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 1.009,
+   "rec_medium": 1.586,
+   "rec_korean": 1.146,
+   "rec_en": 1.061
+  }
+ },
+ "001376.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-02",
+   "rec_medium": "2021-12-02",
+   "rec_korean": "2021-12-02",
+   "rec_en": "2021-12-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.046,
+   "rec_medium": 1.482,
+   "rec_korean": 1.002,
+   "rec_en": 0.735
+  }
+ },
+ "001398.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-23",
+   "rec_medium": "2021-07-23",
+   "rec_korean": "2021-07-23",
+   "rec_en": "2021-07-23"
+  },
+  "sec": {
+   "rec_small (현재)": 5.29,
+   "rec_medium": 12.902,
+   "rec_korean": 5.154,
+   "rec_en": 4.684
+  }
+ },
+ "001403.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-02-29",
+   "rec_medium": "2020-09-29",
+   "rec_korean": null,
+   "rec_en": "2020-09-02"
+  },
+  "sec": {
+   "rec_small (현재)": 4.113,
+   "rec_medium": 8.662,
+   "rec_korean": 4.119,
+   "rec_en": 3.427
+  }
+ },
+ "001407.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-31",
+   "rec_medium": "2021-07-31",
+   "rec_korean": "2021-07-31",
+   "rec_en": "2021-07-31"
+  },
+  "sec": {
+   "rec_small (현재)": 0.636,
+   "rec_medium": 1.309,
+   "rec_korean": 0.773,
+   "rec_en": 0.617
+  }
+ },
+ "001409.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-16",
+   "rec_medium": "2021-12-16",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 3.003,
+   "rec_medium": 7.101,
+   "rec_korean": 3.345,
+   "rec_en": 3.183
+  }
+ },
+ "001410.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-25",
+   "rec_medium": "2021-05-25",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.661,
+   "rec_medium": 5.56,
+   "rec_korean": 3.708,
+   "rec_en": 3.234
+  }
+ },
+ "001413.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-23",
+   "rec_medium": "2021-07-23",
+   "rec_korean": "2021-07-23",
+   "rec_en": "2021-07-23"
+  },
+  "sec": {
+   "rec_small (현재)": 2.578,
+   "rec_medium": 6.763,
+   "rec_korean": 2.437,
+   "rec_en": 2.366
+  }
+ },
+ "001414.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-23",
+   "rec_medium": "2021-07-23",
+   "rec_korean": "2021-02-24",
+   "rec_en": "2021-07-23"
+  },
+  "sec": {
+   "rec_small (현재)": 1.89,
+   "rec_medium": 4.369,
+   "rec_korean": 1.589,
+   "rec_en": 1.828
+  }
+ },
+ "001421.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-01",
+   "rec_medium": "2021-07-01",
+   "rec_korean": "2021-07-01",
+   "rec_en": "2021-07-01"
+  },
+  "sec": {
+   "rec_small (현재)": 0.799,
+   "rec_medium": 1.797,
+   "rec_korean": 0.858,
+   "rec_en": 0.91
+  }
+ },
+ "001436.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-20",
+   "rec_medium": "2021-09-20",
+   "rec_korean": "2021-09-20",
+   "rec_en": "2021-09-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.221,
+   "rec_medium": 2.366,
+   "rec_korean": 1.073,
+   "rec_en": 1.223
+  }
+ },
+ "001437.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-29",
+   "rec_medium": "2021-08-29",
+   "rec_korean": "2021-08-29",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.256,
+   "rec_medium": 2.177,
+   "rec_korean": 1.158,
+   "rec_en": 1.416
+  }
+ },
+ "001441.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-24",
+   "rec_medium": "2021-06-24",
+   "rec_korean": "2021-06-24",
+   "rec_en": "2021-06-24"
+  },
+  "sec": {
+   "rec_small (현재)": 6.248,
+   "rec_medium": 16.436,
+   "rec_korean": 6.47,
+   "rec_en": 5.809
+  }
+ },
+ "001446.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-28",
+   "rec_medium": "2021-10-28",
+   "rec_korean": "2021-10-28",
+   "rec_en": "2021-10-28"
+  },
+  "sec": {
+   "rec_small (현재)": 0.61,
+   "rec_medium": 0.943,
+   "rec_korean": 0.616,
+   "rec_en": 0.69
+  }
+ },
+ "001449.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-28",
+   "rec_medium": "2022-10-28",
+   "rec_korean": "NONE-10-28",
+   "rec_en": "2022-10-28"
+  },
+  "sec": {
+   "rec_small (현재)": 0.983,
+   "rec_medium": 1.846,
+   "rec_korean": 0.844,
+   "rec_en": 0.884
+  }
+ },
+ "001456.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-28",
+   "rec_medium": "2022-06-28",
+   "rec_korean": "2022-06-28",
+   "rec_en": "2022-06-28"
+  },
+  "sec": {
+   "rec_small (현재)": 2.966,
+   "rec_medium": 7.587,
+   "rec_korean": 2.798,
+   "rec_en": 2.863
+  }
+ },
+ "001469.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-12-03",
+   "rec_medium": "2022-12-03",
+   "rec_korean": "2022-12-03",
+   "rec_en": "2022-12-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.719,
+   "rec_medium": 4.16,
+   "rec_korean": 1.782,
+   "rec_en": 1.615
+  }
+ },
+ "001470.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-29",
+   "rec_medium": "2021-12-29",
+   "rec_korean": "2021-12-29",
+   "rec_en": "2021-12-29"
+  },
+  "sec": {
+   "rec_small (현재)": 5.73,
+   "rec_medium": 15.309,
+   "rec_korean": 5.691,
+   "rec_en": 5.67
+  }
+ },
+ "001479.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-08-27",
+   "rec_medium": "2022-08-27",
+   "rec_korean": "2022-08-27",
+   "rec_en": "2022-08-27"
+  },
+  "sec": {
+   "rec_small (현재)": 1.804,
+   "rec_medium": 4.876,
+   "rec_korean": 1.883,
+   "rec_en": 2.101
+  }
+ },
+ "001483.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-06",
+   "rec_medium": "2021-02-06",
+   "rec_korean": "2021-02-06",
+   "rec_en": "2021-02-06"
+  },
+  "sec": {
+   "rec_small (현재)": 1.451,
+   "rec_medium": 3.346,
+   "rec_korean": 1.56,
+   "rec_en": 1.092
+  }
+ },
+ "001487.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-12-08",
+   "rec_medium": "2022-12-08",
+   "rec_korean": null,
+   "rec_en": "NONE-08-12"
+  },
+  "sec": {
+   "rec_small (현재)": 1.111,
+   "rec_medium": 2.832,
+   "rec_korean": 1.224,
+   "rec_en": 1.227
+  }
+ },
+ "001491.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-07-08",
+   "rec_medium": "2023-07-08",
+   "rec_korean": "2023-07-08",
+   "rec_en": "2023-07-08"
+  },
+  "sec": {
+   "rec_small (현재)": 6.235,
+   "rec_medium": 15.529,
+   "rec_korean": 6.422,
+   "rec_en": 5.08
+  }
+ },
+ "001495.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-22",
+   "rec_medium": "2021-11-22",
+   "rec_korean": "2021-11-22",
+   "rec_en": "2021-11-22"
+  },
+  "sec": {
+   "rec_small (현재)": 2.661,
+   "rec_medium": 6.316,
+   "rec_korean": 2.773,
+   "rec_en": 2.213
+  }
+ },
+ "001498.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-30",
+   "rec_medium": "2021-06-30",
+   "rec_korean": "2021-06-30",
+   "rec_en": "2021-06-30"
+  },
+  "sec": {
+   "rec_small (현재)": 3.863,
+   "rec_medium": 11.056,
+   "rec_korean": 4.84,
+   "rec_en": 4.142
+  }
+ },
+ "001515.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-08-16",
+   "rec_medium": "2022-08-16",
+   "rec_korean": "2022-08-18",
+   "rec_en": "2022-08-16"
+  },
+  "sec": {
+   "rec_small (현재)": 0.784,
+   "rec_medium": 2.417,
+   "rec_korean": 1.341,
+   "rec_en": 1.231
+  }
+ },
+ "001526.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-21",
+   "rec_medium": "2021-01-21",
+   "rec_korean": "2021-01-21",
+   "rec_en": "2021-01-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.525,
+   "rec_medium": 3.121,
+   "rec_korean": 1.712,
+   "rec_en": 1.524
+  }
+ },
+ "001528.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-25",
+   "rec_medium": "2021-06-25",
+   "rec_korean": "2021-06-25",
+   "rec_en": "2021-06-25"
+  },
+  "sec": {
+   "rec_small (현재)": 0.874,
+   "rec_medium": 1.466,
+   "rec_korean": 0.704,
+   "rec_en": 0.642
+  }
+ },
+ "001532.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-21",
+   "rec_medium": "2022-06-21",
+   "rec_korean": "NONE-06-21",
+   "rec_en": "2022-06-21"
+  },
+  "sec": {
+   "rec_small (현재)": 3.209,
+   "rec_medium": 8.998,
+   "rec_korean": 2.882,
+   "rec_en": 3.43
+  }
+ },
+ "001533.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-21",
+   "rec_medium": "2022-06-21",
+   "rec_korean": "2022-06-21",
+   "rec_en": "2022-06-21"
+  },
+  "sec": {
+   "rec_small (현재)": 2.394,
+   "rec_medium": 6.753,
+   "rec_korean": 2.412,
+   "rec_en": 3.254
+  }
+ },
+ "001545.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-02",
+   "rec_medium": "2021-08-02",
+   "rec_korean": "2021-08-02",
+   "rec_en": "2021-08-02"
+  },
+  "sec": {
+   "rec_small (현재)": 0.848,
+   "rec_medium": 2.214,
+   "rec_korean": 1.027,
+   "rec_en": 1.026
+  }
+ },
+ "001548.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-09-28",
+   "rec_medium": "2022-09-28",
+   "rec_korean": "2022-09-28",
+   "rec_en": "2022-09-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.2,
+   "rec_medium": 2.196,
+   "rec_korean": 0.834,
+   "rec_en": 0.988
+  }
+ },
+ "001558.jpg": {
+  "got": {
+   "rec_small (현재)": "2024-12-21",
+   "rec_medium": "2024-12-21",
+   "rec_korean": null,
+   "rec_en": "2024-12-21"
+  },
+  "sec": {
+   "rec_small (현재)": 2.654,
+   "rec_medium": 7.473,
+   "rec_korean": 3.178,
+   "rec_en": 3.26
+  }
+ },
+ "001565.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-17",
+   "rec_medium": "2022-01-17",
+   "rec_korean": "2022-01-17",
+   "rec_en": "2022-01-17"
+  },
+  "sec": {
+   "rec_small (현재)": 4.042,
+   "rec_medium": 9.928,
+   "rec_korean": 4.082,
+   "rec_en": 4.305
+  }
+ },
+ "001566.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-04-23",
+   "rec_medium": "2020-04-23",
+   "rec_korean": "2020-04-23",
+   "rec_en": "2020-04-23"
+  },
+  "sec": {
+   "rec_small (현재)": 1.397,
+   "rec_medium": 2.89,
+   "rec_korean": 1.554,
+   "rec_en": 1.539
+  }
+ },
+ "001572.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-11",
+   "rec_medium": "2021-06-11",
+   "rec_korean": "2021-06-11",
+   "rec_en": "2021-06-11"
+  },
+  "sec": {
+   "rec_small (현재)": 0.724,
+   "rec_medium": 1.549,
+   "rec_korean": 0.845,
+   "rec_en": 0.886
+  }
+ },
+ "001575.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-03-27",
+   "rec_medium": "2022-03-27",
+   "rec_korean": "2022-03-27",
+   "rec_en": "2022-03-27"
+  },
+  "sec": {
+   "rec_small (현재)": 2.64,
+   "rec_medium": 6.225,
+   "rec_korean": 2.65,
+   "rec_en": 2.366
+  }
+ },
+ "001579.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-02",
+   "rec_medium": "2022-11-02",
+   "rec_korean": "2022-11-02",
+   "rec_en": "2022-11-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.339,
+   "rec_medium": 3.27,
+   "rec_korean": 1.624,
+   "rec_en": 1.263
+  }
+ },
+ "001585.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-28",
+   "rec_medium": "2021-10-28",
+   "rec_korean": "2021-10-28",
+   "rec_en": "2021-10-28"
+  },
+  "sec": {
+   "rec_small (현재)": 3.246,
+   "rec_medium": 9.909,
+   "rec_korean": 3.418,
+   "rec_en": 3.361
+  }
+ },
+ "001586.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-20",
+   "rec_medium": "2021-04-20",
+   "rec_korean": null,
+   "rec_en": "2021-04-20"
+  },
+  "sec": {
+   "rec_small (현재)": 0.877,
+   "rec_medium": 1.855,
+   "rec_korean": 0.868,
+   "rec_en": 0.884
+  }
+ },
+ "001592.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-05",
+   "rec_medium": "2022-01-05",
+   "rec_korean": "2022-01-05",
+   "rec_en": "2022-01-05"
+  },
+  "sec": {
+   "rec_small (현재)": 1.543,
+   "rec_medium": 4.333,
+   "rec_korean": 2.041,
+   "rec_en": 1.565
+  }
+ },
+ "001593.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-05",
+   "rec_medium": "2022-01-05",
+   "rec_korean": "2022-01-05",
+   "rec_en": "2022-01-05"
+  },
+  "sec": {
+   "rec_small (현재)": 1.756,
+   "rec_medium": 4.363,
+   "rec_korean": 1.494,
+   "rec_en": 1.475
+  }
+ },
+ "001596.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-25",
+   "rec_medium": "2021-02-25",
+   "rec_korean": "2021-02-25",
+   "rec_en": "2021-02-25"
+  },
+  "sec": {
+   "rec_small (현재)": 0.952,
+   "rec_medium": 2.082,
+   "rec_korean": 0.935,
+   "rec_en": 0.891
+  }
+ },
+ "001600.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-08",
+   "rec_medium": "2021-02-08",
+   "rec_korean": "2021-02-08",
+   "rec_en": "2021-02-08"
+  },
+  "sec": {
+   "rec_small (현재)": 1.09,
+   "rec_medium": 2.715,
+   "rec_korean": 1.035,
+   "rec_en": 1.477
+  }
+ },
+ "001601.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-11",
+   "rec_medium": "2021-02-11",
+   "rec_korean": "2021-02-11",
+   "rec_en": "2021-02-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.196,
+   "rec_medium": 3.223,
+   "rec_korean": 1.323,
+   "rec_en": 1.092
+  }
+ },
+ "001609.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-29",
+   "rec_medium": "2021-06-29",
+   "rec_korean": "2031-06-29",
+   "rec_en": "2021-06-29"
+  },
+  "sec": {
+   "rec_small (현재)": 0.412,
+   "rec_medium": 0.6,
+   "rec_korean": 0.407,
+   "rec_en": 0.351
+  }
+ },
+ "001620.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-19",
+   "rec_medium": null,
+   "rec_korean": "2022-07-19",
+   "rec_en": "2022-07-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.349,
+   "rec_medium": 3.535,
+   "rec_korean": 1.635,
+   "rec_en": 1.408
+  }
+ },
+ "001640.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-28",
+   "rec_medium": "2021-02-28",
+   "rec_korean": null,
+   "rec_en": "NONE-02-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.822,
+   "rec_medium": 3.841,
+   "rec_korean": 1.445,
+   "rec_en": 1.438
+  }
+ },
+ "001644.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-16",
+   "rec_medium": "2021-10-16",
+   "rec_korean": "2021-10-16",
+   "rec_en": "2021-10-16"
+  },
+  "sec": {
+   "rec_small (현재)": 1.342,
+   "rec_medium": 2.797,
+   "rec_korean": 1.124,
+   "rec_en": 0.986
+  }
+ },
+ "001648.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-14",
+   "rec_medium": "2021-12-14",
+   "rec_korean": "2021-12-14",
+   "rec_en": "2021-12-14"
+  },
+  "sec": {
+   "rec_small (현재)": 0.828,
+   "rec_medium": 1.802,
+   "rec_korean": 0.85,
+   "rec_en": 0.874
+  }
+ },
+ "001659.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-05",
+   "rec_medium": "2022-10-05",
+   "rec_korean": "2022-10-05",
+   "rec_en": "2022-10-05"
+  },
+  "sec": {
+   "rec_small (현재)": 2.812,
+   "rec_medium": 7.735,
+   "rec_korean": 3.588,
+   "rec_en": 2.211
+  }
+ },
+ "001663.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-08-29",
+   "rec_medium": "2020-08-29",
+   "rec_korean": "2020-08-29",
+   "rec_en": "2020-08-29"
+  },
+  "sec": {
+   "rec_small (현재)": 5.82,
+   "rec_medium": 13.323,
+   "rec_korean": 5.312,
+   "rec_en": 4.635
+  }
+ },
+ "001673.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.835,
+   "rec_medium": 0.999,
+   "rec_korean": 0.793,
+   "rec_en": 0.776
+  }
+ },
+ "001676.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-15",
+   "rec_medium": null,
+   "rec_korean": "2021-03-15",
+   "rec_en": "2021-03-15"
+  },
+  "sec": {
+   "rec_small (현재)": 1.844,
+   "rec_medium": 5.268,
+   "rec_korean": 2.09,
+   "rec_en": 2.389
+  }
+ },
+ "001680.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-16",
+   "rec_medium": "2021-03-16",
+   "rec_korean": "2021-03-16",
+   "rec_en": "2021-03-16"
+  },
+  "sec": {
+   "rec_small (현재)": 1.186,
+   "rec_medium": 2.8,
+   "rec_korean": 1.359,
+   "rec_en": 1.013
+  }
+ },
+ "001685.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-29",
+   "rec_medium": "2021-11-29",
+   "rec_korean": "2021-11-29",
+   "rec_en": "2021-11-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.284,
+   "rec_medium": 2.692,
+   "rec_korean": 1.474,
+   "rec_en": 1.419
+  }
+ },
+ "001686.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-11-27",
+   "rec_medium": "2020-11-27",
+   "rec_korean": "2020-11-27",
+   "rec_en": "2020-11-27"
+  },
+  "sec": {
+   "rec_small (현재)": 3.468,
+   "rec_medium": 8.285,
+   "rec_korean": 4.351,
+   "rec_en": 3.693
+  }
+ },
+ "001692.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-03",
+   "rec_medium": "2021-07-03",
+   "rec_korean": "2021-07-03",
+   "rec_en": "2021-07-03"
+  },
+  "sec": {
+   "rec_small (현재)": 0.829,
+   "rec_medium": 1.76,
+   "rec_korean": 0.994,
+   "rec_en": 1.019
+  }
+ },
+ "001708.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-02",
+   "rec_medium": "2021-05-02",
+   "rec_korean": "2021-05-02",
+   "rec_en": "2021-05-02"
+  },
+  "sec": {
+   "rec_small (현재)": 0.586,
+   "rec_medium": 1.053,
+   "rec_korean": 0.572,
+   "rec_en": 0.49
+  }
+ },
+ "001709.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-12",
+   "rec_medium": "2021-04-12",
+   "rec_korean": "2021-04-12",
+   "rec_en": "2021-04-12"
+  },
+  "sec": {
+   "rec_small (현재)": 0.944,
+   "rec_medium": 1.791,
+   "rec_korean": 0.837,
+   "rec_en": 0.973
+  }
+ },
+ "001713.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-08",
+   "rec_medium": "2021-09-08",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.713,
+   "rec_medium": 3.916,
+   "rec_korean": 1.874,
+   "rec_en": 2.332
+  }
+ },
+ "001714.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.853,
+   "rec_medium": 3.971,
+   "rec_korean": 2.036,
+   "rec_en": 1.925
+  }
+ },
+ "001722.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-06",
+   "rec_medium": "2021-07-06",
+   "rec_korean": "2021-07-06",
+   "rec_en": "2021-07-06"
+  },
+  "sec": {
+   "rec_small (현재)": 1.712,
+   "rec_medium": 5.494,
+   "rec_korean": 2.276,
+   "rec_en": 1.735
+  }
+ },
+ "001723.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-13",
+   "rec_medium": "2021-05-13",
+   "rec_korean": "2021-05-13",
+   "rec_en": "2021-05-13"
+  },
+  "sec": {
+   "rec_small (현재)": 1.074,
+   "rec_medium": 1.665,
+   "rec_korean": 1.155,
+   "rec_en": 0.998
+  }
+ },
+ "001734.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-20",
+   "rec_medium": "2022-01-20",
+   "rec_korean": null,
+   "rec_en": "2022-01-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.077,
+   "rec_medium": 1.681,
+   "rec_korean": 1.021,
+   "rec_en": 0.775
+  }
+ },
+ "001744.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-29",
+   "rec_medium": "2021-01-29",
+   "rec_korean": "2021-01-29",
+   "rec_en": "2021-01-29"
+  },
+  "sec": {
+   "rec_small (현재)": 0.957,
+   "rec_medium": 1.518,
+   "rec_korean": 0.734,
+   "rec_en": 0.782
+  }
+ },
+ "001752.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-10",
+   "rec_medium": "2022-01-10",
+   "rec_korean": "2022-01-10",
+   "rec_en": "2022-01-10"
+  },
+  "sec": {
+   "rec_small (현재)": 1.101,
+   "rec_medium": 2.228,
+   "rec_korean": 1.254,
+   "rec_en": 1.012
+  }
+ },
+ "001786.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-19",
+   "rec_medium": "2021-09-19",
+   "rec_korean": "2021-09-19",
+   "rec_en": "2021-09-19"
+  },
+  "sec": {
+   "rec_small (현재)": 0.481,
+   "rec_medium": 0.841,
+   "rec_korean": 0.48,
+   "rec_en": 0.457
+  }
+ },
+ "001793.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-07",
+   "rec_medium": "2021-11-07",
+   "rec_korean": "2021-11-07",
+   "rec_en": "2021-11-07"
+  },
+  "sec": {
+   "rec_small (현재)": 2.031,
+   "rec_medium": 3.78,
+   "rec_korean": 2.339,
+   "rec_en": 2.254
+  }
+ },
+ "001801.jpg": {
+  "got": {
+   "rec_small (현재)": "NONE-01-11",
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.701,
+   "rec_medium": 8.346,
+   "rec_korean": 2.983,
+   "rec_en": 2.918
+  }
+ },
+ "001807.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-25",
+   "rec_medium": "2021-02-25",
+   "rec_korean": "2021-02-25",
+   "rec_en": "2021-02-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.948,
+   "rec_medium": 5.689,
+   "rec_korean": 2.407,
+   "rec_en": 2.32
+  }
+ },
+ "001813.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-26",
+   "rec_medium": "2021-03-26",
+   "rec_korean": "2021-03-26",
+   "rec_en": "2021-03-26"
+  },
+  "sec": {
+   "rec_small (현재)": 0.59,
+   "rec_medium": 1.443,
+   "rec_korean": 0.681,
+   "rec_en": 0.735
+  }
+ },
+ "001817.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-14",
+   "rec_medium": "2021-04-14",
+   "rec_korean": "2021-01-15",
+   "rec_en": "2021-01-15"
+  },
+  "sec": {
+   "rec_small (현재)": 2.101,
+   "rec_medium": 5.925,
+   "rec_korean": 1.888,
+   "rec_en": 1.891
+  }
+ },
+ "001819.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-18",
+   "rec_medium": "2022-01-18",
+   "rec_korean": "2022-01-18",
+   "rec_en": "2022-01-18"
+  },
+  "sec": {
+   "rec_small (현재)": 1.571,
+   "rec_medium": 4.1,
+   "rec_korean": 1.679,
+   "rec_en": 1.678
+  }
+ },
+ "001822.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-09",
+   "rec_medium": "2021-06-09",
+   "rec_korean": "2021-06-09",
+   "rec_en": "2021-06-09"
+  },
+  "sec": {
+   "rec_small (현재)": 0.847,
+   "rec_medium": 1.72,
+   "rec_korean": 1.105,
+   "rec_en": 0.877
+  }
+ },
+ "001835.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": "NONE-12-07",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.456,
+   "rec_medium": 0.786,
+   "rec_korean": 0.533,
+   "rec_en": 0.44
+  }
+ },
+ "001836.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-02",
+   "rec_medium": "2021-10-02",
+   "rec_korean": "2021-10-02",
+   "rec_en": "2021-10-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.44,
+   "rec_medium": 2.63,
+   "rec_korean": 1.018,
+   "rec_en": 0.957
+  }
+ },
+ "001848.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.186,
+   "rec_medium": 2.402,
+   "rec_korean": 1.633,
+   "rec_en": 1.161
+  }
+ },
+ "001853.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.601,
+   "rec_medium": 0.725,
+   "rec_korean": 0.444,
+   "rec_en": 0.457
+  }
+ },
+ "001864.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": "2023-08-04"
+  },
+  "sec": {
+   "rec_small (현재)": 0.893,
+   "rec_medium": 1.68,
+   "rec_korean": 0.652,
+   "rec_en": 0.555
+  }
+ },
+ "001865.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-17",
+   "rec_medium": "2021-09-17",
+   "rec_korean": "2021-09-17",
+   "rec_en": "2021-09-17"
+  },
+  "sec": {
+   "rec_small (현재)": 0.629,
+   "rec_medium": 0.914,
+   "rec_korean": 0.937,
+   "rec_en": 0.809
+  }
+ },
+ "001873.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-14",
+   "rec_medium": "2022-10-14",
+   "rec_korean": "2022-10-14",
+   "rec_en": "2022-10-14"
+  },
+  "sec": {
+   "rec_small (현재)": 1.392,
+   "rec_medium": 5.939,
+   "rec_korean": 1.984,
+   "rec_en": 1.794
+  }
+ },
+ "001875.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-21",
+   "rec_medium": "2022-10-21",
+   "rec_korean": "2022-10-21",
+   "rec_en": "2022-10-21"
+  },
+  "sec": {
+   "rec_small (현재)": 0.627,
+   "rec_medium": 1.265,
+   "rec_korean": 0.569,
+   "rec_en": 0.685
+  }
+ },
+ "001884.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-09",
+   "rec_medium": "2021-09-09",
+   "rec_korean": "2021-09-09",
+   "rec_en": "2021-09-09"
+  },
+  "sec": {
+   "rec_small (현재)": 2.239,
+   "rec_medium": 6.35,
+   "rec_korean": 4.421,
+   "rec_en": 3.39
+  }
+ },
+ "001892.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-05-22",
+   "rec_medium": "2022-05-22",
+   "rec_korean": "2022-05-22",
+   "rec_en": "2022-05-22"
+  },
+  "sec": {
+   "rec_small (현재)": 0.904,
+   "rec_medium": 1.676,
+   "rec_korean": 1.061,
+   "rec_en": 0.895
+  }
+ },
+ "001894.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-19",
+   "rec_medium": "2021-03-19",
+   "rec_korean": "2021-03-19",
+   "rec_en": "2021-03-19"
+  },
+  "sec": {
+   "rec_small (현재)": 0.713,
+   "rec_medium": 2.13,
+   "rec_korean": 0.84,
+   "rec_en": 0.7
+  }
+ },
+ "001902.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-28",
+   "rec_medium": "2021-10-28",
+   "rec_korean": "2021-10-28",
+   "rec_en": "2021-10-28"
+  },
+  "sec": {
+   "rec_small (현재)": 0.623,
+   "rec_medium": 1.195,
+   "rec_korean": 0.487,
+   "rec_en": 0.464
+  }
+ },
+ "001903.jpg": {
+  "got": {
+   "rec_small (현재)": "2027-08-21",
+   "rec_medium": "2027-08-21",
+   "rec_korean": "2027-08-21",
+   "rec_en": "2027-08-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.661,
+   "rec_medium": 2.859,
+   "rec_korean": 1.648,
+   "rec_en": 1.436
+  }
+ },
+ "001906.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-03",
+   "rec_medium": "2021-09-03",
+   "rec_korean": "2021-09-03",
+   "rec_en": "2021-09-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.334,
+   "rec_medium": 3.09,
+   "rec_korean": 1.526,
+   "rec_en": 1.392
+  }
+ },
+ "001909.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-29",
+   "rec_medium": "2021-12-29",
+   "rec_korean": "2021-12-29",
+   "rec_en": "2021-12-29"
+  },
+  "sec": {
+   "rec_small (현재)": 3.647,
+   "rec_medium": 8.573,
+   "rec_korean": 3.422,
+   "rec_en": 3.713
+  }
+ },
+ "001918.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-25",
+   "rec_medium": "2021-05-25",
+   "rec_korean": "2021-05-25",
+   "rec_en": "2021-05-25"
+  },
+  "sec": {
+   "rec_small (현재)": 0.384,
+   "rec_medium": 0.733,
+   "rec_korean": 0.459,
+   "rec_en": 0.534
+  }
+ },
+ "001919.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-12-20",
+   "rec_medium": "2023-12-20",
+   "rec_korean": "2023-12-20",
+   "rec_en": "2023-12-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.347,
+   "rec_medium": 2.901,
+   "rec_korean": 1.745,
+   "rec_en": 1.802
+  }
+ },
+ "001924.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-21",
+   "rec_medium": "2022-01-21",
+   "rec_korean": "2021-01-NONE",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.213,
+   "rec_medium": 2.314,
+   "rec_korean": 1.228,
+   "rec_en": 1.115
+  }
+ },
+ "001927.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-27",
+   "rec_medium": "2021-04-27",
+   "rec_korean": "2021-04-27",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.689,
+   "rec_medium": 1.453,
+   "rec_korean": 0.851,
+   "rec_en": 0.703
+  }
+ },
+ "001934.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-03-29",
+   "rec_medium": "2022-03-29",
+   "rec_korean": "2022-03-29",
+   "rec_en": "2022-03-29"
+  },
+  "sec": {
+   "rec_small (현재)": 4.602,
+   "rec_medium": 12.903,
+   "rec_korean": 4.372,
+   "rec_en": 4.575
+  }
+ },
+ "001942.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-05-27",
+   "rec_medium": "2022-05-27",
+   "rec_korean": "2021-12-20",
+   "rec_en": "2022-05-27"
+  },
+  "sec": {
+   "rec_small (현재)": 0.552,
+   "rec_medium": 1.174,
+   "rec_korean": 0.602,
+   "rec_en": 0.515
+  }
+ },
+ "001951.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-09-16",
+   "rec_medium": "2022-09-16",
+   "rec_korean": "2022-09-16",
+   "rec_en": "2022-09-16"
+  },
+  "sec": {
+   "rec_small (현재)": 0.586,
+   "rec_medium": 0.578,
+   "rec_korean": 0.54,
+   "rec_en": 0.483
+  }
+ },
+ "001967.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-08-24",
+   "rec_medium": "2022-08-24",
+   "rec_korean": "2022-08-24",
+   "rec_en": "2022-08-24"
+  },
+  "sec": {
+   "rec_small (현재)": 1.148,
+   "rec_medium": 2.72,
+   "rec_korean": 1.357,
+   "rec_en": 1.108
+  }
+ },
+ "001974.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-NONE",
+   "rec_medium": "2021-09-NONE",
+   "rec_korean": "2021-09-NONE",
+   "rec_en": "2021-09-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 3.38,
+   "rec_medium": 7.679,
+   "rec_korean": 3.378,
+   "rec_en": 2.72
+  }
+ },
+ "001985.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-19",
+   "rec_medium": "2022-01-19",
+   "rec_korean": "2022-01-19",
+   "rec_en": "2022-01-19"
+  },
+  "sec": {
+   "rec_small (현재)": 2.18,
+   "rec_medium": 4.295,
+   "rec_korean": 1.743,
+   "rec_en": 1.505
+  }
+ },
+ "002011.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-06-30",
+   "rec_medium": "2020-06-30",
+   "rec_korean": "2020-06-30",
+   "rec_en": "2020-06-30"
+  },
+  "sec": {
+   "rec_small (현재)": 0.557,
+   "rec_medium": 0.642,
+   "rec_korean": 0.558,
+   "rec_en": 0.54
+  }
+ },
+ "002021.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-04-09",
+   "rec_medium": "2022-04-09",
+   "rec_korean": "2022-04-09",
+   "rec_en": "2022-04-09"
+  },
+  "sec": {
+   "rec_small (현재)": 3.299,
+   "rec_medium": 8.611,
+   "rec_korean": 3.166,
+   "rec_en": 3.222
+  }
+ },
+ "002027.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-11-26",
+   "rec_medium": "2020-11-26",
+   "rec_korean": "2020-11-26",
+   "rec_en": "2020-05-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 3.732,
+   "rec_medium": 8.815,
+   "rec_korean": 4.429,
+   "rec_en": 3.444
+  }
+ },
+ "002041.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-08-27",
+   "rec_medium": "2020-08-27",
+   "rec_korean": "2020-08-27",
+   "rec_en": "2020-08-27"
+  },
+  "sec": {
+   "rec_small (현재)": 2.832,
+   "rec_medium": 7.758,
+   "rec_korean": 3.604,
+   "rec_en": 2.933
+  }
+ },
+ "002046.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-10",
+   "rec_medium": "2021-12-10",
+   "rec_korean": "2021-12-10",
+   "rec_en": "2021-12-10"
+  },
+  "sec": {
+   "rec_small (현재)": 3.06,
+   "rec_medium": 7.115,
+   "rec_korean": 3.051,
+   "rec_en": 3.159
+  }
+ },
+ "002054.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-NONE",
+   "rec_medium": "2021-12-NONE",
+   "rec_korean": null,
+   "rec_en": "2021-12-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 3.706,
+   "rec_medium": 9.554,
+   "rec_korean": 4.359,
+   "rec_en": 4.37
+  }
+ },
+ "002055.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-NONE",
+   "rec_medium": "2021-12-NONE",
+   "rec_korean": "2021-12-NONE",
+   "rec_en": "2021-12-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 3.801,
+   "rec_medium": 10.0,
+   "rec_korean": 4.274,
+   "rec_en": 4.209
+  }
+ },
+ "002056.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-17",
+   "rec_medium": "2021-12-17",
+   "rec_korean": "2021-12-17",
+   "rec_en": "2021-12-17"
+  },
+  "sec": {
+   "rec_small (현재)": 1.247,
+   "rec_medium": 2.566,
+   "rec_korean": 1.33,
+   "rec_en": 1.539
+  }
+ },
+ "002067.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-04-30",
+   "rec_medium": "2020-04-30",
+   "rec_korean": "2020-04-30",
+   "rec_en": "2020-04-30"
+  },
+  "sec": {
+   "rec_small (현재)": 1.874,
+   "rec_medium": 3.826,
+   "rec_korean": 1.378,
+   "rec_en": 1.715
+  }
+ },
+ "002070.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-03-24",
+   "rec_medium": "2022-03-24",
+   "rec_korean": "2022-03-24",
+   "rec_en": "2022-03-24"
+  },
+  "sec": {
+   "rec_small (현재)": 1.621,
+   "rec_medium": 2.938,
+   "rec_korean": 1.412,
+   "rec_en": 1.67
+  }
+ },
+ "002075.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-05-28",
+   "rec_medium": "2020-05-28",
+   "rec_korean": "2020-05-28",
+   "rec_en": "2020-05-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.121,
+   "rec_medium": 2.771,
+   "rec_korean": 1.076,
+   "rec_en": 0.767
+  }
+ },
+ "002093.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-17",
+   "rec_medium": "2021-11-17",
+   "rec_korean": "2021-11-17",
+   "rec_en": "2021-11-17"
+  },
+  "sec": {
+   "rec_small (현재)": 3.734,
+   "rec_medium": 8.748,
+   "rec_korean": 3.868,
+   "rec_en": 2.832
+  }
+ },
+ "002098.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-25",
+   "rec_medium": "2021-05-25",
+   "rec_korean": "2021-05-25",
+   "rec_en": "2021-05-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.464,
+   "rec_medium": 3.688,
+   "rec_korean": 2.019,
+   "rec_en": 1.756
+  }
+ },
+ "002099.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-25",
+   "rec_medium": "2021-05-25",
+   "rec_korean": "2021-05-25",
+   "rec_en": "2021-05-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.14,
+   "rec_medium": 3.31,
+   "rec_korean": 1.635,
+   "rec_en": 1.459
+  }
+ },
+ "002101.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-17",
+   "rec_medium": "2021-09-17",
+   "rec_korean": "2021-09-17",
+   "rec_en": "2021-09-17"
+  },
+  "sec": {
+   "rec_small (현재)": 0.884,
+   "rec_medium": 1.238,
+   "rec_korean": 0.662,
+   "rec_en": 0.779
+  }
+ },
+ "002102.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-25",
+   "rec_medium": "2021-12-25",
+   "rec_korean": "2021-12-25",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.962,
+   "rec_medium": 1.828,
+   "rec_korean": 0.935,
+   "rec_en": 1.172
+  }
+ },
+ "002109.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-24",
+   "rec_medium": "2022-02-24",
+   "rec_korean": null,
+   "rec_en": "2022-02-24"
+  },
+  "sec": {
+   "rec_small (현재)": 2.523,
+   "rec_medium": 6.529,
+   "rec_korean": 3.05,
+   "rec_en": 2.786
+  }
+ },
+ "002116.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-07-05",
+   "rec_medium": "2020-07-05",
+   "rec_korean": "2020-07-05",
+   "rec_en": "2020-07-05"
+  },
+  "sec": {
+   "rec_small (현재)": 2.666,
+   "rec_medium": 6.697,
+   "rec_korean": 2.928,
+   "rec_en": 2.187
+  }
+ },
+ "002133.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-04",
+   "rec_medium": "2021-10-04",
+   "rec_korean": null,
+   "rec_en": "2021-10-04"
+  },
+  "sec": {
+   "rec_small (현재)": 0.535,
+   "rec_medium": 0.936,
+   "rec_korean": 0.565,
+   "rec_en": 0.619
+  }
+ },
+ "002135.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-02",
+   "rec_medium": "2022-11-02",
+   "rec_korean": null,
+   "rec_en": "2022-11-02"
+  },
+  "sec": {
+   "rec_small (현재)": 4.409,
+   "rec_medium": 10.03,
+   "rec_korean": 5.203,
+   "rec_en": 3.959
+  }
+ },
+ "002141.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-11",
+   "rec_medium": "2021-04-11",
+   "rec_korean": "2021-04-11",
+   "rec_en": "2021-04-11"
+  },
+  "sec": {
+   "rec_small (현재)": 0.704,
+   "rec_medium": 1.29,
+   "rec_korean": 0.887,
+   "rec_en": 0.676
+  }
+ },
+ "002153.jpg": {
+  "got": {
+   "rec_small (현재)": "2019-09-12",
+   "rec_medium": "2019-06-12",
+   "rec_korean": "2018-09-12",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.755,
+   "rec_medium": 1.763,
+   "rec_korean": 0.854,
+   "rec_en": 0.877
+  }
+ },
+ "002157.jpg": {
+  "got": {
+   "rec_small (현재)": "NONE-05-01",
+   "rec_medium": "NONE-05-01",
+   "rec_korean": "NONE-05-01",
+   "rec_en": "NONE-05-01"
+  },
+  "sec": {
+   "rec_small (현재)": 0.891,
+   "rec_medium": 1.902,
+   "rec_korean": 1.14,
+   "rec_en": 0.79
+  }
+ },
+ "002165.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-29",
+   "rec_medium": "2021-01-29",
+   "rec_korean": "2021-01-29",
+   "rec_en": "2020-10-30"
+  },
+  "sec": {
+   "rec_small (현재)": 1.381,
+   "rec_medium": 3.065,
+   "rec_korean": 1.183,
+   "rec_en": 1.148
+  }
+ },
+ "002172.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-06-24",
+   "rec_medium": "2020-06-24",
+   "rec_korean": "2020-06-24",
+   "rec_en": "2020-06-24"
+  },
+  "sec": {
+   "rec_small (현재)": 3.151,
+   "rec_medium": 8.422,
+   "rec_korean": 2.936,
+   "rec_en": 3.19
+  }
+ },
+ "002190.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-04",
+   "rec_medium": "2022-02-04",
+   "rec_korean": "2022-02-04",
+   "rec_en": "2022-02-04"
+  },
+  "sec": {
+   "rec_small (현재)": 0.684,
+   "rec_medium": 1.289,
+   "rec_korean": 0.683,
+   "rec_en": 0.88
+  }
+ },
+ "002191.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-10-20",
+   "rec_medium": "2020-10-20",
+   "rec_korean": "2020-10-20",
+   "rec_en": "2020-10-20"
+  },
+  "sec": {
+   "rec_small (현재)": 0.984,
+   "rec_medium": 1.451,
+   "rec_korean": 1.144,
+   "rec_en": 0.956
+  }
+ },
+ "002195.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-28",
+   "rec_medium": "2021-10-28",
+   "rec_korean": "2021-10-28",
+   "rec_en": "2021-10-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.59,
+   "rec_medium": 3.005,
+   "rec_korean": 1.857,
+   "rec_en": 1.774
+  }
+ },
+ "002196.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-02",
+   "rec_medium": "2021-10-28",
+   "rec_korean": "2021-10-28",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.945,
+   "rec_medium": 1.403,
+   "rec_korean": 0.704,
+   "rec_en": 0.901
+  }
+ },
+ "002197.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-13",
+   "rec_medium": "2021-01-13",
+   "rec_korean": "2021-01-13",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.774,
+   "rec_medium": 1.555,
+   "rec_korean": 1.144,
+   "rec_en": 1.052
+  }
+ },
+ "002201.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-10-08",
+   "rec_medium": "2020-10-08",
+   "rec_korean": "2020-10-08",
+   "rec_en": "2020-10-08"
+  },
+  "sec": {
+   "rec_small (현재)": 2.12,
+   "rec_medium": 3.668,
+   "rec_korean": 1.519,
+   "rec_en": 1.467
+  }
+ },
+ "002222.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-07",
+   "rec_medium": "2021-02-07",
+   "rec_korean": "2021-02-07",
+   "rec_en": "2021-02-07"
+  },
+  "sec": {
+   "rec_small (현재)": 2.994,
+   "rec_medium": 6.969,
+   "rec_korean": 2.82,
+   "rec_en": 3.063
+  }
+ },
+ "002236.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-08",
+   "rec_medium": "2021-06-08",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 3.07,
+   "rec_medium": 8.989,
+   "rec_korean": 2.708,
+   "rec_en": 2.658
+  }
+ },
+ "002237.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.435,
+   "rec_medium": 5.641,
+   "rec_korean": 1.987,
+   "rec_en": 1.824
+  }
+ },
+ "002238.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-06-30",
+   "rec_medium": "2022-06-30",
+   "rec_korean": null,
+   "rec_en": "2022-06-30"
+  },
+  "sec": {
+   "rec_small (현재)": 3.401,
+   "rec_medium": 9.113,
+   "rec_korean": 3.803,
+   "rec_en": 3.383
+  }
+ },
+ "002241.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2021-05-26",
+   "rec_korean": "2021-05-26",
+   "rec_en": "2021-05-26"
+  },
+  "sec": {
+   "rec_small (현재)": 0.772,
+   "rec_medium": 1.29,
+   "rec_korean": 0.769,
+   "rec_en": 0.771
+  }
+ },
+ "002247.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-07",
+   "rec_medium": "2021-09-07",
+   "rec_korean": "2021-09-07",
+   "rec_en": "2021-09-07"
+  },
+  "sec": {
+   "rec_small (현재)": 1.314,
+   "rec_medium": 1.978,
+   "rec_korean": 1.197,
+   "rec_en": 1.218
+  }
+ },
+ "002253.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-04",
+   "rec_medium": "2022-01-04",
+   "rec_korean": "2022-01-04",
+   "rec_en": "2022-01-04"
+  },
+  "sec": {
+   "rec_small (현재)": 1.043,
+   "rec_medium": 2.651,
+   "rec_korean": 1.03,
+   "rec_en": 1.108
+  }
+ },
+ "002257.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-30",
+   "rec_medium": "2021-04-30",
+   "rec_korean": "2021-04-30",
+   "rec_en": "2021-04-30"
+  },
+  "sec": {
+   "rec_small (현재)": 0.846,
+   "rec_medium": 2.135,
+   "rec_korean": 0.95,
+   "rec_en": 0.868
+  }
+ },
+ "002258.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-24",
+   "rec_medium": "2022-01-24",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.696,
+   "rec_medium": 1.026,
+   "rec_korean": 0.762,
+   "rec_en": 0.851
+  }
+ },
+ "002271.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-02",
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": "2021-08-02"
+  },
+  "sec": {
+   "rec_small (현재)": 0.987,
+   "rec_medium": 1.742,
+   "rec_korean": 0.728,
+   "rec_en": 0.714
+  }
+ },
+ "002279.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-03",
+   "rec_medium": "2021-01-03",
+   "rec_korean": "2021-01-03",
+   "rec_en": "2021-01-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.988,
+   "rec_medium": 3.923,
+   "rec_korean": 2.129,
+   "rec_en": 2.05
+  }
+ },
+ "002283.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-20",
+   "rec_medium": "2022-01-20",
+   "rec_korean": "2022-01-20",
+   "rec_en": "2022-01-20"
+  },
+  "sec": {
+   "rec_small (현재)": 4.999,
+   "rec_medium": 13.594,
+   "rec_korean": 5.41,
+   "rec_en": 4.457
+  }
+ },
+ "002291.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-10",
+   "rec_medium": "2021-09-10",
+   "rec_korean": "2021-09-10",
+   "rec_en": "2021-09-10"
+  },
+  "sec": {
+   "rec_small (현재)": 0.634,
+   "rec_medium": 1.171,
+   "rec_korean": 0.604,
+   "rec_en": 0.618
+  }
+ },
+ "002293.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-03",
+   "rec_medium": "2021-07-03",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.674,
+   "rec_medium": 1.269,
+   "rec_korean": 0.895,
+   "rec_en": 0.537
+  }
+ },
+ "002302.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-03",
+   "rec_medium": "2022-02-03",
+   "rec_korean": "2022-02-03",
+   "rec_en": "2022-02-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.054,
+   "rec_medium": 1.935,
+   "rec_korean": 0.889,
+   "rec_en": 0.837
+  }
+ },
+ "002311.jpg": {
+  "got": {
+   "rec_small (현재)": "NONE-08-17",
+   "rec_medium": "2020-08-17",
+   "rec_korean": "2020-08-17",
+   "rec_en": "2020-08-17"
+  },
+  "sec": {
+   "rec_small (현재)": 0.99,
+   "rec_medium": 1.825,
+   "rec_korean": 0.96,
+   "rec_en": 0.87
+  }
+ },
+ "002325.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-09-06",
+   "rec_medium": "2020-09-06",
+   "rec_korean": "2020-09-06",
+   "rec_en": "2020-09-06"
+  },
+  "sec": {
+   "rec_small (현재)": 0.935,
+   "rec_medium": 1.498,
+   "rec_korean": 0.965,
+   "rec_en": 0.708
+  }
+ },
+ "002331.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-16",
+   "rec_medium": "2021-12-16",
+   "rec_korean": null,
+   "rec_en": "2021-12-16"
+  },
+  "sec": {
+   "rec_small (현재)": 0.592,
+   "rec_medium": 0.824,
+   "rec_korean": 0.775,
+   "rec_en": 0.674
+  }
+ },
+ "002335.jpg": {
+  "got": {
+   "rec_small (현재)": "NONE-11-19",
+   "rec_medium": "2021-11-19",
+   "rec_korean": "2021-11-18",
+   "rec_en": "2021-11-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.254,
+   "rec_medium": 1.947,
+   "rec_korean": 1.256,
+   "rec_en": 0.811
+  }
+ },
+ "002339.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-28",
+   "rec_medium": "2021-12-28",
+   "rec_korean": "2028-12-NONE",
+   "rec_en": "2021-12-28"
+  },
+  "sec": {
+   "rec_small (현재)": 2.671,
+   "rec_medium": 6.838,
+   "rec_korean": 3.606,
+   "rec_en": 2.663
+  }
+ },
+ "002340.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-28",
+   "rec_medium": "2021-12-28",
+   "rec_korean": "2021-12-28",
+   "rec_en": "2021-12-28"
+  },
+  "sec": {
+   "rec_small (현재)": 3.124,
+   "rec_medium": 8.308,
+   "rec_korean": 2.777,
+   "rec_en": 2.95
+  }
+ },
+ "002349.jpg": {
+  "got": {
+   "rec_small (현재)": "2019-09-11",
+   "rec_medium": "2019-09-11",
+   "rec_korean": "2019-09-11",
+   "rec_en": "2019-09-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.222,
+   "rec_medium": 1.991,
+   "rec_korean": 1.37,
+   "rec_en": 1.528
+  }
+ },
+ "002364.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-04",
+   "rec_medium": "2021-08-04",
+   "rec_korean": "2021-08-04",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.637,
+   "rec_medium": 8.181,
+   "rec_korean": 3.016,
+   "rec_en": 3.414
+  }
+ },
+ "002367.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-10-01",
+   "rec_medium": "2020-10-01",
+   "rec_korean": "2020-10-NONE",
+   "rec_en": "2020-10-01"
+  },
+  "sec": {
+   "rec_small (현재)": 0.506,
+   "rec_medium": 0.576,
+   "rec_korean": 0.412,
+   "rec_en": 0.384
+  }
+ },
+ "002380.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-20",
+   "rec_medium": "2022-10-20",
+   "rec_korean": "2022-10-20",
+   "rec_en": "2022-10-20"
+  },
+  "sec": {
+   "rec_small (현재)": 2.55,
+   "rec_medium": 6.563,
+   "rec_korean": 2.864,
+   "rec_en": 2.461
+  }
+ },
+ "002381.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-17",
+   "rec_medium": "2021-08-17",
+   "rec_korean": "2021-08-17",
+   "rec_en": "2021-08-17"
+  },
+  "sec": {
+   "rec_small (현재)": 3.117,
+   "rec_medium": 7.82,
+   "rec_korean": 3.377,
+   "rec_en": 3.87
+  }
+ },
+ "002400.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2023-01-05",
+   "rec_korean": "2023-01-05",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.513,
+   "rec_medium": 2.457,
+   "rec_korean": 1.412,
+   "rec_en": 1.393
+  }
+ },
+ "002401.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-02",
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.511,
+   "rec_medium": 3.669,
+   "rec_korean": 1.685,
+   "rec_en": 1.538
+  }
+ },
+ "002427.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-18",
+   "rec_medium": "2021-01-18",
+   "rec_korean": "2021-01-18",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 4.922,
+   "rec_medium": 14.156,
+   "rec_korean": 3.923,
+   "rec_en": 4.534
+  }
+ },
+ "002434.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-01-07",
+   "rec_medium": "2023-01-07",
+   "rec_korean": "2023-01-07",
+   "rec_en": "2023-01-07"
+  },
+  "sec": {
+   "rec_small (현재)": 3.093,
+   "rec_medium": 6.629,
+   "rec_korean": 2.938,
+   "rec_en": 2.418
+  }
+ },
+ "002438.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-09-13",
+   "rec_medium": "2020-09-13",
+   "rec_korean": "2020-09-13",
+   "rec_en": "2020-09-13"
+  },
+  "sec": {
+   "rec_small (현재)": 2.554,
+   "rec_medium": 8.718,
+   "rec_korean": 2.813,
+   "rec_en": 3.19
+  }
+ },
+ "002447.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-02-04",
+   "rec_medium": "2021-02-04",
+   "rec_korean": "2021-02-04",
+   "rec_en": "2021-02-04"
+  },
+  "sec": {
+   "rec_small (현재)": 0.862,
+   "rec_medium": 1.72,
+   "rec_korean": 0.812,
+   "rec_en": 0.724
+  }
+ },
+ "002449.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-09",
+   "rec_medium": "2021-06-09",
+   "rec_korean": "2021-06-09",
+   "rec_en": "2021-06-09"
+  },
+  "sec": {
+   "rec_small (현재)": 2.438,
+   "rec_medium": 5.997,
+   "rec_korean": 2.589,
+   "rec_en": 2.148
+  }
+ },
+ "002461.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-31",
+   "rec_medium": "2021-10-31",
+   "rec_korean": "2021-10-31",
+   "rec_en": "2021-10-03"
+  },
+  "sec": {
+   "rec_small (현재)": 7.122,
+   "rec_medium": 16.244,
+   "rec_korean": 7.771,
+   "rec_en": 6.73
+  }
+ },
+ "002471.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-18",
+   "rec_medium": "2021-03-18",
+   "rec_korean": "2021-03-18",
+   "rec_en": "2021-03-18"
+  },
+  "sec": {
+   "rec_small (현재)": 2.967,
+   "rec_medium": 5.987,
+   "rec_korean": 3.868,
+   "rec_en": 3.366
+  }
+ },
+ "002477.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-03-15",
+   "rec_medium": "2023-03-15",
+   "rec_korean": "NONE-03-15",
+   "rec_en": "NONE-03-15"
+  },
+  "sec": {
+   "rec_small (현재)": 0.948,
+   "rec_medium": 2.483,
+   "rec_korean": 1.223,
+   "rec_en": 0.957
+  }
+ },
+ "002478.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-03-15",
+   "rec_medium": "2023-03-15",
+   "rec_korean": "2023-03-15",
+   "rec_en": "2023-03-15"
+  },
+  "sec": {
+   "rec_small (현재)": 0.705,
+   "rec_medium": 1.442,
+   "rec_korean": 0.692,
+   "rec_en": 0.64
+  }
+ },
+ "002484.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-05",
+   "rec_medium": "NONE-05-05",
+   "rec_korean": "2021-05-05",
+   "rec_en": "NONE-05-05"
+  },
+  "sec": {
+   "rec_small (현재)": 0.664,
+   "rec_medium": 1.421,
+   "rec_korean": 0.606,
+   "rec_en": 0.602
+  }
+ },
+ "002490.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-18",
+   "rec_medium": null,
+   "rec_korean": "2021-04-18",
+   "rec_en": "2021-04-18"
+  },
+  "sec": {
+   "rec_small (현재)": 1.366,
+   "rec_medium": 2.663,
+   "rec_korean": 1.116,
+   "rec_en": 1.017
+  }
+ },
+ "002491.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.947,
+   "rec_medium": 7.251,
+   "rec_korean": 3.269,
+   "rec_en": 2.771
+  }
+ },
+ "002499.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-07",
+   "rec_medium": "2021-05-07",
+   "rec_korean": "2021-05-07",
+   "rec_en": "2021-05-07"
+  },
+  "sec": {
+   "rec_small (현재)": 0.671,
+   "rec_medium": 1.093,
+   "rec_korean": 0.768,
+   "rec_en": 0.888
+  }
+ },
+ "002500.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": "NONE-08-20",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 3.306,
+   "rec_medium": 8.187,
+   "rec_korean": 3.207,
+   "rec_en": 3.576
+  }
+ },
+ "002507.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-08",
+   "rec_medium": "2021-08-08",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.052,
+   "rec_medium": 2.392,
+   "rec_korean": 1.163,
+   "rec_en": 1.179
+  }
+ },
+ "002516.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-20",
+   "rec_medium": "2022-07-20",
+   "rec_korean": "2022-07-20",
+   "rec_en": "2022-07-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.93,
+   "rec_medium": 3.213,
+   "rec_korean": 1.968,
+   "rec_en": 1.828
+  }
+ },
+ "002542.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-17",
+   "rec_medium": "2021-10-17",
+   "rec_korean": "2021-10-17",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.072,
+   "rec_medium": 1.318,
+   "rec_korean": 0.801,
+   "rec_en": 0.767
+  }
+ },
+ "002544.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-21",
+   "rec_medium": "2021-03-21",
+   "rec_korean": null,
+   "rec_en": "2032-10-11"
+  },
+  "sec": {
+   "rec_small (현재)": 7.305,
+   "rec_medium": 19.708,
+   "rec_korean": 6.4,
+   "rec_en": 8.315
+  }
+ },
+ "002548.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-02",
+   "rec_medium": "2021-04-02",
+   "rec_korean": "2021-04-02",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.179,
+   "rec_medium": 4.327,
+   "rec_korean": 1.389,
+   "rec_en": 1.949
+  }
+ },
+ "002552.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-22",
+   "rec_medium": "2021-01-22",
+   "rec_korean": "2021-01-22",
+   "rec_en": "2021-01-22"
+  },
+  "sec": {
+   "rec_small (현재)": 1.763,
+   "rec_medium": 3.868,
+   "rec_korean": 1.749,
+   "rec_en": 1.855
+  }
+ },
+ "002558.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-04-01",
+   "rec_medium": "2022-04-01",
+   "rec_korean": "2022-04-01",
+   "rec_en": "2022-04-01"
+  },
+  "sec": {
+   "rec_small (현재)": 3.698,
+   "rec_medium": 10.527,
+   "rec_korean": 3.765,
+   "rec_en": 3.773
+  }
+ },
+ "002569.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-04-04",
+   "rec_medium": "2022-04-04",
+   "rec_korean": "2022-04-04",
+   "rec_en": "2022-04-04"
+  },
+  "sec": {
+   "rec_small (현재)": 0.538,
+   "rec_medium": 0.631,
+   "rec_korean": 0.598,
+   "rec_en": 0.719
+  }
+ },
+ "002571.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-07",
+   "rec_medium": "2021-05-07",
+   "rec_korean": "2021-05-07",
+   "rec_en": "2021-05-07"
+  },
+  "sec": {
+   "rec_small (현재)": 1.022,
+   "rec_medium": 2.161,
+   "rec_korean": 1.1,
+   "rec_en": 0.843
+  }
+ },
+ "002575.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-16",
+   "rec_medium": "2021-12-16",
+   "rec_korean": null,
+   "rec_en": "2021-12-16"
+  },
+  "sec": {
+   "rec_small (현재)": 2.022,
+   "rec_medium": 6.142,
+   "rec_korean": 2.067,
+   "rec_en": 2.275
+  }
+ },
+ "002579.jpg": {
+  "got": {
+   "rec_small (현재)": "2024-01-14",
+   "rec_medium": "2024-01-14",
+   "rec_korean": "2024-01-14",
+   "rec_en": "2024-01-14"
+  },
+  "sec": {
+   "rec_small (현재)": 2.235,
+   "rec_medium": 5.965,
+   "rec_korean": 2.583,
+   "rec_en": 2.376
+  }
+ },
+ "002585.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-11-04",
+   "rec_medium": "2023-11-04",
+   "rec_korean": "2023-11-04",
+   "rec_en": "2023-11-04"
+  },
+  "sec": {
+   "rec_small (현재)": 1.788,
+   "rec_medium": 4.544,
+   "rec_korean": 1.936,
+   "rec_en": 1.615
+  }
+ },
+ "002589.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-10-15",
+   "rec_medium": "2023-10-15",
+   "rec_korean": "2023-10-15",
+   "rec_en": "2023-10-15"
+  },
+  "sec": {
+   "rec_small (현재)": 1.461,
+   "rec_medium": 3.795,
+   "rec_korean": 1.558,
+   "rec_en": 1.477
+  }
+ },
+ "002596.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-22",
+   "rec_medium": "2022-10-22",
+   "rec_korean": "2022-10-22",
+   "rec_en": "2022-10-22"
+  },
+  "sec": {
+   "rec_small (현재)": 3.774,
+   "rec_medium": 10.055,
+   "rec_korean": 3.777,
+   "rec_en": 3.702
+  }
+ },
+ "002599.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-NONE",
+   "rec_medium": "2021-12-NONE",
+   "rec_korean": null,
+   "rec_en": "2021-12-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 1.843,
+   "rec_medium": 4.359,
+   "rec_korean": 1.542,
+   "rec_en": 1.304
+  }
+ },
+ "002600.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-10-21",
+   "rec_medium": "2020-10-21",
+   "rec_korean": null,
+   "rec_en": "2020-10-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.361,
+   "rec_medium": 2.717,
+   "rec_korean": 1.201,
+   "rec_en": 1.092
+  }
+ },
+ "002602.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-07",
+   "rec_medium": "2022-07-07",
+   "rec_korean": "2022-07-07",
+   "rec_en": "2022-07-07"
+  },
+  "sec": {
+   "rec_small (현재)": 3.517,
+   "rec_medium": 7.16,
+   "rec_korean": 3.504,
+   "rec_en": 2.714
+  }
+ },
+ "002622.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-12-21",
+   "rec_medium": "2023-12-21",
+   "rec_korean": "2023-12-21",
+   "rec_en": "2023-12-21"
+  },
+  "sec": {
+   "rec_small (현재)": 0.627,
+   "rec_medium": 1.334,
+   "rec_korean": 0.721,
+   "rec_en": 0.622
+  }
+ },
+ "002630.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-05-NONE",
+   "rec_medium": "2023-05-NONE",
+   "rec_korean": "2023-05-NONE",
+   "rec_en": "2023-05-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 0.719,
+   "rec_medium": 2.214,
+   "rec_korean": 1.057,
+   "rec_en": 0.937
+  }
+ },
+ "002637.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-01",
+   "rec_medium": "2022-11-01",
+   "rec_korean": "2022-11-01",
+   "rec_en": "2022-11-01"
+  },
+  "sec": {
+   "rec_small (현재)": 3.06,
+   "rec_medium": 8.973,
+   "rec_korean": 2.996,
+   "rec_en": 2.744
+  }
+ },
+ "002638.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-01",
+   "rec_medium": "2022-11-01",
+   "rec_korean": "2022-11-01",
+   "rec_en": "2022-11-01"
+  },
+  "sec": {
+   "rec_small (현재)": 2.415,
+   "rec_medium": 6.222,
+   "rec_korean": 2.682,
+   "rec_en": 2.223
+  }
+ },
+ "002643.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-NONE",
+   "rec_medium": "2022-11-NONE",
+   "rec_korean": "2022-11-NONE",
+   "rec_en": "2022-11-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 3.15,
+   "rec_medium": 8.526,
+   "rec_korean": 3.821,
+   "rec_en": 3.904
+  }
+ },
+ "002644.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.083,
+   "rec_medium": 6.812,
+   "rec_korean": 2.227,
+   "rec_en": 2.374
+  }
+ },
+ "002646.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-14",
+   "rec_medium": "2021-12-14",
+   "rec_korean": "2021-12-14",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 4.268,
+   "rec_medium": 11.089,
+   "rec_korean": 3.648,
+   "rec_en": 3.16
+  }
+ },
+ "002654.jpg": {
+  "got": {
+   "rec_small (현재)": "2025-11-30",
+   "rec_medium": "2025-11-30",
+   "rec_korean": "2025-11-30",
+   "rec_en": "2025-11-30"
+  },
+  "sec": {
+   "rec_small (현재)": 2.874,
+   "rec_medium": 7.402,
+   "rec_korean": 2.894,
+   "rec_en": 2.887
+  }
+ },
+ "002662.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-11",
+   "rec_medium": "2022-01-11",
+   "rec_korean": "2022-01-11",
+   "rec_en": "2022-01-11"
+  },
+  "sec": {
+   "rec_small (현재)": 2.481,
+   "rec_medium": 7.37,
+   "rec_korean": 2.547,
+   "rec_en": 2.975
+  }
+ },
+ "002663.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-18",
+   "rec_medium": "2021-08-18",
+   "rec_korean": "2021-08-18",
+   "rec_en": "2021-08-18"
+  },
+  "sec": {
+   "rec_small (현재)": 2.266,
+   "rec_medium": 6.685,
+   "rec_korean": 2.768,
+   "rec_en": 2.88
+  }
+ },
+ "002664.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-18",
+   "rec_medium": "2021-08-18",
+   "rec_korean": "2021-08-18",
+   "rec_en": "2021-08-18"
+  },
+  "sec": {
+   "rec_small (현재)": 2.087,
+   "rec_medium": 5.319,
+   "rec_korean": 2.203,
+   "rec_en": 1.851
+  }
+ },
+ "002672.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-05",
+   "rec_medium": "2021-04-05",
+   "rec_korean": "2021-04-05",
+   "rec_en": "2021-04-05"
+  },
+  "sec": {
+   "rec_small (현재)": 3.207,
+   "rec_medium": 7.31,
+   "rec_korean": 3.749,
+   "rec_en": 3.708
+  }
+ },
+ "002673.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-25",
+   "rec_medium": "2021-04-25",
+   "rec_korean": "2021-04-25",
+   "rec_en": "2021-04-25"
+  },
+  "sec": {
+   "rec_small (현재)": 0.658,
+   "rec_medium": 1.338,
+   "rec_korean": 0.685,
+   "rec_en": 0.637
+  }
+ },
+ "002680.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-29",
+   "rec_medium": "2021-10-29",
+   "rec_korean": "2021-10-29",
+   "rec_en": "2021-10-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.561,
+   "rec_medium": 3.527,
+   "rec_korean": 2.119,
+   "rec_en": 1.57
+  }
+ },
+ "002693.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-19",
+   "rec_medium": "2021-04-19",
+   "rec_korean": "2021-04-19",
+   "rec_en": "2021-04-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.227,
+   "rec_medium": 3.528,
+   "rec_korean": 1.546,
+   "rec_en": 1.334
+  }
+ },
+ "002696.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-23",
+   "rec_medium": "2021-07-23",
+   "rec_korean": "2021-07-23",
+   "rec_en": "2021-07-23"
+  },
+  "sec": {
+   "rec_small (현재)": 3.684,
+   "rec_medium": 10.319,
+   "rec_korean": 3.54,
+   "rec_en": 3.171
+  }
+ },
+ "002711.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-11",
+   "rec_medium": "2022-01-11",
+   "rec_korean": "2022-01-11",
+   "rec_en": "2022-01-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.44,
+   "rec_medium": 2.35,
+   "rec_korean": 1.251,
+   "rec_en": 1.51
+  }
+ },
+ "002718.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-23",
+   "rec_medium": "2022-02-23",
+   "rec_korean": "2022-02-23",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.699,
+   "rec_medium": 1.24,
+   "rec_korean": 0.733,
+   "rec_en": 1.04
+  }
+ },
+ "002722.jpg": {
+  "got": {
+   "rec_small (현재)": "NONE-12-30",
+   "rec_medium": "NONE-12-30",
+   "rec_korean": "2022-12-30",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.95,
+   "rec_medium": 5.108,
+   "rec_korean": 1.957,
+   "rec_en": 1.978
+  }
+ },
+ "002725.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.357,
+   "rec_medium": 2.24,
+   "rec_korean": 1.373,
+   "rec_en": 1.152
+  }
+ },
+ "002726.jpg": {
+  "got": {
+   "rec_small (현재)": "2017-03-22",
+   "rec_medium": "2017-03-22",
+   "rec_korean": "2017-03-22",
+   "rec_en": "2017-03-22"
+  },
+  "sec": {
+   "rec_small (현재)": 0.678,
+   "rec_medium": 1.337,
+   "rec_korean": 0.756,
+   "rec_en": 0.794
+  }
+ },
+ "002730.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-25",
+   "rec_medium": "2021-06-25",
+   "rec_korean": "2021-06-25",
+   "rec_en": "2021-06-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.241,
+   "rec_medium": 2.458,
+   "rec_korean": 1.0,
+   "rec_en": 0.948
+  }
+ },
+ "002736.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-28",
+   "rec_medium": "2021-04-28",
+   "rec_korean": "2021-04-28",
+   "rec_en": "2021-04-28"
+  },
+  "sec": {
+   "rec_small (현재)": 4.44,
+   "rec_medium": 11.069,
+   "rec_korean": 4.401,
+   "rec_en": 4.559
+  }
+ },
+ "002739.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-26",
+   "rec_medium": "2021-09-26",
+   "rec_korean": "2021-09-26",
+   "rec_en": "2021-09-26"
+  },
+  "sec": {
+   "rec_small (현재)": 3.561,
+   "rec_medium": 8.99,
+   "rec_korean": 3.197,
+   "rec_en": 3.207
+  }
+ },
+ "002760.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-12",
+   "rec_medium": "2021-05-12",
+   "rec_korean": "2021-05-12",
+   "rec_en": "2021-05-12"
+  },
+  "sec": {
+   "rec_small (현재)": 0.756,
+   "rec_medium": 1.219,
+   "rec_korean": 0.776,
+   "rec_en": 0.616
+  }
+ },
+ "002771.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-11",
+   "rec_medium": "2021-10-11",
+   "rec_korean": "2021-10-11",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.852,
+   "rec_medium": 5.27,
+   "rec_korean": 2.21,
+   "rec_en": 2.193
+  }
+ },
+ "002774.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-08",
+   "rec_medium": "2021-10-08",
+   "rec_korean": "2021-10-08",
+   "rec_en": "2021-10-08"
+  },
+  "sec": {
+   "rec_small (현재)": 2.405,
+   "rec_medium": 5.831,
+   "rec_korean": 2.651,
+   "rec_en": 2.347
+  }
+ },
+ "002777.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-15",
+   "rec_medium": "2021-09-15",
+   "rec_korean": "2021-09-15",
+   "rec_en": "2021-09-15"
+  },
+  "sec": {
+   "rec_small (현재)": 1.267,
+   "rec_medium": 2.498,
+   "rec_korean": 1.188,
+   "rec_en": 1.077
+  }
+ },
+ "002780.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-06",
+   "rec_medium": "2021-04-06",
+   "rec_korean": null,
+   "rec_en": "2021-04-06"
+  },
+  "sec": {
+   "rec_small (현재)": 2.774,
+   "rec_medium": 6.03,
+   "rec_korean": 2.899,
+   "rec_en": 2.303
+  }
+ },
+ "002785.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-18",
+   "rec_medium": "2021-04-18",
+   "rec_korean": "2021-04-18",
+   "rec_en": "2021-04-18"
+  },
+  "sec": {
+   "rec_small (현재)": 2.325,
+   "rec_medium": 5.122,
+   "rec_korean": 2.026,
+   "rec_en": 1.834
+  }
+ },
+ "002791.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-06",
+   "rec_medium": "2021-12-06",
+   "rec_korean": "2021-12-06",
+   "rec_en": "2021-12-06"
+  },
+  "sec": {
+   "rec_small (현재)": 0.615,
+   "rec_medium": 2.009,
+   "rec_korean": 0.666,
+   "rec_en": 0.767
+  }
+ },
+ "002792.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-04-28",
+   "rec_medium": "2023-04-28",
+   "rec_korean": "2023-04-28",
+   "rec_en": "2023-04-28"
+  },
+  "sec": {
+   "rec_small (현재)": 0.861,
+   "rec_medium": 1.524,
+   "rec_korean": 1.12,
+   "rec_en": 0.935
+  }
+ },
+ "002800.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-27",
+   "rec_medium": "2021-12-27",
+   "rec_korean": "2021-12-27",
+   "rec_en": "2021-12-27"
+  },
+  "sec": {
+   "rec_small (현재)": 0.868,
+   "rec_medium": 1.73,
+   "rec_korean": 0.91,
+   "rec_en": 0.753
+  }
+ },
+ "002801.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-29",
+   "rec_medium": "2021-09-29",
+   "rec_korean": "2021-09-29",
+   "rec_en": "2021-09-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.633,
+   "rec_medium": 4.357,
+   "rec_korean": 2.126,
+   "rec_en": 2.056
+  }
+ },
+ "002808.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-29",
+   "rec_medium": "2021-12-29",
+   "rec_korean": "2021-12-29",
+   "rec_en": "2021-12-29"
+  },
+  "sec": {
+   "rec_small (현재)": 0.878,
+   "rec_medium": 1.798,
+   "rec_korean": 1.109,
+   "rec_en": 0.676
+  }
+ },
+ "002816.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-01-28",
+   "rec_medium": "2021-01-29",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.907,
+   "rec_medium": 6.563,
+   "rec_korean": 2.115,
+   "rec_en": 2.028
+  }
+ },
+ "002820.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-19",
+   "rec_medium": "2021-11-19",
+   "rec_korean": "2021-11-19",
+   "rec_en": "2021-11-19"
+  },
+  "sec": {
+   "rec_small (현재)": 2.229,
+   "rec_medium": 5.676,
+   "rec_korean": 2.39,
+   "rec_en": 2.481
+  }
+ },
+ "002821.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-19",
+   "rec_medium": "2021-11-19",
+   "rec_korean": "2021-11-19",
+   "rec_en": "2021-11-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.082,
+   "rec_medium": 3.081,
+   "rec_korean": 1.448,
+   "rec_en": 1.164
+  }
+ },
+ "002826.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-03",
+   "rec_medium": "2021-07-03",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.602,
+   "rec_medium": 1.175,
+   "rec_korean": 0.606,
+   "rec_en": 0.749
+  }
+ },
+ "002842.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-09-22",
+   "rec_medium": "2023-09-22",
+   "rec_korean": "2023-09-22",
+   "rec_en": "2023-09-22"
+  },
+  "sec": {
+   "rec_small (현재)": 1.24,
+   "rec_medium": 2.444,
+   "rec_korean": 1.385,
+   "rec_en": 1.07
+  }
+ },
+ "002843.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-06-NONE",
+   "rec_medium": "2023-06-NONE",
+   "rec_korean": "2023-06-NONE",
+   "rec_en": "2023-06-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 0.905,
+   "rec_medium": 1.675,
+   "rec_korean": 1.097,
+   "rec_en": 1.045
+  }
+ },
+ "002850.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-15",
+   "rec_medium": "2021-08-15",
+   "rec_korean": "2021-08-15",
+   "rec_en": "2021-08-15"
+  },
+  "sec": {
+   "rec_small (현재)": 1.92,
+   "rec_medium": 3.784,
+   "rec_korean": 1.905,
+   "rec_en": 1.278
+  }
+ },
+ "002857.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-06-02",
+   "rec_medium": "2023-06-02",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.129,
+   "rec_medium": 2.583,
+   "rec_korean": 1.541,
+   "rec_en": 1.29
+  }
+ },
+ "002861.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-25",
+   "rec_medium": "2021-03-25",
+   "rec_korean": "2021-03-25",
+   "rec_en": "2021-03-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.217,
+   "rec_medium": 2.032,
+   "rec_korean": 1.272,
+   "rec_en": 1.214
+  }
+ },
+ "002881.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-13",
+   "rec_medium": "2021-04-13",
+   "rec_korean": null,
+   "rec_en": "2020-10-14"
+  },
+  "sec": {
+   "rec_small (현재)": 1.462,
+   "rec_medium": 3.225,
+   "rec_korean": 1.412,
+   "rec_en": 1.283
+  }
+ },
+ "002885.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-20",
+   "rec_medium": "2022-07-20",
+   "rec_korean": "2022-07-20",
+   "rec_en": "2022-07-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.869,
+   "rec_medium": 4.303,
+   "rec_korean": 1.838,
+   "rec_en": 1.694
+  }
+ },
+ "002890.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-11",
+   "rec_medium": "2021-11-11",
+   "rec_korean": "NONE-01-11",
+   "rec_en": "2021-11-11"
+  },
+  "sec": {
+   "rec_small (현재)": 2.119,
+   "rec_medium": 4.883,
+   "rec_korean": 2.281,
+   "rec_en": 2.505
+  }
+ },
+ "002891.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-11",
+   "rec_medium": "2021-11-11",
+   "rec_korean": "NONE-11-11",
+   "rec_en": "NONE-11-11"
+  },
+  "sec": {
+   "rec_small (현재)": 0.603,
+   "rec_medium": 1.371,
+   "rec_korean": 0.667,
+   "rec_en": 0.67
+  }
+ },
+ "002892.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-31",
+   "rec_medium": "2021-03-31",
+   "rec_korean": "2021-03-31",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.626,
+   "rec_medium": 4.425,
+   "rec_korean": 1.626,
+   "rec_en": 1.301
+  }
+ },
+ "002895.jpg": {
+  "got": {
+   "rec_small (현재)": "2024-02-13",
+   "rec_medium": "2024-02-13",
+   "rec_korean": "2024-02-13",
+   "rec_en": "2024-02-13"
+  },
+  "sec": {
+   "rec_small (현재)": 0.641,
+   "rec_medium": 1.17,
+   "rec_korean": 0.558,
+   "rec_en": 0.642
+  }
+ },
+ "002896.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-20",
+   "rec_medium": "2021-07-20",
+   "rec_korean": "2021-07-20",
+   "rec_en": "2021-07-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.166,
+   "rec_medium": 2.555,
+   "rec_korean": 1.23,
+   "rec_en": 1.159
+  }
+ },
+ "002903.jpg": {
+  "got": {
+   "rec_small (현재)": "NONE-07-22",
+   "rec_medium": "NONE-07-22",
+   "rec_korean": "2020-07-22",
+   "rec_en": "NONE-07-22"
+  },
+  "sec": {
+   "rec_small (현재)": 1.406,
+   "rec_medium": 3.952,
+   "rec_korean": 1.415,
+   "rec_en": 1.636
+  }
+ },
+ "002914.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-11-18",
+   "rec_medium": "2020-11-18",
+   "rec_korean": "2020-11-18",
+   "rec_en": "2020-11-18"
+  },
+  "sec": {
+   "rec_small (현재)": 2.393,
+   "rec_medium": 5.914,
+   "rec_korean": 2.609,
+   "rec_en": 2.084
+  }
+ },
+ "002934.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-02",
+   "rec_medium": "2022-02-02",
+   "rec_korean": "2022-02-02",
+   "rec_en": "2022-02-02"
+  },
+  "sec": {
+   "rec_small (현재)": 9.698,
+   "rec_medium": 24.864,
+   "rec_korean": 10.965,
+   "rec_en": 9.746
+  }
+ },
+ "002939.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-29",
+   "rec_medium": "2022-07-29",
+   "rec_korean": "2022-07-29",
+   "rec_en": "2022-07-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.36,
+   "rec_medium": 3.901,
+   "rec_korean": 2.22,
+   "rec_en": 1.613
+  }
+ },
+ "002940.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-29",
+   "rec_medium": "2022-07-29",
+   "rec_korean": "2022-07-29",
+   "rec_en": "2022-07-29"
+  },
+  "sec": {
+   "rec_small (현재)": 1.912,
+   "rec_medium": 4.994,
+   "rec_korean": 1.834,
+   "rec_en": 2.055
+  }
+ },
+ "002943.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-06-23",
+   "rec_medium": "2020-06-23",
+   "rec_korean": "2020-06-23",
+   "rec_en": "2020-06-23"
+  },
+  "sec": {
+   "rec_small (현재)": 0.835,
+   "rec_medium": 0.959,
+   "rec_korean": 0.719,
+   "rec_en": 0.734
+  }
+ },
+ "002944.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-06-23",
+   "rec_medium": "2020-06-23",
+   "rec_korean": "2020-06-23",
+   "rec_en": "2020-06-23"
+  },
+  "sec": {
+   "rec_small (현재)": 0.46,
+   "rec_medium": 0.776,
+   "rec_korean": 0.444,
+   "rec_en": 0.532
+  }
+ },
+ "002946.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-25",
+   "rec_medium": "2021-09-25",
+   "rec_korean": "2021-09-25",
+   "rec_en": "2021-09-25"
+  },
+  "sec": {
+   "rec_small (현재)": 1.371,
+   "rec_medium": 2.705,
+   "rec_korean": 1.423,
+   "rec_en": 1.434
+  }
+ },
+ "002950.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-30",
+   "rec_medium": "2021-04-30",
+   "rec_korean": "2021-04-30",
+   "rec_en": "2021-04-30"
+  },
+  "sec": {
+   "rec_small (현재)": 2.088,
+   "rec_medium": 4.494,
+   "rec_korean": 2.228,
+   "rec_en": 1.964
+  }
+ },
+ "002953.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-05-28",
+   "rec_medium": "2020-05-28",
+   "rec_korean": null,
+   "rec_en": "2020-05-28"
+  },
+  "sec": {
+   "rec_small (현재)": 2.336,
+   "rec_medium": 4.855,
+   "rec_korean": 2.048,
+   "rec_en": 1.85
+  }
+ },
+ "002958.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-07-27",
+   "rec_medium": "NONE-12-20",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.654,
+   "rec_medium": 4.085,
+   "rec_korean": 1.602,
+   "rec_en": 1.624
+  }
+ },
+ "002963.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-11-06",
+   "rec_medium": "2020-11-06",
+   "rec_korean": "2020-11-06",
+   "rec_en": "2020-11-06"
+  },
+  "sec": {
+   "rec_small (현재)": 1.397,
+   "rec_medium": 3.001,
+   "rec_korean": 1.715,
+   "rec_en": 1.667
+  }
+ },
+ "002964.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-09-03",
+   "rec_medium": "2022-09-03",
+   "rec_korean": null,
+   "rec_en": "2022-09-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.928,
+   "rec_medium": 5.257,
+   "rec_korean": 2.448,
+   "rec_en": 2.114
+  }
+ },
+ "002991.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-20",
+   "rec_medium": "2021-03-20",
+   "rec_korean": "2021-03-20",
+   "rec_en": "2021-03-20"
+  },
+  "sec": {
+   "rec_small (현재)": 1.454,
+   "rec_medium": 2.111,
+   "rec_korean": 1.36,
+   "rec_en": 0.979
+  }
+ },
+ "002993.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.679,
+   "rec_medium": 0.416,
+   "rec_korean": 0.624,
+   "rec_en": 0.508
+  }
+ },
+ "002996.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-15",
+   "rec_medium": "2022-10-15",
+   "rec_korean": "2022-10-15",
+   "rec_en": "2022-10-15"
+  },
+  "sec": {
+   "rec_small (현재)": 2.07,
+   "rec_medium": 5.982,
+   "rec_korean": 1.944,
+   "rec_en": 2.295
+  }
+ },
+ "002997.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-15",
+   "rec_medium": "2022-10-15",
+   "rec_korean": "2022-10-15",
+   "rec_en": "2022-10-15"
+  },
+  "sec": {
+   "rec_small (현재)": 1.691,
+   "rec_medium": 3.923,
+   "rec_korean": 1.877,
+   "rec_en": 1.601
+  }
+ },
+ "003001.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-05",
+   "rec_medium": "2021-12-05",
+   "rec_korean": "2021-12-05",
+   "rec_en": "2021-12-05"
+  },
+  "sec": {
+   "rec_small (현재)": 1.692,
+   "rec_medium": 3.873,
+   "rec_korean": 1.29,
+   "rec_en": 1.526
+  }
+ },
+ "003009.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-05",
+   "rec_medium": "2021-10-05",
+   "rec_korean": "2021-10-05",
+   "rec_en": "2021-10-05"
+  },
+  "sec": {
+   "rec_small (현재)": 2.407,
+   "rec_medium": 5.824,
+   "rec_korean": 1.966,
+   "rec_en": 2.112
+  }
+ },
+ "003020.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-23",
+   "rec_medium": "2021-03-23",
+   "rec_korean": "2021-03-23",
+   "rec_en": "2021-03-23"
+  },
+  "sec": {
+   "rec_small (현재)": 2.318,
+   "rec_medium": 7.027,
+   "rec_korean": 2.697,
+   "rec_en": 2.394
+  }
+ },
+ "003024.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-13",
+   "rec_medium": "2021-09-13",
+   "rec_korean": "2021-09-13",
+   "rec_en": "2021-09-13"
+  },
+  "sec": {
+   "rec_small (현재)": 1.349,
+   "rec_medium": 2.886,
+   "rec_korean": 1.413,
+   "rec_en": 1.246
+  }
+ },
+ "003028.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-28",
+   "rec_medium": "2021-09-28",
+   "rec_korean": "2021-09-28",
+   "rec_en": "2021-09-28"
+  },
+  "sec": {
+   "rec_small (현재)": 2.604,
+   "rec_medium": 9.497,
+   "rec_korean": 3.165,
+   "rec_en": 3.14
+  }
+ },
+ "003030.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-02",
+   "rec_medium": "2021-11-02",
+   "rec_korean": "2021-11-02",
+   "rec_en": "2021-11-02"
+  },
+  "sec": {
+   "rec_small (현재)": 2.702,
+   "rec_medium": 6.438,
+   "rec_korean": 2.656,
+   "rec_en": 1.899
+  }
+ },
+ "003034.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-21",
+   "rec_medium": "2022-11-21",
+   "rec_korean": null,
+   "rec_en": "2022-11-21"
+  },
+  "sec": {
+   "rec_small (현재)": 0.847,
+   "rec_medium": 1.399,
+   "rec_korean": 0.496,
+   "rec_en": 0.506
+  }
+ },
+ "003042.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 2.335,
+   "rec_medium": 6.26,
+   "rec_korean": 2.183,
+   "rec_en": 2.51
+  }
+ },
+ "003043.jpg": {
+  "got": {
+   "rec_small (현재)": "2020-07-13",
+   "rec_medium": "2020-07-13",
+   "rec_korean": "2020-07-13",
+   "rec_en": "2020-07-13"
+  },
+  "sec": {
+   "rec_small (현재)": 4.649,
+   "rec_medium": 12.98,
+   "rec_korean": 4.68,
+   "rec_en": 4.639
+  }
+ },
+ "003045.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-05-02",
+   "rec_medium": "2022-05-02",
+   "rec_korean": "2022-05-02",
+   "rec_en": "NONE-05-02"
+  },
+  "sec": {
+   "rec_small (현재)": 5.034,
+   "rec_medium": 13.703,
+   "rec_korean": 5.321,
+   "rec_en": 4.936
+  }
+ },
+ "003066.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-12",
+   "rec_medium": "2021-11-12",
+   "rec_korean": "2021-11-12",
+   "rec_en": "2021-11-12"
+  },
+  "sec": {
+   "rec_small (현재)": 0.822,
+   "rec_medium": 1.895,
+   "rec_korean": 0.928,
+   "rec_en": 0.912
+  }
+ },
+ "003080.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-01",
+   "rec_medium": "2021-11-01",
+   "rec_korean": "2021-11-01",
+   "rec_en": "2021-11-01"
+  },
+  "sec": {
+   "rec_small (현재)": 2.845,
+   "rec_medium": 5.987,
+   "rec_korean": 2.49,
+   "rec_en": 1.828
+  }
+ },
+ "003082.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-02",
+   "rec_medium": "2021-12-02",
+   "rec_korean": "2021-12-02",
+   "rec_en": "2021-12-02"
+  },
+  "sec": {
+   "rec_small (현재)": 2.607,
+   "rec_medium": 7.34,
+   "rec_korean": 3.033,
+   "rec_en": 2.517
+  }
+ },
+ "003086.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-06-27",
+   "rec_medium": "2021-06-27",
+   "rec_korean": "2021-06-27",
+   "rec_en": "2021-06-27"
+  },
+  "sec": {
+   "rec_small (현재)": 1.072,
+   "rec_medium": 2.208,
+   "rec_korean": 1.184,
+   "rec_en": 0.819
+  }
+ },
+ "003091.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-17",
+   "rec_medium": "2021-09-17",
+   "rec_korean": "2021-09-17",
+   "rec_en": "2021-09-17"
+  },
+  "sec": {
+   "rec_small (현재)": 3.478,
+   "rec_medium": 10.677,
+   "rec_korean": 3.497,
+   "rec_en": 3.28
+  }
+ },
+ "003092.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-17",
+   "rec_medium": "2021-09-17",
+   "rec_korean": "2021-09-17",
+   "rec_en": "2021-09-17"
+  },
+  "sec": {
+   "rec_small (현재)": 3.046,
+   "rec_medium": 8.788,
+   "rec_korean": 2.88,
+   "rec_en": 3.191
+  }
+ },
+ "003094.jpg": {
+  "got": {
+   "rec_small (현재)": "2023-01-03",
+   "rec_medium": "2023-01-03",
+   "rec_korean": "2023-01-03",
+   "rec_en": "2023-01-03"
+  },
+  "sec": {
+   "rec_small (현재)": 1.336,
+   "rec_medium": 3.267,
+   "rec_korean": 1.181,
+   "rec_en": 1.199
+  }
+ },
+ "003100.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-21",
+   "rec_medium": "2022-11-21",
+   "rec_korean": "2022-11-21",
+   "rec_en": "2022-11-21"
+  },
+  "sec": {
+   "rec_small (현재)": 2.328,
+   "rec_medium": 4.471,
+   "rec_korean": 2.183,
+   "rec_en": 1.707
+  }
+ },
+ "003102.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-03-29",
+   "rec_medium": "2022-03-29",
+   "rec_korean": "2022-03-29",
+   "rec_en": "2022-03-29"
+  },
+  "sec": {
+   "rec_small (현재)": 3.717,
+   "rec_medium": 9.689,
+   "rec_korean": 3.404,
+   "rec_en": 3.007
+  }
+ },
+ "003131.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-03-30",
+   "rec_medium": "2022-03-30",
+   "rec_korean": "2022-03-30",
+   "rec_en": "2022-03-30"
+  },
+  "sec": {
+   "rec_small (현재)": 3.146,
+   "rec_medium": 8.218,
+   "rec_korean": 3.592,
+   "rec_en": 3.108
+  }
+ },
+ "003136.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-11-09",
+   "rec_medium": "2022-11-09",
+   "rec_korean": "2022-11-09",
+   "rec_en": "2022-11-09"
+  },
+  "sec": {
+   "rec_small (현재)": 1.751,
+   "rec_medium": 4.411,
+   "rec_korean": 2.038,
+   "rec_en": 1.762
+  }
+ },
+ "003143.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-12-11",
+   "rec_medium": "2021-12-11",
+   "rec_korean": "2021-12-11",
+   "rec_en": "2021-12-11"
+  },
+  "sec": {
+   "rec_small (현재)": 2.144,
+   "rec_medium": 4.705,
+   "rec_korean": 1.704,
+   "rec_en": 1.836
+  }
+ },
+ "003147.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-22",
+   "rec_medium": "2021-04-22",
+   "rec_korean": "NONE-04-22",
+   "rec_en": "2021-04-22"
+  },
+  "sec": {
+   "rec_small (현재)": 0.459,
+   "rec_medium": 1.191,
+   "rec_korean": 0.658,
+   "rec_en": 0.503
+  }
+ },
+ "003155.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-11",
+   "rec_medium": "2021-07-11",
+   "rec_korean": "2021-07-11",
+   "rec_en": "2021-07-11"
+  },
+  "sec": {
+   "rec_small (현재)": 0.674,
+   "rec_medium": 1.603,
+   "rec_korean": 0.792,
+   "rec_en": 0.698
+  }
+ },
+ "003171.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-11",
+   "rec_medium": "2021-11-11",
+   "rec_korean": "2021-11-11",
+   "rec_en": "2021-11-11"
+  },
+  "sec": {
+   "rec_small (현재)": 1.274,
+   "rec_medium": 2.681,
+   "rec_korean": 1.168,
+   "rec_en": 1.094
+  }
+ },
+ "003174.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-08-13",
+   "rec_medium": "2022-08-13",
+   "rec_korean": "2022-08-13",
+   "rec_en": "2022-08-13"
+  },
+  "sec": {
+   "rec_small (현재)": 0.97,
+   "rec_medium": 2.063,
+   "rec_korean": 0.959,
+   "rec_en": 1.14
+  }
+ },
+ "003176.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-04-30",
+   "rec_medium": "2021-04-30",
+   "rec_korean": "2021-04-30",
+   "rec_en": "2021-04-30"
+  },
+  "sec": {
+   "rec_small (현재)": 1.672,
+   "rec_medium": 3.865,
+   "rec_korean": 1.828,
+   "rec_en": 1.679
+  }
+ },
+ "003180.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-08",
+   "rec_medium": "2021-07-08",
+   "rec_korean": "2021-07-08",
+   "rec_en": "2021-07-08"
+  },
+  "sec": {
+   "rec_small (현재)": 0.76,
+   "rec_medium": 1.824,
+   "rec_korean": 0.656,
+   "rec_en": 0.736
+  }
+ },
+ "003186.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-21",
+   "rec_medium": "2021-10-21",
+   "rec_korean": "2021-10-21",
+   "rec_en": "2021-10-21"
+  },
+  "sec": {
+   "rec_small (현재)": 1.491,
+   "rec_medium": 3.814,
+   "rec_korean": 1.576,
+   "rec_en": 1.45
+  }
+ },
+ "003191.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-19",
+   "rec_medium": "2021-11-19",
+   "rec_korean": "2021-11-19",
+   "rec_en": "2021-11-19"
+  },
+  "sec": {
+   "rec_small (현재)": 3.279,
+   "rec_medium": 8.164,
+   "rec_korean": 3.4,
+   "rec_en": 3.058
+  }
+ },
+ "003192.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-19",
+   "rec_medium": "2021-11-19",
+   "rec_korean": "2021-11-19",
+   "rec_en": "2021-11-19"
+  },
+  "sec": {
+   "rec_small (현재)": 1.045,
+   "rec_medium": 2.191,
+   "rec_korean": 0.856,
+   "rec_en": 0.771
+  }
+ },
+ "003197.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-05-NONE",
+   "rec_medium": "2022-11-05",
+   "rec_korean": "2022-05-NONE",
+   "rec_en": "2022-11-05"
+  },
+  "sec": {
+   "rec_small (현재)": 2.028,
+   "rec_medium": 4.107,
+   "rec_korean": 1.622,
+   "rec_en": 1.398
+  }
+ },
+ "003201.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-09-21",
+   "rec_medium": "2022-09-21",
+   "rec_korean": "2022-09-21",
+   "rec_en": "2022-09-21"
+  },
+  "sec": {
+   "rec_small (현재)": 2.591,
+   "rec_medium": 5.718,
+   "rec_korean": 2.792,
+   "rec_en": 1.852
+  }
+ },
+ "003202.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": "2021-10-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 0.711,
+   "rec_medium": 0.938,
+   "rec_korean": 0.95,
+   "rec_en": 0.755
+  }
+ },
+ "003203.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-NONE",
+   "rec_medium": "2021-10-NONE",
+   "rec_korean": "2021-10-NONE",
+   "rec_en": "2021-10-NONE"
+  },
+  "sec": {
+   "rec_small (현재)": 0.339,
+   "rec_medium": 0.649,
+   "rec_korean": 0.318,
+   "rec_en": 0.404
+  }
+ },
+ "003210.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-12-02",
+   "rec_medium": "2022-12-02",
+   "rec_korean": "2022-12-02",
+   "rec_en": "2022-12-02"
+  },
+  "sec": {
+   "rec_small (현재)": 3.0,
+   "rec_medium": 9.114,
+   "rec_korean": 3.221,
+   "rec_en": 3.267
+  }
+ },
+ "003213.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.531,
+   "rec_medium": 2.771,
+   "rec_korean": 1.108,
+   "rec_en": 1.578
+  }
+ },
+ "003215.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-10-13",
+   "rec_medium": "2022-10-13",
+   "rec_korean": "2022-10-01",
+   "rec_en": "2022-10-13"
+  },
+  "sec": {
+   "rec_small (현재)": 1.246,
+   "rec_medium": 2.279,
+   "rec_korean": 1.442,
+   "rec_en": 1.305
+  }
+ },
+ "003218.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-16",
+   "rec_medium": "2021-03-16",
+   "rec_korean": "2021-03-16",
+   "rec_en": "2021-03-16"
+  },
+  "sec": {
+   "rec_small (현재)": 3.369,
+   "rec_medium": 8.161,
+   "rec_korean": 3.742,
+   "rec_en": 3.138
+  }
+ },
+ "003221.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-08",
+   "rec_medium": "2021-03-08",
+   "rec_korean": null,
+   "rec_en": "2021-03-05"
+  },
+  "sec": {
+   "rec_small (현재)": 1.42,
+   "rec_medium": 3.924,
+   "rec_korean": 1.454,
+   "rec_en": 1.639
+  }
+ },
+ "003226.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-29",
+   "rec_medium": "2022-01-29",
+   "rec_korean": "2022-01-29",
+   "rec_en": "2022-01-29"
+  },
+  "sec": {
+   "rec_small (현재)": 0.978,
+   "rec_medium": 1.969,
+   "rec_korean": 1.109,
+   "rec_en": 0.987
+  }
+ },
+ "003233.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-21",
+   "rec_medium": "2021-09-21",
+   "rec_korean": "2021-09-21",
+   "rec_en": "2021-09-21"
+  },
+  "sec": {
+   "rec_small (현재)": 0.677,
+   "rec_medium": 1.129,
+   "rec_korean": 0.737,
+   "rec_en": 0.598
+  }
+ },
+ "003236.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-30",
+   "rec_medium": "2021-03-30",
+   "rec_korean": "2021-03-30",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.869,
+   "rec_medium": 1.306,
+   "rec_korean": 0.754,
+   "rec_en": 0.702
+  }
+ },
+ "003237.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-03-30",
+   "rec_medium": "2021-03-30",
+   "rec_korean": "2021-03-30",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.843,
+   "rec_medium": 1.918,
+   "rec_korean": 0.944,
+   "rec_en": 0.659
+  }
+ },
+ "003241.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-01-28",
+   "rec_medium": "2022-01-28",
+   "rec_korean": "2022-01-28",
+   "rec_en": "2022-01-28"
+  },
+  "sec": {
+   "rec_small (현재)": 1.135,
+   "rec_medium": 2.125,
+   "rec_korean": 1.587,
+   "rec_en": 1.484
+  }
+ },
+ "003245.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-09-20",
+   "rec_medium": "2021-09-20",
+   "rec_korean": "2021-09-20",
+   "rec_en": "2021-09-20"
+  },
+  "sec": {
+   "rec_small (현재)": 8.041,
+   "rec_medium": 24.081,
+   "rec_korean": 9.145,
+   "rec_en": 7.368
+  }
+ },
+ "003246.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-08-15",
+   "rec_medium": "2021-08-15",
+   "rec_korean": "2021-08-15",
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.254,
+   "rec_medium": 2.567,
+   "rec_korean": 1.057,
+   "rec_en": 1.076
+  }
+ },
+ "003257.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-04-01",
+   "rec_medium": "2022-04-01",
+   "rec_korean": "2022-04-01",
+   "rec_en": "2022-04-01"
+  },
+  "sec": {
+   "rec_small (현재)": 0.783,
+   "rec_medium": 1.859,
+   "rec_korean": 0.448,
+   "rec_en": 0.823
+  }
+ },
+ "003271.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-07-07",
+   "rec_medium": "2021-07-07",
+   "rec_korean": "2021-07-07",
+   "rec_en": "2021-07-07"
+  },
+  "sec": {
+   "rec_small (현재)": 3.671,
+   "rec_medium": 9.306,
+   "rec_korean": 5.212,
+   "rec_en": 5.513
+  }
+ },
+ "003272.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-05-03",
+   "rec_medium": "2021-05-03",
+   "rec_korean": "2021-05-03",
+   "rec_en": "2021-05-03"
+  },
+  "sec": {
+   "rec_small (현재)": 3.958,
+   "rec_medium": 9.467,
+   "rec_korean": 4.039,
+   "rec_en": 4.023
+  }
+ },
+ "003282.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-12-21",
+   "rec_medium": "2022-12-21",
+   "rec_korean": "2022-12-21",
+   "rec_en": "2022-12-21"
+  },
+  "sec": {
+   "rec_small (현재)": 2.396,
+   "rec_medium": 5.078,
+   "rec_korean": 1.98,
+   "rec_en": 2.357
+  }
+ },
+ "003292.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-12-02",
+   "rec_medium": "2022-12-02",
+   "rec_korean": "2022-12-02",
+   "rec_en": "2022-12-02"
+  },
+  "sec": {
+   "rec_small (현재)": 1.443,
+   "rec_medium": 2.389,
+   "rec_korean": 1.167,
+   "rec_en": 1.487
+  }
+ },
+ "003314.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2021-07-05",
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.629,
+   "rec_medium": 4.641,
+   "rec_korean": 1.841,
+   "rec_en": 1.422
+  }
+ },
+ "003317.jpg": {
+  "got": {
+   "rec_small (현재)": "2022-02-07",
+   "rec_medium": "2022-02-07",
+   "rec_korean": null,
+   "rec_en": "2022-02-07"
+  },
+  "sec": {
+   "rec_small (현재)": 0.613,
+   "rec_medium": 1.427,
+   "rec_korean": 0.732,
+   "rec_en": 0.791
+  }
+ },
+ "003331.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-11-03",
+   "rec_medium": "2021-11-03",
+   "rec_korean": "2021-11-03",
+   "rec_en": "2021-11-03"
+  },
+  "sec": {
+   "rec_small (현재)": 2.374,
+   "rec_medium": 5.742,
+   "rec_korean": 2.483,
+   "rec_en": 2.726
+  }
+ },
+ "003333.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-30",
+   "rec_medium": "2021-10-30",
+   "rec_korean": "2021-10-30",
+   "rec_en": "2021-10-30"
+  },
+  "sec": {
+   "rec_small (현재)": 2.81,
+   "rec_medium": 6.605,
+   "rec_korean": 2.742,
+   "rec_en": 2.141
+  }
+ },
+ "003334.jpg": {
+  "got": {
+   "rec_small (현재)": "2021-10-30",
+   "rec_medium": "2021-10-30",
+   "rec_korean": "2021-10-30",
+   "rec_en": "2021-10-30"
+  },
+  "sec": {
+   "rec_small (현재)": 2.286,
+   "rec_medium": 6.924,
+   "rec_korean": 1.768,
+   "rec_en": 1.414
+  }
+ },
+ "003340.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 1.777,
+   "rec_medium": 4.323,
+   "rec_korean": 2.269,
+   "rec_en": 1.887
+  }
+ },
+ "003341.jpg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": "2022-09-29",
+   "rec_korean": null,
+   "rec_en": "2022-09-29"
+  },
+  "sec": {
+   "rec_small (현재)": 2.202,
+   "rec_medium": 3.106,
+   "rec_korean": 1.538,
+   "rec_en": 1.639
+  }
+ },
+ "3346.jpeg": {
+  "got": {
+   "rec_small (현재)": "2026-09-10",
+   "rec_medium": "2026-09-10",
+   "rec_korean": "NONE-09-10",
+   "rec_en": "NONE-09-10"
+  },
+  "sec": {
+   "rec_small (현재)": 1.033,
+   "rec_medium": 2.305,
+   "rec_korean": 1.238,
+   "rec_en": 1.045
+  }
+ },
+ "3352.jpeg": {
+  "got": {
+   "rec_small (현재)": null,
+   "rec_medium": null,
+   "rec_korean": null,
+   "rec_en": null
+  },
+  "sec": {
+   "rec_small (현재)": 0.937,
+   "rec_medium": 2.27,
+   "rec_korean": 1.017,
+   "rec_en": 1.006
+  }
+ }
+}

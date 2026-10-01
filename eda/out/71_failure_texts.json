@@ -1,0 +1,5000 @@
+[
+ {
+  "file": "000024.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "喜N",
+   "upgrade",
+   "F1.",
+   "立",
+   "25.10:117A",
+   "18.8%,",
+   "0.002%",
+   "(1,480 kcal)"
+  ]
+ },
+ {
+  "file": "000032.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000035.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Bve中"
+  ]
+ },
+ {
+  "file": "000053.png",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "202512.20m"
+  ]
+ },
+ {
+  "file": "000090.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Max",
+   "O",
+   "OPEN",
+   "P25 KF"
+  ]
+ },
+ {
+  "file": "000106.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "No Brand",
+   " C",
+   "Plain",
+   "YOGURT",
+   "Sugar",
+   "lou",
+   "8#",
+   "ATE",
+   "#0口",
+   "10:20 13:51 C",
+   "450gl"
+  ]
+ },
+ {
+  "file": "000108.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "0%",
+   "打告",
+   "：",
+   "0.7g5%",
+   "25-10.240bX|14",
+   "个：70",
+   "13",
+   "8",
+   "809387",
+   "742044",
+   "台"
+  ]
+ },
+ {
+  "file": "000122.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 7,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "###书",
+   "Nnd",
+   "bh ",
+   "##E分",
+   "N1303",
+   "#00L#",
+   "2037."
+  ]
+ },
+ {
+  "file": "000157.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "L1904",
+   "08220027"
+  ]
+ },
+ {
+  "file": "000160.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2",
+   "Hol",
+   "3,780"
+  ]
+ },
+ {
+  "file": "000191.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 10,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "5%",
+   "司开",
+   "居加位",
+   "OHAME20",
+   "|",
+   "2026",
+   "15TXIA",
+   "kcal",
+   "388",
+   "人"
+  ]
+ },
+ {
+  "file": "000201.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 20,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "3,780",
+   "2,380",
+   "REI",
+   "2027.03.300XI",
+   "13:58 3D11P",
+   "S2",
+   "HREA",
+   "2云さ号",
+   "OTTOGI GLUTEN FREE CURRY MEDIUM",
+   "外脚可",
+   "四(非)A",
+   "豆(4)",
+   "10g.(,)1g，(",
+   ".",
+   "召(½)100g，己(企½7)60g，各异2号含(25g)，量700m",
+   "2",
+   "1. ， ",
+   "2",
+   "行h居品话品h1000最量",
+   "是，是，"
+  ]
+ },
+ {
+  "file": "000203.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 20,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "号卫电2001033",
+   "38182580",
+   "4)，闪卫水(引8(子)，圣(",
+   "HI",
+   "COUE，导",
+   "(2)",
+   "华，，钢17，卫，卫、",
+   "14-38.38-7",
+   "()/人",
+   "2030百10",
+   "S",
+   "180g 150 kcal",
+   "22g7%异8g8%",
+   "9%9",
+   "7g13%",
+   "8801005200257\"",
+   "HACCP",
+   "2026",
+   "01",
+   "OTHER"
+  ]
+ },
+ {
+  "file": "000210.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 17,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "五109",
+   "2,980",
+   "EZOK",
+   "N3",
+   "MHIRIEIYA",
+   "OTTOGI BEKSE CURRY SPICY",
+   "豆(4是)周100g，卫(卫,四，卫)130g，(27)270g，召()100g。",
+   "己(全½71)60g，|异2号合(25g)，量700m(3%都)",
+   "1.     ",
+   "外",
+   "2.   ",
+   "苦号至卫进立",
+   "20010445055183",
+   "128",
+   "13",
+   "YRY",
+   "100"
+  ]
+ },
+ {
+  "file": "000229.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 15,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "MOZRELA",
+   "W100%Mini",
+   "Denmark",
+   "20210.28",
+   "Fresh",
+   "MOZZARELLA",
+   "Mini",
+   "0%",
+   "()",
+   "Milky Hlavour",
+   "00",
+   "K",
+   "1256",
+   ":1",
+   "K·MILK"
+  ]
+ },
+ {
+  "file": "000232.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "15.900",
+   "从(P1,P2)：",
+   "TOTAL",
+   "TOTAL"
+  ]
+ },
+ {
+  "file": "000255.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "130g(32.5gx4%)",
+   "32.5 g)t 175 kcal",
+   "6%异11g11%",
+   "6g40%",
+   "8802259026501",
+   "%"
+  ]
+ },
+ {
+  "file": "000263.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "NO.1",
+   "咖",
+   "1",
+   "福",
+   "到冰",
+   "028"
+  ]
+ },
+ {
+  "file": "000288.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000305.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 20,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "|7：",
+   "|",
+   "HOME:ings()",
+   "0及正元百艺仪居品·",
+   "品品记",
+   "(/2图)",
+   "2mm ",
+   "早",
+   "&",
+   "510191085号",
+   "2yhol0是古。",
+   "/",
+   "1号名们",
+   "，人[",
+   "异",
+   " /",
+   "(本}，0",
+   "H",
+   "号早卫电20100370135373",
+   "29115-84"
+  ]
+ },
+ {
+  "file": "000309.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 18,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "300g",
+   "居",
+   "19510",
+   "合，，",
+   "www.murgerbon.com",
+   "300g",
+   "百",
+   "100g",
+   "520 kcal",
+   "异20g20%",
+   "恒号180mg9%个量51g16%",
+   "33",
+   "801133",
+   "006806",
+   "28952%",
+   "武0mg0%",
+   "17g31%",
+   "OTHER"
+  ]
+ },
+ {
+  "file": "000355.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000361.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "智开",
+   "母号！",
+   "670",
+   "号卫电19840533006114",
+   "()",
+   "暑盟香2"
+  ]
+ },
+ {
+  "file": "000370.jpg",
+  "probe": "P3_2자리_연도",
+  "n_frag": 32,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "双",
+   "品品片",
+   "(你：骨",
+   "天10旦人",
+   "奇星子",
+   "百品1品品",
+   "22",
+   "80g",
+   "275 kcal",
+   "歪文0 CH",
+   "吾，卫，，H，早合",
+   "mg",
+   "异20",
+   "20",
+   "3.4g",
+   "6",
+   "：卫",
+   "早·",
+   "8\"801052",
+   "%0",
+   "引印0mg",
+   "011399",
+   "R",
+   "岂引IA",
+   "6",
+   "11",
+   "1()",
+   "OTHER",
+   "00",
+   "F12503",
+   "HACCP",
+   "ESANG"
+  ]
+ },
+ {
+  "file": "000373.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 32,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "外誉异袭",
+   "奇列圣引誉",
+   "041-582-3437",
+   "PE",
+   "Of",
+   "1olyl",
+   ",",
+   "3，",
+   "1399",
+   "L三号1,360mg",
+   "68%",
+   "5.1g",
+   "%6",
+   "卧量45g",
+   "14%",
+   "g",
+   " 17",
+   "17%",
+   "3.1g",
+   "21%",
+   "237kcal",
+   "10mg",
+   "3%",
+   "2.8g",
+   "5%",
+   "025：08:18",
+   "HACCP",
+   "世A",
+   "3:25",
+   "DF5I",
+   "OTHER",
+   "8809847090135"
+  ]
+ },
+ {
+  "file": "000390.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   ":200g(694kcal·号早卫世:2021032318512",
+   "[)]品",
+   "46%,(个个是100%)45%，(",
+   "立)98.5%，管旱，异]9%",
+   "202605.19.",
+   "88208"
+  ]
+ },
+ {
+  "file": "000395.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2026.03.",
+   "告台",
+   "R号",
+   "(9)片",
+   "101003536",
+   "8801043015622"
+  ]
+ },
+ {
+  "file": "000403.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000415.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "しようが",
+   "らっきょうと",
+   "外今今む",
+   "2",
+   "百1品品",
+   "李60g/15kcal",
+   "809307\"390034",
+   "HR"
+  ]
+ },
+ {
+  "file": "000438.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "24π",
+   "1倍利"
+  ]
+ },
+ {
+  "file": "000440.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2:08:13",
+   "晋号引号",
+   "招闲：坐()7.927%，号",
+   "白雲山",
+   "42"
+  ]
+ },
+ {
+  "file": "000441.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "67H",
+   "8.25%(卫",
+   "人85mL×67H(510mL/510kcal)",
+   "oł]二人",
+   "そたに",
+   "Freezer Pop",
+   "(0)",
+   "D",
+   "扑号"
+  ]
+ },
+ {
+  "file": "000452.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "AH2C",
+   "EII",
+   "(",
+   "(",
+   "7(H)",
+   "|人()",
+   "(FTFIFO2L仓",
+   "C2F-())"
+  ]
+ },
+ {
+  "file": "000459.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 28,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BTH",
+   "告音",
+   "号丛竺豆叫量叶蛋苟叫",
+   "0%",
+   "163 g(390 Kcal)",
+   "(150g.13 g)",
+   "号",
+   ".2%",
+   "0119",
+   "焊",
+   ".",
+   "2",
+   "3",
+   "OTHER",
+   "喜209-号卫20130473042224",
+   "：99.5%",
+   "合4计.",
+   "鸭0|1255.7%[",
+   "是凯(卫堂)，号营",
+   "R",
+   "，器3",
+   "百1品0品",
+   "号163g390kcal",
+   "LE号1,720 mg 86 % 量 85 g 26 %",
+   "1399",
+   "古Y尼正百吾后多",
+   "平数11g7%量引人印量0mg0%E图8g15%",
+   "2g2%21g4%0g"
+  ]
+ },
+ {
+  "file": "000482.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 14,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "lo",
+   "U：1544-944（(2个47)",
+   "NOW",
+   "CO",
+   "FRIED",
+   "丕0",
+   "4号OK",
+   "123",
+   "人Ⅱ",
+   "93.5g(80g",
+   "13.5g/3401",
+   "100",
+   "品信（）1%",
+   "至站营17g114"
+  ]
+ },
+ {
+  "file": "000486.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "21976",
+   "70 g.H 38:9 %"
+  ]
+ },
+ {
+  "file": "000489.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 26,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "EASY CUT",
+   "百品1品品",
+   "8号160g",
+   "245 kcal",
+   "L三号 790mg 40%",
+   "个量13g 4%",
+   " 9g 9%",
+   "16g 30%",
+   "k",
+   "kE",
+   "2",
+   "0.5g",
+   "印45mg",
+   "2,000kcal7歪0",
+   "700W0号人",
+   "确享号10200",
+   "引号",
+   "品百语",
+   "(),())",
+   "ス",
+   "百百名()号",
+   "，",
+   "&",
+   "，，",
+   "OTHER",
+   "8801045\"686318"
+  ]
+ },
+ {
+  "file": "000515.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "ER",
+   "201045 46 +U",
+   "2026.01",
+   "73 g/400 kcal",
+   "LE280mg14%44g14%异22g22%",
+   "23943%0g11973%",
+   "引0mg0% 4g7%",
+   "88022"
+  ]
+ },
+ {
+  "file": "000522.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "(",
+   "，，()",
+   "，，，，,",
+   "25.02:226:05",
+   "早"
+  ]
+ },
+ {
+  "file": "000534.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "￥号立",
+   "品品",
+   "78%",
+   "50mg",
+   "1g"
+  ]
+ },
+ {
+  "file": "000540.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2026",
+   "别平5日科"
+  ]
+ },
+ {
+  "file": "000543.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 16,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "后",
+   "，，早",
+   "全",
+   "20010538182580",
+   "引，，",
+   ")，g()，(个叫，",
+   "14-38号358-7",
+   "，，，，",
+   "，",
+   "·ho",
+   "90元",
+   "180 g 150 kcal",
+   "%异8g8%",
+   "0.7g5%",
+   "8\"801005\"200257",
+   "OTHER"
+  ]
+ },
+ {
+  "file": "000544.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "化包R品",
+   "HL-11y7079230",
+   "SAJO"
+  ]
+ },
+ {
+  "file": "000561.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "20叫（引到)·Maxim ",
+   "低人(1.1g墅量",
+   "(9100m)人图章壹叫答",
+   "·",
+   "叫刷量刮早，器卫",
+   "2-0-08810181",
+   "MAXIM",
+   "日",
+   "8\"801037\"000382\"",
+   "华：PP",
+   "///www.dongsuh.co.kr"
+  ]
+ },
+ {
+  "file": "000582.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "202511.21川F1",
+   "with"
+  ]
+ },
+ {
+  "file": "000586.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "14",
+   "2151"
+  ]
+ },
+ {
+  "file": "000608.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000627.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 7,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "ZEROSUGAR",
+   "28号：台：8百.2",
+   "PRO",
+   "EXP",
+   "sugarlol",
+   "上辰行",
+   "0.1%"
+  ]
+ },
+ {
+  "file": "000629.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "LKW21115E447E",
+   "25",
+   "￥2260",
+   "23:44",
+   "DUUNO",
+   "OPEZ"
+  ]
+ },
+ {
+  "file": "000643.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 22,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Brand",
+   "LICHスICH",
+   "0 kcal)",
+   "6.6%",
+   "CHOPPED NOODLE",
+   "KALGUKSU",
+   "网",
+   "器",
+   "（)164g(230kcal)",
+   ",)，思是，个(引心),周(",
+   ")，(,",
+   "4.6()",
+   "),(),是，，",
+   "(22%)65%(19%),",
+   "百品品",
+   "香164g230kcal",
+   "品",
+   "1",
+   "[闪)(),，，",
+   "L号2,120mg106%量49g15%异1g1%",
+   "1.8g3% g 0g0%",
+   "5-525"
+  ]
+ },
+ {
+  "file": "000648.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 14,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "SYIRE",
+   "(",
+   "2025 San-X",
+   "CTHER",
+   "自rk量",
+   "(%乙)8浸码)",
+   "量0mg(0%)",
+   "(14)a+(",
+   "乙品五",
+   "午量12g(4%)",
+   "品",
+   "h",
+   "昆口É花12",
+   "20287887"
+  ]
+ },
+ {
+  "file": "000649.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 10,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2027.04.071X",
+   "10:24",
+   "2D09K",
+   "“",
+   "，",
+   "KSE CURRY MILD",
+   "(½)60g，2(25g)，7",
+   "2. ",
+   "卫",
+   "20010445055181"
+  ]
+ },
+ {
+  "file": "000670.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "旁"
+  ]
+ },
+ {
+  "file": "000699.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "もつちり豆腐",
+   "2025",
+   "809720",
+   "822525"
+  ]
+ },
+ {
+  "file": "000703.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "喜誉0",
+   "ENO!",
+   "早"
+  ]
+ },
+ {
+  "file": "000715.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 14,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "百品品品",
+   "日午卦量34g 10%  20g 20%",
+   "9096恒五",
+   "4E号 130mg 7%",
+   "H引IA",
+   "19%",
+   "三g",
+   "10g",
+   "7%",
+   "4g",
+   "0mg 0%",
+   "鲁引印",
+   "THER",
+   "EXP:26."
+  ]
+ },
+ {
+  "file": "000717.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Maeil",
+   "olkd",
+   "Enjoy Yogurt"
+  ]
+ },
+ {
+  "file": "000722.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000723.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "风不别"
+  ]
+ },
+ {
+  "file": "000731.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000732.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "16JX"
+  ]
+ },
+ {
+  "file": "000742.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2029.952011A1801987"
+  ]
+ },
+ {
+  "file": "000753.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "18",
+   "MRIE",
+   "SI BEKSE CURRY MEDIUM",
+   "，",
+   "器",
+   "12%31.95"
+  ]
+ },
+ {
+  "file": "000760.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "OWERSUGAR",
+   "品品品",
+   "20%DOWN"
+  ]
+ },
+ {
+  "file": "000761.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "引印量30mg10%",
+   "80-022-0056",
+   "星明",
+   "O70I F1"
+  ]
+ },
+ {
+  "file": "000764.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "告号"
+  ]
+ },
+ {
+  "file": "000765.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000767.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "COCO",
+   "ZERO"
+  ]
+ },
+ {
+  "file": "000768.jpeg",
+  "probe": "P2_4자리_무구분자",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "20260626 8006"
+  ]
+ },
+ {
+  "file": "000770.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": true,
+  "texts": [
+   "LOTNO."
+  ]
+ },
+ {
+  "file": "000777.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 51,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "tydrate 6g",
+   "2%",
+   "Fiber Og",
+   "0%",
+   "早",
+   "igars 5g",
+   "叫",
+   "des 5g Added Sugars",
+   "10%",
+   "外器",
+   "w4.00",
+   "0%",
+   "Calcium 11mg 0%",
+   "%",
+   "Potas. 34mg 0%",
+   "01399",
+   "告：080-215-9800(体人焊",
+   " how much a utrient in",
+   "百品品",
+   "李引132g",
+   "100g5 559kcal",
+   "100gg",
+   "4三号42.8mg",
+   "午站号59g",
+   "18%",
+   "uc, MILK",
+   "53.6g",
+   "54%",
+   "UNCENTRATE, SOY LECITHIN (AN",
+   "), NATURAL AND ARTIFICIAL",
+   "33.7g",
+   "62%",
+   "PPERMINT OIL, COLORS ADDED",
+   "LAKE, BLUE 1 LAKE).",
+   "至30.4g",
+   "203%",
+   "UCT CONTAINS MILK AND SOY.",
+   "吾引印2mg",
+   "1%",
+   "5g"
+  ]
+ },
+ {
+  "file": "000786.jpeg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "110",
+   "OP",
+   "EN",
+   "D1",
+   "Y"
+  ]
+ },
+ {
+  "file": "000788.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Ghnln",
+   "090I F1",
+   "T1L"
+  ]
+ },
+ {
+  "file": "000789.jpeg",
+  "probe": "P5_월일만",
+  "n_frag": 12,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "MA",
+   "2+1",
+   "2206",
+   "4.000",
+   "-2290",
+   "2.306",
+   "2.300",
+   "2.300",
+   "1700",
+   "CatEK",
+   "12.9 0°758",
+   "HOO"
+  ]
+ },
+ {
+  "file": "000790.jpeg",
+  "probe": "P5_월일만",
+  "n_frag": 43,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2774",
+   "ラルです。",
+   "01()",
+   "膳0吨0垂色包誓率",
+   "&",
+   "KABAYA FOODSCORPORATION OKAYAMA FACTORY",
+   "1399",
+   "formance",
+   "の100%の",
+   "B2",
+   "します。",
+   "百",
+   "李81g",
+   "、水能、食、乳",
+   "309kcal",
+   "剤、塩化K、",
+   "4善1227mg61%量74g23%异69g69%1493%",
+   "とタミノB2)",
+   "三0g 1.2g 8% 引0mg 0% 0g 0%",
+   "424mg 12%74,617mg",
+   "PP",
+   "きけて保存してくた",
+   "00叫",
+   "New Taste New Happiness / www.neje.co.kr",
+   "11100",
+   "未期限表示後の右端に",
+   "賞味期限",
+   "（外袋未開封で保存した場合の期限です）",
+   "質(28品目中)",
+   "乳",
+   "l",
+   "塩分の取り過ぎにご注",
+   "意ください。",
+   "塩分の摂取に気をつか",
+   "われている方は、成分表",
+   "示をご確認のうえ、お召",
+   "しあがりください。",
+   "4901550\"151289\"",
+   "ください。",
+   "エンブンチャージタブレッツ"
+  ]
+ },
+ {
+  "file": "000795.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Enaak",
+   "11",
+   "SPICY",
+   "LEVEL3",
+   "Enadk",
+   "ANTAR TOP",
+   "GEMED",
+   "Dlo"
+  ]
+ },
+ {
+  "file": "000796.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Enad"
+  ]
+ },
+ {
+  "file": "000805.jpeg",
+  "probe": "P5_월일만",
+  "n_frag": 30,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "亡五",
+   "nance",
+   "品",
+   "0%の",
+   "す。",
+   "李81g",
+   "百",
+   "309kcal",
+   "食塩、乳",
+   "异69g 69%1.49 3%",
+   "、塩化K、",
+   "号1,227mg 61%上个站量74g23%",
+   "B2)",
+   "人!0g1.29 8%引量0mg 0%图0g0%",
+   "PP",
+   "号424mg 12%7址4,617mg",
+   "0",
+   "存してくt",
+   "New Taste New Happiness / www.neje.co.kr",
+   "後の右端に",
+   "賞味期限（外袋未開封で保存した場合の期限です）",
+   "中乳",
+   "分の取り過ぎにご注",
+   "ください。",
+   "分の摂取に気をつか",
+   "れている方は、成分表",
+   "をご確認のうえ、お召",
+   "4901550\"151289\"",
+   "あがりください。",
+   "エンブンチャージタブレッツ"
+  ]
+ },
+ {
+  "file": "000815.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "4.000",
+   "f"
+  ]
+ },
+ {
+  "file": "000816.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "加",
+   "EASY CUT",
+   "THE",
+   "Apple Shine"
+  ]
+ },
+ {
+  "file": "000818.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000819.jpeg",
+  "probe": "P3_2자리_연도",
+  "n_frag": 64,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "2+1",
+   "212新",
+   "2+1",
+   "21-12.3",
+   "BEST",
+   "BEFORE",
+   "CO一",
+   "M118821 BR",
+   "CEDEX-FRANCE.",
+   "76057707",
+   "dietary intake.",
+   "#Recommended",
+   "BEL, B.P.114-92151 SURESNES",
+   "AND IMPORTED INGREDIENTS",
+   "Calcium",
+   "MADE OMAO I LOCAL",
+   "good",
+   "Sodium",
+   "Suar",
+   "toror",
+   "For New Zealand, imported by: Hutchinsons Ltd.",
+   "bel",
+   "341), MILK PROTEIN, LACTIC ACID CONCENTRATE (MILK).",
+   "MICROBIAL RENNET], BUTTER (MILK), EMULSIFIERS (452,",
+   "CHEESE (23%*) [MILK, SALT, LACTIC ACID BACTERIA (MILK),",
+   "(11% RDI*)",
+   "90 mg",
+   "98mg",
+   "660",
+   "Carbohydrate",
+   "-Saturated",
+   "Fat, total",
+   "Protein",
+   "Energy",
+   "，",
+   "INGR ( A  S A S 2%(",
+   "60m9g",
+   "650mg",
+   "60.9",
+   "660"
+  ]
+ },
+ {
+  "file": "000825.jpeg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "3.300",
+   "8.300",
+   "2000"
+  ]
+ },
+ {
+  "file": "000826.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "3.200",
+   "zand"
+  ]
+ },
+ {
+  "file": "000828.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2"
+  ]
+ },
+ {
+  "file": "000834.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "PEEL HERE",
+   "schoolchoice.",
+   "呀：早是()",
+   "别址列：叮号·叫号号：24g(70kd",
+   "晋异创：刘(对否："
+  ]
+ },
+ {
+  "file": "000837.jpeg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 11,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "EXP FEB 21 26 1K1f 1",
+   "PEEL HERE",
+   "CHEDDAR CHEESE",
+   "Premium CHEESE",
+   "SALT, ENZYMES,ANN",
+   "INGREDIENTS: CHEDDA",
+   "(15% DV n .2ng (0% o),",
+   "Ind O Add Sugas, 0% O0,",
+   "Sodium 109gg(% 0V, Toal G",
+   "Totlal fa g 1) a Fal 6g",
+   "Muftn Fas Sring Sn a"
+  ]
+ },
+ {
+  "file": "000838.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "EXP FEB 21 26 1K1",
+   "PEEL HERE",
+   "CHEDDAR CHEESE",
+   "Premium CHEESE",
+   "英豆"
+  ]
+ },
+ {
+  "file": "000848.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "ROCHER",
+   "2105 2026",
+   "L218KBBNHX"
+  ]
+ },
+ {
+  "file": "000852.jpeg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 2,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "5/0444G",
+   "BBE 14.08"
+  ]
+ },
+ {
+  "file": "000858.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2",
+   "0/28",
+   "LR",
+   "o",
+   "8"
+  ]
+ },
+ {
+  "file": "000859.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "60"
+  ]
+ },
+ {
+  "file": "000863.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 12,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "A consomer de prernc ant le/",
+   "Best before/",
+   "35-239-001",
+   "FR",
+   "Consumi preere de",
+   "CE",
+   "A consumi de preerincia ates de",
+   ":10:2029",
+   "PROO",
+   "EXP",
+   "Poids net: 125 g",
+   "3228020481846"
+  ]
+ },
+ {
+  "file": "000867.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "TEGGa",
+   "DAT",
+   "2AD-",
+   "502",
+   "010",
+   "2029",
+   "DAT",
+   "ATCHA COOKIES",
+   "0"
+  ]
+ },
+ {
+  "file": "000868.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "EGOGold",
+   "HA COOKIES",
+   "αX",
+   "omm",
+   "2029"
+  ]
+ },
+ {
+  "file": "000872.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 15,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "OlENZN",
+   "BELGIOIOS",
+   "MOZZAREL",
+   "AMERICA'S FAVORITE CH",
+   "SLICED",
+   "CRAE  CONS",
+   "PAST ZMLK",
+   "ENSN",
+   "FRESH",
+   "BEL.GIOIOSO CHEESE",
+   "BELGIOIOSO.COM",
+   "Openn  nloyf",
+   "3206",
+   "Best By FEB/26/21",
+   "10:48 NDL2A"
+  ]
+ },
+ {
+  "file": "000873.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BIXIXIN",
+   "BELGIOIOS",
+   "MOZZAREL",
+   "SLICED",
+   "19",
+   "FRESH",
+   "NWE ZN",
+   "心",
+   "Open&Enjoy!",
+   "AMERICA'S FAVORITE CH",
+   "Best By FEB/26/21 10:48 NDL2A"
+  ]
+ },
+ {
+  "file": "000875.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 55,
+  "has_anchor": true,
+  "has_neg": true,
+  "texts": [
+   "PRODUCT OF THE USA",
+   "营23g 43%",
+   "ng 15%",
+   "包个图量3g1%",
+   "10",
+   "量 90mg 30%",
+   "三馨刀0.9g圣",
+   "18",
+   "Nutrition",
+   "Amount/serving",
+   "% DV Amount/serving",
+   "%0V",
+   "ffyou'r not compltey satisf  wih",
+   "this Kürkiand Signafure product,",
+   "Facts",
+   "Total Fat 6g",
+   "8% Total Carb. < 1g",
+   "0%",
+   "your mone will berefund.",
+   "About 11 Servings",
+   "Sat. Fat 4.5g",
+   "21%",
+   "Fiber 0g",
+   "0%",
+   "COSTCOWHOLESALE",
+   "DISTRIBUTED BY:",
+   "per container",
+   "Trans Fat 0g",
+   "Total Sugars < 1g",
+   "CORPORATION",
+   "1 0z (28g)",
+   "Serving size",
+   "Cholesterol 25mg 8%",
+   "Incl.Og Aded Sugars 0%",
+   "SEATTLE, WA 98124-1535",
+   "P.O.BOX34535",
+   "per serving",
+   "Calories",
+   "80",
+   "Vitamin D 0%·Calcium 0%-Iron 0%·Potassium 0%"
+  ]
+ },
+ {
+  "file": "000878.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Sera",
+   "BATCH :094 6/1/3",
+   "SADE",
+   "SÚBE SESAMPASTE",
+   "HELVA",
+   "TRADITIONAL HELVA",
+   "Net 2 r-350e",
+   "Nettogewicht:"
+  ]
+ },
+ {
+  "file": "000931.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "000933.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "101385F16"
+  ]
+ },
+ {
+  "file": "000935.jpg",
+  "probe": "P3_2자리_연도",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "21:02:15弧",
+   "百品",
+   "190m|110 kcal",
+   "5818",
+   "1地电"
+  ]
+ },
+ {
+  "file": "000940.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "NR",
+   "FOF",
+   "1O",
+   "00"
+  ]
+ },
+ {
+  "file": "000956.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "i物ic lo景行 品餐思",
+   "facebook",
+   "2.2151",
+   "2餐乙"
+  ]
+ },
+ {
+  "file": "000958.jpg",
+  "probe": "P3_2자리_연도",
+  "n_frag": 14,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "百1品品",
+   "0%00% ",
+   "LE号10mg 1%",
+   "日座299%异品西",
+   "8270m|115kcal",
+   "晋35",
+   "Ong0%0g0% A",
+   "年BCOng 0%",
+   "验7mg2%g",
+   "88图200",
+   "21:01:22",
+   "A-G",
+   "8",
+   "801114139844"
+  ]
+ },
+ {
+  "file": "000974.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "题是",
+   "LONE"
+  ]
+ },
+ {
+  "file": "000978.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 26,
+  "has_anchor": false,
+  "has_neg": true,
+  "texts": [
+   "03",
+   "03",
+   "118",
+   "02",
+   "Moned   ne ge sion.",
+   "MINI OREO and device are trademarks of",
+   "8378 Dr. A. Santos Avenue, Parañaque City, Philippines",
+   "Consumer Response Center: (02) 820-2866",
+   "phconsumercare@mdlz.com",
+   "un+",
+   "Mon de tnc.",
+   "Manufactured on equipment that also processes products containing milk",
+   "PRODUCT OF INDONESIA",
+   "Alers   n  oya.",
+   "and peanuts.",
+   "Food additives are of plant and synthetic origins.",
+   "Raising Agents (Sodium Bicarbonate (INS500(). Ammonium Bicarbonate",
+   "DIPRA S BON  A  G SRANG",
+   "JUM SA AM",
+   "MEN AG D  G L  DGEBAL",
+   "MENG G NS DGNGANG",
+   "INFORMASI NILAI G",
+   "ANTIOKSIDAN TBHQ). BUBUK COKLAT. SIRUP FRUKTOSA, PENGEMBANG",
+   "NATNUM  AM NNM AB BA & ULUSI",
+   "LES  S  SILA",
+   "KOM MA ME M MI M MIUNG"
+  ]
+ },
+ {
+  "file": "000990.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 16,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "PREPARATO A BASE DI",
+   "DA CONSUMARSI PREFERIBIL MENTE ENTRIO IL:",
+   "BEST BEFORE:",
+   "ALNGGASU .T.",
+   "GRASSO VEGETALE",
+   "DA MONTARE E PER CUCINA",
+   "MIX",
+   "FSC",
+   "F8C*CO14047",
+   "1000mle",
+   "for",
+   "Whipping",
+   "da",
+   "Montare",
+   "fCooking",
+   "HOPLA"
+  ]
+ },
+ {
+  "file": "000993.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "4号昨25",
+   "IOTIC",
+   "8",
+   "801121\"510179",
+   " (201897)",
+   "Rlo it0002",
+   "7号1000l",
+   "0"
+  ]
+ },
+ {
+  "file": "000994.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "02:197F1A",
+   "PROB"
+  ]
+ },
+ {
+  "file": "000995.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "R",
+   "PROB"
+  ]
+ },
+ {
+  "file": "000996.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "13:187FE",
+   "PROBIOTIC",
+   "4号25",
+   "8",
+   "801121"
+  ]
+ },
+ {
+  "file": "000997.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 7,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "13:187FE",
+   "RO",
+   "BIOTIC",
+   "4卷",
+   "8",
+   "801121\"51010",
+   "co|c"
+  ]
+ },
+ {
+  "file": "001001.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "BEST BEFORE",
+   "308:11L5"
+  ]
+ },
+ {
+  "file": "001003.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "001005.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "至数29",
+   "HA.CCP",
+   "合",
+   "B0007"
+  ]
+ },
+ {
+  "file": "001019.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "001030.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 54,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "HERSHEY'S Kitchens",
+   "9801",
+   "HERSHEY'S \"PERFECTLY CHOCOLATE\"",
+   "CHOCOLATE CAKE",
+   "2 cups sugar",
+   "1-3/4 cups all-purpose flour",
+   "3/4 cup HERSHEY'S Cocoa",
+   "1-1/2 tsp. baking powder",
+   "1-1/2 tsp. baking soda",
+   "1 tsp. salt",
+   "2 eggs",
+   "1 cup milk",
+   "1/2 cup vegetable oil",
+   "\"PERFECTLYCHOCOLATE\"",
+   "1 cup boiling water",
+   "CHOCOLATE FROSTING (recipe follows)",
+   "2 tsp. vanilla extract",
+   "HERSHEY'S \"PERFECTLY CHOCOLATE\" CHOCOLATE FROSTING",
+   "1/2 cup (1 stick) butter or margarine",
+   "2/3 cup HERSHEY'S Cocoa",
+   "3 cups powdered sugar",
+   "1 tsp. vanilla extract",
+   "1/3 cup milk",
+   "FAVORITE HOT COCOA TOP OF STOVE 6 SERVINGS:",
+   "1/2 cup sugar",
+   "1/4 cup HERSHEY'S Cocoa",
+   "1/3 cup hot water",
+   "smooei",
+   "SCAN HERE FOR MORE",
+   "FOOD INFORMATION",
+   "Dash of salt",
+   "4 cups milk",
+   "3/4 tsp. vanilla extract",
+   "OLEVEL",
+   "OLEVEL",
+   "TABLESPON",
+   "OFCOCOA",
+   "OF COCOA",
+   "TABLESPOONS",
+   "+"
+  ]
+ },
+ {
+  "file": "001031.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 46,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "HERSHEYS Kitchens",
+   "98DBKA1",
+   "102",
+   "ERSHEY'S\"PERFECTLY CHOCOLATE\"",
+   "HOCOLATE CAKE",
+   "2 cups sugar",
+   "1-3/4 cups all-purpose flour",
+   "1-1/2 tsp. baling powder",
+   "3/4 cup HERSHEY'S Cocoa",
+   "1-1/2 tap. baking soda",
+   "2 eggs",
+   "1 tsp. salt",
+   "1 cup milk",
+   "1/2 cup vegetable oil",
+   "PEOCCCCCATE",
+   "2 tsp. vanilla extract",
+   "1 cup boiling water",
+   "CHOCOLATE FROSTING (recipe followt)",
+   "HERSHEYS-PERFECTLY CHOCOLATE\" CHOCOLATE FROSTING",
+   "2/3 cup HERSHEY'S Cocoa",
+   "1/2 cup  ctick biutter or margarine",
+   "3 cups powdered sugar",
+   "1/3 cup milk",
+   "1 tsp. vanilla extrac",
+   "FAVORITE HOT COCOA TOP OF STOVE6 SERVINGS:",
+   "12 cup sugar",
+   "1/3 cup hot water",
+   "4 cups milk",
+   "3/4 tsp. vanilla extract",
+   "口",
+   "30N WGS 36H W3G",
+   "FOR ADDITIONAL RECIPE IDEAS, VISIT:",
+   "www.hersheyskitchens.com",
+   "OUVEL",
+   "LESPOONS",
+   "+",
+   "OTABRLESPOON",
+   "SHORTENING",
+   "二",
+   "OOUNCE"
+  ]
+ },
+ {
+  "file": "001069.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "100",
+   "青段品品"
+  ]
+ },
+ {
+  "file": "001102.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "3,380",
+   "Fitz",
+   "Maeil",
+   "2021:93.14"
+  ]
+ },
+ {
+  "file": "001103.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Maeil",
+   "2021:93.14"
+  ]
+ },
+ {
+  "file": "001120.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "000"
+  ]
+ },
+ {
+  "file": "001136.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "5ora",
+   "RED BEANS IN"
+  ]
+ },
+ {
+  "file": "001142.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "INGREDIENTS: Canola Ol [Protected with",
+   "P92688B/B",
+   "AIOLI",
+   "GARLIC",
+   "Aatidat(307b). Wite Vinegar FreRenge",
+   "Eggs (9%), Sugar, Mustar (ncluding Mustard",
+   "Seds SatGaliast(O)Str(412.",
+   "415. Contain Traces of Soy). Aatioxidant (385).",
+   "Heinz",
+   "801065103925",
+   "GHC275J 06:05"
+  ]
+ },
+ {
+  "file": "001166.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 17,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "20060372438444",
+   "卫450g(15g×307)",
+   "，，",
+   "60%，)，(是55",
+   "%)13 %，(60 %，",
+   ")，6 %，()2 %，",
+   "()2 %，()2 %，",
+   "%1 %，",
+   "%% %",
+   "0，，",
+   "，叫：，(否)，(三台)",
+   "(",
+   "异刀",
+   "：",
+   "（)/",
+   "喜普引(李)www.homeplus.co.kr号盟召398",
+   "2022.81638"
+  ]
+ },
+ {
+  "file": "001167.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 19,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "苦号卫进",
+   "20060372438444",
+   "后",
+   "450g(15g × 30)",
+   "60%，）.告(卫是55",
+   "%)13 %H类(正是60%,",
+   ") 6 % [()2 % 0",
+   "%1%，是，叫告是",
+   "(40%)10%0.7%",
+   "人，子，，",
+   "，：，割(否)，()",
+   "(",
+   "异号刀包",
+   "营异",
+   "最需10亿号：良收&五们",
+   "28费语9百汉品号量Y风五引1&/制)",
+   "异号世2www homepka.cokr星雪子38",
+   "·异号包：",
+   "2022-01678"
+  ]
+ },
+ {
+  "file": "001186.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": true,
+  "texts": [
+   "OLOTTE",
+   "E",
+   "2",
+   "21:1228",
+   "14:38",
+   "E1",
+   "http://www.lottocont.co.k",
+   "080-024-6060"
+  ]
+ },
+ {
+  "file": "001215.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Gery",
+   "Garudafood",
+   "Choco",
+   "Crackers",
+   "UI:00100014221200",
+   "MD 235513036016",
+   "CHOCOLATE",
+   "RACKERS",
+   "本丑三引"
+  ]
+ },
+ {
+  "file": "001261.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "THEEIE2IA.否S",
+   "T "
+  ]
+ },
+ {
+  "file": "001262.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2333は",
+   "OTHER MME"
+  ]
+ },
+ {
+  "file": "001265.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Singles",
+   "8",
+   "8STICKS-NET WT 1.09 OZ (30.9 g)",
+   "WL0167 11:21",
+   "PDP 256",
+   "BEST BY JUN 2022",
+   "0",
+   "72392\"36133",
+   "5"
+  ]
+ },
+ {
+  "file": "001269.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 4,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Best before:",
+   "11/0ct/2021",
+   "201931102",
+   "2::13"
+  ]
+ },
+ {
+  "file": "001270.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Best before",
+   "23:302021",
+   "201931102"
+  ]
+ },
+ {
+  "file": "001294.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 14,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "GET IN TOUCH",
+   "1-800-280-6934",
+   "BEST BY",
+   "NOV2021",
+   "0282FTX143",
+   "12:11",
+   "www.neroscamu",
+   "Please Have Package Available When Reaching Out",
+   "R. CORN SYRUP 2% OR LSS F MALIC ACID, GELATIN, GLYCERIN, NATURAL FLAVORS, CONFECTIONER'S GLAZE (LAC-RESIN), CITRIC ACID, CARNAUBA",
+   "ADDED, BLUE 1, BLUE 1 LAKE, BLUE 2 LAKE, RED 40, RED 40 LAKE, YELLOW 5, YELLOW 5 LAKE, YELLOW 6.",
+   "ANDY COMPANY, CHICAGO, IL 60607",
+   "142014",
+   "CANDY COMPANY. All Rights Reserved.",
+   "OBJECTS SUCHAS HARD AND SOFTCAAENTLY BECOME LODGED IN HE THROAT."
+  ]
+ },
+ {
+  "file": "001354.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "L0T:20-188 16:51",
+   "2802 70  -:88"
+  ]
+ },
+ {
+  "file": "001368.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "M"
+  ]
+ },
+ {
+  "file": "001374.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 30,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "LOACKER, PURE GOODNESS!",
+   "Pure goodness from the heart",
+   "2022.05",
+   "of the Alps",
+   "LJK17 02372080",
+   "LOACKER, SAVEUR PURE!",
+   "Saveur pure venue du cœur",
+   "8000\"1928",
+   "des Alpes",
+   "e péférence avant fin:",
+   "ED/L-PD",
+   "Manufactured by/Fabriqué par:",
+   "for/pour:",
+   "Loacker",
+   "A. Loacker Konfekt GmbH",
+   "1-39054 Unterinn - Auna di Sotto - BZ",
+   "Heinfels - Tyrol - Austria",
+   "South Tyrol/Italy/www.loacker.it",
+   "·早哥叫·",
+   "hg9m3%",
+   "量23.5g7% 11.2g 11%",
+   "37.5g 192 Kcal",
+   "hurt 37,5g 620167-KOR",
+   "Sill ",
+   "9.6g 18% 0g 郊8.4g 56%",
+   "7,4 ",
+   "居型正上创01399邮智今牌目):080-215-9800",
+   "PP",
+   "0mg 0% 2.8g 5%",
+   "1%2.000Ka"
+  ]
+ },
+ {
+  "file": "001375.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 23,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "LOACKER, PURE GOODNESS",
+   "Pure goodness from the heart",
+   "2022.05",
+   "of the Alps",
+   ">LJK17 02372080",
+   "LOACKER, SAVEUR PURE",
+   "8000\"1928\"",
+   "Saveur pure venue du cer",
+   "des Alpes",
+   "véférence avant fin:",
+   "ED-PD",
+   "Loacker",
+   "A. Loacker Konfekt GmbH",
+   "1-39054 Unterinn-Aunadietto-8Z",
+   "Heinfs-TrolAutriaSut yr/taly/t",
+   "375g192 Kcal",
+   "y",
+   "热64mg 3% 量235g7% 98112g11%",
+   "槽96g 18% 照视0g 至路营84g56%",
+   "ME413852",
+   "K13270-15G17",
+   "3085-51748018的",
+   "0mg 0% 28g 5%"
+  ]
+ },
+ {
+  "file": "001384.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 13,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "i",
+   "00",
+   "Parti no/Son kul. ta.:",
+   "2166-8",
+   "Coeuee eyee eee erde",
+   "30°C'nin altindaki oda sicakliğında saklanmalidır.",
+   "Kullanmadan önce kullanma talimatinı okuyunuz.",
+   "Üretim yeri: Pfizer llaçlan Ltd. Sti., 34347",
+   "Ruhsat sahibi: Pfizr llaçlar Ltd. Sti.",
+   "Ruhsat no: 26.12.1958-47/10",
+   "ve ambalajinda saklayıniz.",
+   "Ortak, -Istanbul",
+   "Reçete ile satilir."
+  ]
+ },
+ {
+  "file": "001385.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Parti no/Son kul. ta.:",
+   "2166-8",
+   "Ruhst sa Pfier laçlan Ld. .",
+   "Ruhsat no:26.12.1958-47/10",
+   "ve ambalainda saklaynz.",
+   "Reçete le satir."
+  ]
+ },
+ {
+  "file": "001394.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 23,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "太上信",
+   "2021.09.017J",
+   "OTHER",
+   "早歪豆",
+   "：·：·：00%40%7月",
+   "图召，0E80·吾：乃g30·王",
+   "量：量·晶：·",
+   "量·早0139：/",
+   "邵任晋合206·告：0163614·号卫型：200100834979",
+   "疆型联",
+   "图",
+   "52.19",
+   "187mg",
+   "1247g 1L09g 0g 0.ig",
+   "0g",
+   "0.02g",
+   "0.35g",
+   "kcal",
+   "1%",
+   "4% 11%",
+   "0%",
+   "0%",
+   "1%"
+  ]
+ },
+ {
+  "file": "001395.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 19,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "大上信",
+   "OTHER",
+   "早星季豆",
+   "202109.019",
+   "·语：·：配程·：/90/4100%40%7",
+   "图择人合晋和合·：万30g·王：8",
+   "强和：·县kkMk：·k",
+   "人图·卫：婴阳·语",
+   "路早号39：",
+   "-0：0083879",
+   "CHES",
+   "5219",
+   "124g",
+   "100g",
+   "0g QTg",
+   "0g",
+   "0.350",
+   "kcal",
+   "15"
+  ]
+ },
+ {
+  "file": "001400.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 16,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "20060372438442",
+   "卫",
+   "450g99 1)910)",
+   ")13.84%，0",
+   "0，0204%",
+   ")（10)",
+   ")2 %，(夸2%0()",
+   "2%，，是，0",
+   "异",
+   "异",
+   "：",
+   "汉咎人呈3582",
+   "喜引凶()wwhmepus.co.kr盟398",
+   "：",
+   "2022.",
+   "|"
+  ]
+ },
+ {
+  "file": "001401.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 12,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "20060372438442",
+   "450g(15g×307)",
+   "YY",
+   "13.84%0",
+   "0.昔个己州0E20%",
+   "2%，，是",
+   "异",
+   "辰收&五",
+   "李接号善3582",
+   "居加保",
+   "·异号：",
+   "2022-00020"
+  ]
+ },
+ {
+  "file": "001423.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 37,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Allow appe",
+   "Made with 100% Italian",
+   "ser ving For tet me",
+   "durum wneat",
+   "bangwoter bodty",
+   "we are committed to 'oringing",
+   "tate ",
+   "uuit    ould",
+   "you not be hap y with this",
+   "product, pleasr bring the",
+   "packaging be k to any",
+   "NUTR",
+   "Waltrovebro",
+   "hand we'll",
+   "TYPICAL WULB",
+   "replaceyour rem cina",
+   "AS PRENIED",
+   "refundy:u.",
+   "Waltrose Um.ted Bracknc",
+   "Berkshire RG12 8YA UK",
+   "Energyic",
+   "waltrose.com",
+   "Fot",
+   "ofwhich soun",
+   "Corbohyrote",
+   "500g",
+   "of wnichsugon",
+   "Fiore",
+   "Protein",
+   "salt",
+   "waltrose.co",
+   "R =% of your",
+   "5",
+   "BEST BEFORE END:",
+   "Nov 2021",
+   ".L9309F",
+   "06:17"
+  ]
+ },
+ {
+  "file": "001462.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 23,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "工2是302(700W7)",
+   "10",
+   "SECRET",
+   "（1000W2)",
+   "RECIPE",
+   "工",
+   "3無",
+   "-0()",
+   "-0督(名园)",
+   "CRET",
+   "CIPE",
+   "上",
+   "2021011.17 09148",
+   "晋号卫",
+   "OAAO",
+   "否，合()",
+   "号个",
+   "管劲卫器",
+   "·0，，",
+   "叫",
+   "450g",
+   "210 kcal",
+   "00002"
+  ]
+ },
+ {
+  "file": "001467.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "名号号正",
+   "ZEELE",
+   "HNELO",
+   "WP三",
+   "M",
+   "90℃3",
+   "MOIK",
+   "图会制册2148营300g12g25",
+   "至叫",
+   "18 g329",
+   "R0221"
+  ]
+ },
+ {
+  "file": "001476.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 13,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "100%",
+   "&立",
+   "星园",
+   "暑五正",
+   "·至卫1963CJ0发特",
+   "080-850-1200",
+   "cj.co.kr",
+   "1666-5471()",
+   "：LDPE",
+   "2:PP",
+   "器",
+   "明丽",
+   "IB1"
+  ]
+ },
+ {
+  "file": "001477.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 13,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "100%",
+   "OD",
+   "电电出线",
+   "Po l0层营0",
+   "卫号他E",
+   "080-850-1200",
+   "1666-5471(导)",
+   "Dr",
+   "时RLDPE",
+   "特",
+   "器",
+   "早日",
+   "IB1"
+  ]
+ },
+ {
+  "file": "001481.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2.980",
+   "4.980",
+   "dlolA",
+   "S",
+   "REHY",
+   "60 kcal",
+   "叫吉豆三1908500c",
+   "01.3108:52"
+  ]
+ },
+ {
+  "file": "001482.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "GIR",
+   "KRERY"
+  ]
+ },
+ {
+  "file": "001511.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 15,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "袁告·豆",
+   "百号",
+   "3(KF94)",
+   "·平：7393",
+   "五)))五)：",
+   "·本：量号盟人舍叫各型可呈3532，12营(号)",
+   "·：(Made in Korea)",
+   "o()：",
+   "：0",
+   "：位",
+   "11701",
+   "/：五",
+   "PL01002003562",
+   "660200",
+   "202312.01"
+  ]
+ },
+ {
+  "file": "001523.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 20,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "利利是异，",
+   "旦舎三",
+   "·&古取红",
+   "天",
+   "12",
+   "0101399·二日",
+   "-5700(）1522-4",
+   "百&品品",
+   "100g8t",
+   "HACP",
+   "OTHER",
+   "世个封量69g",
+   "4维器620mg",
+   "8弄38",
+   "RIEZOM OHLIS",
+   "X248",
+   "早E",
+   "2021 01.151",
+   "异居",
+   "16:57A01"
+  ]
+ },
+ {
+  "file": "001563.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "IA区",
+   "Jagabee",
+   "OPEN",
+   "警：品：品：号1:47"
+  ]
+ },
+ {
+  "file": "001564.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Jagsbee",
+   "OPEN",
+   "警：:品:8号",
+   "12:47"
+  ]
+ },
+ {
+  "file": "001566.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 13,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "STRING",
+   "STRING",
+   "DUUU",
+   "23 APR",
+   "2020",
+   "XCM 12",
+   "15:54",
+   "EXTRA SHARP YELLO",
+   "24 CRACKER CUT",
+   "Cracker Ba",
+   "12元10<3五RE>",
+   "USA NO.",
+   "查划：20196"
+  ]
+ },
+ {
+  "file": "001628.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "09:59",
+   "B",
+   "21223",
+   "12百",
+   "100%"
+  ]
+ },
+ {
+  "file": "001642.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 6,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "BEST BEFORE:",
+   "19 MAR 2022",
+   "22:17:52",
+   "SHAKE WELL BEFORE USE",
+   "CHAOKO",
+   "Classic Gold"
+  ]
+ },
+ {
+  "file": "001646.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "202171821"
+  ]
+ },
+ {
+  "file": "001688.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "22",
+   "JUH 2021",
+   "UCRI"
+  ]
+ },
+ {
+  "file": "001689.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "GERTUHOEPS1",
+   "00:45"
+  ]
+ },
+ {
+  "file": "001748.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "CJ",
+   "CHEILJEDANG",
+   "SOY FOOD",
+   "卫个早",
+   "1",
+   "3品1号：吕号：1号景鼎",
+   "：卫",
+   "380g(399 kcal)",
+   "华99.01%(引)"
+  ]
+ },
+ {
+  "file": "001749.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "CJ",
+   "DELICIOUS",
+   "CHEILJEDANG",
+   "SOY FOOD",
+   "卫个",
+   "1",
+   "2品1号：品号：15號",
+   "380g(399 kcal)",
+   "华99.01%(号)"
+  ]
+ },
+ {
+  "file": "001776.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "R",
+   "Sauce, Chili Powder",
+   "Seasoning Powder",
+   "it Noodles",
+   "eng",
+   "SERVEERTIP",
+   "Noodles",
+   "NOUILLES SAUT",
+   "DRY NOODLES",
+   "autées",
+   "kenNoedels"
+  ]
+ },
+ {
+  "file": "001797.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "HERSHEY'S",
+   "INCE 1894",
+   "RICH CHOCOLATE CAKE",
+   "2:12:27",
+   "A"
+  ]
+ },
+ {
+  "file": "001805.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "8\"801062\"014675'",
+   "早",
+   "080-024-6060",
+   "外灯",
+   "http://www.lotteconf.co.kr"
+  ]
+ },
+ {
+  "file": "001829.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "samlip",
+   "No.1",
+   "季季1A器",
+   "MILK SLICED BREAD",
+   "2021.03.071N",
+   "Ci",
+   "90H4",
+   "24",
+   "540 g(1,318 kcal)",
+   "SLICE",
+   " 2.49 %"
+  ]
+ },
+ {
+  "file": "001833.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "230 g",
+   "BUK26",
+   "2022:89:02",
+   " 0"
+  ]
+ },
+ {
+  "file": "001834.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2122.07.120A"
+  ]
+ },
+ {
+  "file": "001847.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "德",
+   "90g (410 kca)191L|0(OEM)",
+   "是0.81315%",
+   "2000000843254",
+   "C",
+   "No Brand  "
+  ]
+ },
+ {
+  "file": "001852.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 6,
+  "has_anchor": true,
+  "has_neg": true,
+  "texts": [
+   "4714377504332",
+   "LOT:",
+   "ED4891",
+   "EXP:",
+   "08",
+   "13"
+  ]
+ },
+ {
+  "file": "001855.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 19,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "uno la presise",
+   "SPRAY",
+   "GOCCIA",
+   "COMPAGNIALINETN",
+   "ITALIANASpa",
+   "Via POonte Tapngy",
+   "03030 Brocostel Fn",
+   "www.sppraylegen",
+   "AGASPR",
+   "SENZA",
+   "IRA",
+   "SACCA",
+   "CON",
+   "Sevizio consuaon",
+   "OLIO",
+   "Iinfo@spraylegenit",
+   "Da constumare prefenbimetem",
+   "28.0ct2023",
+   "L20302 N0781"
+  ]
+ },
+ {
+  "file": "001856.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 18,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "SPRAY",
+   "GOCCA",
+   "COMPAGNI ALLINEN",
+   "ITALIANA Spa",
+   "Via Pont Taon",
+   "www.spraylegu",
+   "AGASPR",
+   "IRA",
+   "Edi",
+   "SACCA",
+   "Sevizoconune",
+   "CON",
+   "info@spraylegeul",
+   "OLIO",
+   "Da consmae peferbinem",
+   "ALLA",
+   "28.0ct2023",
+   "L20302 N0781"
+  ]
+ },
+ {
+  "file": "001859.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 21,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "(7，).",
+   ")",
+   "080-996-77",
+   "H",
+   "8081",
+   "100g59000 kcal",
+   "4E层 0mg 0%",
+   "0g0%",
+   "号0g0%",
+   "100g 85%",
+   "0g",
+   "至站天 140 8%",
+   "达疆",
+   "0mg 0%",
+   "图",
+   "0g0%",
+   "k",
+   "www.fontanastyle.com",
+   "8801005\"964012",
+   "L：LOPE",
+   "：8号/："
+  ]
+ },
+ {
+  "file": "001860.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2",
+   "异",
+   "080-996-77",
+   "百&品品",
+   "100g900 kcal",
+   "座",
+   "13",
+   "www"
+  ]
+ },
+ {
+  "file": "001867.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 15,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BEST BY JUL 2022",
+   "2022123216",
+   "2石",
+   "个",
+   "范号n",
+   "150 ml",
+   "(",
+   "异售",
+   "(BEST BY .)",
+   "JAN(1),FEB(2)MAR(3),APR(4))",
+   "MAY(5)JUN()JUL(73)AUG(83)",
+   "SEP91)OCT10O)NO(11)DDEC12)",
+   "，卫(O2，删D)—公司",
+   "Prouctoe CaE eCh l AdeCV",
+   "双客早"
+  ]
+ },
+ {
+  "file": "001868.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BEST BY JUL 2022",
+   "142222:36",
+   "中8",
+   "(2)",
+   "150ml",
+   "(BEST BY .()",
+   "MAY(5E)JUN(6E)",
+   "SEP(9输).OCT(10)"
+  ]
+ },
+ {
+  "file": "001880.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 0,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": []
+ },
+ {
+  "file": "001925.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "CASHEWNUT",
+   "Roasted",
+   "州会L三100%",
+   "300g"
+  ]
+ },
+ {
+  "file": "001944.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BLACK PITTED 240/260 L-BGCJ/2816 L-6",
+   "05:602960-2:380-1538"
+  ]
+ },
+ {
+  "file": "001948.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": true,
+  "has_neg": true,
+  "texts": [
+   "Net weight 300g/549keal",
+   "Best before",
+   "A consommer de",
+   ":10 UE 220",
+   "préterence avant le:",
+   "Manutacuring date.",
+   "LOT:BE/YCCS-100820:10-B05",
+   "Lot No"
+  ]
+ },
+ {
+  "file": "001955.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 66,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Nutrition Facts",
+   "Valeur nutritive",
+   "营异",
+   "40g (196kcal)",
+   "de beu",
+   "pour 1 palet (24 g)",
+   "Per 1 cookle (24 g)",
+   "居H位",
+   "(体外221002-6905-4627 子63至50(号)6359F",
+   "heures.",
+   "Calories / Calories 120",
+   "Amount",
+   "Teneur",
+   "% valeur quotidienne",
+   "% Daily Value",
+   "品",
+   "BISCUITERIE DE LA POINTE DU RAZ",
+   "，(，)，，()，、",
+   "，",
+   "fum so",
+   "orisée",
+   "Protéines / Protein 1 g",
+   "Sucres / Sugars 5 g",
+   "Fibres / Fibre 0 g",
+   "Glucides / Carbohydrate 12 g",
+   "Sodium / Sodium 95 mg",
+   "Cholestérol/ Cholesterol 25 mg",
+   "Lipides / Fat 7 g",
+   "Saturés / Saturated 4,5 g",
+   "+ trans / Trans 0,4 g",
+   "4%",
+   "0%",
+   "25%",
+   "%8",
+   "4%",
+   "11%",
+   "4三号 158mg 8%",
+   "(：)0：",
+   "百品品品",
+   " 12g 22%"
+  ]
+ },
+ {
+  "file": "001957.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 40,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "(02-6905-4627 6350()6",
+   "号2月位",
+   "p8h",
+   "80g (426kcal)",
+   "aturation de 15 heures.",
+   "jvement à partir",
+   "A consommer de préférence avant fin :",
+   "Best before end :",
+   "BISCUITERIE DE LA POINTE DU RAZ",
+   "别",
+   "ane ce parfum soutenu",
+   "--OCT.2021",
+   "()()",
+   "   业",
+   "est autorisée pour tous",
+   "1jan2fev3mars4av5mai6jun7ju8aout9se10ct11nov12dec",
+   "ilisation du",
+   "aunode",
+   "(原l2号：花五h)lo",
+   "：01399",
+   "lleure qual",
+   "80g(40g×2号)，1号(40g)号，213kcal",
+   "9 10%",
+   "24%",
+   " 33mg 11%",
+   "(%)2.000k",
+   " 5 ",
+   "量 22g 7%",
+   "2g.4%",
+   "至9g 60%",
+   "异 11g 11%",
+   "OTHER",
+   "à la Pointe du Raz:",
+   "du Raz",
+   "Raz",
+   "f",
+   "29770PLOGOFT/TRANCE",
+   "TEL. 02 98 70 60 73 - FAX 02 98 70 69 41",
+   "3\"488430\"021500\"",
+   "www.biscuiteriedelapointeduraz.com"
+  ]
+ },
+ {
+  "file": "001971.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Mindestens haltbar bis:",
+   "A consommer de préférence avant le:",
+   "Best before:",
+   "18rom:",
+   "Chocobelle"
+  ]
+ },
+ {
+  "file": "002016.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Lg4LSo",
+   "LESAFFRE - 137 rue Gabriel",
+   "T",
+   "21532",
+   "3",
+   "France by",
+   "19 102022 22:",
+   "B 1612387"
+  ]
+ },
+ {
+  "file": "002060.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "5g2%",
+   "E",
+   "4.5",
+   "g",
+   "8%",
+   "LGG.",
+   "OTHER",
+   "2EOTE/",
+   "0.1",
+   "188-19",
+   "www.maeil.com"
+  ]
+ },
+ {
+  "file": "002061.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "LGG.",
+   "OTHER",
+   "1588-1539",
+   "www.maeil.com"
+  ]
+ },
+ {
+  "file": "002125.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "C",
+   "BEST BY 21/8PR/21",
+   "OZZARELLA",
+   "NSOTBS",
+   "ON",
+   "SER ARMS",
+   "CALIFORNIA NATURAL",
+   "WHOLE MILK"
+  ]
+ },
+ {
+  "file": "002148.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "五业",
+   "空叶互0人目",
+   "9g",
+   "43.8%",
+   "2022.01.032"
+  ]
+ },
+ {
+  "file": "002216.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 16,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Store in a cool dry place",
+   "BEST BEFORE END",
+   "and once opened store",
+   "in an airtight container.",
+   "JUNZN 203",
+   "Carton - widely recycled",
+   "Film - not yet recycled",
+   "L0152 15:27",
+   "Stay in the loop:",
+   "You",
+   "Tube",
+   "Packaging is",
+   "Packed in the UK",
+   "recyclable where",
+   "typhoo.co.uk",
+   "facilities exist"
+  ]
+ },
+ {
+  "file": "002217.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 17,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Store in a cool dry place",
+   "BEST BEFORE END",
+   "and once opened store",
+   "in an airtight container.",
+   "MY 23",
+   "Carton -widely recycled",
+   "Film- not yet recycled",
+   "L0148 16:15",
+   "Stay in the loop:",
+   "yf",
+   "You",
+   "Tube",
+   "Packaging is",
+   "Packed in the UK",
+   "recyclable where",
+   "typhoo.co.uk",
+   "facilities exist"
+  ]
+ },
+ {
+  "file": "002218.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 12,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Store in a cool dry place",
+   "BEST BEFORE END",
+   "and once opened store",
+   "in an airtight container",
+   "MAY 2023",
+   "Carton-widely recycled",
+   "Film -not yet recycled",
+   "L0148 16:15",
+   "Stay in the loop:",
+   "f@",
+   "typhoo.co.uk",
+   "Packed in the UK"
+  ]
+ },
+ {
+  "file": "002228.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 7,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "B 28/03/23022",
+   "untiche",
+   "Fattonie",
+   "Vandelli",
+   "SSA",
+   "ACETO",
+   "SAMICO"
+  ]
+ },
+ {
+  "file": "002241.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BEST IF USEL",
+   "2021MAY 26",
+   "2421S31F",
+   "08:44:00",
+   "ASEATIN",
+   "SUE"
+  ]
+ },
+ {
+  "file": "002244.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "paysan",
+   "BRÉTON",
+   "SAN CONSERVATEUR",
+   "MadameLoik"
+  ]
+ },
+ {
+  "file": "002264.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 10,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "百屋品品",
+   "00/50号",
+   "会证会",
+   "D/BANU108",
+   "60g(200kcal)",
+   "MIYMS",
+   "0g",
+   "GA N OA ZH RS",
+   "8809164 227146",
+   "2021"
+  ]
+ },
+ {
+  "file": "002267.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 11,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Extremadura",
+   "PittN",
+   "Consejo.Regulador",
+   "Denominación de Origen Protegida",
+   "dela VERA",
+   "LA 3138441",
+   "81424912012562",
+   "Consumir preferentemente antes del fin de/Lote:",
+   "Best before / Batch:",
+   "P.PR",
+   "AARA"
+  ]
+ },
+ {
+  "file": "002277.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Simaplye",
+   "garlic powder",
+   "NET WT. 3.64 OZ. (103g)",
+   "BEST BY JUL",
+   "0000",
+   "ooalo"
+  ]
+ },
+ {
+  "file": "002278.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "SgiYe",
+   "NET WT. 3.64 OZ.(103g)",
+   "BY JUL",
+   "BEST"
+  ]
+ },
+ {
+  "file": "002303.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "FISH SNACK",
+   "Hot Taste",
+   "24 g (80 kcal)",
+   "74.38%"
+  ]
+ },
+ {
+  "file": "002390.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 7,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "lle",
+   "HIOIE",
+   "利人正",
+   "8\"801062\"521272",
+   "080-024-6060",
+   "今心早",
+   "http://www.lotteconf.co.kr"
+  ]
+ },
+ {
+  "file": "002395.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 10,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "，，，",
+   "LGG,BB-12",
+   "4sn",
+   "LGG\"",
+   "By Chr. Hanses",
+   "BB-12",
+   "*LGG®, BB-12 Chr.Hansen A/S LIC.",
+   "+",
+   "|(Exp)",
+   "出(LO"
+  ]
+ },
+ {
+  "file": "002398.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 11,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "BBE:SEP:18 2021",
+   "号",
+   "·早列·鲁告至801399",
+   "20",
+   "51(E0)E/ 1204)",
+   "De Thaland Ld",
+   "人怕",
+   "割",
+   "糖单早994",
+   "H",
+   " (0-0)"
+  ]
+ },
+ {
+  "file": "002402.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "adrnuittella to creste",
+   "lover",
+   "siout weets made witch",
+   "Enjey and shra",
+   "fanta-or rruity",
+   "rience.",
+   "母居1399语",
+   "百尼品品",
+   "4世35mg2% 量8g26%9",
+   "22",
+   "地槽00王88059%明"
+  ]
+ },
+ {
+  "file": "002403.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "America's Favorite",
+   "Chili Sauce",
+   "JHEINZL",
+   "CHILI",
+   "1869",
+   "SAUCE"
+  ]
+ },
+ {
+  "file": "002404.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "America's Favorite",
+   "Chili Sauce",
+   "ZNI",
+   "CHHD",
+   "SAUCE"
+  ]
+ },
+ {
+  "file": "002424.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 1,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "314492"
+  ]
+ },
+ {
+  "file": "002430.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "202106 11",
+   "SPE",
+   "KH B 107",
+   "BEST If Used By",
+   "LIFT TAB TO"
+  ]
+ },
+ {
+  "file": "002433.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "(是15%)",
+   "8",
+   "bhraRlylylolo",
+   "Nàtuur",
+   "Ał8にA"
+  ]
+ },
+ {
+  "file": "002435.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 24,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Milk chocolate with hazelnuts – Ingredients: sugar, hazelnuts (3",
+   "ground) (tree nuts), cocoa butter, dried skimmed milk (from cow's m",
+   "(from cow's milk), emulsifer: soya lecithin, flavouring. May contain oth",
+   "30 % minimum in chocolate. Milk solids: 18 % minimum in chocola",
+   "Manufacturer: Chocolat Frey AG, CH-5033 Buchs, Switzerland, choc",
+   "imported by Shoprite Checkers (Pty) Ltd. Cnr. William Dabs & Old Paar",
+   "(//：",
+   "--  G00",
+   "LE号 50 mg 3% 巨个量 39",
+   " 34 g 63%  0",
+   "印 10 mg 3% ",
+   "百品1品品",
+   "后口一五：五*亡景8",
+   "3",
+   "h号百五0",
+   "7616500\"662292",
+   "P: Production Date (dd/mm/yy)· Date de production · Data de fabricação",
+   "E: Best before (d/m/) A consommer de préférence avant le.",
+   "Consumir preferencialmente antes de",
+   "0",
+   "6",
+   "20",
+   "21",
+   "K"
+  ]
+ },
+ {
+  "file": "002444.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "16:06",
+   "No Brand\"",
+   "LEMONADE",
+   "λeμová8a"
+  ]
+ },
+ {
+  "file": "002450.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "22%三公）",
+   "好2异",
+   "人",
+   "三创",
+   "20E910.19"
+  ]
+ },
+ {
+  "file": "002453.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 11,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "1.5kg",
+   "品",
+   "至别F1",
+   "QINGDAOBAOQUANPEANUTSPR",
+   "9C1",
+   "告品格品",
+   "晨化&五",
+   "思器，早，，0开人，个异，自到，言",
+   "，不",
+   "eee",
+   "2122IF2C2"
+  ]
+ },
+ {
+  "file": "002458.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 58,
+  "has_anchor": false,
+  "has_neg": true,
+  "texts": [
+   "4%",
+   "Total Fat 3.5g",
+   "15%",
+   "Saturated Fat 3g",
+   "Trans Fat 0g",
+   "0%",
+   "Cholesterol 0mg",
+   "0%",
+   "话·10混化&动",
+   "Sodium 0mg",
+   "2%",
+   "合天",
+   "otal Carbohydrate 6g",
+   "0%",
+   "是吾圆是",
+   "Dietary Fiber 0g",
+   "Total Sugars 5g",
+   "10%",
+   "正8101399",
+   "Includes 5g Added Sugars",
+   "otein 1g",
+   "12g",
+   "D0mcg 0%",
+   "Calcium 11mg 0%",
+   "100g559 kcal",
+   "Potas. 34mg 0%",
+   "0mg0%",
+   "品8名5001",
+   "%DaiValusyouhowmuch nutrentin",
+   "443.3mg",
+   "2%",
+   "59g",
+   "18%",
+   "sdayeattion advice",
+   "异53.6g",
+   "54%",
+   "REDIENTS: SUGAR, PALM KERNEL AND",
+   "33.7g",
+   "62%",
+   "M OIL, COCOA (PROCESSED WITH"
+  ]
+ },
+ {
+  "file": "002463.jpg",
+  "probe": "P3_2자리_연도",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "2020.12元",
+   "23:26",
+   "号：080-5-32234个6共公单·晋2会：",
+   "5.13",
+   "09-2.3",
+   "：号至早127盟",
+   "801047",
+   "288114",
+   "dd福位"
+  ]
+ },
+ {
+  "file": "002479.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "C",
+   "列进章：",
+   "31928",
+   "2022.07",
+   "OTHER"
+  ]
+ },
+ {
+  "file": "002480.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "CH",
+   "刘章：",
+   "31928",
+   "2022.07"
+  ]
+ },
+ {
+  "file": "002492.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 16,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "SN",
+   "06:21",
+   "有品品站",
+   "专用：2号5号4",
+   "2世8",
+   "88h",
+   "8",
+   "名鸡登",
+   "异号7",
+   "53",
+   "中国各号子",
+   "200m(50ka)",
+   "4128482900",
+   "26865 San R ",
+   "Polegh Ul sd",
+   "Bet Beoe 5"
+  ]
+ },
+ {
+  "file": "002545.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 13,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "EANIH!",
+   "易奇",
+   "百品品品",
+   "iiHLIo~",
+   "2021.03.211588-1530",
+   "178g(330 kcal)",
+   "DI",
+   "1200",
+   "M40",
+   "800",
+   "1000",
+   "2060",
+   "0 me"
+  ]
+ },
+ {
+  "file": "002644.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 35,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "95",
+   "Nährwerte/Nutritional value 100 g",
+   "(0 Zrr Schklade uver",
+   "Brennwert/Energy 2190 kJ/526 kcal",
+   "3",
+   "dav.gesattige Fettsäuren /Saturated Fat 20,5g",
+   "Fett/Fat",
+   "32,6g",
+   "Kakao: 55%mind",
+   "Lucker,",
+   "destens. Kann Bes",
+   "H&Co.KG",
+   "kolade.de",
+   "weight:",
+   "Germany",
+   "Crotoiane",
+   "Salz/Salt",
+   "Eiweiss/Protein",
+   "davon Zucker/ from sugar",
+   "Kohlenhydrate/Carbohydrates",
+   "46,8g",
+   "1.9",
+   "0,01g",
+   "6,39",
+   "einen schönen Glanz:2/3 der W",
+   "und im Wasserbad bei sch",
+   "achten, dass mi",
+   "bei schwacher Hitze unter Rü",
+   "Kuvertüreschmelzen",
+   "Mindestens haltbar bis Ende:",
+   "Kuvertüre durch Unterrühren",
+   "11.2822 L1052 a",
+   "abkühlen-lassen",
+   "Dann die ",
+   "leicht auf ehwa30-32Cerwär"
+  ]
+ },
+ {
+  "file": "002649.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "CHOCHIP BROWNIE",
+   "U号：2420703016",
+   "COOKIE"
+  ]
+ },
+ {
+  "file": "002707.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "起就，",
+   "Skittles",
+   "号",
+   "BEST BEFORE: (DD/MM/YY)",
+   "(00/居00/君00温语)",
+   "24SE1YNESK"
+  ]
+ },
+ {
+  "file": "002708.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "号,",
+   "Skittles",
+   "Lemon",
+   "S",
+   "异号70012型62",
+   "BEST BEFORE (DD/MM/YY)",
+   "00/昆00/格00晶号格）",
+   "6SE1YNESR²1"
+  ]
+ },
+ {
+  "file": "002717.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 20,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "11500",
+   "SNAKFARM",
+   "音异",
+   "URGER",
+   "异景",
+   "刊",
+   "HAPE CUMMY",
+   "LE20mg",
+   "1%",
+   "三2H",
+   "百",
+   "19%",
+   "PP",
+   "杏80g",
+   "本号63g",
+   "38%",
+   "PP",
+   "270 kcal",
+   "元380",
+   "0%"
+  ]
+ },
+ {
+  "file": "002766.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "COCONUT CREAM",
+   "UHT",
+   "Kaa",
+   "D",
+   "Best before",
+   "Stir well before use"
+  ]
+ },
+ {
+  "file": "002805.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "980",
+   "純作",
+   "引斗",
+   "Sempio Lotus root & Burdock Tea",
+   "500mL1",
+   "100%"
+  ]
+ },
+ {
+  "file": "002806.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "MEnY",
+   "Semplo Lotus root & Burdock Tea",
+   "100%",
+   "bho当·",
+   "居"
+  ]
+ },
+ {
+  "file": "002813.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BARLSTA",
+   "世2021704.02"
+  ]
+ },
+ {
+  "file": "002814.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BARIST",
+   "号居包"
+  ]
+ },
+ {
+  "file": "002826.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "03 JUL 2021",
+   "61205:50"
+  ]
+ },
+ {
+  "file": "002827.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "03 JUL 2021",
+   "612",
+   "0S:50"
+  ]
+ },
+ {
+  "file": "002831.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "CHHOH",
+   "noscou",
+   "Best Bore",
+   "OHUS TEAR ALONG DOTTED LINE",
+   "wshriouiUnl",
+   "SHAKE WELL BEFORE USE"
+  ]
+ },
+ {
+  "file": "002863.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 14,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Made by",
+   "nellema-Hallum B.V",
+   "Hallum - Hollarid",
+   "P.O. Box 3- 3074 ZL",
+   "9074-3-",
+   "40g (00a)",
+   "HELLBMA-HALBE",
+   "Best Before:",
+   "www.hellema.com",
+   "m",
+   "2021.08",
+   "GMEO6B",
+   "8",
+   "710508912188"
+  ]
+ },
+ {
+  "file": "002864.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": true,
+  "texts": [
+   "392823",
+   "LOT CODE ON GLASS"
+  ]
+ },
+ {
+  "file": "002865.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   " ecs (140g).",
+   "mg 0% V. Tutal",
+   "MICA AICEL OITHIC AOD"
+  ]
+ },
+ {
+  "file": "002866.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "Suggerimento",
+   "Serving suggestion (*)",
+   "Robl Break",
+   "28222",
+   "Da consumarsi preferibilmente entro il / Best before:"
+  ]
+ },
+ {
+  "file": "002867.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "RoblBreak",
+   "Da consumarsi preferibilmente entro il / Best before:"
+  ]
+ },
+ {
+  "file": "002871.jpg",
+  "probe": "P1_4자리_구분자",
+  "n_frag": 12,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "10:59",
+   "2021,02,25",
+   "100%",
+   "GRAPE",
+   "百1品0品",
+   "R8",
+   "310.10%",
+   "29029%",
+   "x",
+   "00",
+   "普0",
+   "EHN"
+  ]
+ },
+ {
+  "file": "002883.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "华7卷",
+   "对叶期量时位",
+   "圣号",
+   "卫"
+  ]
+ },
+ {
+  "file": "002904.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 3,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "0S3002939075",
+   "HDPE",
+   "61"
+  ]
+ },
+ {
+  "file": "002960.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "悟",
+   "人都智",
+   "疆平",
+   "2021.10.0802",
+   "080-850-1200",
+   "1666-5471(是邓)",
+   "www.cj.co.kr",
+   "EOTE"
+  ]
+ },
+ {
+  "file": "002962.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 18,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "AUSTRALIA",
+   "MACADAMIT",
+   "米",
+   "Australia",
+   "ORIGINAL MACADAMIA",
+   "E000202.1T",
+   "100",
+   "09",
+   "立址",
+   "/1",
+   "五)",
+   "()88-00-080：晨品",
+   "：",
+   "，，，，，，卫，，，卫",
+   "，，，，，",
+   "139",
+   "OTHER",
+   "82022204"
+  ]
+ },
+ {
+  "file": "003011.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 28,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "(TSPP) Scdum Lactate an Ariial Cokg",
+   "早型至早卷利人点",
+   "and Brlianre E133).",
+   "531200",
+   "好起2423",
+   "214102-723-8175",
+   "PORATION",
+   "RE FOODS",
+   "s(472 kcal)",
+   "吧",
+   "DN",
+   "No. FP.",
+   "Net Weigh",
+   "a",
+   "禁利",
+   "HEST EFORE /el",
+   "22",
+   "A入早",
+   "Sucere",
+   "SAUCE",
+   "卫采01399",
+   "www.msiml",
+   "PP",
+   "Best Before:",
+   "0%",
+   "11122021",
+   "5",
+   "11181253"
+  ]
+ },
+ {
+  "file": "003012.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 5,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "100%",
+   "BAG",
+   "WOITLH",
+   "29.Jan.2024",
+   "L21029 NM1725"
+  ]
+ },
+ {
+  "file": "003014.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Let's stay connected!",
+   "fo",
+   "1UMPOWER",
+   "EST yUNORE 2",
+   "y CiNnaMen FLaX",
+   "13:44WN13017",
+   "LUEBERRY TASTE",
+   "ALWANS",
+   "PROTSIN"
+  ]
+ },
+ {
+  "file": "003016.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "minipops",
+   "RMS",
+   "Tootsie",
+   "Roll",
+   "Midgees",
+   "M70237-0764",
+   "080-215-9S00",
+   "2022.07.",
+   "8809141470237"
+  ]
+ },
+ {
+  "file": "003018.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "20204",
+   "88:80"
+  ]
+ },
+ {
+  "file": "003041.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 31,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "1838",
+   "NUTRITION",
+   "INFORMATION",
+   "Energy (kcal)",
+   "Serv.Size 1 Tbsp (15ml)",
+   "Protein (g)",
+   "Servings per container 33",
+   "Corbohydrate (g)",
+   "Total sugar (g)",
+   "Total Fft ()1.2 1)37",
+   "Saturated fof (g) 13.3",
+   "INGREDIENTRS: EXTA VIRGNONUVEL",
+   "3 20/Sdining",
+   "Imported nd dsbutby",
+   "47100 Puchog Seelngy Mldoin",
+   "Prou     ",
+   "BEST IF USED BY",
+   "BATCH N",
+   "17.JAL.2022",
+   "(0!",
+   "Packed in Iltaaly by:",
+   "Carapelli FrenzeS.p.A.",
+   "AC5M0015178",
+   "Vio L. Da inc, 31.550028",
+   "Tovarnell al di Peso",
+   "Firenze, Italy",
+   "deoleo",
+   "041790-0016",
+   "102110:2五",
+   "-2，LP-PE",
+   "个"
+  ]
+ },
+ {
+  "file": "003123.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "FR",
+   "À consommer de préférence avant le/",
+   "Besttborey",
+   "Consumir preterentemente antes del/",
+   "6500",
+   "A consumir de preferência antes de :",
+   "PERP 15:88:2829",
+   "WO",
+   "Poids net : 125 g"
+  ]
+ },
+ {
+  "file": "003165.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "opied",
+   "召大",
+   "五品号k",
+   "SINCE",
+   "1986",
+   "导",
+   "大9.6%(号图)",
+   "/86"
+  ]
+ },
+ {
+  "file": "003184.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 2,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "BEST IF USED BY JUH 28 2021",
+   "YIJ2R 0E0036 1749"
+  ]
+ },
+ {
+  "file": "003190.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 17,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "ED",
+   "ONDS",
+   "16387012%",
+   "INGREDIENTS: Stced Almonds (steam pasteurized).",
+   "CONTAINS: Silced Aimonds",
+   "SOTESALE DORPORATION",
+   "T 8.coM",
+   "130",
+   "Product of the USA",
+   "ALLERGEN INFORMATION",
+   "Calories",
+   "%S BalyTalw",
+   "ITM./ART. 1386722",
+   "45",
+   "83823",
+   "PK03306",
+   "BEST BY: AUG 16 2922"
+  ]
+ },
+ {
+  "file": "003213.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 10,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "6-60Z (170a) DR. WT.CANS (2LBS.4 OZ)(1",
+   "BLACK RIPE PITTED OLIVES",
+   "No artificial flavors·Handpicked",
+   "LiNDSA",
+   " PERFECTING for FOUR GENERATIONS",
+   "LARGE",
+   "NSAY",
+   "Hand-",
+   "picked",
+   "LARGE"
+  ]
+ },
+ {
+  "file": "003214.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 6,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "INSNS",
+   "BLACK RIPE PITTED OLIVES",
+   "No artificial flavors • Handpicked,",
+   "LARGE",
+   "Hand",
+   "picked"
+  ]
+ },
+ {
+  "file": "003243.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 49,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "异号7",
+   "号异",
+   "刘盟丑19(9置：智/)",
+   "合号，胡0叠20%，提异18.5%(早异)，0(时日18%，过进0吨8.5%",
+   "EC|02|002-409-5852 酱入 哥 至 109 型",
+   "50g(287kcal)",
+   "垄普引语号",
+   "BYRS",
+   "早卫人提7",
+   "：营叫",
+   "早普营卫01399",
+   "五：正",
+   "圣补卫合",
+   "h思高品&五klo",
+   "鲁（88）",
+   "287Kcal",
+   "1012",
+   "ELAH DUFOUR S.P.A",
+   "2",
+   "PP",
+   "EXTRA FINE MILK CHOCOLATE WITH HAZELNUTS. Ingredients: sUgar,",
+   "haer c  c    ( ass",
+   "emulsifier: soya lecithin. Cocoa: 30% minimum in milk chocolate.",
+   "CHOCOLATE EXTRAFINO CON LECHE CON AVELLANAS. Ingredientes:",
+   "azúcar, avellanas (20%), leche entera en polvo, manteca de cacao, pasta",
+   "de cacao, emusionante: lecitina de soja. Cacao: 30% mínimo en el",
+   "8",
+   "chocolate con leche.",
+   "www.novipiusport.it",
+   "Carboidrati/Glucides/Carbohydrates/Hidratos deCarbono",
+   "aciues gras satures/ saturates/ acidos grasos saturados",
+   "44,3 g",
+   "and odourless place / Conservar en lugar",
+   "fresco, seco y sin olor.",
+   "di cui/dont/of which/de los cuales:",
+   "41,5g",
+   "Sale/Sel/Salt/Sai",
+   "Proteine/Protéines/Protein/Proteinas",
+   "Zuccheri/Sucres/Sugars/Azúcares",
+   "0,15g"
+  ]
+ },
+ {
+  "file": "003259.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 7,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "22022B1",
+   "FLAVOUR",
+   "CHICKEN",
+   "Enaak",
+   "GEMEL",
+   "3",
+   "To Eat"
+  ]
+ },
+ {
+  "file": "003262.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Butl",
+   "5413121\"360055",
+   "CREAM COOKIE",
+   "CREAMCOOKIE"
+  ]
+ },
+ {
+  "file": "003276.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 12,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "0410",
+   "416",
+   "TOO0",
+   "e5  1445 kcal",
+   "191",
+   "19!",
+   "10/mL",
+   "alm",
+   "ilor8号",
+   "confususPL90011",
+   "GC对",
+   "1522-2323"
+  ]
+ },
+ {
+  "file": "003294.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 4,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "FOODWELL",
+   "grope jam Handy",
+   "JAM",
+   "你从～"
+  ]
+ },
+ {
+  "file": "003303.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 9,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "：",
+   "0(7719620)+",
+   "：",
+   "ULUUGTC",
+   "：",
+   "啊",
+   "胃引10短",
+   "\"www.tiogu.kr|0图",
+   "080-977-3308(今)"
+  ]
+ },
+ {
+  "file": "003313.jpg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 24,
+  "has_anchor": false,
+  "has_neg": true,
+  "texts": [
+   "PRET",
+   "SNOUOU",
+   "SHS",
+   "丑丑",
+   "苦异",
+   "从",
+   "Thitinan Food Co., Ltd.",
+   "/(位)",
+   "(局归号品)",
+   "品",
+   "71%，答，5%，对语",
+   "58 Moo.10 Rama 2 Road",
+   "Thitinan Food Co.,Ltd.",
+   "Manufactured By:",
+   "Distributed By:",
+   "Bangthorad SamutSakhon",
+   "Thitinan Bee Products Co.,Ltd.",
+   "TEL. (66) 2454-9649",
+   "FAX. (66) 2459-1349",
+   "E-Mail. thitinan_bee@yahoo.com",
+   "74-2-05355-4-0023",
+   "BEST BEECRE:2021107-05",
+   "851936001027\"",
+   "PRODUST OF THAILAND"
+  ]
+ },
+ {
+  "file": "003321.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 7,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "笑吃人回！",
+   "samlip",
+   "H",
+   "人引三",
+   "500g(2,540 kcal)",
+   "20",
+   "8%,E25%"
+  ]
+ },
+ {
+  "file": "003323.jpg",
+  "probe": "P6_날짜없음",
+  "n_frag": 19,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "EASY",
+   "OPEN",
+   "HINITALY.",
+   "DAL1882",
+   "Galbani",
+   "Galbani",
+   "CHEESE",
+   "STICK CHEESE",
+   "STICKS",
+   "USE BY MAY 24 21 N C",
+   "1716310:44",
+   "COLBY",
+   "JACK",
+   "Galbani",
+   "E106NO.12上E",
+   "LI(Galbani)",
+   "，！",
+   "SERVINGS",
+   "MADE IN THE USA"
+  ]
+ },
+ {
+  "file": "003326.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 28,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Kraft",
+   "不区音异99%",
+   "VEARSO",
+   "10",
+   "MexicanSTYLE",
+   "FOUR",
+   "RCHEESE",
+   "NO rbST",
+   "HORMONE",
+   "品服",
+   "MAUE WIT MLKFFROM COWS",
+   "WITNOUTL DEDrbS HOR",
+   "PER1/4CUP",
+   "*NO SIGIEANT DFEREH",
+   "BEEN SHOWABETWEN",
+   "100",
+   "5g",
+   "180mg",
+   "NET WT",
+   "CALORIES",
+   "SAT FAT",
+   "25% DV",
+   "SODIUM",
+   "8%DV",
+   "SUGARS",
+   "TOTAL",
+   "80Z (226g)",
+   "AND NON-rbST-TREATED"
+  ]
+ },
+ {
+  "file": "003327.jpg",
+  "probe": "P5_월일만",
+  "n_frag": 16,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "Kraft",
+   "异99%",
+   "MexicanSTYLE",
+   "ODED MONTEREY JAC",
+   "FOUR",
+   "ESE",
+   "PER1/4 DUP",
+   "NO rbST",
+   "100",
+   "HORMONE",
+   "CALORIES",
+   "180",
+   "A",
+   "NET WT",
+   "8 0Z (226g)",
+   "AND NON-rDST-TREATH"
+  ]
+ },
+ {
+  "file": "3347.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 5,
+  "has_anchor": true,
+  "has_neg": false,
+  "texts": [
+   "PRD 010925",
+   "EXP 010927",
+   "PRD 010925",
+   "EXP 010927",
+   "23:47"
+  ]
+ },
+ {
+  "file": "3349.jpeg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 12,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "428 g(770 kcal)",
+   "列0.7%",
+   "PAPP",
+   "年",
+   "4,500",
+   "%18%40%",
+   "2是10本2号30",
+   "CH",
+   "苦",
+   "880111801237221010",
+   "苦号卫出豆:20000347052-3048",
+   "早合"
+  ]
+ },
+ {
+  "file": "3350.jpeg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 12,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "kcal)",
+   "4,500",
+   "10",
+   "2号10本2号30",
+   "苦",
+   "01",
+   "25.12.1010人1",
+   "880111801237221010",
+   "苦号卫出豆:20000347052-3048",
+   "080-024-6060",
+   "IVIV纪HA.",
+   "早合"
+  ]
+ },
+ {
+  "file": "3351.jpeg",
+  "probe": "P4_문자혼동_정규화",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "enjoy",
+   "尼居异专昌品品景",
+   "42082",
+   "20172.10.2",
+   "IY8",
+   " 0 ",
+   "210 00",
+   "口"
+  ]
+ },
+ {
+  "file": "3352.jpeg",
+  "probe": "P6_날짜없음",
+  "n_frag": 8,
+  "has_anchor": false,
+  "has_neg": false,
+  "texts": [
+   "enjoy",
+   "品",
+   "(4208681",
+   "710.2",
+   "8801118432",
+   "000",
+   "白",
+   "口"
+  ]
+ }
+]
