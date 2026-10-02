@@ -1,0 +1,32 @@
+# Codespaces 500장 속도 실측 (공식 명령, 입력 폴더만 test500/)
+date:   2026-10-02 08:24 UTC
+commit: 24e8d3653380d5ff1c28073b38d02246f1bc4800
+os:     Ubuntu 24.04.4 LTS / x86_64
+cpu:    4 vCPU, AMD EPYC 7763 64-Core Processor
+ram:    15Gi
+python: Python 3.10.22
+input:  배포 사진 3,352장 중 6장 간격 500장 (이미지는 저장소에 넣지 않음)
+
+$ time ITDA_INPUT_DIR=./test500 ITDA_OUTPUT_PATH=/tmp/out500.csv jupyter nbconvert --to notebook --execute predict.ipynb --output /tmp/executed500.ipynb
+nohup: ignoring input
+[NbConvertApp] Converting notebook predict.ipynb to notebook
+/workspaces/itda3-dscover-capybara/.venv/lib/python3.10/site-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  _validate(nbdict, ref, version, version_minor, relax_add_props)
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 155433 bytes to /tmp/executed500.ipynb
+
+real	19m37.561s
+user	54m59.693s
+sys	2m20.219s
+
+## 노트북 출력
+  200/500  475s  (2.375s/img)  경로별 {'rapid': 149, 'adaptive': 6, 'retry': 10, 'clahe': 4, 'rec_ko': 2, 'rec_en': 2, 'dot': 3, 'partial': 11, 'fallback': 4, 'none': 9}
+  400/500  943s  (2.358s/img)  경로별 {'rapid': 320, 'adaptive': 10, 'retry': 14, 'clahe': 4, 'rec_ko': 3, 'rec_en': 2, 'dot': 4, 'partial': 23, 'fallback': 4, 'none': 16}
+경로별 처리: {'rapid': 403, 'adaptive': 13, 'retry': 17, 'clahe': 4, 'rec_ko': 3, 'rec_en': 2, 'dot': 6, 'partial': 30, 'fallback': 5, 'none': 17}   (rapid=1차, adaptive=재시도, fallback=보조 경로, none=실패)
+done: 500 rows in 1169s (2.338s/img)
+
+## 결과 파일
+501 /tmp/out500.csv
+image_id,year,month,day,final_date
+000001,2027,06,26,2027-06-26
+000007,2026,06,25,2026-06-25
