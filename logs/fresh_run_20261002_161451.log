@@ -1,0 +1,457 @@
+﻿[16:14:51] ==============================================================
+[16:14:51]  새 가상환경 재현성 검증 — [DScover]_카피바라
+[16:14:51] ==============================================================
+[16:14:51] 작업 경로 : C:\Users\Public\itda_fresh
+[16:14:51] 저장소     : C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제
+[16:14:51] OS         : Microsoft Windows NT 10.0.26200.0
+[16:14:52] CPU        : AMD Ryzen 5 7500F 6-Core Processor             
+[16:14:52] 코어       : 12
+[16:14:52] 처리 장수  : 500
+[16:14:52] 
+[16:15:04] 저장소 사본 복사 완료 (352 파일)
+[16:15:04] ---- 새 가상환경 생성
+[16:15:04]      > python -m venv .venv
+
+[16:15:14]      exit=0
+[16:15:14] ---- python 버전
+[16:15:14]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe --version
+Python 3.11.15
+
+[16:15:14]      exit=0
+[16:15:14] ---- 의존성 설치
+[16:15:14]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m pip install -q -r requirements.txt
+python.exe : 
+At C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\verify_fresh.ps1:38 char:12
++     $out = & $exe @argList 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m pip install --upgrade pip
+
+[16:17:47]      exit=0
+[16:17:47] ---- 설치된 패키지
+[16:17:47]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m pip freeze
+antlr4-python3-runtime==4.9.3
+anyio==4.15.1
+astor==0.8.1
+asttokens==3.0.2
+attrdict==2.0.1
+attrs==26.1.0
+babel==2.18.0
+bce-python-sdk==0.9.79
+beautifulsoup4==4.15.0
+bleach==6.4.0
+blinker==1.9.0
+cachetools==7.2.0
+certifi==2026.7.22
+chardet==7.6.0
+charset-normalizer==3.5.2
+click==8.5.0
+colorama==0.4.6
+coloredlogs==15.0.1
+colorlog==6.12.0
+comm==0.2.3
+contourpy==1.3.3
+crc32c==2.9.post0
+cssselect==1.5.0
+cssutils==2.15.0
+cycler==0.12.1
+Cython==3.3.0
+debugpy==1.8.22
+decorator==5.3.1
+defusedxml==0.7.1
+encutils==1.0.0
+et_xmlfile==2.0.0
+executing==2.2.1
+fastjsonschema==2.22.2
+fire==0.7.1
+Flask==3.1.3
+flask-babel==4.0.0
+flatbuffers==25.12.19
+fonttools==4.66.1
+future==1.0.0
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+humanfriendly==10.0
+idna==3.20
+ImageIO==2.38.0
+imgaug==0.4.0
+ipykernel==7.3.0
+ipython==9.17.1
+ipython_pygments_lexers==1.1.1
+itsdangerous==2.2.0
+jedi==0.20.0
+Jinja2==3.1.6
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+jupyter_client==8.10.0
+jupyter_core==5.9.1
+jupyterlab_pygments==0.3.0
+kiwisolver==1.5.1
+lazy-loader==0.6
+lmdb==2.3.0
+lxml==6.1.3
+MarkupSafe==3.0.3
+matplotlib==3.11.2
+matplotlib-inline==0.2.2
+mistune==3.3.4
+more-itertools==11.1.0
+mpmath==1.3.0
+nbclient==0.11.0
+nbconvert==7.17.1
+nbformat==5.11.1
+nest-asyncio2==1.7.3
+networkx==3.6.1
+numpy==1.26.4
+omegaconf==2.3.1
+onnxruntime==1.19.2
+opencv-contrib-python==4.6.0.66
+opencv-python==4.6.0.66
+opencv-python-headless==4.6.0.66
+openpyxl==3.1.5
+opt-einsum==3.3.0
+packaging==26.3
+paddleocr==2.7.3
+paddlepaddle==2.6.2
+pandas==2.3.3
+pandocfilters==1.5.1
+parso==0.8.7
+pdf2docx==0.5.13
+pillow==12.3.0
+platformdirs==4.12.2
+premailer==3.10.0
+prompt_toolkit==3.0.53
+protobuf==3.20.2
+psutil==7.2.2
+pure_eval==0.2.4
+pyclipper==1.4.0
+pycryptodome==3.23.0
+Pygments==2.21.0
+pymupdf==1.28.2
+pyparsing==3.3.3
+pyreadline3==3.5.6
+python-dateutil==2.9.0.post0
+python-docx==1.2.0
+pytz==2026.4
+PyYAML==6.0.3
+pyzmq==27.2.0
+RapidFuzz==3.14.6
+rapidocr==3.9.2
+rarfile==4.5
+referencing==0.37.0
+requests==2.34.2
+rpds-py==2026.6.3
+scikit-image==0.26.0
+scipy==1.17.1
+shapely==2.1.2
+six==1.17.0
+soupsieve==2.10
+stack-data==0.6.3
+sympy==1.14.0
+termcolor==3.3.0
+tifffile==2026.3.3
+tinycss2==1.5.1
+tornado==6.5.10
+tqdm==4.70.1
+traitlets==5.16.1
+typing_extensions==4.16.0
+tzdata==2026.4
+urllib3==2.8.0
+visualdl==2.5.3
+wcwidth==0.9.1
+webencodings==0.6.1
+Werkzeug==3.1.9
+
+[16:17:48]      exit=0
+[16:17:48] ---- 가중치 내려받기
+[16:17:48]      > bash download_weights.sh
+python: .venv/Scripts/python.exe
+bash.exe : [INFO] 2026-10-02 16:17:53,757 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+At C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\verify_fresh.ps1:38 char:12
++     $out = & $exe @argList 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([INFO] 2026-10-...me: onnxruntime:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO] 2026-10-02 16:17:53,852 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-10-02 16:17:53,852 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-10-02 16:17:53,917 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:53,934 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:53,936 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:53,969 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:53,997 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-10-02 16:17:53,997 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-10-02 16:17:54,089 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:54,090 [RapidOCR] download_file.py:68: Initiating download: https://www.modelscope.cn/models/Ra
+pidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv6/det/PP-OCRv6_det_medium.onnx
+[INFO] 2026-10-02 16:17:55,586 [RapidOCR] download_file.py:82: Download size: 59.24MB
+[INFO] 2026-10-02 16:17:56,651 [RapidOCR] download_file.py:95: Successfully saved to: C:\Users\Public\itda_fresh\.venv\
+Lib\site-packages\rapidocr\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-10-02 16:17:56,654 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\PP-OCRv6_det_medium.onnx
+[INFO] 2026-10-02 16:17:56,798 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:56,800 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:56,800 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:56,834 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:56,849 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-10-02 16:17:56,849 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-10-02 16:17:56,956 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:56,964 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-10-02 16:17:56,964 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-10-02 16:17:57,018 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:57,019 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:57,019 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:57,054 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:57,077 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:57,085 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-10-02 16:17:57,085 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-10-02 16:17:57,134 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:57,137 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:57,137 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-10-02 16:17:57,177 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-10-02 16:17:57,193 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Public\itda_fresh\.ve
+nv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-10-02 16:17:57,193 [RapidOCR] main.py:63: Using C:\Users\Public\itda_fresh\.venv\Lib\site-packages\rapidocr
+\models\PP-OCRv6_rec_small.onnx
+Traceback (most recent call last):
+  File "<stdin>", line 42, in <module>
+  File "C:\Users\조영우\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\shutil.py", line 448, in copy2
+!! rec LangRec.KOREAN 내려받기 실패(계속 진행): Unsupported rec.lang_type='korean' for PP-OCRv6 small model.
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Users\조영우\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\shutil.py", line 258, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Public/itda_fresh/weights/rapidocr'
+downloading https://paddleocr.bj.bcebos.com/PP-OCRv3/multilingual/Multilingual_PP-OCRv3_det_infer.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3762k  100 3762k    0     0  3024k      0  0:00:01  0:00:01 --:--:-- 3026k
+downloading https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/korean_PP-OCRv4_rec_infer.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  2 23.2M    2  530k    0     0   595k      0  0:00:39 --:--:--  0:00:39  595k
+100 23.2M  100 23.2M    0     0  12.6M      0  0:00:01  0:00:01 --:--:-- 12.6M
+downloading https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2137k  100 2137k    0     0  2198k      0 --:--:-- --:--:-- --:--:-- 2196k
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.lastuseddate#PS'
+downloading https://github.com/GHLee1016/itda3-dscover-capybara/releases/download/v1.0/date_v1.onnx
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+100 10.7M  100 10.7M    0     0  12.0M      0 --:--:-- --:--:-- --:--:-- 12.0M
+downloading https://github.com/GHLee1016/itda3-dscover-capybara/releases/download/v1.0/dotcrnn_v1.onnx
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+100 13513  100 13513    0     0  43834      0 --:--:-- --:--:-- --:--:-- 43834
+
+=== weights/ 점검
+download_weights.sh: line 204: python: command not found
+
+결과: 실패
+
+[16:18:04]      exit=1
+[16:18:04] weights/ 내용:
+[16:18:04]      .gitkeep                                            0.0 MB
+[16:18:04]      ._inference.pdmodel                                 0.0 MB
+[16:18:04]      inference.pdiparams                                 0.5 MB
+[16:18:04]      inference.pdiparams.info                            0.0 MB
+[16:18:04]      inference.pdmodel                                   1.5 MB
+[16:18:04]      ._inference.pdiparams                               0.0 MB
+[16:18:04]      ._inference.pdiparams.info                          0.0 MB
+[16:18:04]      ._inference.pdmodel                                 0.0 MB
+[16:18:04]      inference.pdiparams                                 2.3 MB
+[16:18:04]      inference.pdiparams.info                            0.0 MB
+[16:18:04]      inference.pdmodel                                   1.4 MB
+[16:18:04]      dotcrnn_v1.onnx                                     0.0 MB
+[16:18:04]      dotcrnn_v1.onnx.data                                2.8 MB
+[16:18:04]      inference.pdiparams                                22.8 MB
+[16:18:04]      inference.pdiparams.info                            0.1 MB
+[16:18:04]      inference.pdmodel                                   0.3 MB
+[16:18:04]      date_v1.onnx                                       10.7 MB
+[16:18:04] ---- 제출 형식 점검
+[16:18:04]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe check_submission.py
+=== predict.ipynb
+  OK  첫 코드셀이 os.environ.get 형태                       
+  OK  index=False 로 저장                               
+  OK  torch/ultralytics 임포트 없음                       
+  OK  input() 등 입력 대기 없음                             
+  OK  셀 출력이 비어 있음                                    
+  OK  로컬 절대경로 하드코딩 없음                                
+  OK  주력 엔진(RapidOCR) 포함                             
+  OK  보조 경로(DatePipeline) 포함                         
+  OK  날짜 검출기(ONNX) 포함                                
+  OK  결합 층 포함                                        
+  OK  가중치 없을 때 강하 처리                                 
+  OK  셀 수                                            17셀
+  OK  도트 판독기 포함                                      
+
+=== requirements.txt
+  OK  requirements.txt 가 순수 ASCII                    
+  OK  requirements.txt 가 어떤 로케일에서도 읽힌다               
+  OK  requirements-train.txt 가 순수 ASCII              
+  OK  requirements-train.txt 가 어떤 로케일에서도 읽힌다         
+  OK  rapidocr==3.9.2 포함                             
+  OK  onnxruntime==1.19.2 포함                         
+  OK  paddleocr==2.7.3 포함                            
+  OK  numpy==1.26.4 포함                               
+  OK  opencv-python==4.6.0.66 포함                     
+  OK  nbconvert 포함                                   
+  OK  ipykernel 포함                                   
+  OK  opencv 세 계열이 모두 선언됨                            3개
+  OK  opencv 세 계열 버전 일치                              opencv-python 4.6.0.66 / opencv-contrib-python 4.6.0.66 / opencv-python-headless 4.6.0.66
+  OK  opencv 가 paddleocr 상한(4.6.0.66) 이하             
+  OK  torch/ultralytics 없음                           
+
+=== 가중치
+  !!  PP-OCRv6_det_small.onnx                        없음
+  !!  PP-OCRv6_rec_small.onnx                        없음
+  !!  ch_ppocr_mobile_v2.0_cls_mobile.onnx           없음
+  OK  date_v1.onnx                                   11.2 MB
+
+=== 요약서 PDF
+  OK  A4 2장                                          2장
+  OK  텍스트 추출 가능 (스캔본 아님)                             5962자
+  OK  팀명 기재                                          
+  OK  최종 수치 반영                                       
+  OK  자리표시자 없음                                       
+
+=== 문서
+  OK  README.md                                      
+  OK  METHOD.md                                      
+  OK  JOURNAL.md                                     
+  OK  WHERE.md                                       
+  OK  SUBMISSION_CHECKLIST.md                        
+  OK  RULES_QNA.md                                   
+  OK  download_weights.sh                            
+  OK  requirements-train.txt                         
+  OK  build_notebook.py                              
+  OK  build_pdf.ps1                                  
+  OK  publish_release.ps1                            
+  OK  요약서.html                                       
+
+=== 소스
+  OK  src/pipeline.py                                
+  OK  src/team2_rules.py                             
+  OK  src/combined.py                                
+  OK  src/pipeline.py 구문                             
+  OK  src/team2_rules.py 구문                          
+  OK  src/combined.py 구문                             
+  OK  build_notebook.py 구문                           
+
+==============================================================
+통과 53 / 56
+
+[16:18:04]      exit=0
+[16:18:04] ---- 노트북 네트워크 감사
+[16:18:04]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe audit_notebook.py
+=== ① 실행 중 자동 다운로드
+  OK URL / 다운로드 호출이 실행 코드에 없음
+  OK RapidOCR 을 모델 경로 없이 만들지 않음(만들면 받으러 나간다)  (호출 1건)
+  OK PaddleOCR 을 model_dir 없이 만들지 않음  (호출 1건)
+
+=== ③ 하드코딩된 로컬 경로
+  OK 절대경로 / 고정 데이터 경로 없음
+  OK INPUT_DIR / OUTPUT_PATH 를 환경변수에서 읽음
+        INPUT_DIR   = os.environ.get("ITDA_INPUT_DIR",  "./val_images")
+        OUTPUT_PATH = os.environ.get("ITDA_OUTPUT_PATH", "./submission.csv")
+
+=== ④ GPU 전용 코드
+  OK cuda / GPU 지정 없음
+  OK use_gpu=False 를 명시
+        use_gpu=False,            # 채점 환경 GPU 미제공
+  OK onnxruntime 를 CPUExecutionProvider 로 고정
+        providers=["CPUExecutionProvider"])
+        providers=["CPUExecutionProvider"])
+
+=== ② requirements.txt 대 실제 import
+  노트북이 import 하는 외부 패키지: cv2, numpy, onnxruntime, paddleocr, pandas, rapidocr
+  OK requirements.txt 에 모두 선언됨
+  OK nbconvert 포함 (노트북 실행에 필수)
+  OK ipykernel 포함 (노트북 실행에 필수)
+  OK 모든 패키지 버전 고정
+
+=== 그 밖의 형식 요건
+  OK input() 등 입력 대기 없음
+  OK index=False 로 저장
+        df.to_csv(OUTPUT_PATH, index=False)   # index=False 필수 - 켜면 컬럼이 밀려 0점
+  OK 첫 코드셀이 CONFIG 셀
+        INPUT_DIR   = os.environ.get("ITDA_INPUT_DIR",  "./val_images")
+  OK 셀 출력이 비어 있음
+
+============================================================
+0점 유발 요인 없음.
+
+[16:18:05]      exit=0
+[16:18:05] 입력 500 장 준비: C:\Users\Public\itda_fresh\eval_input
+[16:18:05] ITDA_INPUT_DIR  = C:\Users\Public\itda_fresh\eval_input
+[16:18:05] ITDA_OUTPUT_PATH= C:\Users\Public\itda_fresh\submission.csv
+[16:18:05] ---- 노트북 실행 (nbconvert)
+[16:18:05]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m jupyter nbconvert --to notebook --execute predict.ipynb --ExecutePreprocessor.timeout=2400 --output C:\Users\Public\itda_fresh\executed.ipynb
+python.exe : [NbConvertApp] Converting notebook predict.ipynb to notebook
+At C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\verify_fresh.ps1:38 char:12
++     $out = & $exe @argList 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([NbConvertApp] ...ynb to notebook:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\Public\itda_fresh\.venv\Lib\site-packages\nbformat\validator.py:434: MissingIDFieldWarning: Cell is missing an
+ id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your noteboo
+ks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparent
+ly, and will stop doing so in the future.
+  _validate(nbdict, ref, version, version_minor, relax_add_props)
+C:\Users\Public\itda_fresh\.venv\Lib\site-packages\zmq\_future.py:718: RuntimeWarning: Proactor event loop does not imp
+lement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support 
+via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) i
+s sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned C
+urveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 148078 bytes to C:\Users\Public\itda_fresh\executed.ipynb
+
+[16:45:14]      exit=0
+[16:45:14] 
+[16:45:14] ==============================================================
+[16:45:14]  전체 실행 시간 : 1,629초 (27.2분)
+[16:45:14]  제한 2,400초 대비: 68%
+[16:45:14]  submission.csv : 500행
+[16:45:14]  판정: 
+[16:45:14] ==============================================================

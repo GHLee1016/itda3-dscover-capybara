@@ -1,0 +1,235 @@
+﻿[22:12:52] ==============================================================
+[22:12:52]  새 가상환경 재현성 검증 — [DScover]_카피바라
+[22:12:52] ==============================================================
+[22:12:52] 작업 경로 : C:\Users\Public\itda_fresh
+[22:12:52] 저장소     : C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제
+[22:12:52] OS         : Microsoft Windows NT 10.0.26200.0
+[22:12:53] CPU        : AMD Ryzen 5 7500F 6-Core Processor             
+[22:12:53] 코어       : 12
+[22:12:53] 처리 장수  : 500
+[22:12:53] 
+[22:12:54] 저장소 사본 복사 완료 (346 파일)
+[22:12:54] ---- 새 가상환경 생성
+[22:12:54]      > python -m venv .venv
+
+[22:13:04]      exit=0
+[22:13:04] ---- python 버전
+[22:13:04]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe --version
+Python 3.11.15
+
+[22:13:05]      exit=0
+[22:13:05] ---- 의존성 설치
+[22:13:05]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m pip install -q -r requirements.txt
+python.exe : ERROR: Exception:
+At C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\verify_fresh.ps1:38 char:12
++     $out = & $exe @argList 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: Exception::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Traceback (most recent call last):
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 180, in exc_logging
+_wrapper
+    status = run_func(*args)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\cli\req_command.py", line 245, in wrapper
+    return func(self, options, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\commands\install.py", line 342, in run
+    reqs = self.get_requirements(args, options, finder, session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\cli\req_command.py", line 433, in get_requirem
+ents
+    for parsed_req in parse_requirements(
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\req\req_file.py", line 156, in parse_requireme
+nts
+    for parsed_line in parser.parse(filename, constraint):
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\req\req_file.py", line 337, in parse
+    yield from self._parse_and_recurse(filename, constraint)
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\req\req_file.py", line 342, in _parse_and_recu
+rse
+    for line in self._parse_file(filename, constraint):
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\req\req_file.py", line 373, in _parse_file
+    _, content = get_file_content(filename, self._session)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\req\req_file.py", line 551, in get_file_conten
+t
+    content = auto_decode(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Public\itda_fresh\.venv\Lib\site-packages\pip\_internal\utils\encoding.py", line 34, in auto_decode
+    return data.decode(
+           ^^^^^^^^^^^^
+UnicodeDecodeError: 'cp949' codec can't decode byte 0xec in position 2: illegal multibyte sequence
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m pip install --upgrade pip
+
+[22:13:05]      exit=2
+[22:13:05] ---- 설치된 패키지
+[22:13:05]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m pip freeze
+
+[22:13:06]      exit=0
+[22:13:06] ---- 가중치 내려받기
+[22:13:06]      > bash download_weights.sh
+bash.exe : download_weights.sh: line 39: python: command not found
+At C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\verify_fresh.ps1:38 char:12
++     $out = & $exe @argList 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (download_weight...mmand not found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+downloading https://paddleocr.bj.bcebos.com/PP-OCRv3/multilingual/Multilingual_PP-OCRv3_det_infer.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  4 3762k    4  159k    0     0   212k      0  0:00:17 --:--:--  0:00:17  212k
+100 3762k  100 3762k    0     0  3167k      0  0:00:01  0:00:01 --:--:-- 3169k
+downloading https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/korean_PP-OCRv4_rec_infer.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0 23.2M    0 19004    0     0  44177      0  0:09:11 --:--:--  0:09:11 44092
+ 59 23.2M   59 13.7M    0     0   9.9M      0  0:00:02  0:00:01  0:00:01  9.9M
+100 23.2M  100 23.2M    0     0  12.4M      0  0:00:01  0:00:01 --:--:-- 12.4M
+downloading https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  7 2137k    7  159k    0     0   317k      0  0:00:06 --:--:--  0:00:06  316k
+100 2137k  100 2137k    0     0  2286k      0 --:--:-- --:--:-- --:--:-- 2286k
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.lastuseddate#PS'
+!! 날짜 검출기 URL 이 설정되지 않았다 (download_weights.sh 의 YOLO_URL).
+   없어도 추론은 동작한다 — 보조 경로가 det 단독으로 내려갈 뿐이다.
+!! 도트 판독기 URL 이 설정되지 않았다 (download_weights.sh 의 DOT_URL).
+   없어도 추론은 동작한다 — 도트 칸만 건너뛴다.
+
+=== weights/ 점검
+download_weights.sh: line 166: python: command not found
+
+결과: 실패
+
+[22:13:15]      exit=1
+[22:13:15] weights/ 내용:
+[22:13:15]      .gitkeep                                            0.0 MB
+[22:13:15]      ._inference.pdmodel                                 0.0 MB
+[22:13:15]      inference.pdiparams                                 0.5 MB
+[22:13:15]      inference.pdiparams.info                            0.0 MB
+[22:13:15]      inference.pdmodel                                   1.5 MB
+[22:13:15]      ._inference.pdiparams                               0.0 MB
+[22:13:15]      ._inference.pdiparams.info                          0.0 MB
+[22:13:15]      ._inference.pdmodel                                 0.0 MB
+[22:13:15]      inference.pdiparams                                 2.3 MB
+[22:13:15]      inference.pdiparams.info                            0.0 MB
+[22:13:15]      inference.pdmodel                                   1.4 MB
+[22:13:15]      inference.pdiparams                                22.8 MB
+[22:13:15]      inference.pdiparams.info                            0.1 MB
+[22:13:15]      inference.pdmodel                                   0.3 MB
+[22:13:15] ---- 제출 형식 점검
+[22:13:15]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe check_submission.py
+=== predict.ipynb
+  OK  첫 코드셀이 os.environ.get 형태                       
+  OK  index=False 로 저장                               
+  OK  torch/ultralytics 임포트 없음                       
+  OK  input() 등 입력 대기 없음                             
+  OK  셀 출력이 비어 있음                                    
+  OK  로컬 절대경로 하드코딩 없음                                
+  OK  주력 엔진(RapidOCR) 포함                             
+  OK  보조 경로(DatePipeline) 포함                         
+  OK  날짜 검출기(ONNX) 포함                                
+  OK  결합 층 포함                                        
+  OK  가중치 없을 때 강하 처리                                 
+  OK  셀 수                                            17셀
+  OK  도트 판독기 포함                                      
+
+=== requirements.txt
+  OK  rapidocr==3.9.2 포함                             
+  OK  onnxruntime==1.19.2 포함                         
+  OK  paddleocr==2.7.3 포함                            
+  OK  numpy==1.26.4 포함                               
+  OK  opencv-python==4.10.0.84 포함                    
+  OK  nbconvert 포함                                   
+  OK  ipykernel 포함                                   
+  OK  torch/ultralytics 없음                           
+
+=== 가중치
+  !!  PP-OCRv6_det_small.onnx                        없음
+  !!  PP-OCRv6_rec_small.onnx                        없음
+  !!  ch_ppocr_mobile_v2.0_cls_mobile.onnx           없음
+  !!  date_v1.onnx                                   없음
+
+=== 요약서 PDF
+python.exe : Traceback (most recent call last):
+At C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\verify_fresh.ps1:38 char:12
++     $out = & $exe @argList 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Public\itda_fresh\check_submission.py", line 70, in <module>
+    import pymupdf
+ModuleNotFoundError: No module named 'pymupdf'
+
+[22:13:15]      exit=1
+[22:13:15] ---- 노트북 네트워크 감사
+[22:13:15]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe audit_notebook.py
+=== ① 실행 중 자동 다운로드
+  OK URL / 다운로드 호출이 실행 코드에 없음
+  OK RapidOCR 을 모델 경로 없이 만들지 않음(만들면 받으러 나간다)  (호출 1건)
+  OK PaddleOCR 을 model_dir 없이 만들지 않음  (호출 1건)
+
+=== ③ 하드코딩된 로컬 경로
+  OK 절대경로 / 고정 데이터 경로 없음
+  OK INPUT_DIR / OUTPUT_PATH 를 환경변수에서 읽음
+        INPUT_DIR   = os.environ.get("ITDA_INPUT_DIR",  "./val_images")
+        OUTPUT_PATH = os.environ.get("ITDA_OUTPUT_PATH", "./submission.csv")
+
+=== ④ GPU 전용 코드
+  OK cuda / GPU 지정 없음
+  OK use_gpu=False 를 명시
+        use_gpu=False,            # 채점 환경 GPU 미제공
+  OK onnxruntime 를 CPUExecutionProvider 로 고정
+        providers=["CPUExecutionProvider"])
+        providers=["CPUExecutionProvider"])
+
+=== ② requirements.txt 대 실제 import
+  노트북이 import 하는 외부 패키지: cv2, numpy, onnxruntime, paddleocr, pandas, rapidocr
+  OK requirements.txt 에 모두 선언됨
+  OK nbconvert 포함 (노트북 실행에 필수)
+  OK ipykernel 포함 (노트북 실행에 필수)
+  OK 모든 패키지 버전 고정
+
+=== 그 밖의 형식 요건
+  OK input() 등 입력 대기 없음
+  OK index=False 로 저장
+        df.to_csv(OUTPUT_PATH, index=False)   # index=False 필수 - 켜면 컬럼이 밀려 0점
+  OK 첫 코드셀이 CONFIG 셀
+        INPUT_DIR   = os.environ.get("ITDA_INPUT_DIR",  "./val_images")
+  OK 셀 출력이 비어 있음
+
+============================================================
+0점 유발 요인 없음.
+
+[22:13:15]      exit=0
+[22:13:16] 입력 500 장 준비: C:\Users\Public\itda_fresh\eval_input
+[22:13:16] ITDA_INPUT_DIR  = C:\Users\Public\itda_fresh\eval_input
+[22:13:16] ITDA_OUTPUT_PATH= C:\Users\Public\itda_fresh\submission.csv
+[22:13:16] ---- 노트북 실행 (nbconvert)
+[22:13:16]      > C:\Users\Public\itda_fresh\.venv\Scripts\python.exe -m jupyter nbconvert --to notebook --execute predict.ipynb --ExecutePreprocessor.timeout=2400 --output C:\Users\Public\itda_fresh\executed.ipynb
+python.exe : C:\Users\Public\itda_fresh\.venv\Scripts\python.exe: No module named jupyter
+At C:\Users\조영우\Desktop\대학\DScover\12기\연합 학술제\verify_fresh.ps1:38 char:12
++     $out = & $exe @argList 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Public...e named jupyter:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[22:13:16]      exit=1
+[22:13:16] 
+[22:13:16] ==============================================================
+[22:13:16]  전체 실행 시간 : 0초 (0.0분)
+[22:13:16]  제한 2,400초 대비: 0%
+[22:13:16]  !! submission.csv 가 생기지 않았다
+[22:13:16] ==============================================================

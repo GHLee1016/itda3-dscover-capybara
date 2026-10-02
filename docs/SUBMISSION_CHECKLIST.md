@@ -44,7 +44,7 @@ python check_submission.py
 export ITDA_INPUT_DIR=/tmp/test_imgs
 export ITDA_OUTPUT_PATH=/tmp/out.csv
 jupyter nbconvert --to notebook --execute predict.ipynb \
-    --ExecutePreprocessor.timeout=2400 --output /tmp/executed.ipynb
+    --ExecutePreprocessor.timeout=2500 --output /tmp/executed.ipynb
 ```
 
 에러 없이 끝나고 `/tmp/out.csv` 가 생성되어야 한다.
@@ -103,8 +103,8 @@ jupyter nbconvert --to notebook --execute predict.ipynb \
 | --- | --- |
 | `predict.ipynb` | ✅ 채점 명령으로 실행 확인 (2026-09-28, 계단 7칸 구성), 0점 감사 통과 |
 | 정확도 | **92.3%** (홀드아웃4+5 합산 248장, 부분점수) · 95% CI 90.2~94.0% |
-| 속도 | ✅ **500장 순차 실측 503초** = 장당 1.01초 (제한 2,400초의 **21%**) |
-| 노트북 전량 실행 검증 | ✅ `nbconvert --execute` 로 500장 완주 **459초(19%)** · 엔진 8개 전부 bundled · 500행 생성 |
+| 속도 | ✅ **500장 순차 실측 503초** = 장당 1.01초 (제한 2,500초의 **20%**) |
+| 노트북 전량 실행 검증 | ✅ `nbconvert --execute` 로 500장 완주 **459초(18%)** · 엔진 8개 전부 bundled · 500행 생성 |
 | 라벨링 | ✅ **828장** (튜닝 137 / 홀드아웃1 48 / 2차 198 / 3차 197 / 4차 148 / 5차 100) |
 | YOLO 가중치 배포 | ❌ **Release Assets 업로드 + `YOLO_URL` 기입 필요** |
 | RapidOCR 모델 | ✅ `weights/rapidocr/` 에 동봉(**110MB**), 없으면 보조 경로로 강하 |
