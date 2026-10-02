@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>[DScover]_카피바라 본선보고서</title>
+<!--
+  규정 준수
+    PDF · A4 · 본문 11pt 고정 · 여백 2.54cm(워드 기본값) · 줄간격 1.15
+    표지·목차 제외 최대 10페이지 · 첫 목차는 "1. 개괄"
+  제목·도표 글자 크기는 자유 규격이라 압축했다.
+
+  Word 로 docx→PDF 변환이 폰트 대체 처리에서 멈춰(CPU 86초 무한 대기)
+  이 경로로 바꿨다. 이 프로젝트에서 이미 검증된 Edge 헤드리스 인쇄를 쓴다.
+-->
+<style>
+  @page { size: A4; margin: 25.4mm; }
+  @page :first { margin: 25.4mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "맑은 고딕", "Malgun Gothic", sans-serif;
+    font-size: 11pt;                 /* 규정: 본문 11pt 고정 — 건드리지 않는다 */
+    line-height: 1.28;               /* 10쪽 제한을 맞추려 줄간격으로 압축 (본문 11pt 는 규정상 고정) */
+    color: #111;
+  }
+  h1 { font-size: 14pt; margin: 11pt 0 5pt; color: #14314d;
+       border-bottom: 1.4pt solid #14314d; padding-bottom: 2pt; }
+  h1:first-of-type { margin-top: 0; }
+  h2 { font-size: 12pt; margin: 8pt 0 3.5pt; color: #1d4b73; }
+  h3 { font-size: 11pt; margin: 6pt 0 3pt; }
+  p  { margin: 0 0 4pt; }
+  ul { margin: 0 0 4pt; padding-left: 15pt; }
+  li { margin-bottom: 1.4pt; }
+  table { width: 100%; border-collapse: collapse; margin: 3.5pt 0 6pt;
+          font-size: 8.8pt; }
+  th, td { border: 0.5pt solid #9aa7b4; padding: 1.5pt 3pt;
+           vertical-align: top; line-height: 1.2; }
+  th { background: #e8eef4; font-weight: bold; text-align: left; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  .mono { font-family: Consolas, "D2Coding", monospace; font-size: 7.2pt;
+          line-height: 1.18; white-space: pre; margin: 3pt 0 5.5pt;
+          background: #f6f8fa; border: 0.5pt solid #c9d4de;
+          padding: 4pt 6pt; }
+  .note { font-size: 9pt; color: #3c4a57; background: #f4f7fa;
+          border-left: 2.2pt solid #6b8ca8; padding: 3pt 7pt;
+          margin: 3.5pt 0 6pt; line-height: 1.3; }
+  .key { background: #fff6d8; padding: 0 2pt; font-weight: bold; }
+  .cover { text-align: center; page-break-after: always; }
+  .cover .pad   { height: 62mm; }
+  .cover .kicker{ font-size: 13pt; margin-bottom: 3pt; }
+  .cover .ttl   { font-size: 24pt; font-weight: bold; letter-spacing: -0.5pt; }
+  .cover .sub   { font-size: 13pt; margin-top: 11pt; color: #333; }
+  .cover .team  { font-size: 16pt; font-weight: bold; margin-top: 30mm; }
+  .cover .org   { font-size: 11pt; margin-top: 4pt; }
+  .cover .date  { font-size: 11pt; margin-top: 16mm; }
+  .toc { page-break-after: always; }
+  .toc ol { padding-left: 20pt; }
+  .toc > ol > li { font-weight: bold; margin-bottom: 5pt; font-size: 11.5pt; }
+  .toc .s { font-weight: normal; font-size: 10pt; color: #444; }
+  .avoid { page-break-inside: avoid; }
+  h1, h2, h3 { page-break-after: avoid; }
+</style>
+</head>
+<body>
+
+<!-- ══════════════ 표지 (분량 제외) ══════════════ -->
+<div class="cover">
+  <div class="pad"></div>
+  <div class="kicker">제3회 ITDA 연합학술제 본선</div>
+  <div class="ttl">분석·설계 및 도메인 기획 보고서</div>
+  <div class="sub">상품 후면 라벨 사진에서 소비기한 추출</div>
+  <div class="team">[DScover]_카피바라</div>
+  <div class="org">성균관대학교 DScover 12기</div>
+  <div class="date">2026. 10. 01.</div>
+</div>
+
+<!-- ══════════════ 목차 (분량 제외) ══════════════ -->
+<div class="toc">
+<h1>목 차</h1>
+<ol>
+  <li>개괄<div class="s">1-1 핵심 접근 방식 · 1-2 주요 결과</div></li>
+  <li>데이터 구성 및 라벨링 전략<div class="s">2-1 사용 데이터 · 2-2 라벨링 규칙과 절차 · 2-3 전처리</div></li>
+  <li>아키텍처 설계 논리<div class="s">3-1 구조도 · 3-2 모듈별 설계 의도 · 3-3 후처리 규칙</div></li>
+  <li>모델 선택 근거 및 성능 평가<div class="s">4-1 비교·선택 · 4-2 정확도(검증 방법 포함) · 4-3 오류 분석과 개선</div></li>
+  <li>속도·비용 검증<div class="s">5-1 CPU 추론 속도 · 5-2 속도·오탐 최적화 · 5-3 학습 자원</div></li>
+  <li>도메인 활용 및 운영 기획<div class="s">6-1 적용 도메인 · 6-2 운영 아키텍처 · 6-3 운영 비용 · 6-4 ROI</div></li>
+  <li>한계와 보완 계획</li>
+  <li>추가 참고 자료</li>
+</ol>
+</div>
+
+<!-- ══════════════ 1. 개괄 ══════════════ -->
+<h1>1. 개괄</h1>
+
+<h2>1-1. 핵심 접근 방식 요약</h2>
+<p><b>실패한 이미지만 다음 단계로 넘기는 계단형(cascade) 파이프라인</b>이다. 쉬운 이미지는 가장 싼 수단으로 처리하고, 실패한 것에만 더 비싼 수단을 순서대로 투입한다. 각 단계는 <b>앞 단계가 실패한 이미지에만</b> 실행되므로, 새 수단을 추가해도 기존 정답이 깨지는 일이 구조적으로 발생하지 않는다. 회귀 위험이 0이기 때문에 공격적으로 실험할 수 있었고, 실제로 수단 12가지를 시험해 5가지만 채택했다.</p>
+<p>두 번째 축은 <b>판정 규율</b>이다. 제공 데이터에 정답이 없어 828장을 직접 라벨링한 뒤 다섯 집합으로 나누고, 한 번 판정에 쓴 집합은 폐기했다. 채택 여부는 '개선처럼 보이는가'가 아니라 <b>'설계에 쓰지 않은 표본에서 효과가 재현되는가'</b>로 정했다.</p>
+
+<h2>1-2. 주요 결과 요약</h2>
+<table class="avoid">
+<tr><th style="width:23%">구분</th><th class="n" style="width:17%">측정값</th><th>조건</th></tr>
+<tr><td><b>날짜 추출 정확도</b></td><td class="n"><b>92.3%</b></td><td>홀드아웃4+5 합산 248장 · 설계에 미사용 · 95% CI 90.2~94.0%</td></tr>
+<tr><td>완전일치(3필드 동시)</td><td class="n">89.5%</td><td>동일 표본</td></tr>
+<tr><td>미검출</td><td class="n">10 / 248</td><td>아무 값도 내지 못한 경우</td></tr>
+<tr><td><b>오탐</b></td><td class="n"><b>0건</b></td><td>틀린 값을 확정 출력한 경우</td></tr>
+<tr><td><b>CPU 추론 속도</b></td><td class="n"><b>1.20초/장</b></td><td>단일 프로세스 순차 · 채점과 동일한 500장 실측 · 제출 구성(opencv 4.6)</td></tr>
+<tr><td>노트북 완주 검증</td><td class="n">614초</td><td><code>nbconvert --execute</code> 500장 · 모델 로딩 포함 벽시계 · 엔진 8개 전부 로드</td></tr>
+<tr><td>제한 대비</td><td class="n"><b>26%</b></td><td>제한 2,400초 / 500장 (약 4배 여유)</td></tr>
+<tr><td>학습 비용</td><td class="n">0원</td><td>GPU·클라우드·외부 API 미사용. 전 과정 로컬 CPU</td></tr>
+</table>
+<p><b>도메인 기획 한 줄 요약</b> — 오탐 0건을 보장하는 '무응답 우선' 설계로, 소매·물류의 유통기한 검품을 표본검사에서 전수검사로 전환한다.</p>
+<div class="note">본 보고서의 모든 성능·속도 수치는 실측이며 재현 스크립트가 <code>eda/</code>에 119건 있다. 추정이 포함된 항목(6-3 운영 비용, 6-4 ROI)은 해당 절에 가정을 명시했다.</div>
+
+<!-- ══════════════ 2. 데이터 ══════════════ -->
+<h1>2. 데이터 구성 및 라벨링 전략</h1>
+
+<h2>2-1. 사용 데이터</h2>
+<p>제공 데이터 3,352장만 사용했고 <b>외부 데이터를 추가 수집하지 않았다.</b> 다만 제공 데이터에는 <b>정답 라벨이 전혀 없어</b> 자체 라벨링이 선행 과제였다.</p>
+<table class="avoid">
+<tr><th style="width:22%">용도</th><th class="n" style="width:18%">수량</th><th>내용</th></tr>
+<tr><td>정답 라벨링</td><td class="n">828장</td><td>직접 판독한 year/month/day (전체의 24.7%)</td></tr>
+<tr><td>실패 목록 집계</td><td class="n">3,164장</td><td>전량 실행해 미검출·오답 분포 확인 (EDA 69)</td></tr>
+<tr><td>YOLO 학습</td><td class="n">237장 / 238박스</td><td>약지도 자동 생성 (2-2 참고)</td></tr>
+<tr><td>도트 판독기 학습</td><td class="n">합성 40,000장</td><td>실사진 미사용 · 폰트에 점 격자를 씌워 생성</td></tr>
+</table>
+
+<h2>2-2. 라벨링 규칙 정의 및 수행 절차</h2>
+<h3>(1) 수동 라벨링 — 정답 828장</h3>
+<p>브라우저 기반 라벨링 도구를 직접 제작해 이미지를 확대하며 판독했다. 판독 규칙은 다음과 같이 고정했다.</p>
+<ul>
+<li>소비기한·유통기한이 우선. 제조일자만 있으면 그 값을 쓰지 않고 NONE 처리한다.</li>
+<li>연·월·일 중 일부만 인쇄된 경우 읽은 필드만 채우고 나머지는 NONE (부분점수 대응).</li>
+<li>판독 불가(초점 흐림·잘림·가려짐)는 제외 목록에 사유와 함께 남긴다.</li>
+<li>수입품 2자리 연도처럼 판단이 갈리는 건은 판단 근거를 파일에 기록한다.</li>
+</ul>
+<p><b>검수</b> — 무작위 30장을 다시 판독해 대조한 결과 30/30 일치했다. 다만 <b>0건 오류의 95% 신뢰상한은 약 10%</b>이므로 강한 보증은 아니며, 이 점을 7장 한계에 명시한다.</p>
+
+<h3>(2) 자동 라벨 생성 — YOLO 학습용 박스 238개</h3>
+<p>YOLO 학습에는 날짜의 '값'이 아니라 '위치(좌표)'가 필요한데, 수동 라벨에는 값만 있다. 그래서 약지도(weak supervision) 방식으로 좌표를 자동 생성했다.</p>
+<div class="mono">기존 OCR 파이프라인을 여러 해상도·회전 조합으로 실행
+      ↓
+인식 결과가 수동 라벨의 정답 날짜와 일치하는 검출 박스를 탐색
+      ↓
+일치한 박스의 좌표를 정답 박스로 채택     385장 시도 → 237장 성공 (수율 62%)</div>
+<p>이 방식의 한계를 설계 시점에 기록해 두었다 — <b>OCR이 이미 성공한 사례만 학습 데이터에 들어간다.</b> 정작 검출기가 구제해야 할 어려운 사례는 원리상 포함될 수 없다. 이 편향이 실제로 어떤 결과를 낳았는지는 4-3에서 측정으로 확인한다.</p>
+
+<h2>2-3. 전처리 내용</h2>
+<p>전처리를 상시 적용하지 않고 계단의 각 칸에 배치해 <b>실패한 이미지에만</b> 적용되도록 했다. 13종을 시험해 3종만 남겼다.</p>
+<table class="avoid">
+<tr><th style="width:21%">전처리</th><th style="width:19%">적용 위치</th><th>채택 여부와 근거</th></tr>
+<tr><td>긴 변 1024px 축소</td><td>전 이미지 공통</td><td>채택. 3200px까지 올려도 검출률 불변, 비용만 증가</td></tr>
+<tr><td>정사각 패딩</td><td>검출기 입력</td><td>채택. 종횡비 왜곡 없이 640 정사각 입력에 맞춤</td></tr>
+<tr><td>adaptive 이진화</td><td>2칸 (실패분)</td><td>채택. 조명 얼룩이 있는 라벨에서 회수</td></tr>
+<tr><td>CLAHE 대비 보정</td><td>4칸 (실패분)</td><td>채택. 저대비 인쇄 3장 회수</td></tr>
+<tr><td>샤프닝/디블러</td><td>—</td><td><b>기각.</b> 오답이 오히려 더 선명했다(선명도 중앙값 458 대 412)</td></tr>
+<tr><td>기타 8종</td><td>—</td><td>기각. 23장 중 3장만 회수되어 상시 적용 비용이 이득을 넘음</td></tr>
+</table>
+
+<!-- ══════════════ 3. 아키텍처 ══════════════ -->
+<h1>3. 아키텍처 설계 논리</h1>
+
+<h2>3-1. 전체 파이프라인 아키텍처 구조도</h2>
+<div class="mono">┌─────────────────────────────────────────────────────────────────────────┐
+│ 입력 이미지 1장  →  imread_any()  →  downscale_max(긴 변 1024px)        │
+└─────────────────────────────────────────────────────────────────────────┘
+      │   ※ 각 칸은 '앞 칸이 실패한 이미지'에만 실행된다 (괄호 = 도달 비율)
+      ▼
+┌──────────────────────────────────────────────────────┬──────────────────┐
+│ 1칸  RapidOCR PP-OCRv6  det small @1024px            │  80%  여기서 종료│
+│ 2칸  adaptive 이진화 후 재시도                        │   2%             │
+│ 3칸  det medium (대형 검출기)                         │   5%             │
+│ 4칸  CLAHE 대비 보정 + det medium                     │   1%             │
+│ 5칸  인식기 교체 — 한국어 모델                        │   1%             │
+│ 6칸  인식기 교체 — 영문 모델                          │   1%             │
+│ 7칸  도트 인쇄 전용 판독기 (직접 학습 CRNN+CTC)       │   1%             │
+│ 보조  직접 학습 YOLOv8n 검출 → PP-OCR 인식 (최후수단) │   1%             │
+└──────────────────────────────────────────────────────┴──────────────────┘
+      │  각 칸이 만들어 낸 텍스트 조각
+      ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│ 날짜 규칙 엔진   앵커 점수화 → 형식 정규화 → 연·월·일 분해              │
+└─────────────────────────────────────────────────────────────────────────┘
+      │
+      ▼   year / month / day      (확신이 없으면 NONE — 틀린 값보다 무응답)</div>
+
+<h2>3-2. 모듈별 설계 의도 및 기술 선택 이유</h2>
+<table class="avoid">
+<tr><th style="width:15%">모듈</th><th style="width:15%">선택</th><th>왜 이렇게 설계했는가</th></tr>
+<tr><td>전체 구조</td><td>계단형</td><td>새 수단이 기존 정답을 깨뜨릴 수 없어야 실험을 빠르게 할 수 있다. 모든 칸을 항상 실행하는 구조는 회귀 위험 때문에 시도 횟수가 줄어든다.</td></tr>
+<tr><td>주력 엔진</td><td>RapidOCR<br>PP-OCRv6</td><td>ONNX Runtime 기반이라 torch 의존이 없다. torch가 환경에 있으면 OpenMP 충돌로 2.4배 느려지는 것을 실측했다(EDA 52).</td></tr>
+<tr><td>검출 해상도</td><td>1024px 고정</td><td>3200px까지 올려도 검출률이 오르지 않고 비용만 증가(EDA 5).</td></tr>
+<tr><td>인식기 2종</td><td>한국어 + 영문</td><td>기본 인식기가 중국어 모델이라 한글을 읽지 못한다. <code>유통2023.01.05까지</code>처럼 한글이 날짜에 붙으면 날짜까지 깨진다(EDA 101).</td></tr>
+<tr><td>도트 판독기</td><td>CRNN + CTC</td><td>글자를 잘라 분류하는 방식은 8글자가 모두 정확히 분할돼야 하므로 실사용 정답 0장이었다. 분할을 없애는 CTC로 전환해 해결(EDA 110→111).</td></tr>
+<tr><td>날짜 검출</td><td>YOLOv8n<br>→ ONNX</td><td>보조 경로 전용. ultralytics/torch를 제출물에서 제거하기 위해 ONNX로 내보내 추론한다(EDA 54~55).</td></tr>
+</table>
+
+<h2>3-3. 후처리 규칙 설계</h2>
+<h3>(1) 소비기한과 다른 숫자의 구분</h3>
+<p>후면 라벨에는 날짜 형태의 숫자가 여러 개 있다(제조일자·포장일자·영양성분표·바코드·중량). 주변 문맥에 점수를 주어 가려낸다.</p>
+<table class="avoid">
+<tr><th style="width:40%">앵커(주변 단어)</th><th class="n" style="width:12%">점수</th><th>의도</th></tr>
+<tr><td>까지</td><td class="n">+15</td><td>기한의 종점을 직접 지시하는 가장 강한 신호</td></tr>
+<tr><td>소비기한 / 유통기한 / 품질유지기한</td><td class="n">+10</td><td>정답 앵커</td></tr>
+<tr><td>부터</td><td class="n">−8</td><td>기간의 시작점 → 소비기한이 아님</td></tr>
+<tr><td>제조일자 / 생산일자 / 포장일자 / MFG</td><td class="n">−12</td><td>오답 앵커</td></tr>
+</table>
+<ul>
+<li>동점이면 더 늦은 날짜를 택한다. 제조일과 소비기한이 함께 인쇄된 경우 소비기한이 항상 뒤였다.</li>
+<li>영양성분표의 숫자는 날짜 형식 자체를 만족하지 않아 형식 단계에서 걸러진다.</li>
+<li>시각(11:30)이 날짜의 '일'로 읽히는 것을 막기 위해 패턴에 부정 전방탐색을 넣었다.</li>
+</ul>
+
+<h3>(2) 날짜 정규화</h3>
+<p>12가지 표기 패턴을 정규식으로 처리한다(YYYY.MM.DD, YY.MM.DD, YYYYMMDD, DD MON YYYY, MON DD YY, YYYYMM.DD, 한글 표기 등). 핵심 판단은 2자리 연도의 순서였다. <code>26.08.13</code>은 한국식이면 2026-08-13, 유럽식이면 2013-08-26이다. 데이터에서 직접 세어 <b>한국식 가정 91% 대 유럽식 가정 52%</b>를 확인하고 한국식을 기본값으로 정했다. 이 한 줄이 해당 구역 정확도를 52%에서 91%로 올렸다(EDA 81).</p>
+
+<h3>(3) 미인식 NONE 처리 기준</h3>
+<ul>
+<li>앵커 점수 합계가 음수이면 값을 내지 않고 NONE을 출력한다. 제조일자만 인쇄된 이미지가 여기 해당한다.</li>
+<li>연·월·일은 독립 채점되므로, 일부 필드만 읽힌 경우 읽은 필드는 채우고 나머지만 NONE으로 둔다.</li>
+<li>계단 중간에 나온 부분 결과는 버리지 않고 보관하다가, 뒤 칸이 <b>채운 필드 수를 늘릴 때만</b> 교체한다.</li>
+</ul>
+<div class="note">마지막 규칙이 없으면 도트 판독기가 부분 결과(<code>NONE-08-25</code>)를 엉뚱한 값으로 덮어써 이미 맞힌 2개 필드까지 잃는다. 실제로 홀드아웃4가 93.0%→92.8%로 떨어져 발견했다.</div>
+
+<!-- ══════════════ 4. 모델·성능 ══════════════ -->
+<h1>4. 모델 선택 근거 및 성능 평가</h1>
+
+<h2>4-1. 비교한 모델·대안과 최종 선택 근거</h2>
+<table class="avoid">
+<tr><th style="width:27%">비교 대상</th><th>결과</th><th style="width:17%">판정</th></tr>
+<tr><td>PaddleOCR (PP-OCRv3/v4)</td><td>예선 주력. 한글 인식은 되나 속도·의존성 부담</td><td>보조 경로로 강등</td></tr>
+<tr><td><b>RapidOCR (PP-OCRv6)</b></td><td><b>정확도·속도 모두 우위 · ONNX 단독 실행</b></td><td><b>주력 채택</b></td></tr>
+<tr><td>EasyOCR</td><td>결합해도 이득 없음 (torch 의존으로 2.4배 저하)</td><td>기각</td></tr>
+<tr><td>검출기 대형화(det server)</td><td>이득 없음, 모델 84MB·비용만 증가</td><td>기각</td></tr>
+<tr><td>입력 1600px 재시도 칸</td><td>오염 표본 +0.6%p → 깨끗한 표본 <b>0장</b></td><td>기각</td></tr>
+<tr><td>8칸 전부 실행 후 다수결</td><td>93.6% → 93.4%</td><td>기각</td></tr>
+<tr><td>YOLO 도트 파인튜닝(v2)</td><td>mAP50 0.80이나 기존 정답 6장 상실</td><td>기각</td></tr>
+<tr><td>검출 문턱 0.25 → 0.05</td><td>검출률 4%→65%인데 정확도 92.3%→92.2%</td><td>기각</td></tr>
+<tr><td>인식기 칸(한국어·영문)</td><td>개선율 재현 · 메커니즘 특정됨</td><td><b>채택</b></td></tr>
+<tr><td>도트 전용 판독기(CTC)</td><td>2장 회수 · 오탐 0</td><td><b>채택</b></td></tr>
+</table>
+<p><b>기각한 것이 채택한 것보다 많다.</b> 채택 기준을 '오염되지 않은 표본에서 효과가 재현되는가'로 고정했기 때문이다.</p>
+
+<h2>4-2. 날짜 추출 정확도 결과</h2>
+<h3>(1) 검증 방법</h3>
+<p>자체 라벨 828장을 다섯 집합으로 나누고, 설계·튜닝에 쓴 집합은 성능 근거에서 배제했다. 최종 수치는 두 개의 미사용 집합을 합쳐 산출했다.</p>
+<table class="avoid">
+<tr><th style="width:20%">집합</th><th class="n" style="width:12%">수량</th><th>용도</th><th style="width:16%">오염 여부</th></tr>
+<tr><td>튜닝셋</td><td class="n">137</td><td>규칙 설계·파라미터 결정</td><td>오염</td></tr>
+<tr><td>홀드아웃1~3</td><td class="n">443</td><td>중간 판정 후 오답 검토</td><td>오염</td></tr>
+<tr><td><b>홀드아웃4</b></td><td class="n"><b>148</b></td><td>본선 최종 판정</td><td><b>미오염</b></td></tr>
+<tr><td><b>홀드아웃5</b></td><td class="n"><b>100</b></td><td>인식기 칸 채택 판정</td><td><b>미오염</b></td></tr>
+</table>
+<p>오답을 한 장씩 검토한 표본은 더 이상 성능의 근거가 되지 못한다. <b>그 편향의 크기를 실제로 측정했다</b> — 검토에 사용한 580장에서는 94.1%가 나오지만 미사용 표본에서는 92.3%로, <b>1.8%p가 낙관 편향</b>이다. 보고에는 92.3%만 사용한다.</p>
+
+<h3>(2) 수치</h3>
+<table class="avoid">
+<tr><th>표본</th><th class="n">필드 정확도</th><th class="n">year</th><th class="n">month</th><th class="n">day</th><th class="n">완전일치</th><th class="n">미검출</th><th class="n">오탐</th></tr>
+<tr><td>홀드아웃4 (148장)</td><td class="n">92.8%</td><td class="n">93.2%</td><td class="n">92.6%</td><td class="n">92.6%</td><td class="n">90.5%</td><td class="n">6</td><td class="n">0</td></tr>
+<tr><td>홀드아웃5 (100장)</td><td class="n">91.7%</td><td class="n">92.0%</td><td class="n">93.0%</td><td class="n">90.0%</td><td class="n">88.0%</td><td class="n">4</td><td class="n">0</td></tr>
+<tr><td><b>합산 (248장)</b></td><td class="n"><b>92.3%</b></td><td class="n">92.7%</td><td class="n">92.7%</td><td class="n">91.5%</td><td class="n">89.5%</td><td class="n"><b>10</b></td><td class="n"><b>0</b></td></tr>
+</table>
+<p>95% 신뢰구간 90.2~94.0%. <b>예선 제출 구성을 동일 표본에서 재측정하면 88.5%</b>이므로 본선 라운드에서 <b>+4.3%p</b> 개선했다(악화 0장, McNemar p=0.0156).</p>
+
+<h2>4-3. 오류 사례 분석 및 개선 과정</h2>
+<p>이 절을 가장 중요하게 생각한다. 병목을 두 차례 잘못 지목했고, 두 번 다 측정으로 바로잡았기 때문이다.</p>
+
+<h3>(1) 첫 번째 오진 — "점선(도트) 인쇄가 문제다"</h3>
+<p>미검출 이미지를 육안으로 보니 도트 매트릭스 인쇄가 두드러졌다. 전용 판독기를 만들고 나서야 전체에서 도트 그룹의 성능을 측정했다.</p>
+<table class="avoid">
+<tr><th style="width:30%">그룹</th><th class="n" style="width:18%">수량</th><th class="n">필드 정확도</th></tr>
+<tr><td>도트 인쇄</td><td class="n">137장</td><td class="n"><b>97.0%</b></td></tr>
+<tr><td>일반 인쇄</td><td class="n">498장</td><td class="n">95.9%</td></tr>
+</table>
+<p>도트가 오히려 더 잘 읽혔다. 도트는 공장 잉크젯이라 글자가 크고 간격이 균일하다. 실제로 어려운 것은 작고 구겨진 인쇄였다. <b>육안으로 눈에 띄는 것과 원인은 다르다.</b></p>
+
+<h3>(2) 두 번째 오진 — "검출기가 날짜 위치를 못 잡는 것이 병목이다"</h3>
+<table class="avoid">
+<tr><th style="width:30%">그룹</th><th class="n" style="width:15%">수량</th><th class="n" style="width:20%">필드 정확도</th><th class="n">미검출률</th></tr>
+<tr><td>YOLO가 위치를 잡음</td><td class="n">635장</td><td class="n">96.1%</td><td class="n">1.1%</td></tr>
+<tr><td>YOLO가 못 잡음</td><td class="n">193장</td><td class="n">85.8%</td><td class="n">7.8%</td></tr>
+</table>
+<p>10.2%p 차이라 검출이 병목으로 보였다. 원인을 찾기 위해 날짜 영역의 크기·대비·위치를 두 그룹에서 비교했으나 <b>어느 지표도 차이를 설명하지 못했다</b>(높이 0.90배 · 대비 1.05배 · 가장자리 0.91배).</p>
+<p>지표가 동일한데 한쪽만 실패한다면 이미지가 어려운 것이 아니다. 검출 문턱(confidence)만 0.25에서 0.02로 낮추자 <b>못 잡던 193장 중 80%가 검출됐다.</b> 학습 데이터가 238장뿐이라 모델이 전반적으로 확신이 낮았던 것이다(2-2의 편향). 그런데 문턱을 낮춰 끝단 정확도를 다시 측정한 결과는 다음과 같았다.</p>
+<table class="avoid">
+<tr><th style="width:34%">표본</th><th class="n">기존 (conf 0.25)</th><th class="n">변경 (conf 0.05)</th></tr>
+<tr><td>홀드아웃4</td><td class="n">92.8%</td><td class="n">93.2%</td></tr>
+<tr><td>홀드아웃5</td><td class="n">91.7%</td><td class="n">90.7%</td></tr>
+<tr><td><b>합산 248장</b></td><td class="n"><b>92.3%</b></td><td class="n"><b>92.2%</b></td></tr>
+</table>
+<p>검출률이 30배가 됐는데 정확도는 744필드 중 1개 차이였고, <b>두 표본에서 부호가 갈렸다</b>(홀드아웃4 +2필드, 홀드아웃5 −3필드). 한쪽만 보았다면 "+0.4%p 개선"으로 채택했을 것이다. 기각했다.</p>
+<div class="note"><b>이 기각에서 얻은 결론</b> — 앞의 10.2%p 차이는 상관을 인과로 읽은 것이었다. 검출기가 못 잡는 이미지는 애초에 작고 흐리고 기울어져 있어 인식하기도 어렵다. 검출 실패가 성능을 떨어뜨린 것이 아니라 둘 다 같은 원인의 결과였다. 검출을 강제로 성공시켰는데 결과가 움직이지 않은 것이 그 증거다. <span class="key">하위 그룹의 성능 차이는 그 자체로 원인을 지목하지 않는다. 원인이라 주장하려면 그 변수를 직접 조작해 결과가 따라오는지 확인해야 한다.</span></div>
+
+<h3>(3) 남은 오류의 성격</h3>
+<ul>
+<li>규칙으로 해결 가능한 것은 51장 중 2장뿐이다. 대부분 OCR이 글자 자체를 만들어내지 못한다.</li>
+<li>계단은 온전한 날짜가 나오면 멈추므로 그 값이 틀려도 중단된다. 전 칸 실행 후 다수결은 오히려 더 나빴다(93.6→93.4%).</li>
+<li>오라클 상한(정답을 아는 사람이 8칸 결과 중 최선을 고른다고 가정) 측정값은 94.9%로, 현재 구조의 천장이 멀지 않다.</li>
+</ul>
+
+<!-- ══════════════ 5. 속도·비용 ══════════════ -->
+<h1>5. 속도·비용 검증</h1>
+
+<h2>5-1. CPU 추론 속도 측정</h2>
+<table class="avoid">
+<tr><th style="width:26%">항목</th><th>내용</th></tr>
+<tr><td>측정 환경</td><td>AMD Ryzen 5 7500F · Windows 11 · Python 3.11 · onnxruntime 1.19.2 (CPU) · GPU 미사용</td></tr>
+<tr><td>실행 방식</td><td><b>단일 프로세스 순차 루프</b> (채점 노트북과 동일 조건, 병렬 없음)</td></tr>
+<tr><td>측정 규모</td><td><b>채점과 동일한 500장을 그대로 실행</b> (환산·표본 추정 없음)</td></tr>
+<tr><td><b>이미지당 평균</b></td><td><b>1.20초</b> (제출 구성) · 분포는 꼬리가 무겁다: 중앙값 0.39초 · 상위 10% 2.09초 · 상위 1% 11.10초 · 최대 17.71초</td></tr>
+<tr><td><b>500장 소요</b></td><td><b>614초</b> (<code>nbconvert --execute</code> 노트북 완주, 모델 로딩 포함 벽시계) / 601초 (추론 루프)</td></tr>
+<tr><td><b>제한 대비</b></td><td><b>26%</b> (제한 2,400초, 약 4배 여유)</td></tr>
+</table>
+<p>중앙값이 평균의 40%에 불과하다. 80%가 1칸에서 끝나고 소수가 계단을 끝까지 오르며 시간을 쓰는 <b>꼬리가 무거운 분포</b>다. 이 때문에 표본이 작으면 평균이 낙관적으로 나온다 — 실제로 120장 표본에서는 0.81초, 150장에서는 0.91초가 나왔다. <b>그래서 속도는 반드시 채점과 같은 500장으로 측정하고, 보고에는 더 느린 쪽을 쓴다.</b></p>
+
+<h2>5-2. 속도 및 오탐 최적화 전략</h2>
+<h3>(1) 속도 — 비용을 실패분에만 지출</h3>
+<p>계단 구조의 부수 효과가 곧 속도 전략이다. 80%가 1칸에서 종료되므로 무거운 수단(대형 검출기·인식기 교체·도트 판독기)의 비용이 전체 평균에 거의 반영되지 않는다.</p>
+<table class="avoid">
+<tr><th style="width:36%">구성</th><th class="n">장당</th><th class="n">500장</th><th class="n">제한 대비</th></tr>
+<tr><td>torch 포함 환경 (참고)</td><td class="n">5.88초</td><td class="n">2,939초</td><td class="n"><b>122% (초과)</b></td></tr>
+<tr><td>보조 경로 단독</td><td class="n">2.19초</td><td class="n">1,096초</td><td class="n">46%</td></tr>
+<tr><td>1차 예선 제출 구성</td><td class="n">0.53초</td><td class="n">267초</td><td class="n">11%</td></tr>
+<tr><td><b>본선 최종 (계단 7칸 + 보조)</b></td><td class="n"><b>1.20초</b></td><td class="n"><b>614초</b></td><td class="n"><b>26%</b></td></tr>
+</table>
+<div class="note">가장 큰 속도 저하는 torch가 설치된 환경에서 발생했다(OpenMP 스레드 충돌, 2.4배). 제출물에서 torch·ultralytics 의존을 완전히 제거하고 ONNX Runtime만 사용한다. <code>requirements.txt</code>에 두 패키지를 넣지 않는 것이 설계 제약이다.</div>
+
+<h3>(2) 오탐 — 확신이 없으면 출력하지 않는다</h3>
+<ul>
+<li>앵커 점수 합계가 음수면 NONE을 출력한다. 제조일자만 인쇄된 이미지에서 오탐을 차단한다.</li>
+<li>'미래 날짜만 유효' 같은 상식 필터는 넣지 않았다. 정답에 2020~2022년 과거 날짜가 다수 있어 오히려 정답을 지운다.</li>
+<li>부분 결과는 '채운 필드 수가 늘어날 때만' 교체해 이미 맞힌 필드를 잃지 않게 한다.</li>
+</ul>
+<p>결과적으로 미사용 표본 248장에서 <b>오탐 0건</b>이다. 미검출 10장은 모두 '값을 내지 않은' 경우로, 잘못된 값을 내보낸 사례가 아니다.</p>
+
+<h2>5-3. 학습 자원 사용 내역</h2>
+<p><b>유료 GPU·클라우드·외부 API를 일절 사용하지 않았다.</b> 학습·추론 전 과정이 로컬 CPU에서 수행되었으며 직접 비용은 <b>0원</b>이다.</p>
+<table class="avoid">
+<tr><th style="width:22%">학습 대상</th><th style="width:12%">환경</th><th style="width:24%">설정</th><th class="n" style="width:12%">소요</th><th>결과</th><th style="width:10%">채택</th></tr>
+<tr><td>YOLOv8n 날짜 검출</td><td>로컬 CPU</td><td>120 epoch · 640px · 237장</td><td class="n">2,824초</td><td>mAP50 0.82</td><td>채택</td></tr>
+<tr><td>도트 판독기 (CRNN+CTC)</td><td>로컬 CPU</td><td>합성 40,000장 · 입력 32×192</td><td class="n">약 1시간</td><td>검증 완전일치 79.4%</td><td>채택</td></tr>
+<tr><td>YOLO 도트 파인튜닝 v2</td><td>로컬 CPU</td><td>40 epoch 이어학습</td><td class="n">2.4시간</td><td>mAP50 0.80</td><td><b>기각</b></td></tr>
+<tr><td>도트 글자 분류기</td><td>로컬 CPU</td><td>합성 학습</td><td class="n">약 30분</td><td>검증 96.6% / 실사용 0장</td><td><b>기각</b></td></tr>
+</table>
+<p>총 학습 시간 약 4.5시간(기각된 실험 포함), 전량 로컬 CPU. 사전학습 가중치는 RapidOCR 공개 모델(PP-OCRv6)을 그대로 사용했다.</p>
+
+<!-- ══════════════ 6. 도메인 ══════════════ -->
+<h1>6. 도메인 활용 및 운영 기획</h1>
+
+<h2>6-1. 적용 도메인 및 도입 대상</h2>
+<p>핵심 도입 논리는 <b>'표본검사 → 전수검사'</b>다. 유통기한 확인은 지금도 사람이 눈으로 하며, 인건비 때문에 표본검사로 운영된다. 장당 1초·오탐 0건이면 전수검사가 성립한다.</p>
+<table class="avoid">
+<tr><th style="width:20%">도입 대상</th><th style="width:36%">현재 업무</th><th>적용 효과</th></tr>
+<tr><td><b>편의점·SSM 본부</b></td><td>점포 직원이 진열대를 순회하며 임박 상품 육안 확인</td><td>입고 시 후면 촬영으로 기한 자동 등록 → 임박 알림 자동화</td></tr>
+<tr><td><b>식품 물류센터</b></td><td>입고 검수 시 파렛트당 표본 추출 검사</td><td>라인 카메라로 전수 검사, 기한 역전(선입선출 위반) 자동 적발</td></tr>
+<tr><td>이커머스 신선식품</td><td>출고 직전 유통기한 수기 확인</td><td>출고 검수 자동화 및 고객 클레임 근거 자료 자동 생성</td></tr>
+<tr><td>식자재 유통·급식</td><td>납품 검수 시 기한 확인 후 수기 기록</td><td>검수 기록 자동 생성 (HACCP 문서화 부담 경감)</td></tr>
+<tr><td>시각장애인 보조 앱</td><td>포장지의 작은 날짜 판독 불가</td><td>촬영 후 음성 안내. 저대비·소형 인쇄 대응이 계단 구조의 강점과 일치</td></tr>
+</table>
+
+<h2>6-2. 운영 아키텍처 설계</h2>
+<p>파이프라인이 <b>CPU 전용·ONNX 단일 런타임</b>이라는 점이 배포 선택지를 넓힌다. 용도에 따라 두 형태로 운영한다.</p>
+<div class="mono">[A] 온디바이스 — 점포·현장 (권장)         [B] 서버 — 물류센터·대량 배치
+┌──────────────────────────────┐        ┌──────────────────────────────┐
+│ 휴대 단말 / 산업용 PDA       │        │ 라인 카메라 → 게이트웨이     │
+│   └ ONNX Runtime Mobile      │        │   └ 이미지 큐 (배치 적재)    │
+│      · 모델 약 125MB         │        │ API 서버 (컨테이너)          │
+│      · 오프라인 동작         │        │   · 4 vCPU 워커 × N          │
+│      · 이미지 외부 전송 없음 │        │   · 수평 확장만으로 증설     │
+└──────────────┬───────────────┘        └──────────────┬───────────────┘
+               │ 날짜 텍스트만 동기화(수십 바이트)    │ 결과 DB 적재
+               ▼                                      ▼
+        재고·유통기한 관리 시스템 (기존 POS·WMS 연동)</div>
+<ul>
+<li><b>[A] 온디바이스</b> — GPU가 필요 없고 오프라인에서 동작한다. 이미지가 단말을 벗어나지 않아 개인정보·영업정보 이슈가 없다. 점포 단위 도입에 적합하다.</li>
+<li><b>[B] 서버</b> — 처리량이 큰 경우. GPU 인스턴스가 필요 없어 일반 CPU 인스턴스로 구성되며, 부하 증가는 워커 수평 확장으로 대응한다.</li>
+<li><b>공통</b> — 미검출(NONE) 건은 사람 확인 큐로 보낸다. <b>오탐 0건 설계이므로 이 큐만 처리하면 되고, 시스템이 잘못된 값을 조용히 흘려보내지 않는다.</b></li>
+</ul>
+
+<h2>6-3. 예상 운영 비용 산출</h2>
+<div class="note"><b>※ 실측값과 공개 자료, 가정을 구분해 표기한다.</b> <b>[측정]</b> 장당 1.20초 · GPU 불요. <b>[자료]</b> 클라우드 단가는 AWS 공시 요금. <b>[가정]</b> 처리 물량과 환율. 출처는 6-4 끝에 정리했다.</div>
+<table class="avoid">
+<tr><th style="width:30%">[A] 온디바이스 (편의점 1개 점포)</th><th style="width:40%">가정</th><th class="n">비용</th></tr>
+<tr><td>단말</td><td>기존 점포 PDA·스마트폰 활용</td><td class="n">추가 0원</td></tr>
+<tr><td>연산</td><td>장당 1.20초 · 하루 입고 300개 → 약 6분/일</td><td class="n">0원 (단말 유휴)</td></tr>
+<tr><td>통신</td><td>날짜 텍스트만 전송 (건당 수십 바이트)</td><td class="n">사실상 0원</td></tr>
+<tr><td><b>점포당 월 운영비</b></td><td>초기 앱 배포 비용만 발생</td><td class="n"><b>0원</b></td></tr>
+</table>
+<table class="avoid">
+<tr><th style="width:30%">[B] 서버 (물류센터 · 일 10만 장)</th><th style="width:40%">산출</th><th class="n">월 비용(추정)</th></tr>
+<tr><td>필요 연산량 <b>[측정]</b></td><td>100,000장 × 1.20초 = <b>33.3 코어-시간/일</b></td><td class="n">—</td></tr>
+<tr><td>인스턴스 <b>[자료]</b></td><td>AWS <code>c7i.xlarge</code> (4 vCPU) 서울 리전 온디맨드 <b>$0.2016/시</b><br>4병렬 시 벽시계 8.3시간/일 → <b>1대로 충분</b>(가동률 35%)</td><td class="n">$147/월<br>약 21만 원</td></tr>
+<tr><td>이중화 <b>[가정]</b></td><td>피크·장애 대비 2대 상시</td><td class="n">$294/월<br>약 41만 원</td></tr>
+<tr><td>스토리지 <b>[가정]</b></td><td>원본 미보관, 결과 텍스트만 적재</td><td class="n">약 2만 원</td></tr>
+<tr><td><b>합계</b></td><td>1대 구성 / 2대 구성 · 환율 1,400원/USD 가정</td><td class="n"><b>월 23만 / 43만 원</b></td></tr>
+</table>
+<p>핵심은 <b>GPU 인스턴스가 필요 없다는 점</b>이다. 동급 GPU 인스턴스를 상시 운용하면 월 수백만 원 단위가 되므로, CPU 전용 설계가 곧 운영비 설계다.</p>
+
+<h2>6-4. 비즈니스 손실 절감 효과 및 ROI</h2>
+<div class="note"><b>※ 각 수치의 성격을 표에 표시했다.</b> <b>[측정]</b> 우리가 잰 값 · <b>[자료]</b> 공개 자료에서 인용 · <b>[가정]</b> 우리가 세운 값. 출처는 이 절 끝에 있다.</div>
+
+<h3>(1) 인건비 절감</h3>
+<table class="avoid">
+<tr><th style="width:26%">항목</th><th style="width:26%">수작업</th><th style="width:26%">자동화</th><th class="n">차이</th></tr>
+<tr><td>1건 확인 시간</td><td>약 5초 <b>[가정]</b></td><td><b>1.20초</b> <b>[측정]</b><br>촬영 포함 약 2초 <b>[가정]</b></td><td class="n">약 60% 단축</td></tr>
+<tr><td>일 300건 <b>[가정]</b></td><td>25분</td><td>10분</td><td class="n">15분/일</td></tr>
+<tr><td>점포 월 환산(30일)</td><td>12.5시간</td><td>5시간</td><td class="n">7.5시간</td></tr>
+<tr><td>인건비 <b>[자료]</b></td><td colspan="2">2026년 최저임금 <b>시간급 10,320원</b> (고용노동부)</td><td class="n"><b>월 77,400원</b></td></tr>
+</table>
+
+<h3>(2) 폐기 손실 절감</h3>
+<p>더 큰 효과는 인건비가 아니라 <b>폐기 손실</b>에 있다. 표본검사에서는 임박 상품을 놓쳐 폐기로 이어지지만, 전수검사가 되면 할인 판매 시점을 앞당길 수 있다.</p>
+<table class="avoid">
+<tr><th style="width:30%">항목</th><th>값과 출처</th><th class="n">절감액</th></tr>
+<tr><td>점포당 월 폐기 비용 <b>[자료]</b></td><td><b>최소 30만 원, 많게는 50~80만 원</b> (업계 추정, 헤럴드경제 2022.12.02)<br>같은 기사: 통상 편의점은 <b>매출의 1%</b>를 폐기 비용으로 본다</td><td class="n">—</td></tr>
+<tr><td>할인 전환 시 폐기 감소율 <b>[자료]</b></td><td>세븐일레븐 마감할인 서비스 — 대상 상품군(도시락·삼각김밥·유음료) <b>폐기 9% 감소</b> (뉴시스 2021.08.10)</td><td class="n">—</td></tr>
+<tr><td><b>절감 추정</b></td><td>30만 원 × 9% ~ 80만 원 × 9%</td><td class="n"><b>월 2.7만 ~ 7.2만 원</b></td></tr>
+</table>
+
+<h3>(3) ROI</h3>
+<table class="avoid">
+<tr><th style="width:34%">구분</th><th class="n">월 효과 (점포당)</th></tr>
+<tr><td>인건비 절감</td><td class="n">77,400원</td></tr>
+<tr><td>폐기 손실 절감</td><td class="n">27,000 ~ 72,000원</td></tr>
+<tr><td><b>합계 편익</b></td><td class="n"><b>104,400 ~ 149,400원</b></td></tr>
+<tr><td>운영 비용 (온디바이스)</td><td class="n">0원 — 기존 단말 활용, GPU 불요</td></tr>
+<tr><td><b>순효과</b></td><td class="n"><b>약 10.4만 ~ 14.9만 원 / 월 / 점포</b></td></tr>
+</table>
+<p>초기 개발·배포 비용을 <b>3,000만 원 [가정]</b>으로 두면, <b>100점포 도입 시 월 편익 1,044만~1,494만 원으로 2.0~2.9개월</b>에 회수된다(50점포 4.0~5.7개월 · 300점포 0.7~1.0개월). 운영비가 사실상 0에 수렴하는 CPU·온디바이스 구조이므로 도입 규모가 커질수록 회수가 빨라진다.</p>
+
+<div class="note"><b>※ 중간 보고 때는 이 수치가 '월 37.5만 원 · 100점포 0.8개월'이었다.</b> 당시 폐기율 3%와 할인 전환 20%를 <u>근거 없이</u> 가정한 값이었다. 출처를 찾아 다시 계산하니 <b>편익이 약 1/3로 줄었다</b> — 실제 폐기 비용은 매출의 1% 수준이고, 할인 전환으로 실측된 폐기 감소는 9%였다. <b>숫자를 먼저 정하고 출처를 붙이면 이런 오차가 남는다.</b> 자료에서 숫자를 가져오는 순서로 바꾼 결과다.</div>
+
+<p style="font-size:9pt;line-height:1.3;margin-top:4pt"><b>출처</b><br>
+① 최저임금 — 고용노동부, 「2026년 적용 최저임금안 시간급 10,320원」 (2025.07.10 의결) <code>moel.go.kr/news/enews/report/enewsView.do?news_seq=18054</code><br>
+② 폐기 비용 — 헤럴드경제, 「"폐기 비용만 한달 30만원이었는데…" 소비기한 도입에 편의점 '반색'」 (2022.12.02) <code>biz.heraldcorp.com/article/3012243</code><br>
+③ 폐기 감소 효과 — 뉴시스, 「유통기한 임박하면 '띵동'…편의점 폐기 36억원 줄였다」 (2021.08.10) <code>newsis.com/view/NISX20210810_0001543611</code><br>
+④ 클라우드 단가 — AWS EC2 On-Demand 요금, <code>c7i.xlarge</code> (4 vCPU / 8 GiB) 서울 리전(ap-northeast-2) $0.2016/시<br>
+⑤ 편의점 매출 참고 — 공정거래위원회, 「2025년 가맹사업 현황 통계」 (정보공개서 기준)</p>
+<!-- ══════════════ 7. 한계 ══════════════ -->
+<h1>7. 한계와 보완 계획</h1>
+<table class="avoid">
+<tr><th style="width:20%">한계</th><th style="width:40%">내용</th><th>보완 계획</th></tr>
+<tr><td>표본 오차</td><td>92.3%의 95% 신뢰구간이 90.2~94.0%다. 248장으로는 소수점 한 자리를 다투는 비교가 불가능하다</td><td>라벨 확대. 다만 판정용 표본은 한 번 쓰면 폐기해야 하므로 지속 증설이 필요</td></tr>
+<tr><td>라벨의 신뢰도</td><td>정답을 자체 제작했다. 무작위 30장 재판독에서 30/30 일치했으나 0건 오류의 95% 신뢰상한은 약 10%</td><td>교차 판독 인원을 늘려 신뢰상한을 낮춤</td></tr>
+<tr><td>판단이 갈리는 라벨</td><td>수입품 2자리 연도, 제조일자만 인쇄된 경우, 월·일만 인쇄된 경우</td><td>판단 근거를 파일로 남겼으며, 기준 합의 시 재라벨링 가능</td></tr>
+<tr><td>인식 자체의 한계</td><td>남은 오답의 대부분은 OCR이 글자를 만들어내지 못하는 경우다. 규칙으로 해결 가능한 것은 51장 중 2장</td><td>실제 저대비·소형 인쇄 이미지를 수집해 인식기를 파인튜닝 (본선 이후 과제)</td></tr>
+<tr><td>첫 성공에서 멈추는 구조</td><td>온전한 날짜가 나오면 틀려도 중단한다. 오라클 상한 94.9% 대비 손실분</td><td>다수결은 이미 기각(93.6→93.4%). 신뢰도 기반 재검증 방식을 검토</td></tr>
+<tr><td>검출기 학습 데이터 편향</td><td>약지도로 모은 238박스는 OCR이 이미 성공한 사례뿐이라 어려운 사례가 학습에 없다</td><td><b>검출 개선의 상한이 0으로 측정되어(4-3) 우선순위를 낮춤.</b> 인식기 개선이 선행되어야 의미가 생김</td></tr>
+<tr><td>환경 의존 결함</td><td>PaddleOCR의 C++ 백엔드가 <b>비ASCII 경로의 모델을 열지 못하고 조용히 실패</b>한다. 한글 폴더에 두면 보조 경로가 에러 없이 꺼진다</td><td>경로가 비ASCII면 ASCII 임시 폴더로 복사해 넘기도록 수정 완료. 248장 재측정에서 예측 0장 불일치 확인</td></tr>
+<tr><td>채점 환경 차이</td><td>측정은 Ryzen 5 7500F. 채점 CPU가 더 느릴 수 있음</td><td>제한의 26%로 약 4배 여유가 있어 2배 느린 환경에서도 52% 수준</td></tr>
+</table>
+
+<!-- ══════════════ 8. 참고 ══════════════ -->
+<h1>8. 추가 참고 자료</h1>
+<table class="avoid">
+<tr><th style="width:30%">자료</th><th>내용</th></tr>
+<tr><td><code>METHOD.md</code></td><td>설계 근거 전문. 모든 수치에 대응하는 실험 번호가 붙어 있다</td></tr>
+<tr><td><code>JOURNAL.md</code></td><td>실험 일지. <b>틀렸던 판단과 그 정정 과정을 포함한다</b> (병목 오진 2회, 속도 오보 3회)</td></tr>
+<tr><td><code>eda/</code> · <code>eda/out/</code></td><td>실험 스크립트 119건과 리포트. 스크립트와 결과가 1:1 대응</td></tr>
+<tr><td><code>custom_data/</code></td><td>자체 제작 라벨 828장과 라벨링 도구 (원본 이미지는 재배포하지 않음)</td></tr>
+<tr><td><code>logs/</code></td><td><b>새 가상환경 재현성 검증 로그</b> (<code>verify_fresh.ps1</code> 출력)</td></tr>
+<tr><td><code>run_local.py</code></td><td>가중치 점검·보조 엔진 복구·실행·정답 대조를 한 번에 수행하는 점검 스크립트</td></tr>
+</table>
+<p><b>저장소에는 기각된 실험도 모두 남겨 두었다</b>(<code>src/rejected_rungs.py</code>). 어떤 판단이 왜 틀렸는지가 남아 있어야 같은 실수를 반복하지 않는다고 생각하기 때문이다.</p>
+
+</body>
+</html>

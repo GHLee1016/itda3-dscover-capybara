@@ -171,8 +171,8 @@ flowchart LR
 
   <div class="kpi" style="margin-top:2mm">
     <div class="k"><div class="v">92.3%</div><div class="l">필드 정확도<br>(미사용 248장)</div></div>
-    <div class="k"><div class="v">1.01초</div><div class="l">장당 처리시간<br>(500장 순차 실측)</div></div>
-    <div class="k"><div class="v">21%</div><div class="l">500장 503초<br>제한 2,400초 대비</div></div>
+    <div class="k"><div class="v">1.20초</div><div class="l">장당 처리시간<br>(500장 순차 실측)</div></div>
+    <div class="k"><div class="v">26%</div><div class="l">500장 614초<br>제한 2,400초 대비</div></div>
     <div class="k"><div class="v">828장</div><div class="l">직접 라벨링<br>(배포분의 24.7%)</div></div>
   </div>
   <div class="dcap" style="text-align:left;margin-top:1.2mm">
@@ -314,10 +314,10 @@ flowchart TD
           <tr><td>주력 경로 단독</td><td class="n">0.37초</td><td class="n">184초</td><td class="n">8%</td></tr>
           <tr><td>1차 예선 제출 구성</td><td class="n">0.53초</td><td class="n">267초</td><td class="n">11%</td></tr>
           <tr><td colspan="4" style="background:#f5f7f9;font-size:6.6pt">② 본선 구성 · 단일 프로세스 순차 (<b>채점과 같은 500장</b>)</td></tr>
-          <tr class="good"><td><b>계단 7칸 + 보조</b></td><td class="n"><b>1.01초</b></td><td class="n"><b>503초</b></td><td class="n"><b>21%</b></td></tr>
+          <tr class="good"><td><b>계단 7칸 + 보조</b></td><td class="n"><b>1.20초</b></td><td class="n"><b>614초</b></td><td class="n"><b>26%</b></td></tr>
         </table>
         <p style="font-size:6.8pt;margin-bottom:1.4mm">
-          계단이 늘어 예선 구성보다 1.9배 느려졌지만 제한의 21% 로 여유가 있다.
+          계단이 늘어 예선 구성보다 2.3배 느려졌지만 제한의 26% 로 여유가 있다.
           <b>80% 가 1칸에서 끝나고</b>(중앙값 0.39초) 계단을 오르는 20% 가 시간을 쓴다. 꼬리가 무거워
           (상위 1% 11.1초) 표본이 작으면 평균이 낙관적으로 나온다 — 그래서 채점과 같은 500장으로 쟀다.
 </p>

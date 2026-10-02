@@ -44,6 +44,21 @@ powershell -ExecutionPolicy Bypass -File verify_fresh.ps1 -N 500
 (requirements ASCII 여부, 다섯 로케일 파싱, opencv 세 계열 버전 일치,
 paddleocr 상한 준수).
 
+### 채점 환경과 같은 x86 리눅스에서의 확인 (GitHub Codespaces)
+
+위 로그는 전부 Windows 개발 PC 에서 나왔다. 채점 환경(Ubuntu · x86 · CPU 4코어)에
+가까운 조건에서 같은 절차를 따로 돌렸다.
+
+| 로그 | 환경 | 결과 |
+| --- | --- | --- |
+| `repro_codespace_20261002_0719.log` | 4 vCPU x86 · Ubuntu 24.04 · Python 3.10 · 커밋 `258a929` | **성공** · 새 venv → `pip install` → `download_weights.sh` 가중치 11개 전부 수신(**Release 의 YOLO·도트 판독기 포함**) → `nbconvert --execute` `sample/` 50장 **168초** 완주, 50행 출력 |
+| `speed_codespace_500img_20261002.log` | 4 vCPU x86(AMD EPYC 7763) · Ubuntu 24.04 · 커밋 `24e8d36` | **속도 실측** · 배포 사진 500장(6장 간격 추출) 공식 명령 실행, 추론 **1,169초**(장당 2.34초) · 전체 1,178초 = **제한 2,500초의 47%**, 500행 출력 |
+
+리눅스에서는 `opencv-python`(paddleocr 2.7.3 이 강제 설치)이 `libgl1` 을 요구해
+`apt install libgl1 libglib2.0-0` 이 먼저 필요했다. 속도 실측은 위 재현 로그에서 만든
+환경을 그대로 썼다. 두 커밋과 현재 커밋 사이에 `predict.ipynb` · `src/` ·
+`requirements.txt` · `download_weights.sh` 변경은 없다.
+
 ---
 
 ## 성공 로그 요약 — `fresh_run_20261002_164805.log`

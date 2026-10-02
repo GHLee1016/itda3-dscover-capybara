@@ -191,7 +191,7 @@ done: 188 rows in 163s (0.867s/img)
 
 > 팀원 환경을 따로 만든 이유: easyocr 는 torch 와 `opencv-python-headless` 를,
 > rapidocr 는 `opencv-python-headless 5.x` 를 끌고 온다. 같은 환경에 섞으면
-> 고정해 둔 cv2 4.10.0.84 가 깨진다 (실제로 한 번 깨뜨렸고, 복구 후
+> 고정해 둔 cv2 4.6.0.66 이 깨진다 (실제로 한 번 깨뜨렸고, 복구 후
 > 홀드아웃 66.8% 재현으로 무결성을 확인했다 — EDA 57).
 > 비교가 끝났으므로 두 폴더는 지워도 된다 (합계 약 1.8 GB).
 

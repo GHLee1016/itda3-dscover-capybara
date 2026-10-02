@@ -50,10 +50,46 @@ chk("셀 수", len(cells) == 17, f"{len(cells)}셀")
 chk("도트 판독기 포함", "class DotCRNN" in all_src)
 
 print("\n=== requirements.txt")
+
+# ⚠️ 가장 비싼 실수가 여기 숨어 있었다.
+#    pip 은 requirements 파일에 BOM 이 없으면 **시스템 기본 인코딩**으로 읽는다
+#    (pip/_internal/utils/encoding.py 의 auto_decode). 한국어 Windows 는 cp949 라,
+#    UTF-8 한글 주석을 만나면 설치가 한 줄도 진행되지 않고 죽는다.
+#        UnicodeDecodeError: 'cp949' codec can't decode byte 0xec
+#    채점 환경이 한글/일본어/중국어 Windows 면 그 자리에서 정량 0점이다.
+#    새 가상환경에서 돌려 보기 전까지 보이지 않았다(logs/fresh_run_*.log).
+for rf in ("requirements.txt", "requirements-train.txt"):
+    raw = io.open(rf, "rb").read()
+    bad = [(i, b) for i, b in enumerate(raw) if b > 0x7F]
+    chk("%s 가 순수 ASCII" % rf, not bad,
+        "" if not bad else "비ASCII %d바이트 (첫 위치 %d) — pip 이 cp949 로 읽다 죽는다"
+        % (len(bad), bad[0][0]))
+    # 로케일이 무엇이든 파싱되는지 직접 확인한다
+    ok_all = True
+    for enc in ("cp949", "cp932", "cp936", "utf-8", "latin-1"):
+        try:
+            raw.decode(enc)
+        except UnicodeDecodeError:
+            ok_all = False
+    chk("%s 가 어떤 로케일에서도 읽힌다" % rf, ok_all)
+
 req = io.open("requirements.txt", encoding="utf-8").read()
 for pkg in ("rapidocr==3.9.2", "onnxruntime==1.19.2", "paddleocr==2.7.3",
             "numpy==1.26.4", "opencv-python==4.6.0.66", "nbconvert", "ipykernel"):
     chk(f"{pkg} 포함", pkg.split("==")[0] in req and (pkg in req or "==" not in pkg))
+
+# opencv 세 계열은 **같은 버전**이어야 한다. 같은 cv2 디렉터리에 설치되므로
+# 마지막에 설치된 것이 이기고, 버전이 다르면 실제 cv2 가 설치 순서에 따라
+# 달라진다. paddleocr→pdf2docx 가 headless>=4.5 를 요구해 pip 이 4.11 을
+# 꽂는 것을 실제로 관측했다.
+_cv = re.findall(r"^(opencv[\w-]*)==([\d.]+)", req, re.M)
+chk("opencv 세 계열이 모두 선언됨", len(_cv) == 3, "%d개" % len(_cv))
+chk("opencv 세 계열 버전 일치",
+    len({v for _, v in _cv}) == 1,
+    " / ".join("%s %s" % (n, v) for n, v in _cv))
+# paddleocr 2.7.3 의 상한. 넘기면 pip 이 ResolutionImpossible 로 막힌다.
+chk("opencv 가 paddleocr 상한(4.6.0.66) 이하",
+    all(tuple(map(int, v.split("."))) <= (4, 6, 0, 66) for _, v in _cv))
 chk("torch/ultralytics 없음",
     not re.search(r"^\s*(?:torch|ultralytics)\b", req, re.M))
 
@@ -74,7 +110,7 @@ chk("A4 2장", d.page_count == 2 and abs(d[0].rect.width / 72 * 25.4 - 210) < 1,
 t = "\n".join(p.get_text() for p in d)
 chk("텍스트 추출 가능 (스캔본 아님)", len(t) > 3000, f"{len(t)}자")
 chk("팀명 기재", "카피바라" in t)
-chk("최종 수치 반영", "92.3%" in t and "1.01" in t and "503" in t)
+chk("최종 수치 반영", "92.3%" in t and "1.20" in t and "614" in t)
 chk("자리표시자 없음", "팀명_" not in t and "<ORG>" not in t)
 
 print("\n=== 문서")

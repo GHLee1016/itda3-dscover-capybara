@@ -1,39 +1,61 @@
-# 제3회 ITDA 연합학술제 — 추론 환경 (Python 3.10)
+# ITDA 3rd Joint Conference -- inference environment (Python 3.10)
 #
-# ⚠️ 버전 조합 주의 (실측으로 확인한 충돌)
-#   - paddlepaddle 2.6.x 는 numpy 1.x 를 요구한다. numpy 2.x 를 설치하면
-#     `numpy.core.multiarray failed to import` 로 import 단계에서 죽는다.
-#   - opencv 는 반드시 **한 계열만** 설치한다. opencv-python / opencv-contrib-python /
-#     opencv-python-headless 를 섞으면 서로 다른 numpy ABI 로 빌드된 cv2 가 충돌한다.
+# ASCII ONLY. Do not add non-ASCII characters to this file.
+#   pip decodes a requirements file with the system preferred encoding when the
+#   file has no BOM. On a Korean/Japanese/Chinese Windows that is cp949/cp932/
+#   cp936, and a UTF-8 Korean comment makes pip abort with
+#     UnicodeDecodeError: 'cp949' codec can't decode byte 0xec
+#   i.e. `pip install -r requirements.txt` fails before installing anything.
+#   This actually happened (see logs/fresh_run_*.log). Korean rationale for
+#   every pin lives in requirements_NOTES.md instead.
+#
+# Version conflicts confirmed by measurement:
+#   - paddlepaddle 2.6.x requires numpy 1.x. With numpy 2.x it dies at import
+#     with `numpy.core.multiarray failed to import`.
+#   - opencv is capped at 4.6.0.66 by paddleocr 2.7.3, which declares
+#       opencv-python <=4.6.0.66 ; opencv-contrib-python <=4.6.0.66
+#     Development used 4.10.0.84 (installed incrementally, so pip never had to
+#     resolve the whole set at once). A clean
+#       pip install -r requirements.txt
+#     fails with ResolutionImpossible on 4.10.0.84 -- i.e. the grader cannot
+#     install the project at all. Found by the fresh-venv run required by the
+#     rules; see logs/fresh_run_*.log and requirements_NOTES.md.
+#     Predictions were re-measured on the 248-image holdout after the downgrade.
 
 numpy==1.26.4
 pandas==2.3.3
+
+# All three opencv flavours are pinned to the SAME version on purpose.
+# They install into the same `cv2` package directory, so whichever lands last
+# wins -- which makes the effective cv2 version depend on install order.
+# paddleocr pulls pdf2docx, which requires opencv-python-headless>=4.5, and pip
+# happily picks 4.11 for it while the other two sit at 4.6.0.66. Pinning all
+# three removes that ambiguity: cv2 is 4.6.0 whatever order pip chooses.
 opencv-python==4.6.0.66
 opencv-contrib-python==4.6.0.66
+opencv-python-headless==4.6.0.66
 
-# ── 주력 엔진 ── RapidOCR (PP-OCRv6 det/rec, ONNX)
-#
-# 홀드아웃2 198장 실측(EDA 63~65):
-#   보조 경로 단독 66.8% / RapidOCR 단독 79.8% / 합쳐서 82.3%
-# onnxruntime 기반이라 torch 를 싣지 않는다. opencv 는 opencv_python>=4.5 를
-# 요구할 뿐 headless 를 강제하지 않으므로 위 고정값과 충돌하지 않는다.
+# -- primary engine -- RapidOCR (PP-OCRv6 det/rec, ONNX)
+# Holdout2, 198 images (EDA 63-65):
+#   fallback path alone 66.8% / RapidOCR alone 79.8% / combined 82.3%
+# Runs on onnxruntime, so it does not pull in torch.
 rapidocr==3.9.2
 
-# ── 보조 엔진 ── RapidOCR 이 아무것도 읽지 못한 이미지에만 돈다
+# -- fallback engine -- runs only on images the primary path failed on
 paddlepaddle==2.6.2
 paddleocr==2.7.3
-setuptools==84.0.0            # paddle.utils.cpp_extension 이 import 한다
+setuptools==84.0.0
 
-# 날짜 영역 전용 검출기(YOLOv8n)와 RapidOCR 이 함께 쓴다.
-# weights/yolo/date_v1.onnx · weights/rapidocr/*.onnx 와 짝이다.
+# Shared by the date-region detector (YOLOv8n, exported to ONNX) and RapidOCR.
 #
-# ⚠️ torch / ultralytics 를 넣으면 안 된다. 추론에는 필요 없고, **임포트되는 것만으로**
-#    파이프라인이 2.4배 느려진다 (EDA 52~53: 장당 2.76 → 5.88초, 500장이 제한 초과).
-#    paddle 과 torch 가 각자 OpenMP 런타임을 싣고 스레드를 다투기 때문이며,
-#    set_num_threads(1) · KMP_BLOCKTIME=0 · OMP_WAIT_POLICY=PASSIVE 로도 해결되지 않았다.
-#    학습·ONNX 내보내기에만 쓰므로 requirements-train.txt 로 분리했다.
+# DO NOT add torch or ultralytics. They are not needed for inference, and
+# merely importing torch makes the pipeline 2.4x slower (EDA 52-53:
+# 2.76 -> 5.88 s/image, which blows the 500-image budget). paddle and torch
+# each load their own OpenMP runtime and fight over threads;
+# set_num_threads(1), KMP_BLOCKTIME=0 and OMP_WAIT_POLICY=PASSIVE did not fix
+# it. Training and ONNX export deps live in requirements-train.txt.
 onnxruntime==1.19.2
 
-# 규정 §7: 채점은 nbconvert 로 노트북을 실행한다. 둘 다 필수.
+# Rules section 7: grading executes the notebook through nbconvert.
 nbconvert==7.17.1
 ipykernel==7.3.0
