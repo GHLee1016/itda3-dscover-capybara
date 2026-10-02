@@ -280,8 +280,8 @@ def run(pipe, combined, files, labels):
     step(5, "결과")
     print("  제출 파일     %s (%d행)" % (OUT_CSV, len(rows)))
     print("  소요          %.1f초  ·  장당 %.2f초" % (el, el / max(len(files), 1)))
-    print("  500장 환산    %.0f초  (제한 2,400초의 %.0f%%)"
-          % (el / len(files) * 500, el / len(files) * 500 / 2400 * 100))
+    print("  500장 환산    %.0f초  (제한 2,500초의 %.0f%%)"
+          % (el / len(files) * 500, el / len(files) * 500 / 2500 * 100))
     if tot_f:
         print()
         print("  라벨이 있는 장 %d개로 대조:" % (tot_f // 3))
