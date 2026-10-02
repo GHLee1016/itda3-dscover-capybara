@@ -10,8 +10,17 @@
 | 필드 정확도 | **92.3%** (95% CI 90.2~94.0%) |
 | 완전일치 | 89.5% |
 | 미검출 / 오탐 | 10장 / **0건** |
-| 속도 | 장당 1.01초, 500장 503초 (단일 프로세스 순차, Ryzen 5 7500F) |
-| 제한 대비 | 500장 2,500초의 20% |
+
+**속도** (단일 프로세스 순차 실행, 모델 로딩 제외, 제한 500장 2,500초):
+
+| 실행 환경 | 측정 | 장당 | 500장 | 제한 대비 |
+| --- | --- | ---: | ---: | ---: |
+| 로컬 · AMD Ryzen 5 7500F (6코어/12스레드), Windows 11 | 채점과 같은 500장 | 1.01초 | 503초 (실측) | 20% |
+| GitHub Codespaces · 4 vCPU x86, RAM 16GB, Ubuntu 24.04 | `sample/` 50장 | 3.16초 | 약 1,580초 (환산) | 약 63% |
+
+Codespaces 는 채점 환경(4코어 CPU, GPU 없음)과 비슷한 조건이라 이쪽이 채점 속도에 더
+가깝다고 본다. 50장 환산이라 오차가 있고, 이 표본은 1칸에서 끝난 비율이 70%로 평소(80%)보다
+낮아 다소 보수적인 값이다. 실행 로그는 [logs/](logs/) 에 있다.
 
 설계 근거는 전부 실측이며 [docs/METHOD.md](docs/METHOD.md), [docs/JOURNAL.md](docs/JOURNAL.md),
 [eda/out/](eda/out/) 에 기록되어 있다. 본선 보고서는 [docs/](docs/) 에 있다.
@@ -69,6 +78,18 @@ python check_submission.py   # 형식·의존성·가중치·문서·구문 점�
 채점 환경(Ubuntu 22.04 / Python 3.10 / CPU 4코어 · RAM 8GB / GPU 없음 / 오프라인)을
 전제로 구성했다. onnxruntime 은 `CPUExecutionProvider` 고정이고, 실행 중 네트워크를 쓰지 않는다.
 `paddlepaddle` 2.6.x 가 numpy 1.x 를 요구하므로 `requirements.txt` 에 버전을 고정해 두었다.
+
+> ⚠️ **시스템 라이브러리 `libGL.so.1` 이 필요하다.** `paddleocr` 2.7.3 이 의존성으로 화면 출력용
+> `opencv-python` 을 설치하는데, 이 패키지는 리눅스에서 libGL 을 요구한다. 서버용 Ubuntu 에는
+> 기본으로 없는 경우가 있어, 없으면 노트북 첫 셀의 `import cv2` 에서
+> `ImportError: libGL.so.1: cannot open shared object file` 로 멈춘다. 이때는 한 번만 설치하면 된다.
+>
+> ```bash
+> sudo apt-get install -y libgl1 libglib2.0-0
+> ```
+>
+> 같은 원인으로 `download_weights.sh` 가 "rapidocr 가 없다" 고 잘못 안내할 수 있다(rapidocr 가
+> 내부에서 cv2 를 불러오다 실패하는 것이다). Codespaces 재현 때 이 설치를 한 뒤 정상 완주했다.
 
 ---
 
