@@ -22,7 +22,8 @@ Codespaces 는 채점 환경(4코어 CPU, GPU 없음)과 비슷한 조건이라 
 가깝다고 본다. 배포 사진 3,352장에서 6장 간격으로 뽑은 500장을 공식 명령(`jupyter nbconvert
 --execute predict.ipynb`)으로 돌린 값이며, 모델 로딩까지 포함한 전체 시간은 1,178초(47%)다.
 1칸에서 끝난 비율은 81%(403장)로 로컬 측정과 비슷했다. 처음에 `sample/` 50장으로 잰
-3.16초/장(500장 환산 약 1,580초)은 표본이 작아 느리게 나온 값이다. 새 가상환경 재현 로그는
+3.16초/장(500장 환산 약 1,580초)은 표본이 작아 느리게 나온 값이다. 500장 실측 로그는
+[logs/speed_codespace_500img_20261002.log](logs/speed_codespace_500img_20261002.log), 새 가상환경 재현 로그는
 [logs/](logs/) 에 있다.
 
 설계 근거는 전부 실측이며 [docs/METHOD.md](docs/METHOD.md), [docs/JOURNAL.md](docs/JOURNAL.md),
@@ -152,6 +153,7 @@ python check_submission.py   # 형식·의존성·가중치·문서·구문 점�
 │   └── rejected_rungs.py  #   기각한 칸 (근거 보존용)
 ├── custom_data/           # 직접 라벨링한 정답 828장과 라벨링 도구
 ├── docs/                  # 본선 보고서·요약서 PDF, METHOD · JOURNAL · 체크리스트, roi_retail.py
+├── logs/                  # 새 가상환경 재현 실행 로그 (규정 요구사항) + README
 ├── weights/               # 가중치 경로 (gitignore, download_weights.sh 로 채운다)
 └── eda/                   # 실험 스크립트와 결과 리포트 (채점 대상 아님)
 ```
@@ -160,6 +162,13 @@ python check_submission.py   # 형식·의존성·가중치·문서·구문 점�
 `labels.csv` 의 `split` 컬럼으로 튜닝 137장, 홀드아웃1 ~ 5(48·198·197·148·100장)를 구분한다.
 오답을 검토한 표본(튜닝, 홀드아웃1 ~ 3)은 성능 근거에서 제외했다. 기준과 근거는
 [custom_data/README.md](custom_data/README.md) 에 있다.
+
+**`logs/`** — 규정상 제출 전 새 가상환경에서 수행해야 하는 절차(venv 생성 →
+`pip install -r requirements.txt` → `bash download_weights.sh` → `nbconvert --execute`)의
+실행 로그. 실패한 로그도 지우지 않았다 — 이 절차로 제출을 망칠 결함 다섯 개(requirements 의
+opencv 충돌, 가중치 다운로드 누락 등)를 잡았고, `fresh_run_20261002_164805.log` 가 그것을 모두
+고친 뒤의 성공 로그다. `repro_codespace_*.log` 는 Codespaces(4 vCPU x86, Ubuntu)에서 같은
+절차를 `sample/` 50장으로 돌린 것이다. 로그별 설명은 [logs/README.md](logs/README.md) 에 있다.
 
 **`docs/roi_retail.py`** — 보고서 6장(편의점·물류센터 도입 비용과 ROI)의 계산 스크립트.
 상단 상수만 바꿔 다시 계산할 수 있다. 추론과는 무관하다.
