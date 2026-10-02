@@ -68,7 +68,7 @@ for p, mb in (("weights/rapidocr/PP-OCRv6_det_small.onnx", 9),
 
 print("\n=== 요약서 PDF")
 import pymupdf
-d = pymupdf.open("[DScover]_카피바라_아키텍처구조도.pdf")
+d = pymupdf.open("docs/[DScover]_카피바라_아키텍처구조도.pdf")
 chk("A4 2장", d.page_count == 2 and abs(d[0].rect.width / 72 * 25.4 - 210) < 1,
     f"{d.page_count}장")
 t = "\n".join(p.get_text() for p in d)
@@ -78,10 +78,10 @@ chk("최종 수치 반영", "92.3%" in t and "1.01" in t and "503" in t)
 chk("자리표시자 없음", "팀명_" not in t and "<ORG>" not in t)
 
 print("\n=== 문서")
-for f in ("README.md", "notebooks/METHOD.md", "notebooks/JOURNAL.md", "notebooks/WHERE.md",
-          "notebooks/SUBMISSION_CHECKLIST.md", "notebooks/RULES_QNA.md", "download_weights.sh",
-          "requirements-train.txt", "build_notebook.py", "notebooks/build_pdf.ps1",
-          "publish_release.ps1", "notebooks/요약서.html"):
+for f in ("README.md", "docs/METHOD.md", "docs/JOURNAL.md", "docs/WHERE.md",
+          "docs/SUBMISSION_CHECKLIST.md", "docs/RULES_QNA.md", "download_weights.sh",
+          "requirements-train.txt", "build_notebook.py", "docs/build_pdf.ps1",
+          "publish_release.ps1", "docs/요약서.html"):
     chk(f, os.path.exists(f))
 
 print("\n=== 소스")
